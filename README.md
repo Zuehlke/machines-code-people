@@ -23,8 +23,8 @@ Check the current [table of contents](http://link.to.be.defined) for possible du
 We are using this Git repository, so contributing an article is as easy as contributing source code in any project.
 
 1. Clone this repository
-1. Copy the folder /articles/template to /articles/{yourFolderName})
-1. Add title, author and authorEmail to "content.md"
+1. Copy the folder `/articles/template to /articles/{yourFolderName}`
+1. Add `title`, `author` and `authorEmail` to `content.md`
 1. Commit, push and make the first pull request to get the title to the repository
 1. Write the article and continously update the main repository
 
@@ -40,15 +40,15 @@ Write articles that are short enough to be read in 10 minutes (minimum chars: ..
 
 Reflect on a single subject. The subject is related to our work and the advice concrete enough to consider.
 
-Replace the "author.jpg" image with an image of you. The image must be a quadratic *.jpg file and it should be in high resolution.
+Replace the `author.jpg` image with an image of you. The image must be a quadratic *.jpg file and it should be in high resolution.
 
 ### Technical Review
 
 When you finished your article, find a reviewer, set her email in `content.md` and set the status to `inReview`.
 
 ```
-status: *inReview*
-reviewerEmail: *rvw*
+status: inReview
+reviewerEmail: rvw
 ```
 
 ### Ready to Publish
