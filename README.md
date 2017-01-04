@@ -22,15 +22,15 @@ Check the current [table of contents](http://link.to.be.defined) for possible du
 
 We are using this Git repository, so contributing an article is as easy as contributing source code in any project.
 
-1) Clone this repository
-1) Copy the folder /articles/template to /articles/{yourFolderName})
-1) Add title, author and authorEmail to "content.md"
-1) Commit, push and make the first pull request to get the title to the repository
-1) Write the article and continously update the main repository
+1. Clone this repository
+1. Copy the folder /articles/template to /articles/{yourFolderName})
+1. Add title, author and authorEmail to "content.md"
+1. Commit, push and make the first pull request to get the title to the repository
+1. Write the article and continously update the main repository
 
 ### Write the article
 
-Write your article in the `content.md` file using the Markdown syntax.
+Write your article in the `content.md` file using the Markdown syntax. The syntax used is similar to the [GitHub Flavored Markdown syntax](https://guides.github.com/features/mastering-markdown/).
 
 Write your article in English. 
 
@@ -60,6 +60,8 @@ When both you and the reviewer are happy with the article, set the status to `re
 If you find an article in progress too opinionated, then ....
 
 Bare in mind that not all articles might find place in a printed edition of this collection.
+
+Lectorate ?
 
 ## Licence
 
