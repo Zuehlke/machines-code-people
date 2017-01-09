@@ -26,7 +26,7 @@ You can contact them if you need help to get your contribution into this book.
 
 This section describes the process and guidelines to follow for contributing an article. Please read and follow it carefully.
 
-### Propose and Discuss a Topic
+### Propose and Discuss a New Article
 
 1. **Check for duplicates:** Is there already an article about your topic?  
    * Please check the existing [Table of Content](SUMMARY.md) carefully.
@@ -43,7 +43,7 @@ This section describes the process and guidelines to follow for contributing an 
    * Discussion can be done directly on the issue, as comments.
    * Sometimes it might be a good idea to put the article idea into yammer for this purpose.
 
-### Start Writing the Article
+### Add the Article
 
 We are using this Git repository, so contributing an article is as easy as contributing source code in any project.
 
