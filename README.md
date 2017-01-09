@@ -16,7 +16,7 @@ Through our articles, the Zühlke culture manifests itself: they are technically
 
 The following lead authors are responsible to create, organize, administrate and moderate this book:
 
-* Christian Abegg (@chrabeg)
+* Christian Abegg (@abeggchr)
 * Rolf Bruderer (@bruderol)
 * maybe more (to be defined)
 
