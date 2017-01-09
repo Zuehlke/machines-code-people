@@ -34,7 +34,7 @@ This section describes the process and guidelines to follow for contributing an 
    * If there is already an article planned, you can contact the author and find a solution (leave the subject to the author, offer your help as reviewer or co-author, take the subject over, ...). 
    
 2. **Propose a topic:**
-   * Open an issue here: https://github.com/Zuehlke/zuehlke-book/issues
+   * Open an issue: https://github.com/Zuehlke/zuehlke-book/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E
    * Describe roughly the idea you have in mind, what the article should be about, such that others can challenge or discuss about it.
    * Assign yourself or the ones that you want to nominate to write about this topic to the issue.
 
@@ -51,8 +51,10 @@ Every article is writen in a feature branch inside this repository as a simple m
 
 1. Fork this repository
 2. Create a new feature branch for your article with following naming scheme: `feature/#<issue-number>-<title> (so e.g. `feature/#128-test-driven-requirements-engineering` just as an example)
-3. Copy the template file `/articles/template/template.md` to the articles sub folder where your article belongs under a meaningful name (e.g. `articles/testing/requirements-driven-test-engineering.md`) 
-     * TODO to be discussed: maybe some subfolders for common major chapter topics might make sense? (as proposed in current example) 
+3. Copy the template file `/articles/template/template.md` to the articles sub folder where your article belongs under a meaningful name (e.g. `articles/testing/requirements-driven-test-engineering.md`)
+     * Adjust `title`, `author` and `authorEmail` inside the copied markdown file
+     * TODO is authorEmail really needed? Shouldnt we use just the github accounts for communication?
+     * TODO to be discussed: maybe some subfolders for common major chapter topics might make sense? As proposed in current example above, what you think about this? 
 4. Link your article in the SUMMARY.md file in an appropriate place.
 5. Commit your first draft and push to your feature branch
 6. Work on your article incrementaly (see also [Write the Article](#write-the-article) below)  and do more commits and pushes (this might be helpful also if you work with colleagues on the article or to get some early feedback).
