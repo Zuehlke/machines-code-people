@@ -29,8 +29,7 @@ This section describes the process and guidelines to follow for contributing an 
 ### Propose and Discuss a New Article
 
 1. **Check for duplicates:** Is there already an article about your topic?  
-   * Please check the existing [Table of Content](SUMMARY.md) carefully.
-   * Please check the open issues whether a similar article is planned already: https://github.com/Zuehlke/zuehlke-book/issues
+   * Please check our backlog of articles whether there is already an article or was planned already: https://github.com/Zuehlke/zuehlke-book/issues?q=is%3Aissue+label%3Aarticle
    * If there is already an article planned, you can contact the author and find a solution (leave the subject to the author, offer your help as reviewer or co-author, take the subject over, ...). 
    
 2. **Propose a topic:**
