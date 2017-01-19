@@ -83,6 +83,7 @@ Later when we really make a printed form, we can check to use better pictures, i
 To get your article published you have to go through this review and publishing process:
 
 1. We recommend to get feedback as early as possible. So better not hesitate to ask colleagues for feedback as early as possible.
+1. Before you first commit to the Zuehlke repository, make sure that your user name is correctly configured and Linux style line endings are used (see https://github.com/scenarioo/scenarioo/blob/develop/docs/contribute/Development-Environment-with-IntelliJ.md#setup-and-use-of-git)
 2. When you think your article is ready to be published then make a Pull Request.
 3. Find some colleagues (at least one!) that will review your article and assign him to the Pull Request.
 4. Also at least one of the [Lead Authors](#lead-authors) will review your article.
