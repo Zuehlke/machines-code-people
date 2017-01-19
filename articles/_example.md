@@ -1,11 +1,8 @@
 ---
-status: draft
-title: Templates are essential
-author: Author Dent
-authorEmail: ath
-reviewerEmail:
+authorName: Christian Abegg, Rolf Bruderer
+authorGithubUsername: abeggchr,bruderol
 ---
-# Templates are essential
+# Examples are Essential
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
 

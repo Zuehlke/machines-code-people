@@ -1,4 +1,8 @@
-# Summary
+# Table of Content
 
-* [Readme](README.md)
-* [Template](articles/template/content.md)
+* [Preface](articles/preface.md)
+* [Article Example](articles/_example.md)
+
+* [Contribution Guide](README.md)
+
+* [License](LICENSE.md)

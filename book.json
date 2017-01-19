@@ -1,0 +1,20 @@
+{
+  "gitbook": "3.2.2",
+  "plugins": [
+    "-fontsettings",
+    "edit-link",
+    "github",
+    "expandable-chapters",
+    "puml"
+  ],
+  "title": "Zühlke Book",
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/zuehlke/zuehlke-book/edit/master",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/zuehlke/zuehlke-book"
+    }
+  }
+}
