@@ -7,7 +7,7 @@ This project is still in progress to setup, content is not yet ready for publish
 
 ## TLDR - Basic Process to Contribute
 
-Contribute to this collection of articles and share you most valued experiences:
+Contribute to this collection of articles and share your most valued experiences:
 
 1. Propose a new article by opening an [Issue in our Backlog](https://github.com/Zuehlke/zuehlke-book/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E).  
 Please check before that there is no similar article yet in the [Backlog](https://github.com/Zuehlke/zuehlke-book/issues?q=is%3Aopen+is%3Aissue+label%3Aarticle).
