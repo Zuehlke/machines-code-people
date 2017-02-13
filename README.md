@@ -92,21 +92,21 @@ We are using this Git repository, so contributing an article is as easy as contr
 
 If this sounds complicated to you, just carefully follow these very easy steps to create a new article directly on the github web page:
 
-  * Use this link to [create new article file in article directory on a fork](https://github.com/Zuehlke/zuehlke-book/new/develop/articles)
+  1. Use this link to [create new article file in articles directory on a fork](https://github.com/Zuehlke/zuehlke-book/new/develop/articles)
 
-  * Enter a unique name for your article file, in kebap style, Example: `my-funny-article.md`
+  2. Enter a unique name for your article file, in kebap style, Example: `my-funny-article.md`
     
-  * Copy content of [Article Example as template to start with](https://raw.githubusercontent.com/Zuehlke/zuehlke-book/develop/articles/_example.md).
+  3. Copy content of [Article Example as template to start with](https://raw.githubusercontent.com/Zuehlke/zuehlke-book/develop/articles/_example.md).
     
-  * Write initial article version (no worries, it does not have to be perfect or finished yet!).
+  4. Write initial article version (no worries, it does not have to be perfect or finished yet!).
     
-  * Adjust `authorName` and `authorGithubUsername` at the top of the file
+  5. Adjust `authorName` and `authorGithubUsername` at the top of the file
     
-  * Commit the new file: Please use the issue number prefixed with `#` in the commit comment, before submitting the new file, e.g. `#15 initial version of My Funny Article`.
+  6. Commit the new file: Please use the issue number prefixed with `#` in the commit comment, before submitting the new file, e.g. `#15 initial version of My Funny Article`.
     
-  * Submit the new article as a pull request, such that others can already see your draft and could start to give feedback on it: again use the issue number of your article prefixed with `#` and followed by the article name as a name for the pull request, e.g. `#15 My Funny Article`. 
+  7. Submit the new article as a pull request, such that others can already see your draft and could start to give feedback on it: again use the issue number of your article prefixed with `#` and followed by the article name as a name for the pull request, e.g. `#15 My Funny Article`. 
   
-  * Continue to work on your article incrementally on your fork, as described in next section: [Write the Article](#write-the-article).
+  8. Continue to work on your article incrementally on your fork, as described in next section: [Write the Article](#write-the-article).
 
 If you prefer your own text editor: feel free to use your own "clone-edit-commit-push"- workflow with your local git client.
 
@@ -116,13 +116,15 @@ You can work on your article in your personal forked repo, which you will find i
 
 **How to finalize your article:**
 
+  * Go to your forked repo and continue to edit your article file in directory `/articles`.
+
+  * Use [GitHub Flavored Markdown Syntax](https://guides.github.com/features/mastering-markdown/) in the markdown file.
+
+
   * In all your commits you should use the issue number of your article prefixed with `#` .  
    Example: `#15 add article to Table of Content`.
       
-  * Link your article in the `/SUMMARY.md` file on your fork.
-
-  * Write your article in your article's markdown file using the Markdown syntax.  
-   The syntax used is similar to the [GitHub Flavored Markdown Syntax](https://guides.github.com/features/mastering-markdown/).
+  * Edit the `/SUMMARY.md` file on your fork to list and link your article in the Table of Content.
 
 **Conventions / Guidelines for Article Content:**
 
@@ -155,6 +157,8 @@ To get your article published you have to go through this review and publishing 
 6. Once published, you can still correct or improve it, by doing new pull requests from your fork of the repository.
 
 7. Do not forget to close the issue of your article, once it is published.
+
+Althought most of the authors are not native English speakers, there is currently no translation service or lectorate foreseen.
 
 ### Oppinionated Articles and Controversial Discussions
 
