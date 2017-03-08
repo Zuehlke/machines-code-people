@@ -1,0 +1,112 @@
+# meet with users
+
+Meeting with users, the more the better, is essential to create great products. We all know this, still, do you do this in your projects often enough?
+
+## a bit of background information: three levels of abstraction of user experience
+
+
+
+## how to do this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+One point to consider is how the team is set up:
+
+## some team approaches we are using today:
+
+1) The customer doesn't let us do it. 
+2) We assume the customer is doing it for us.
+3) We make the customer PO and he is doing it 
+4) We take a BA/RE into the team to do it for us.
+5) We hire a designer to make it beautiful before we implement it.
+6) We make a usabilty test before we release it.
+7) We combine all of them: the BA/RE first creates the requirements, hands them over to the Designers who then to the visual design and all of which is know handed to the devs to implement and finally run a the usabiltiy test to confirm that everything is fine.
+
+All of these approaches have the same drawback: the ones who are actually capable of creating the products have been blind-folded and have little idea for whom the product is, what they do with it and how these people experience it. We can only implement requirements as they are handed over and whatever we cannot understand we make up on the way or ask those guys who say they know what the user need. 
+
+Result, exagerated I admit: too many functions, too complex architecture, too complex user interface, the product sucks. Yes, even taking  option 5), the product still sucks, just more beautifully so. And with options 6, you just know the product sucks before you launch it, not afterwards. And with 7) you just combine all the drawbacks from 1) to 6).
+
+8) Take a UX person into the project team
+
+A better approach is to take a UX person into the project team to do it. Using this option, products definetely suck much less. Because UX professionals who know what they are doing do some things differently: They listen to users, they are competent to create several alternatives UI opptions, they find other solutions, they search for and act upon feedback, they develop and test the users' experiences before the expensive implementation happens, they intensively talk with developers and communicate what users do and how they are, what they value and how they think and act.
+
+The positive effect: Better product, higher quality user stories, solution tested with users and stakeholders before implementation, less rework, the products sucks much less.
+
+the drawbacks
+* UX professionals are not as great as the ones depicted above. They always lack some of the skills needed to really do the job
+* UX professionals become the single point of failure and the bottle neck
+* UX professionals want to make users happy and to create great experience. They tend to gold plate the solution.
+
+9) the agile team
+
+The approach that is really promising is to forget about job profiles, disciplines and fixed roles. You are one team and focus on creating the best possible solution. So you simply 
+- look at who can and wants to contribute what and from the team and your work separation around these skills. 
+- prefer to sepearate work by user story rather than by discipline
+
+For this to work you
+- look for people skilled in several discplines to staff the project
+- use specialists sparingly
+
+## Some process approaches we use
+
+
+
+
+
+
+
+
+
+## We usually do not really know, what the prodcut is used for and what users really need
+
+### Technical products and system serve a purpose
+
+When we build something we to quite some degree change the lives of some people we may even never get to know. The whole point of creating a system is achieving such a change so that something profitable happens. For example selling a new product, offer clean drinkable water, improve a service provided or optimize how a service is provided and mouch more.
+
+### We induce change but we do not really now in advance what the result will be
+
+Human society and the whole economical and ecological system we are living in is highly dynamic and full of non-linear interdependencies. Inducing a change at one point can cause ripples throught the complex system and lash back with completely new ideas, requirements and a huge amount of innovation. 
+
+In 1985, in order to go with the pals to a movie, you had to set a time and a meeting place in advance, either face to face or by phone, one by one. No mobile phones, no email, neither whatsup, or doodle weere available. The young had to plan, so they planned. 
+In 2000, cell phones were widely adopted and the young could call and text each other anytime from anywhere. So having agreed that they would meet sometimes Friday evening was enough planning. The young thus just mounted the trains and started texting to figure out who would come to what place when and then they would set for a movie or whatever else they did.
+In 2015, having GPS, internet, snmart phones, you would guess that the young would just go to town, use their smart phones to track their Bros' mobile phones and then meet up, no planning required at all. Somehow that did not happen. 
+
+### Great products match what users will want to do in the future
+
+Great product serve the purpose users will have in mind once they start using the products and their lives change. 
+what users do and how they will do it in the future. In most cases, talking with users to make you and them understand how the work will be tomorrow, is indispensable.
+
+
+What: 
+Products we create 
+
+"Meet users: often"
+what:
+how:
+- initially, understand the overall process around the part of the work/life you're going to support including the small really tough details you need to know. Go to the users, see them doing the stuff they are doing. 
+- quickly create mock-ups and sketches of how the world with your software might look like and let users experience this new way of doing things. 
+- when working out the details, don't hesitate to show a mock-.up and then even a first inkrement to users and see, if you'r still on right track.
+why:
+- because it's tough to guess correctly, how users will want to do things once the new software is here, for both the team and the users. So rather than just happilly implementing the very best software based on wrong requirements, take the users with you on the journey to change how they are going to do things so they can get an understanding what could happen and you get an understanding how they want to deal with the new options.
+from the trenches:
+- make room in scrum for exploration, creativity, testing alternatives. In it's worst implementation, scrum makes the team a machine in a production line stoically takeing stories as input and delivering increments as output. 
+- don't ask, do it. So many project leaders, product owners, business representant hinder a team from talking to users! Asking them for permission to talk with users may not be the best way. Get in contact with those that really can give you access to the users: their peers and their bosses.
