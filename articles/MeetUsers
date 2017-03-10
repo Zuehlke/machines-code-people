@@ -1,6 +1,48 @@
 # meet with users
 
-Meeting with users, the more the better, is essential to create great products. We all know this, still, do you do this in your projects often enough?
+_Meeting with users, the more the better, is essential to create great products._
+
+Even though I - as a UX professional - must stress the importance of listenting to the users, I still must admit that the statement is highly inaccurate and completely misleading.
+The point is not about meeting users, it's about creating great products. 
+
+##products suck more the less the development team understands what users really need 
+
+The point that we actually should make is:
+
+_We who develop a technical system are not like the users_
+
+This has two reasons:
+1. The more we are involved in developing the software the better is our mental model about the system and how the system is meant to be used. Somebody who had little or no involvment in development, has a completely different mental model.
+2. Even in the cases, where we are actually also users of the system we are developing, we are just one of the user. But the user base of a system has usually many more users with completely different needs, mental models and understanding than we.
+
+There are a couple of consequences:
+1. The needs we identify do not fully represent the needs of the whole user base.
+2. The features and functions we envision are not the ones the users would really need.
+3. The priorities we give are not the priorities that would really be the ones for the users.
+4. How we organize the user interfacae does not match the users' mental models and will not fit the users' tasks.
+5. How we design the details will not match the users' expectations.
+
+to put it more bluntly:
+_the more we rely on our judgment when creating a product, the more likely the product is going to suck_
+
+## products change what users expect
+
+By the way, things are bit more interesting. What users really need changes constantly. And the most annoying part of this is, that we who create technical systems are one imporant driver of the change. The simple fact that we introduce new possibilities with technology changes what people are doing, how they are doing it, what they trying to achieve and thus what they expect from the technology we provide.
+
+Here is a story of how technology changed our lives and our expectations
+In 1985, in order to go with the pals to a movie, you had to agree on the film, the time, the cinema, where to meet when in advance. And either you had to do it face to face or call each one by phone. No mobile phones, no email, not internet. The young had to plan, so they planned. 
+In 2000, cell phones were widely adopted and the young could call and especially text each other anytime from anywhere. So having agreed on a movie and a time was enough planning. So the young just went to town and found the bar the others are already were having their pre-cinema beer by texting each other. 
+In 2015, having GPS, internet, smart phones. No planning is needed at all. We can be in contact with everybody we care, synchronize with group chats, call-up the cinema program. Thus the young of today do need to plan at all, they can just contact their friends and can argue about the movie to watch while their travelling to the city. 
+
+So the conundrum to solve is:
+_we want to anticipate what users will need once they have the new technology we provide_
+
+Their is only one way to achieve this: Provoke the change as quickly as possible and adapt to it. 
+
+There are several approaches to do this.
+1) Tell the story of the new world to customers, users, stakeholders and learn from their reactions
+2) Simulate the new world, see what happens and learn from it.
+3) Create the new world with simple prototypes, learn from it and adapt. 
 
 ## a bit of background information: three levels of abstraction of user experience
 
@@ -86,9 +128,7 @@ When we build something we to quite some degree change the lives of some people 
 
 Human society and the whole economical and ecological system we are living in is highly dynamic and full of non-linear interdependencies. Inducing a change at one point can cause ripples throught the complex system and lash back with completely new ideas, requirements and a huge amount of innovation. 
 
-In 1985, in order to go with the pals to a movie, you had to set a time and a meeting place in advance, either face to face or by phone, one by one. No mobile phones, no email, neither whatsup, or doodle weere available. The young had to plan, so they planned. 
-In 2000, cell phones were widely adopted and the young could call and text each other anytime from anywhere. So having agreed that they would meet sometimes Friday evening was enough planning. The young thus just mounted the trains and started texting to figure out who would come to what place when and then they would set for a movie or whatever else they did.
-In 2015, having GPS, internet, snmart phones, you would guess that the young would just go to town, use their smart phones to track their Bros' mobile phones and then meet up, no planning required at all. Somehow that did not happen. 
+
 
 ### Great products match what users will want to do in the future
 
