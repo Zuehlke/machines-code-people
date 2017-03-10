@@ -2,23 +2,22 @@
 
 _Meeting with users, the more the better, is essential to create great products._
 
-Even though I - as a UX professional - must stress the importance of listenting to the users, I still must admit that the statement is highly inaccurate and completely misleading.
-The point is not about meeting users, it's about creating great products. 
+Even though I - as a UX professional - must stress the importance of listenting to the users, I still have to admit that the statement is highly inaccurate and completely misleading. Because with just meeting users, nothing is achieved.
 
-##products suck more the less the development team understands what users really need 
+##The less the development team understands what users (and stakeholders in general) will need the more the products suck they create
 
-The point that we actually should make is:
+So I should be more accurate and really point out the issue:
 
 _We who develop a technical system are not like the users_
 
 This has two reasons:
-1. The more we are involved in developing the software the better is our mental model about the system and how the system is meant to be used. Somebody who had little or no involvment in development, has a completely different mental model.
+1. The more we are involved in developing the software the better is our mental model about the system and how the system is meant to be used. Somebody who had little or no involvment in development, has a completely different mental model and will want to do different things.
 2. Even in the cases, where we are actually also users of the system we are developing, we are just one of the user. But the user base of a system has usually many more users with completely different needs, mental models and understanding than we.
 
 There are a couple of consequences:
 1. The needs we identify do not fully represent the needs of the whole user base.
-2. The features and functions we envision are not the ones the users would really need.
-3. The priorities we give are not the priorities that would really be the ones for the users.
+2. The features and functions we envision are not the ones the users will really use.
+3. The priorities we give are not the priorities that our users will have.
 4. How we organize the user interfacae does not match the users' mental models and will not fit the users' tasks.
 5. How we design the details will not match the users' expectations.
 
@@ -27,12 +26,29 @@ _the more we rely on our judgment when creating a product, the more likely the p
 
 So we need to consider other people's judgement. 
 
-## products change what users expect
-
-By the way, things are bit more interesting. What users really need changes constantly. And the most annoying part of this is, that we who create technical systems are one imporant driver of the change. The simple fact that we introduce new possibilities with technology changes what people are doing, how they are doing it, what they trying to achieve and thus what they expect from the technology we provide.
+By the way, things are bit more interesting. What users really need changes constantly. And the most annoying part of this is, that we who create technical systems are one impportant driver of such change. The simple fact that we introduce new possibilities with technology changes what people are doing, how they are doing it, what they trying to achieve and thus what they expect from the technology we provide.
 
 So the conundrum to solve is:
-_we want to anticipate what users will need once they have the new technology we provide_
+_In order to create great products, we have to anticipate what users will need once they adapt to the new technology we will provide._
+
+And whenever you have an egg and chicken problem, the answer is evolution. So while we are creating and improving our products the stakeholders adapt to what they in the beginning anticipate the product to do for them and later to their experience what the product will provide. 
+
+## Todo: We need to experience what the users do and what they need from our product
+
+At the beginning, start with today. Go an observe potential users, talk with them about what they are doing, why, what they love and what they hate. Identify their values and beliefs, what they try to achieve and what hinders them. Consolidate your learnings over several users and draw a big poster or a map of your learnigns.
+
+
+Pitfalls:
+- If you assume that users will tell you what the product should do, guess again.  
+
+
+
+
+Its tough do give a number of how many users you need to talk to. In most cases, 5 to 10 already
+
+## Todo: Create
+
+1. Experience what people do. And for that you need to meet with users
 
 Their is only one way to achieve this: Provoke the change as quickly as possible and adapt to it. 
 
@@ -42,10 +58,9 @@ There are several approaches to do this.
 - Simulate / mock how live will be, put people into this simulation and see what happens and learn from it.
 - Start changing the live by creating your MvP and enhance and evolve your service will live around changes. 
 
-_if we want to create great products, we need to experience the future these products will create as quickly as possible._
+## meeting with users is all about understanding their needs and how well our solution will or is meeting them already
 
-## meeting with users is all about 
-- feedback from somebody completely new who will or potentially will use the product.
+This 
 
 
 ## a bit of background information
