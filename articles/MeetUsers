@@ -43,6 +43,7 @@ Methods that help (if you do not know them, ask a UX professional for advice)
 * Contextual Inquiry, Contextual Design
 * Observation
 * Task Analysis
+* UX Questionnaires and Benchmarks
 * Personas and Scenarios
 * Affinity Diagramming
 * Experience Mapping
@@ -80,17 +81,10 @@ If you have enough understanding about users you will be able to identify releva
 * * the following points will make us loose sleep
 * * So, all considereed we will have it on the market by then and replace z in this way
 
-Methods that help to display such a story (if you do not know them, ask a UX professional, an agilist or an innovation methods guru for advice)
-* Storyboards, Video Prototypes, Narratives, Scenarios
-* Personas
-* NABC, Lean Canvas, Business Model Canvas, idea profiles
-* Product vision box, inception deck, vision statement
-* User story map
-
 To evolve the story, it is not enough to just fill out e.g. a business model canvas or to create a storyboard. You must probe the market and get some more substantial evidence that the problem is relevant, the solution fits it, that you can create a market, and that your plan is sound.
-Meeting with users will give you much better understanding about the relevance of the problem and the fit of the solution. To do this, you will find a bunch of more or less complete sets of methods like design thinking, design sprint, user experience sketching, contextual design and more. Whatever the name, in the essence, they tell you to build a team that iteratively creates and evaluates a solutions with users.
+Meeting with users will give you much better understanding about the relevance of the problem and the fit of the solution. To do this, you will find a bunch of more or less complete sets of methods like design thinking, design sprint, user experience sketching, contextual design and more. Whatever the name, in the essence, they tell you to build a team that iteratively creates and evaluates solutions with users, picks the best ones until one solution really seems to fit the bill.
 
-The first set of methods focuses on creating prototypes
+As of methods: a first set of methods focuses on creating prototypes
 * user experience sketches
 * Mock-ups, physical models and paper prototypes
 * Narratives, storyboards
@@ -100,12 +94,12 @@ A second set of methods focuses on evaluation prototypes and experiences by user
 * Hallway Testing
 * UX Walkthrouhgs
 * Wizard of Oz Testing
-* UX Questionnaires
+* UX Questionnaires, Metrics and Benchmarks
 * Empathy Maps, Response Cards
 * and more. 
 
-A third set of methods helps you to co-ceate solution togehter with selected users. In such workshops, usually the team chooses one aspect of the solution to discuss with users, creates simple building blocks and then gives them to users to work with. While a group of users work and discuss, the team listens and talks and thus gains understanding about the different needs and possible solutions. The team can obviously also propose solutions and by that bring their creativity and design expertise into the workshop.
-This needs an example. To equip a police car, designers created card board models of  the equipment to go into the car. They then took and old police car in a police station, their card board models and then asked a couple of police officers to place the equipment so it would really be best. By doing this, they learned a lot about placement options, constraints, real world scenarios, the basic requirements, the ploice officers themselves and much more.
+A third set of methods helps you to co-create solution together with selected users. In such participatory workshops, usually the team chooses one aspect of the solution to discuss with users, creates simple building blocks and then gives them to users to work with. While a group of users work and discuss how to best to solve the aspect with these building blocks, the team listens and observes and gains understanding about the different needs and possible solutions. The team can obviously also propose solutions and by that bring their creativity and design expertise into the workshop.
+This needs an example: To equip a police car, designers created card board models of  the equipment to go into the car. They then took and old police car in a police station, their card board models and then asked a couple of police officers to place the equipment so it would really be best. By doing this, they learned a lot about placement options, constraints, real world scenarios, the basic requirements, the ploice officers themselves and much more.
 Look for these keywords to find more:
 * Participatory design
 * Co-creation
@@ -116,7 +110,7 @@ Things to be aware of
 * Really get creative with how you prototype. First the prototype must allow to experience the future live with the product and it must be cheap to build. Usually it's a good idea to fake most of the interactive stuff by a person who plays the "computer". 
 * Evaluate the solution against a relevant problems. Avoid letting users explore a prototype on their own or by artificial tasks. Invest into creating realistic tasks and scenarios. Ideally, users bring their own work and try to do this with your prototype.
 
-While doing this, you can expect that the story gets more sharper. You also learn a lot about users, their lives, their work and their dreams and you should create or update the respective artefacts from the first todo. 
+While doing this, you can expect that the story gets sharper. You also learn a lot about users, their lives, their work and their dreams and you should create or update the respective artefacts from the first todo. 
 
 ### Todo: Create a product concept.
 
@@ -127,40 +121,52 @@ Methods that help here are
 * User Story Mapping, User Stories
 * Scenarios, Key Path Scenarios
 * Wireframes, Lofi Prototyping
-* UI Maps
-* Emptional Brief
-* Mood Boards, Visual Scenarios
+* UI Maps, Visual Scenarios
+* Emptional Brief, Mood Boards
 * User/Usability Walkthroughs, Hallway Testing
-* UX Questionnaires
+* UX Questionnaires and Benchmarks
 * Empathy Maps, Response Cards
 * Participatory Design Workshops
 * Card Sorting
-and many more.
+and more.
 
 Things to be aware of:
 * You cannot create a product concept without going into the details of the design. Take a few interesting key examples (key path scnearios) you must design for and create the concept based on them. Use additional scenarios to verify.
-* If getting to users is cumbersome (it usually is), try the hallway. Just sketch anything, put it on the wall, grab anyone just available over the hall and let them give you feedback.
+* If getting to users is cumbersome (it usually is), try the hallway to get a quick first feedback. Just sketch anything, put it on the wall, grab anyone just available over the hall and let them give you feedback.
 * The first solution is usually not the best solution. So try different approaches. Involve others to point you to new approaches. Try the hallway first to do this.
 * Again evaluate the solution against relevant problems. Realistic tasks or even relevant tasks people brought with them is what you want to evaluate agains. 
 
 From these activities you can expect to find the architecture of the user interface of your product. You also will learn a lot about users and about your story and you will need to create and update those artefacts as well.
 
-## TODO: Work out the details an optimize them
+### Todo: Work out the details an optimize them
 
-If you are optimistic enough that the UI architecture is sound enough and you are willing to start to work on the details, it's now time to tackle the whole product user story by user story, and work out the details, including interaction and visual design.
+If you are optimistic enough that the UI architecture is sound enough and you are willing to start to work on the details, it's now time to tackle the whole product user story by user story, and work out the details, including interaction and visual design. It usually takes some tweaking once you've done the solution. So plan enough time to optimize interaction, phrasing, animations, performance and such things.
 
 Methods to use here include
 * User Stories
 * Wireframes and Lo-Fi Prototyping
 * Hi-Fi Prototyping, Visual Scenarios
 * Hallway Testing, User/Usability Walkthrough
+* Life A/B Testing
 * UX Questionnaires
 * Empathy Maps, Response Cards
 * Participatory Design Workshops
 and more
 
 Things to be aware of:
-* 
+* When working out the details of the story again focus on the essence and try to find a simple solution to fulfill the need. Avoid implementing wireframes a UX professional created alone in his cubicle or a requirments a BA wrote done after listing to a stakeholder. Work as a team and deeply dig into the question: what does the user want to achieve in this story and what is the best compromise to do so and what are we really going to build.
+* Don't forget to get some feedback. Wireframes or a quick interactive prototype are useful, here.
+* Once you've implemented a bigger story, let users do their work with the story. Thus either let them do their work on the test system or even release it to the general public, measure and get feedback.
+* Not function has the sasme importance or difficulty. Test and optimize only what really needs to be optimized.
+* Setup a simple usability lab if you need to optimize specific aspects. Here users can work undisturbed and video recordings allow you to analyse the details of the interaction.
+* Don't let users be the first to test. Create yourself some examples and play them through. You will find many quirks in your products just by simulating the users.
+
+
+
+### Todo: get inspired by life
+
+Ok, I did put that point up already. But don't forget: once your product is up and running and being bought and used, collect and evaluate real feedback. How did life change? What new needs did we create? What opportunities are there for us? So go back to the users and try again to figure out, whether your product needs optimizsation, enhancenemnts, new features or even replacing with yet another product. 
+
 
 ## a bit of background information
 
