@@ -33,9 +33,9 @@ _In order to create great products, we have to anticipate what users will need o
 
 And whenever you have an egg and chicken problem, the answer is evolution. So while we are creating and improving our products the stakeholders adapt to what they in the beginning anticipate the product to do for them and later to their experience what the product will provide. 
 
-## Todo: We need to experience what users do and what they need and expect from a product
+## We need to experience what users do and what they need and expect from a product
 
-### Get inspired by life as of today
+### Todo: Get inspired by life
 
 Usually, you start with how life is today. Go an observe potential users, talk with them about what they are doing, why, what they love and what they hate. You can also become an apprentice and do it yourself, instructed by your master, a user. Identify their tasks, their values and beliefs, what they try to achieve and what hinders them. 
 
@@ -62,9 +62,9 @@ Things to be aware of
 
 As a result of such acitivities you can expect to have much deeper knowledge about users, their life, their work and their dreams as well a load of ideas on how to fulfill a dream or two. 
 
-### Evolve the story to shape the product you're going to create
+### Todo: Evolve the story of your product
 
-If you have enough understanding about users you will be able to identify relevant stories. Such a story will cover the very fundamental questions, at least some of them :
+If you have enough understanding about users you will be able to identify relevant stories. Such a story will cover at least some of the very fundamental questions:
 * Problem
 * * for these users in that context, who are striving to achieve this goal 
 * * we fulfill that dream | enable this piece work | remove these snags
@@ -76,53 +76,91 @@ If you have enough understanding about users you will be able to identify releva
 * * our competition is X and Y and we will do this differently | better | cheaper than them
 * Plan 
 * * the main features are a, b, c
-* * that's how we rougly build it
+* * that's how we roughly build it
 * * the following points will make us loose sleep
 * * So, all considereed we will have it on the market by then and replace z in this way
 
 Methods that help to display such a story (if you do not know them, ask a UX professional, an agilist or an innovation methods guru for advice)
-- Storyboards, Video Prototypes, Narratives, Scenarios
-- NABC, Lean Canvas, Business Model Canvas, idea profiles
-- Product vision box, inception deck, vision statement
-- User story map
+* Storyboards, Video Prototypes, Narratives, Scenarios
+* Personas
+* NABC, Lean Canvas, Business Model Canvas, idea profiles
+* Product vision box, inception deck, vision statement
+* User story map
 
 To evolve the story, it is not enough to just fill out e.g. a business model canvas or to create a storyboard. You must probe the market and get some more substantial evidence that the problem is relevant, the solution fits it, that you can create a market, and that your plan is sound.
-
-Meeting with users will give you much better understanding about the relevance of the problem and the fit of the solution. To do this, you will find a bunch of more or less complete sets of methods like design thinking, design sprint, user experience sketching, contextual design and more. Whatever the name, in the essence, they tell you to build a team that iteratively creates solutions, evaluating them especialy with users and thus learns about problem relevance, solution fit and users in general.
+Meeting with users will give you much better understanding about the relevance of the problem and the fit of the solution. To do this, you will find a bunch of more or less complete sets of methods like design thinking, design sprint, user experience sketching, contextual design and more. Whatever the name, in the essence, they tell you to build a team that iteratively creates and evaluates a solutions with users.
 
 The first set of methods focuses on creating prototypes
-- user experience sketches
-- Mock-ups, physical models and paper prototypes
-- Narratives, storyboards
-- MvPs and test implementations.
+* user experience sketches
+* Mock-ups, physical models and paper prototypes
+* Narratives, storyboards
+* MvPs and test implementations.
 
 A second set of methods focuses on evaluation prototypes and experiences by users
-- Hallway Testing
-- UX Walkthrouhgs
-- Wizard of Oz Testing
-- UX Questionnaires
-- Empathy Maps, Response Cards
-- and more. 
+* Hallway Testing
+* UX Walkthrouhgs
+* Wizard of Oz Testing
+* UX Questionnaires
+* Empathy Maps, Response Cards
+* and more. 
 
-A third set of methods provides 
+A third set of methods helps you to co-ceate solution togehter with selected users. In such workshops, usually the team chooses one aspect of the solution to discuss with users, creates simple building blocks and then gives them to users to work with. While a group of users work and discuss, the team listens and talks and thus gains understanding about the different needs and possible solutions. The team can obviously also propose solutions and by that bring their creativity and design expertise into the workshop.
+This needs an example. To equip a police car, designers created card board models of  the equipment to go into the car. They then took and old police car in a police station, their card board models and then asked a couple of police officers to place the equipment so it would really be best. By doing this, they learned a lot about placement options, constraints, real world scenarios, the basic requirements, the ploice officers themselves and much more.
+Look for these keywords to find more:
+* Participatory design
+* Co-creation
+* Make space
 
-To get a solid story, we 
+Things to be aware of
+* Business analysts, market researcher, UX professionals all talk to the users and collect information but with a different focus. They  reach different conclusions and if they do not align well, there will be trouble.
+* Really get creative with how you prototype. First the prototype must allow to experience the future live with the product and it must be cheap to build. Usually it's a good idea to fake most of the interactive stuff by a person who plays the "computer". 
+* Evaluate the solution against a relevant problems. Avoid letting users explore a prototype on their own or by artificial tasks. Invest into creating realistic tasks and scenarios. Ideally, users bring their own work and try to do this with your prototype.
 
-## Todo: Create
+While doing this, you can expect that the story gets more sharper. You also learn a lot about users, their lives, their work and their dreams and you should create or update the respective artefacts from the first todo. 
 
+### Todo: Create a product concept.
 
-Their is only one way to achieve this: Provoke the change as quickly as possible and adapt to it. 
+If you're story is sound enough so you are willing to take the risk and start really creating the product, you will want to set a few fundamental corner stone of the solution, like information architecture, navigation, layouts and responsive stuff, key elements of the visual design, globalisation approaches, error handling approaches and more.
+In order to get to that you will again need to gather a lot of feedback and work together with potential users of your product. So you create something, evaluate it with users, you variate and iterate over it until you are sure enough you the concept basically holds once you work out the details.
 
-There are several approaches to do this.
-- Create something, ask the guy next door and improve.
-- Tell the story of how live will be to customers, users, stakeholders and learn from their reactions
-- Simulate / mock how live will be, put people into this simulation and see what happens and learn from it.
-- Start changing the live by creating your MvP and enhance and evolve your service will live around changes. 
+Methods that help here are 
+* User Story Mapping, User Stories
+* Scenarios, Key Path Scenarios
+* Wireframes, Lofi Prototyping
+* UI Maps
+* Emptional Brief
+* Mood Boards, Visual Scenarios
+* User/Usability Walkthroughs, Hallway Testing
+* UX Questionnaires
+* Empathy Maps, Response Cards
+* Participatory Design Workshops
+* Card Sorting
+and many more.
 
-## meeting with users is all about understanding their needs and how well our solution will or is meeting them already
+Things to be aware of:
+* You cannot create a product concept without going into the details of the design. Take a few interesting key examples (key path scnearios) you must design for and create the concept based on them. Use additional scenarios to verify.
+* If getting to users is cumbersome (it usually is), try the hallway. Just sketch anything, put it on the wall, grab anyone just available over the hall and let them give you feedback.
+* The first solution is usually not the best solution. So try different approaches. Involve others to point you to new approaches. Try the hallway first to do this.
+* Again evaluate the solution against relevant problems. Realistic tasks or even relevant tasks people brought with them is what you want to evaluate agains. 
 
-This 
+From these activities you can expect to find the architecture of the user interface of your product. You also will learn a lot about users and about your story and you will need to create and update those artefacts as well.
 
+## TODO: Work out the details an optimize them
+
+If you are optimistic enough that the UI architecture is sound enough and you are willing to start to work on the details, it's now time to tackle the whole product user story by user story, and work out the details, including interaction and visual design.
+
+Methods to use here include
+* User Stories
+* Wireframes and Lo-Fi Prototyping
+* Hi-Fi Prototyping, Visual Scenarios
+* Hallway Testing, User/Usability Walkthrough
+* UX Questionnaires
+* Empathy Maps, Response Cards
+* Participatory Design Workshops
+and more
+
+Things to be aware of:
+* 
 
 ## a bit of background information
 
