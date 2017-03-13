@@ -4,7 +4,7 @@ _Meeting with users, the more the better, is essential to create great products.
 
 Even though I - as a UX professional - must stress the importance of listenting to the users, I still have to admit that the statement is highly inaccurate and completely misleading. Because with just meeting users, nothing is achieved.
 
-##The less the development team understands what users (and stakeholders in general) will need the more the products suck they create
+##The less the development team understands what users (and stakeholders in general) will need the more the products they create suck
 
 So I should be more accurate and really point out the issue:
 
@@ -12,7 +12,7 @@ _We who develop a technical system are not like the users_
 
 This has two reasons:
 1. The more we are involved in developing the software the better is our mental model about the system and how the system is meant to be used. Somebody who had little or no involvment in development, has a completely different mental model and will want to do different things.
-2. Even in the cases, where we are actually also users of the system we are developing, we are just one of the user. But the user base of a system has usually many more users with completely different needs, mental models and understanding than we.
+2. Even in the cases, where we are users as well of the system we are developing, we are just a few of the users. The user base of a system has usually many more users with completely different needs, mental models and understanding than we.
 
 There are a couple of consequences:
 1. The needs we identify do not fully represent the needs of the whole user base.
@@ -26,43 +26,90 @@ _the more we rely on our judgment when creating a product, the more likely the p
 
 So we need to consider other people's judgement. 
 
-By the way, things are bit more interesting. What users really need changes constantly. And the most annoying part of this is, that we who create technical systems are one impportant driver of such change. The simple fact that we introduce new possibilities with technology changes what people are doing, how they are doing it, what they trying to achieve and thus what they expect from the technology we provide.
+By the way, things are bit more interesting. What users really need changes constantly. And the most annoying part of this is, that we who create technical systems are one impportant driver of such change. The simple fact that we introduce new possibilities changes what people are doing, how they are doing it, what they trying to achieve and thus what they expect from the technology we provide.
 
 So the conundrum to solve is:
 _In order to create great products, we have to anticipate what users will need once they adapt to the new technology we will provide._
 
 And whenever you have an egg and chicken problem, the answer is evolution. So while we are creating and improving our products the stakeholders adapt to what they in the beginning anticipate the product to do for them and later to their experience what the product will provide. 
 
-## Todo: We need to experience what the users do and what they need from our product
+## Todo: We need to experience what users do and what they need and expect from a product
 
-At the beginning, start with today. Go an observe potential users, talk with them about what they are doing, why, what they love and what they hate. If its possible, become an apprentice and do it yourself. Identify their tasks, their values and beliefs, what they try to achieve and what hinders them. 
+### Get inspired by life as of today
 
-Talk with a wide variety of people and see how 
+Usually, you start with how life is today. Go an observe potential users, talk with them about what they are doing, why, what they love and what they hate. You can also become an apprentice and do it yourself, instructed by your master, a user. Identify their tasks, their values and beliefs, what they try to achieve and what hinders them. 
 
-Methods that help (if you do not know them, ask the UX professional next to you for advice)
-- Contextual Inquiry, Contextual Design
-- Task Analysis
-- Personas and Scenarios
-- Affinity Diagramming
-- Experience Mapping
+Methods that help (if you do not know them, ask a UX professional for advice)
+* Contextual Inquiry, Contextual Design
+* Observation
+* Task Analysis
+* Personas and Scenarios
+* Affinity Diagramming
+* Experience Mapping
 
 Things to be aware of
-- Don't waste your time asking the users about what 
+* You will learn a lot even from the first three sessions with users. Avoid doing many session with users and then analysing them. Rather steer your progress with a list of open questions, analyse each interview immediately and rework your open questions.
+* You learn what users do and why. Discussing features and solutions is not the focus of a session with a user in this stage.
+* The participants of your study will tell you many solutions. Listen to the solutions and learn what the participants really wanted to achieve with the solution. 
+* You explore and get to know people, their life, their work and their dreams by doing, observing and talking about it. Avoid ticking off questions from a prepared questionnaire.
+* You need a wide variety of opinions so pick a wide variety of users. 
+* The gist of the problem lies in the daily hassles. So go and do or talk about real work and real examples. Avoid talking about generalisations.
+* Capture the details as direct quote, collect pictures, materials, forms, people are using. These material will allow you to quickly create prototypes that really cover the users problems. 
+* You need to consolidate your learnings over several users: get a big wall and sticky notes to do so.
+* Be sensitive to commonalities and differences between the different persons you talked to and work them out. That is the base for creating personas.
+* Draw a map / poster and show the the lifes and dreams of your potential user base, their drivers and their struggles.
+* It is tough do give a number of how many users you need to talk to. In most cases, 5 to 10 will give you a good idea.
 
-Consolidate your learnings over several users and draw a big poster or a map of your learnigns.
+As a result of such acitivities you can expect to have much deeper knowledge about users, their life, their work and their dreams as well a load of ideas on how to fulfill a dream or two. 
 
+### Evolve the story to shape the product you're going to create
 
-Pitfalls:
-- If you assume that users will tell you what the product should do, guess again.  
+If you have enough understanding about users you will be able to identify relevant stories. Such a story will cover the very fundamental questions, at least some of them :
+* Problem
+* * for these users in that context, who are striving to achieve this goal 
+* * we fulfill that dream | enable this piece work | remove these snags
+* Solution
+* * by providing the following product | service | experience
+* * this will replace | enhance product z by improving this and that
+* Market
+* * We will target this market with the following market share and the following revenue - cost structure
+* * our competition is X and Y and we will do this differently | better | cheaper than them
+* Plan 
+* * the main features are a, b, c
+* * that's how we rougly build it
+* * the following points will make us loose sleep
+* * So, all considereed we will have it on the market by then and replace z in this way
 
+Methods that help to display such a story (if you do not know them, ask a UX professional, an agilist or an innovation methods guru for advice)
+- Storyboards, Video Prototypes, Narratives, Scenarios
+- NABC, Lean Canvas, Business Model Canvas, idea profiles
+- Product vision box, inception deck, vision statement
+- User story map
 
+To evolve the story, it is not enough to just fill out e.g. a business model canvas or to create a storyboard. You must probe the market and get some more substantial evidence that the problem is relevant, the solution fits it, that you can create a market, and that your plan is sound.
 
+Meeting with users will give you much better understanding about the relevance of the problem and the fit of the solution. To do this, you will find a bunch of more or less complete sets of methods like design thinking, design sprint, user experience sketching, contextual design and more. Whatever the name, in the essence, they tell you to build a team that iteratively creates solutions, evaluating them especialy with users and thus learns about problem relevance, solution fit and users in general.
 
-Its tough do give a number of how many users you need to talk to. In most cases, 5 to 10 already
+The first set of methods focuses on creating prototypes
+- user experience sketches
+- Mock-ups, physical models and paper prototypes
+- Narratives, storyboards
+- MvPs and test implementations.
+
+A second set of methods focuses on evaluation prototypes and experiences by users
+- Hallway Testing
+- UX Walkthrouhgs
+- Wizard of Oz Testing
+- UX Questionnaires
+- Empathy Maps, Response Cards
+- and more. 
+
+A third set of methods provides 
+
+To get a solid story, we 
 
 ## Todo: Create
 
-1. Experience what people do. And for that you need to meet with users
 
 Their is only one way to achieve this: Provoke the change as quickly as possible and adapt to it. 
 
