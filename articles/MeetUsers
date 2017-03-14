@@ -5,7 +5,7 @@ Even though I - as a UX professional - must stress the importance of listenting 
 
 ##The less the development team understands what users will need the more the products they create suck
 So I should be more accurate and really point out the issue:
-_We who develop a technical system are not like the users_
+_We who develop a technical system are not like the users._
 
 This has two reasons:
 1. The more we are involved in developing the software the better is our mental model about the system and how the system is meant to be used. Somebody who had little or no involvment in development, has a completely different mental model and will want to do different things.
@@ -18,8 +18,8 @@ There are a couple of consequences:
 4. How we organize the user interfacae does not match the users' mental models and will not fit the users' tasks.
 5. How we design the details will not match the users' expectations.
 
-to put it more bluntly:
-_the more we rely on our judgment when creating a product, the more likely the product is going to suck_
+To put it bluntly:
+_the more we rely on our evaluation of the product we are creating, the more likely the product is going to suck_
 
 ## By creating a product, we change what users need
 By the way, things are bit more interesting. What users really need changes constantly. And the most annoying part of this is, that we who create technical systems are one impportant driver of such change. The simple fact that we introduce new possibilities changes what people are doing, how they are doing it, what they trying to achieve and thus what they expect from the technology we provide.
@@ -27,7 +27,7 @@ By the way, things are bit more interesting. What users really need changes cons
 So the conundrum to solve is:
 _In order to create great products, we have to anticipate what users will need once they adapt to the new technology we will provide._
 
-And whenever you have an egg and chicken problem, the answer is evolution. So while we are creating and improving our products the stakeholders adapt to what they in the beginning anticipate the product to do for them and later to their experience what the product will provide. 
+And whenever you have an egg and chicken problem, the answer is evolution. So while we are creating and improving our products the stakeholders adapt to what they product offers them. And people can get quite creative and do stuff nobody every thought of doing with  it when developing the product. 
 
 ## We need to experience what users do and what they need and expect from a product
 In order to come up with great products we need to interact with stakeholders inlcuding users. There are four things to do:
@@ -36,7 +36,8 @@ In order to come up with great products we need to interact with stakeholders in
 * Todo 3 - Concept. We need to define the basic architecture of the UI. For this we create lo-fi prototypes and let users test these prototypes. We learn how to best structure the product in the user interface and how to achieve the desired emotional response. Here we need creativity and broad knowledge to create good options.
 * Todo 4 - Details. Working out the details so everything works smoothly is the daily work of the team. We use hifi prototyping to work out and test the details just before implementing them and the product increments for business walkthroughs, pilots, and usability tests in a lab to optimize the solution.   
 
-A word of caution: don't event think linear. You will work on all four todos in parallel. There is no sequence. You will however experience a shift of focus.
+A word of caution: don't even think linear. You will work on all four todos in parallel. There is no sequence. You will however experience a shift of focus while your product develops.
+
 To work on these todos, you need to make room in your agile project setup for meeting with users
 1) Before you start developing: focus on identifying and sharpening stories.
 2) During your first development sprints: focus on setting the major corner stones of the UI
@@ -49,13 +50,13 @@ To work on these todos, you need to make room in your agile project setup for me
 Usually, you start with how life is today. Go an observe potential users, talk with them about what they are doing, why, what they love and what they hate. You can also become an apprentice and do it yourself, instructed by your master, a user. Identify their tasks, their values and beliefs, what they try to achieve and what hinders them. 
 
 Methods that help (if you do not know them, ask a UX professional for advice)
-* Contextual Inquiry, Contextual Design
+* Contextual inquiry, contextual design
 * Observation
 * Task Analysis
-* UX Questionnaires and Benchmarks
-* Personas and Scenarios
-* Affinity Diagramming
-* Experience Mapping
+* UX questionnaires and benchmarks
+* Personas and scenarios
+* Affinity diagramming
+* Experience mapping
 
 Things to be aware of
 * You will learn a lot even from the first three sessions with users. Avoid doing sessions with many users first and then analysing them. Rather steer your progress with a list of open questions, analyse each interview immediately and rework your open questions.
@@ -63,17 +64,17 @@ Things to be aware of
 * The participants of your study will give you many solutions. Listen to the solutions and learn what the participants really wanted to achieve with the solution so you can pick the real good ones and come up with even better solutions.
 * You explore and get to know people, their life, their work and their dreams by doing, observing and talking about it. Avoid ticking off questions from a prepared questionnaire.
 * You need a wide variety of opinions so pick a wide variety of users. 
-* The gist of the problem lies in the daily hassles. So go and do or talk about real work and real examples. Avoid talking about generalisations.
+* The gist of the problem lies in the daily hassles. So go and do or talk about real work and real examples. Avoid talking about generalisations. Collect concreate real life stories to drive product development.
 * Capture the details as direct quote, collect pictures, materials, forms people are using. These material will allow you to quickly create prototypes that really cover the users problems. 
 * You need to consolidate your learnings over several users: a big wall and sticky notes do the trick.
 * Be sensitive to commonalities and differences between the different persons you talked to and work them out. There is no average user.
 * Draw a map / poster and show the key learnings.
 
-As a result of such acitivities you can expect to have much deeper knowledge about users, their life, their work and their dreams as well a load of ideas on how to fulfill a dream or two. 
+As a result of such acitivities you can expect to have much deeper knowledge about users, their life, their work and their dreams as well a load of ideas on how to achieve a dream or two. 
 
 ### Todo 2 - Story: Evolve the story of your product
 
-A story, as I'm using this term here, will cover at least some of the very fundamental questions of product development, for example:
+A story, as I'm using this term here, will cover at least some of the very fundamental questions of the product definition, for example:
 * Problem
 * * for these users in that context, who are striving to achieve this goal 
 * * we fulfill that dream | enable this piece work | remove these snags
@@ -89,8 +90,8 @@ A story, as I'm using this term here, will cover at least some of the very funda
 * * the following points will make us loose sleep
 * * So, all considereed we will have it on the market by then and replace z in this way
 
-To evolve the story, it is not enough to just fill out e.g. a business model canvas or to create a storyboard. You must probe the market and get some more substantial evidence that the problem is relevant, the solution fits it, that you can create a market, and that your plan is sound.
-Meeting with users will give you much better understanding about the relevance of the problem and the fit of the solution. To do this, you will find a bunch of more or less complete sets of methods like design thinking, design sprint, user experience sketching, contextual design and more. Whatever the name, in the essence, they tell you to build a team that iteratively creates and evaluates solutions with users, picks the best ones until one solution really seems to fit the bill.
+To evolve the story, it is not enough to just fill out e.g. a business model canvas or to create a storyboard. You must probe the market and get some more substantial evidence. Is the problem relevant? Does the solution fits? Can you create a market? Is your plan sound?
+Meeting with users will give you much better understanding about the relevance of the problem and the fit of the solution. To do this, you will find a bunch of more or less complete sets of methods like design thinking, design sprint, user experience sketching, contextual design and more. Whatever the name, in the essence, they tell you to build a team that iteratively creates and evaluates solutions with users/customers, picks the best ones until one solution really seems to fit the bill.
 
 A few methods to use here:
 * UX sketches, physical mock-ups and paper prototypes
@@ -102,22 +103,22 @@ A few methods to use here:
 * Empathy Maps, Response Cards
 and more.
 
-There are also methods to co-create solution together with selected users. In such participatory workshops, usually the team chooses one aspect of the solution to discuss with users, creates simple building blocks and then gives them to users to work with. While a group of users work and discuss how to best solve the aspect with these building blocks, the team listens and observes and gains understanding about the different needs and possible solutions. The team can obviously also propose solutions and by that bring their creativity and design expertise into the workshop.
-This needs an example: To equip a police car, designers created card board models of the equipment to go into the car. They then took and old police car in a police station, their card board models and then asked a couple of police officers to place the equipment so it would really be best. By doing this, they learned a lot about placement options, constraints, real world issues and moments of life, the basic requirements, the ploice officers themselves and more.
-Look for these keywords to find more: Participatory design, co-creation, make space
+There are techniques to co-create solution together with selected users. In a typical participatory workshops the team chooses one aspect of the solution to discuss with users, creates simple building blocks and lets a group of users work with them. While they discuss how to best solve the aspect with these building blocks, the team listens and observes and gains understanding about the different needs and possible solutions. The team can obviously also propose solutions and by that bring their creativity and design expertise into the workshop.
+This needs an example: To equip a police car, designers created card board models of the equipment to go into the car. They then took and old police car in a police station, their card board models and then asked a couple of police officers to place the equipment so it would really be best. By doing this, they learned a lot about placement options, constraints, real world issues and moments of police life.
+Look for these keywords to find more: Participatory design, co-creation, make space.
 
 Things to be aware of
 * Business analysts, market researcher, UX professionals all talk to the users and collect information but with a different focus. They  reach different conclusions and if they do not align well, there will be trouble.
-* Really get creative with how you create prototype and test it with users. The prototype must allow to experience the future life with the product and it must be cheap to build. Usually it's a good idea to fake most of the interactive stuff by a person who plays the "computer". 
+* Really get creative with how you create prototypes and test them with users. Prototype should allow to experience the future life with the product and they should be quick and cheap to build. Usually it's a good idea to fake most of the interactive stuff by a person who plays the "computer". 
 * Try different variants, your first idea will not be the right.
-* Evaluate the solution against a relevant problems. Avoid letting users explore a prototype on their own or by artificial tasks. Invest into creating realistic tasks and scenarios. Ideally, users bring their own work and try to do this with your prototype.
+* Evaluate the solution against relevant problems. Avoid letting users explore a prototype on their own or by artificial tasks. Invest into creating realistic tasks and scenarios. Ideally, users bring their own work and try to do this with your prototype.
 
 While doing this, you can expect that the story gets sharper. You also learn a lot about users, their lives, their work and their dreams. 
 
 ### Todo 3 - Concept: Create a product concept.
 
-Once you really start developing the product, you will want to set a few fundamental corner stone of the solution, like information architecture, navigation, layouts and responsive stuff, key elements of the visual design, globalisation approaches, error handling approaches and more.
-In order to get to that you will again need to gather a lot of feedback and work together with potential users of your product. So you create something, evaluate it with users, you variate and iterate over it until you are sure enough you the concept basically holds once you work out the details.
+Once you really start developing the product, you will want to set a few fundamental cornerstones of the solution: information architecture, navigation, layouts and responsive stuff, key elements of the visual design, globalisation approaches, error handling approaches and more.
+In order to get to that you will need to gather a lot of feedback and work together with potential users of your product. So you create something, evaluate it with users, you variate and iterate over it until you are sure enough you the concept basically holds once you work out the details.
 
 Methods that help here are 
 * User Story Mapping, User Stories
@@ -133,12 +134,12 @@ Methods that help here are
 and more.
 
 Things to be aware of:
-* You cannot create a product concept without going into the details of the design. Take a few interesting key examples (key path scnearios) you must design for and create the concept based on them. Use additional scenarios to verify.
+* You cannot create a product concept without going into the details of the design. Take a few interesting key examples (key path scnearios) to design for and create the concept based on them. Use additional scenarios to verify.
 * If getting to users is cumbersome (it usually is), try the hallway to get a quick first feedback. Just put your drafty sketches on the wall, grab anyone available over the hall and let them give you feedback.
 * The first solution is usually not the best solution. So try different approaches. Involve others to point you to new approaches. Try the hallway first to do this.
 * Again evaluate the solution against relevant problems. Realistic tasks or even relevant tasks people brought with them is what you want to evaluate against. 
 
-From these activities you can expect to find the architecture of the user interface of your product. You also will learn a lot about users and about your story and you will need to create and update those artefacts as well.
+From these activities you can expect to find the architecture of the user interface of your product. You also will learn a lot about users and about your story.
 
 ### Todo 4 - Details: Work out the details an optimize them
 
@@ -156,12 +157,12 @@ Methods to use here include
 and more
 
 Things to be aware of:
-* When working out the details of the story again focus on the essence and try to find a simple solution to fulfill the need. Avoid implementing wireframes a UX professional created alone in his cubicle or a requirments a BA wrote done after listing to a stakeholder. Work as a team and dig into the story: what does the user want to achieve in this story and what is the best compromise to do so and what are we really going to build.
-* Don't forget to get some feedback. Wireframes or a quick interactive prototype are useful, here.
-* Once you've implemented a bigger story, let users do their work with the story. Thus either let them do their work on the test system or even release it to the general public, measure and get feedback.
+* When working out the details of the story focus the real needs and try to find the simple solution. Avoid implementing wireframes a UX professional created alone in his cubicle or a requirments a BA wrote after listening to a stakeholder. Work as a team and dig into the story: what does the user want to achieve in this story and what is the best compromise to do so and what should you therefore build.
+* Don't forget to get some feedback. Wireframes or a quick interactive prototype are useful here.
+* Once you've implemented a bigger story, let users do their work with the story. Provide a test system or even release it so you can measure and get feedback.
 * Setup a simple usability lab if you need to optimize specific aspects. Here users can work undisturbed and video recordings allow you to analyse the details of the interaction.
 * Not every function has the same importance or difficulty. Test and optimize only what really needs to be optimized.
-* Don't let users be the first to test. Create yourself some examples and play them through. You will find many quirks in your products just by simulating the users.
+* Don't let users be the first to test. Create yourself some examples and play them through. You will find many quirks in your product.
 * It usually takes some tweaking once you have implemented a story for the first time. So plan enough time to optimize interaction, phrasing, animations, performance and such things.
 
 ### Todo 1 - Understand: get inspired by life
@@ -170,7 +171,7 @@ Ok, I did put that point up already. But don't forget: once your product is up a
 
 ## Who should meet with users?
 
-Teams are quite creative when setting up who should meet with users and come up with many not so great solutions:
+The following list shows a few ways teams do today.
 1) The customer doesn't let us do it, so nobody does it.
 2) We assume the customer is doing it for us.
 3) We make the customer PO and he is doing it 
@@ -181,27 +182,25 @@ Teams are quite creative when setting up who should meet with users and come up 
 
 All of these approaches have the same drawback: the ones who are actually capable of creating the product have been blind-folded and have little idea for whom the product is, what they do with it and how these people experience it. They can only implement requirements as they are handed over and whatever they cannot understand they either have to make up on the way or ask those guys who say they know what the user need. Such products will suck.
 
-8) Let a UX person talk to the user
+So now to some more promising approaches.
 
-A better approach is to take a UX person into the project team to do it.UX professionals who know what they are doing do some things differently: they will do the Todos 1 to 4 above and even by themselves, if nobody else joins in, and try to communicate as much as they can about users to the other team members. Using this option, products definetely suck much less.
+8) Take a UX person into the team an let them talk to the user. The ones youo want in your team care about the Todos 1 to 4 above. Even by themselves, if nobody else joins in. And they will try to communicate as much as they can about users to the other team members. 
+Using this option, products definetely suck much less.
 However:
-* No UX professionals covers all 4 Todos completely. Some skills are always lacking.
+* No UX professionals can do all 4 Todos completely. Some skills are always lacking.
 * The UX professionals will become the single point of failure and the bottle neck in the team.
 * UX professionals want to make users happy and to create great experience. They tend to gold plate the solution.
-* UX professionals will not be able to communicate every necessairy detail to the other team members. Thus the other's are still partailly blind and when making key decisions.
+* UX professionals will not be able to communicate every necessairy detail to the other team members. Thus the other's are still partailly blind when making decisions.
 
-9) the agile team
-
-The approach that is really promising is to forget about job profiles, disciplines and fixed roles. You are one team and focus on creating the best possible solution. So you simply 
+9) Form an agile team. Forget about job profiles, disciplines and fixed roles. You are one team and focus on creating the best possible solution. So you simply 
 * look at who can and wants to contribute what and from the team and your work separation around these skills. 
 * sepearate work by user story rather than by discipline or job profile
 For this to work you
 * look for people skilled in several discplines to staff the project
 * use specialists sparingly
+This approach is very promising, if you can staff your team accordingly.
 
-10) Incorporate users into the team
-
-This approach is extremely worthwhile when your prodcut supports a very demanding job you will not be able to really grasp or do yourself. Having a couple of users right in your team to get quick feedback (similar to go over the hallway) is highly valuable. Don't forget that these users do not represent the whole user base and you still have to meet with real users. However fo rhte users in your team it is quite often quiten easy to involve their peers. 
+10) Incorporate users into the team. Having a couple of users right in your team to get quick feedback is perfect. Don't forget that these users do not represent the whole user base and you still have to meet with real users. This approach is especially worthwhile when your prodcut supports a very demanding job you will not be able to really grasp or do yourself. 
 
 ## Options on how to get to users
 
@@ -216,7 +215,8 @@ This approach is extremely worthwhile when your prodcut supports a very demandin
 9) For B2C companies: Establish a user pool you can draw upon for session. Be aware that theses users are usually locals and do not represent the whole world. Also you will have a bias to users willing to part of such a pool. 
 10) for B2C companies: Use recruiting companies to organize "users" from their pool. Needs a precise profile of whom you are looking for and has a bias towards people that are likely to let themselves recruite for testing purposes. 
 11) Open up your development to general public and let users join the discussion about what they need, give you feedback etc. using discussion boards, trello, jira, mural, slack, yammer or whatever else is relevant. This has a bias towards people that are more active and want to get involved. You can use such a platform to let users discuss and synchronize their needs.
-12) Create an MvP
+12) Create an MvP and gather feedback from your users.
+13) Install your development team right next to your users so you can just walk over and talk to them. There is no better way. However it is not feasible most of the time.
 
 ## Some process approaches we use
 
