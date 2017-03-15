@@ -1,38 +1,49 @@
-# meet with users
+# meet with users - often
 _Meeting with users, the more the better, is essential to create great products._
 
-Even though I - as a UX professional - must stress the importance of listenting to the users, I still have to admit that the statement is highly inaccurate and completely misleading. Because with just meeting users, nothing is achieved.
+Even though I - as a UX professional - must stress the importance of listenting to the users, I still have to admit that the above statement is inaccurate and misleading. With just meeting users nothing is achieved.
 
-##The less the development team understands what users will need the more the products they create suck
-So I should be more accurate and really point out the issue:
+Having started with saying that the title of the article I'm about to write is, well, basically, rubbish, I need to put up a real big headline to correct this:
+
+## We need to experience what users will do and what they will need and will expect from our products when creating them.
+
+But I don't want to hasten. I should start more slowly and mark the first big issue why we should meet with users:
 _We who develop a technical system are not like the users._
 
 This has two reasons:
 1. The more we are involved in developing the software the better is our mental model about the system and how the system is meant to be used. Somebody who had little or no involvment in development, has a completely different mental model and will want to do different things.
-2. Even in the cases, where we are users as well of the system we are developing, we are just a few of the users. The user base of a system has usually many more users with completely different needs, mental models and understanding than we.
+2. Even in the cases, where we actually are users, we are just some of them. The whole user base of a system has usually many more users and they have completely different needs and mental models than we.
 
 There are a couple of consequences:
-1. The needs we identify do not fully represent the needs of the whole user base.
+1. The needs we identify do not really represent the needs of the whole user base.
 2. The features and functions we envision are not the ones the users will really use.
 3. The priorities we give are not the priorities that our users will have.
 4. How we organize the user interfacae does not match the users' mental models and will not fit the users' tasks.
 5. How we design the details will not match the users' expectations.
 
-To put it bluntly:
+Or to but it bluntly:
 _the more we rely on our evaluation of the product we are creating, the more likely the product is going to suck_
 
-## By creating a product, we change what users need
-By the way, things are bit more interesting. What users really need changes constantly. And the most annoying part of this is, that we who create technical systems are one impportant driver of such change. The simple fact that we introduce new possibilities changes what people are doing, how they are doing it, what they trying to achieve and thus what they expect from the technology we provide.
+Because we need to understand what really matters and this is a feedback loop:
+_The less the development team understands what users need the more the products they create suck_
+
+By the way, things are bit more interesting. What users really need changes constantly. And it is most vexing for some of us (for others it is a fantastic opportunity) that we who create technical systems are one impportant driver of such change. The simple fact that we introduce new possibilities changes what people are doing, how they are doing it, what they trying to achieve and thus what they expect from the technology we provide. 
 
 So the conundrum to solve is:
-_In order to create great products, we have to anticipate what users will need once they adapt to the new technology we will provide._
+_In order to create great products, we have to anticipate what users will need once they adopted the new technology._
 
-And whenever you have an egg and chicken problem, the answer is evolution. So while we are creating and improving our products the stakeholders adapt to what they product offers them. And people can get quite creative and do stuff nobody every thought of doing with  it when developing the product. 
+And whenever you have an egg and chicken problem, the answer is evolution. So while we are creating and improving our products the stakeholders adapt to what they product offers them. 
+By the way, people can get quite creative and do stuff nobody every thought of doing wiht our products. If we can harness this creative power our products will rock the market.
 
-## We need to experience what users do and what they need and expect from a product
-In order to come up with great products we need to interact with stakeholders inlcuding users. There are four things to do:
-* Todo 1 -  Understand. Usually you look at today to understand users and the overall process around the part of the work/life we're going to support. We want to know the small really tough details and constraints of daily life. For this, we go to the users to learn from them. This will give us key context information and especialy inspire novel products and features.  
-* Todo 2 - Story. We also need to sharpen a story we identified. For this, we can create simple mock-ups and interactive sketches so we can let people experience the world of tomorrow and thus learn how this could change users' lives. This will focus us on the things that really matter and the solutions that are really worthwhile. Here we need a lot of creative power to enumerate and evaluate options.
+So finally, what I really should have said at the beginning instead of being inaccurate and misleading is somethink like the following (thanks to Bill Buxton for these words): 
+_In order to envision the future, we must have lived in it yesterday_
+And for living the future yesterday, we must meet with users. 
+
+## Four todos
+
+There are four todos in product development where meeting with users plays an important part:
+* Todo 1 -  Understand. It's worthwhile to look at today to understand users and the overall process around the part of the work/life a product is going to support. Look at the small really tough details and constraints of daily life. For this, go to the users to learn from them. This will give key context information and especialy inspire novel products and features.  
+* Todo 2 - Story. Great products really are about the story and this story needs to be sharp. For this, create simple mock-ups and interactive sketches, let people experience the world of tomorrow and thus learn how this could change users' lives. This puts the focus  on the things that really matter and the solutions that are really worthwhile. Here is a good place to let the creative power loose  to enumerate and evaluate options.
 * Todo 3 - Concept. We need to define the basic architecture of the UI. For this we create lo-fi prototypes and let users test these prototypes. We learn how to best structure the product in the user interface and how to achieve the desired emotional response. Here we need creativity and broad knowledge to create good options.
 * Todo 4 - Details. Working out the details so everything works smoothly is the daily work of the team. We use hifi prototyping to work out and test the details just before implementing them and the product increments for business walkthroughs, pilots, and usability tests in a lab to optimize the solution.   
 
