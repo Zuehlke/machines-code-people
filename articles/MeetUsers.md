@@ -47,7 +47,7 @@ There are four todos in product development where meeting with users is a must:
 * **Concept**. Great products have a sound architecture, also in the User Interface. Create lo-fi prototypes and let users test these prototypes to learn how to best structure the product in the user interface.
 * **Details**. Working out the details so everything works smoothly is the daily work of the team. Use lofi or hifi prototyping to do so and test the details before implementing them. Conduct business walkthroughs, pilots, and usability tests in a lab with the product increment to fine-tune the solution.
 
-I put some more details about he four todos (methods to meet with users plus a few things to be aware of) in the appendix.
+I put some more details about the four todos (methods to meet with users plus a few things to be aware of) in the appendix.
 
 A word or two of caution: 
 * The todos are not a sequence. You will work on all four todos in parallel. You will however experience a shift of focus while your product develops.
