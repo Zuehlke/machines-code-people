@@ -24,7 +24,7 @@ _What really matters: create products quickly and let users use them so you can 
 
 As theoretical background, I need to combine two elements on a time line: 
 
-![UCD cycle, layers and when to do what](./MeetUsers 01 UCD Theory.png)
+![UCD cycle, layers and when to do what](./MeetUsers UCD Theory.png)
 
 The UCD Cycle (User Centred Design Cylce) is probably self explanatory. It is the basic iteration principle and tells you to get to know context and users, create solutions, evaluate the solution against context and users, and learn from it. You do this cycle over and over again.
 Two of the three layers are probalby quite easy to understand as well. While you create the product, you will work on the conceptual level and you will work-out all the details so it really becomes a great experience using the product. The story is the product in a nutshell and tells what impact the product should create for whom and how. It is sometimes referred to as product vision. 
