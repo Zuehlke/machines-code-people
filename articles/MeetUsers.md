@@ -104,7 +104,7 @@ Things to be aware of:
 
 From these activities you can expect to find the architecture of the user interface of your product. You also will learn a lot about users, about your story and you will define many details of the product.
 
-### "Work out the details and fine-tune your solution
+### Work out the details and fine-tune your solution
 
 Whenever you need to implement a user story, you will also need to work-out the details on what exactly to do and how this piece fits in the overall product developed so far. So while you are tackling a story you also define the detailed interactions and visuals. Also in this step, user input is welcome. Therefore again some methods that help meeting with users: 
 * Hifi prototyping, Lofi prototyping
