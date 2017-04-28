@@ -1,45 +1,35 @@
 # meet with users - often
 _Meeting with users, the more the better, is essential to create great products._
 
-Even though I - as a UX professional - must stress the importance of listenting to the users, I still have to admit that the above statement is inaccurate and misleading. With just meeting users nothing is achieved.
+Even though – as a UX professional – I must stress the importance of meeting users, I have to admit that the title of this article is not exactly accurate and just meeting users is not really the point. Having revealed this, I should probably explain what really matters when meeting users and give some indication on how to do it. 
 
-Having started with saying that the title of the article I'm writing is, well, rubbish, I need to put up a real big headline to correct this:
+## what really matters
 
-## We need to experience what users will do and what they will need and will expect from our products when creating them.
+_Challenge #1: We who develop a technical system are not like the users._
 
-But I don't want to hasten. I should start more slowly and mark the first big issue why we should meet with users:
-_We who develop a technical system are not like the users._
+This has two notable reasons: (1) The more we are involved in the development the more elaborate is our mental model about the system and it is meant to be used. Someone with little or no involvment has a completely different model and will want to do different things. (2) Even when we are users, we are just some of them. There usually are many more users with quite different needs and mental models.
+It follows that, as developers of a system, we identify needs that do not really represent those of the whole user base and we derive functions that are not the ones the users will really use and we give priorities that do not matter overall and we create user interfaces that do not match the users tasks and expectations. 
 
-This has two notable points:
-1. The more we are involved in developing the software the better is our mental model about the system and how the system is meant to be used. Somebody who had little or no involvment in development, has a completely different mental model and will want to do different things.
-2. Even in the cases, where we actually are users, we are just some of them. The whole user base of a system has usually many more users and they have completely different needs and mental models than we.
+_Conclusion #1: the more we rely on our evaluation of the product we are creating, the more likely the product is going to suck_
 
-There are a couple of consequences:
-1. The needs we identify do not really represent the needs of the whole user base.
-2. The features and functions we envision are not the ones the users will really use.
-3. The priorities we give are not the priorities that our users will have.
-4. How we organize the user interfacae does not match the users' mental models and will not fit the users' tasks.
-5. How we design the details will not match the users' expectations.
+Things are even more interesting. What users really need changes constantly. And it is most vexing for some of us (for others it is a fantastic opportunity) that we who create technical systems drive change. Introducing new possibilities changes what people are doing, how they are doing it, what they trying to achieve and thus what they expect from the technology we provide. 
 
-Or to but it bluntly:
-_the more we rely on our evaluation of the product we are creating, the more likely the product is going to suck_
+_Challenge #2: a new product changes what people need from a product._
 
-Because we need to understand what really matters and this is a feedback loop:
-_The less a development team understands what users need the more the product they create sucks_
+The better we can anticipate the change, the better our products will meet the future needs. And to anticipate a change we have one option: we must create the solution, either as a mock, an MvP or even as a product and we must let users use them as realistically as possible. From this we can learn what the future could behold. 
 
-By the way, things are bit more interesting. What users really need changes constantly. And it is most vexing for some of us (for others it is a fantastic opportunity) that we who create technical systems are one impportant driver of such change. The simple fact that we introduce new possibilities changes what people are doing, how they are doing it, what they trying to achieve and thus what they expect from the technology we provide. 
+By the way, people can get quite creative and do stuff nobody every thought of doing with our products. If we can harness this creative power our products will rock the market. The key is to be one step ahead of the customers. So while they adapt to the new technology, you observe them, learn about their drivers, create new ideas and start the next cycle.
 
-So the conundrum to solve is:
-_In order to create great products, we have to anticipate what users will need once they adopted the new technology_
+_What really matters: create products quickly and let users use them so you can learn what will be important for your customers_
 
-And whenever you have an egg and chicken problem, the answer is evolution. So while we are creating and improving our products the stakeholders adapt to what the technology enables for them. 
-By the way, people can get quite creative and do stuff nobody every thought of doing wiht our products. If we can harness this creative power our products will rock the market.
+## A bit of theory on how to do it
 
-So finally, what I really should have said at the beginning is something like the following (many thanks to Bill Buxton): 
-_In order to envision the future, we must have lived in it yesterday_
-And for living the future yesterday, we must meet with users. 
+From the theoretical background, I need to combine two elements into one picture: 
 
-## Four todos
+
+
+
+
 
 There are four todos in product development where meeting with users is a must:
 * "Understand". It's worthwhile to look at today to understand users and the overall process around the part of the work/life a product is going to support. Look at the small really tough details and constraints of daily life. For this, go to the users to learn from them. This will give key context information and especialy inspire novel products and features.  
