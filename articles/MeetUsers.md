@@ -130,7 +130,7 @@ Very simple answer: the team. Not the BA, not the RE, not the PO, not the UX per
 Practice needs some compromises and UX skills are excellent assets in a team. But even if UX persons have the most exposure to users, do not let them have the sole contact. Always include other members of the team.
 If you don't care about the quality of your product, let a BA talk to users and let the BA hand the results over to an RE to write requirements who passes this document over to a UX person for some wireframes that will be coloured by a visual designer and then implemented by the UI developer while the architecture team provides the framework and the database gurus provide the tabes. This is a sure way to fail any product.
 
-## Options on how to get to users
+### Options on how to get to users
 Getting to users can be quite difficult, even though it's necessairy. Here a few ideas (including how not too meet user and still call it user-centric):
 1. Simulate and role-play user and do the tasks. Ok, not really users but at least you try to look through users glasses. Good enough for quick and dirty checking whether you actually support the whole process.
 2. Replace users with anybody over the hallway (hallway testing). Still not really users but at least people who are not expert on the system and will point out issues you have become blind to.
@@ -146,6 +146,6 @@ Getting to users can be quite difficult, even though it's necessairy. Here a few
 12. Create an MvP and gather feedback from your users. Excellent because you can get numbers with some relevance.
 13. Install your development team right next to your users so you can just walk over and talk to them. There is no better way. Sadly it is not feasible most of the time.
 
-# Need a final word?
+## Need a final word?
  
 Here it is, adapted from google: Focus the team on meeting with users and everything else follows.
