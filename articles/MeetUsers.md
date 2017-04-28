@@ -8,7 +8,7 @@ Even though – as a UX professional – I must stress the importance of meeting
 _Challenge #1: We who develop a technical system are not like the users._
 
 This has two notable reasons: (1) The more we are involved in the development the more elaborate is our mental model about the system and how it is meant to be used. Someone with no involvment has a completely different model and will want to do different things. (2) Even when we are users, we are just some of them. There usually are many more users with quite different needs and mental models.
-It follows that, as developers of a system, we identify needs that do not really represent those of the whole user base and we derive functions that are not the ones the users will really use and we give priorities that do not matter overall and we create user interfaces that do not match the users tasks and expectations. 
+It follows that, as developers of a system, we identify needs that do not represent those of the whole user base and derive functions users will not really use and set inadequate priorities and create user interfaces that do not match the users tasks and expectations. 
 
 _Conclusion #1: the more we rely on our evaluation of the product we are creating, the more likely the product is going to suck_
 
@@ -22,16 +22,16 @@ _What really matters: create products quickly and let users use them so you can 
 
 ## A Bit of Theory on How To Do It
 
-As theoretical background, I need to combine two elements into one picture: 
+As theoretical background, I need to combine two elements on a time line: 
 
 ![UCD cycle, layers and when to do what](./MeetUsers 01 UCD Theory.png)
 
-The UCD Cycle (User Centred Design Cylce) is probably self explanatory. It is the basic iteration principle and tells you to get to know context and users, create solutions, evaluate the solution against context and users, and learn from it.
-Two of the three layers are probalby quite easy to understand as well. While you create the product, you will work on the conceptual level and you will work-out all the details so it really becomes a great experience using the product. The story level is sometimes also referred to as product vision. It is the product in a nutshell and tells what impact the product should create for whom and how.
+The UCD Cycle (User Centred Design Cylce) is probably self explanatory. It is the basic iteration principle and tells you to get to know context and users, create solutions, evaluate the solution against context and users, and learn from it. You do this cycle over and over again.
+Two of the three layers are probalby quite easy to understand as well. While you create the product, you will work on the conceptual level and you will work-out all the details so it really becomes a great experience using the product. The story is the product in a nutshell and tells what impact the product should create for whom and how. It is sometimes referred to as product vision. 
 
 The interesting part is how you evolve a product from idea to retirement. Theory proposes to run quick UCD all along. The UCD cycles just change purpose and the character along the way. 
-Early on, you focus the cycles on getting a promising story. You do research and create simple "prototypes" of the story. While the story gets more and more stable some big questions will need answering and the UCD cycle is about testing hypothesis. You create sketchy prototypes or "experience sketches" with a narrow focus so you can make the important conceptual decisions. Early adopters asking when the product is ready are a good sign to change the character again: Now its about scoping the first release and getting the concept right. To do this you will work out some key scenarios in detail, explore more alternatives of the basic design and test these thoroughly. Such activities flow more on more into working and optimizing the details with usability and user experience testing so your first release is going to be just great. 
-Once the release is on the market things get confusing as you need to juggle three streams: The first stream to optimize the details based on real life feedback, the second stream to enhance the product with other features and the third stream to identify completely new ideas to launch the next big product.  
+Early on, you focus the cycles on getting a promising story. You do research and create simple "prototypes" of the story. While the story gets more and more stable some big questions will need answering and the UCD cycle is about testing hypothesis. You create sketchy prototypes or "experience sketches" with a narrow focus so you can make the important conceptual decisions. Early adopters asking when the product is ready are a good sign to change the character again: Now its about scoping the first release and getting the concept right. To do this you will work out some key scenarios in detail, explore more alternatives of the basic design and test these thoroughly. Such activities flow more on more into working and optimizing the details with user experience testing so your first release is going to be just great. 
+Once the release is on the market things get complicated as you need to juggle three streams: The first stream to optimize the details based on real life feedback, the second stream to enhance the product with other features and the third stream to identify completely new ideas to launch the next big product.  
 
 ## From the Trenches 
 
@@ -56,12 +56,12 @@ Things to be aware of
 * You need to consolidate your learnings over several participants: a big wall and sticky notes do the trick.
 * Be sensitive to commonalities and differences between the different persons you talked to and work them out. There is no average user.
 
-As a result of such acitivities you can expect to have much deeper knowledge about users, their life, their work and their dreams as well a load of ideas on how to achieve a dream or two. 
+As a result of such acitivities you can expect to have much deeper knowledge about users, their life, their work and their dreams as well as loads of ideas on how to achieve a dream or two. 
 
 ### Evolve the product story
 
-A product story touches at least some of the very fundamental questions of the product definition. I.e. the problem (for whom, what situaions, what impact), the solution (what product and what it replaces), the market (size, revenue-cost-structure, players) and the plan (main features, architecture, migration strategy, team, time and money needed).
-Just filling out a lean canvas or creating a storyboard is not enough to evolve the product story. When we do this we must probe the market and get some more substantial evidence. Is the problem relevant? Does the solution fit? Can we create a market?
+A product story touches at least some of the very fundamental questions of the product definition. I.e. the problem (for whom, what situations, what impact), the solution (what product and what it replaces), the market (size, revenue-cost-structure, players) and the plan (main features, architecture, migration strategy, team, time and money needed).
+Just filling out a lean canvas or creating a storyboard is not enough to evolve the product story. When we do this we must probe the users and get some more substantial evidence. Is the problem relevant? Does the solution fit? 
 There are a bunch of more or less complete method frameworks like design thinking, design sprint, user experience sketching, contextual design, lean startup and more. Whatever the name, in the essence, they tell to build a team that iteratively creates and evaluates solutions with users/customers, learn from the feedback about problem, solution and product story.
 
 A few methods to use here for meeting users:
@@ -71,7 +71,7 @@ A few methods to use here for meeting users:
 * Hallway testing, UX walkthroughs
 * Wizard of Oz testing
 * UX questionnaires, metrics and benchmarks
-* Empathy Maps, Response Cards
+* Empathy maps, Response cards
 
 There are also techniques to co-create solutions together with selected users, making the feedback loop even faster. In a typical participatory session the team chooses one aspect of the solution to discuss with users, creates simple building blocks and lets a group of users work with them. While users discuss how to best solve the aspect, the team listens and observes and gains understanding about the different needs and possible solutions. The team can obviously also propose solutions and by that bring their creativity and design expertise into the workshop. Look for these keywords to find more: Participatory design, co-creation, make space.
 This needs an example: To equip a police car, designers created card board models of the equipment to go into the car. They then took and old police car in a police station, their card board models and then asked a couple of police officers to place the equipment so it would really be best. By doing this, they learned a lot about placement options, constraints, real world issues and moments of police life.
@@ -128,11 +128,11 @@ Things to be aware of:
 
 Very simple answer: the team. Not the BA, not the RE, not the PO, not the UX person. You cannot delegate the responsibility for "Great Product" to one person. If the team does not have a sound common understanding of what really is important for users those with little understanding will introduce small glitches and big blunders that need additional work. 
 Practice needs some compromises and UX skills are excellent assets in a team. But even if UX persons have the most exposure to users, do not let them have the sole contact. Always include other members of the team.
-If you don't care about the quality of your product, let a BA talk to users and let the BA hand the results over to an RE to write requirements who passes this document over to a UX person for some wireframes that will be coloured by a visual designer and then implemented by the UI developer while the architecture team provides the framework and the database gurus provide the tabes. This is a sure way to fail any product.
+If you don't care about the quality of your product, let a BA talk to users and let the BA hand the results over to an RE to write requirements who passes this document over to a UX person for some wireframes that will be coloured by a visual designer and then implemented by the UI developer while the architecture team provides the framework and the database gurus provide the tables. This is a sure way to product failure.
 
 ### Options on how to get to users
 Getting to users can be quite difficult, even though it's necessairy. Here a few ideas (including how not too meet user and still call it user-centric):
-1. Simulate and role-play user and do the tasks. Ok, not really users but at least you try to look through users glasses. Good enough for quick and dirty checking whether you actually support the whole process.
+1. Simulate users, i.e. put yourself. Ok, not really users but at least you try to look through users glasses. Good enough for quick and dirty checking whether you actually support the whole process.
 2. Replace users with anybody over the hallway (hallway testing). Still not really users but at least people who are not expert on the system and will point out issues you have become blind to.
 3. Replace users by people who know the users: Trainers, retailers, support, service engineers and similar. Even though they are not users, they may have good insights about users. 
 4. Do informal meetings and use your network to reach users. Easy way of getting access to users for a short session. Obviously needs a network.
