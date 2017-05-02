@@ -7,7 +7,7 @@ Even though – as a UX professional – I must stress the importance of meeting
 
 _Challenge #1: We who develop a technical system are not like the users._
 
-This has two notable reasons: (1) The more we are involved in the development the more elaborate is our mental model about the system and how it is meant to be used. Someone with no involvment has a completely different model and will want to do different things. (2) Even when we are users, we are just some of them. There usually are many more users with quite different needs and mental models.
+This has two notable reasons: (1) The more we are involved in the development the more elaborate is our mental model about the system and how the system is meant to be used. Someone with no involvment has a completely different model and will want to do different things. (2) Even when we are users, we are just some of them. There usually are many more users with quite different needs and mental models.
 It follows that, as developers of a system, we identify needs that do not represent those of the whole user base and derive functions users will not really use and set inadequate priorities and create user interfaces that do not match the users tasks and expectations. 
 
 _Conclusion #1: the more we rely on our evaluation of the product we are creating, the more likely the product is going to suck_
