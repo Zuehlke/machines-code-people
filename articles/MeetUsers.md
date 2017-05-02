@@ -16,7 +16,7 @@ Things are even more interesting. What users really need changes constantly. And
 
 _Challenge #2: a new product changes what people need from a product._
 
-The better we can anticipate the change, the better our products will meet the future needs. And to anticipate a change we have one option: we must create the solution, either as a mock, an MvP or even as a product and we must let users use them as realistically as possible. From this we can learn what the future could behold. By the way, people can get quite creative and do stuff nobody every thought of doing with our products. If we can harness this creative power our products will rock the market. The key is to be one step ahead of the customers. So while they adapt to the new technology, you observe them, learn about their drivers, create new ideas and start the next cycle.
+The better we can anticipate the change, the better our products will meet the future needs. And to anticipate a change we have one option: we must create the solution, either as a mock, an MvP or even as a product and we must let users use them as realistically as possible. From this we can learn what the future could behold. By the way, people can get quite creative and do stuff nobody every thought of doing with our products. If we can harness this creative power our products will rock the market. The key is to be one step ahead of the customers. So while they adapt to the new technology, you observe them, learn about their life, create new ideas and start the next cycle.
 
 _What really matters: create products quickly and let users use them so you can learn what will be important for your customers_
 
