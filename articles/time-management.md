@@ -13,14 +13,14 @@ There are a lot techniques available - for our daily work I recommend to have a 
 * Personal Kanban
 * Pomodoro Technique
 
-Getting Things Done provides a comprehensive way of sorting all incoming stuff into various buckets like a waiting list, calendar entries, archive or even the trash. I never felt that I had so much stuff to organise so I never applied the technique. Reading through the documentation gives you some good hints how to challenge incoming stuff though:
+**Getting Things Done** provides a comprehensive way of sorting all incoming stuff into various buckets like a waiting list, calendar entries, archive or even the trash. I never felt that I had so much stuff to organise so I never applied the technique. Reading through the documentation gives you some good hints how to challenge incoming stuff though:
 * Is the stuff actionable at all? If not, get rid of it.
 * What is the concrete next action?
 * Can it be done in two minutes? If yes, do it right away.
 
-Personal Kanban is an adoption of the Kanban method for your personal use. You basically visualize all your work on the board, limit the work in progress and focus on the taks you have chosen. I really like having a Personal Kanban board in our kitchen at home, although it is more of a family Kanban there.
+**Personal Kanban** is an adoption of the Kanban method for your personal use. You basically visualize all your work on the board, limit the work in progress and focus on the taks you have chosen. I really like having a Personal Kanban board in our kitchen at home, although it is more of a family Kanban there.
 
-My favourite is, as you can guess, the Pomodoro Technique. It takes a "pomodoro" (italian for tomato) as unit of work. A pomodoro is 25 minutes. The technique consists - among other things - of five steps:
+My favourite is, as you can guess, the **Pomodoro Technique**. It takes a "pomodoro" (italian for tomato) as unit of work. A pomodoro is 25 minutes. The technique consists - among other things - of five steps:
 1. Plan your work: What will you do today? What is your focus during the next pomodoro?
 2. Start the pomodoro, for example by setting a kitchen timer to 25 minutes.
 3. Work on a single task you planned until the pomodoro is over.
