@@ -9,18 +9,21 @@ So you take a task from the board, work on it from A to Z and on nothing else. S
 Unlike people who perform at their best when being a "firefighter", I do not like this mode of work. But what can you do about it? Most teams use a regular meeting to improve the way how the team works together. Some things can be achieved here, but on a personal level, you will still have to find a way to set the focus on and to deal with interuptions. This is where personal time management techniques step in.
 
 There are a lot of techniques available - I recommend to have a look at the following three:
-* Getting Things Done (GTD)
-* Personal Kanban
-* Pomodoro Technique
 
-**Getting Things Done** provides a comprehensive way of sorting all incoming stuff into various buckets like a waiting list, a calendar, an archive or even the trash. I never felt that I had so much stuff to organise so I never applied the technique. Reading through the documentation gives you some good hints how to challenge incoming stuff though:
+## Getting Things Done
+
+Gettings Things Done provides a comprehensive way of sorting all incoming stuff into various buckets like a waiting list, a calendar, an archive or even the trash. I never felt that I had so much stuff to organise so I never applied the technique. Reading through the documentation gives you some good hints how to challenge incoming stuff though:
 * Is the stuff actionable at all? If not, get rid of it.
 * What is the concrete next action?
 * Can it be done in two minutes? If yes, do it right away.
 
-**Personal Kanban** is an adoption of the Kanban method for your personal use. You basically visualize all your work on the board, limit the work in progress and focus on the taks you have chosen. I really like having a Personal Kanban board in our kitchen at home, although it is more of a family Kanban there.
+## Personal Kanban 
 
-My favourite is, as you can guess, the **Pomodoro Technique**. It takes a "pomodoro" (italian for tomato) as unit of work. The technique consists - among other things - of five steps:
+Personal Kanban is an adoption of the Kanban method for your personal use. You basically visualize all your work on the board, limit the work in progress and focus on the taks you have chosen. I really like having a Personal Kanban board in our kitchen at home, although it is more of a family Kanban there.
+
+## Pomodoro Technique
+
+The Pomodoro Technique is, as you can guess, my favourite. It takes a "pomodoro" (italian for tomato) as unit of work. The technique consists - among other things - of five steps:
 1. Plan your work: What will you do today? What is your focus during the next pomodoro?
 2. Start the pomodoro, for example by setting a kitchen timer to 25 minutes.
 3. Work on a single task you planned until the pomodoro (25 minutes) is over.
