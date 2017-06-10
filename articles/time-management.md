@@ -23,7 +23,9 @@ Personal Kanban is an adoption of the Kanban method for your personal use. You b
 
 ## Pomodoro Technique
 
-The Pomodoro Technique is, as you can guess, my favourite. It takes a "pomodoro" (italian for tomato) as unit of work. The technique consists - among other things - of five steps:
+The Pomodoro Technique is, as you can guess, my favourite. It takes a "pomodoro" as unit of work. Pomodoro is Italian for tomato and the techniques name is inspired by these tomato-shaped kitchen timers. 
+
+The technique consists - among other things - of five steps:
 1. Plan your work: What will you do today? What is your focus during the next pomodoro?
 2. Start the pomodoro, for example by setting a kitchen timer to 25 minutes.
 3. Work on a single task you planned until the pomodoro (25 minutes) is over.
