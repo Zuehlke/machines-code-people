@@ -2,7 +2,7 @@
 authorName: Christian Abegg
 authorGithubUsername: abeggchr
 ---
-# Start using a time management technique today
+# Start Using a Time Management Technique Today
 
 So you take a task from the board, work on it from A to Z and on nothing else. Sounds familiar? I mainly know this situation theoretically. In real life there is always some interruption like a review to be conducted, a bug to be analysed or a phone call to be answered. And having the smartphone laying around vibrating with the latest funny pictures on WhatsApp doesn't help either. Even though we use a prioritized list of work items in our teams, my work as a developer is far away from being focussed on a single task. 
 
