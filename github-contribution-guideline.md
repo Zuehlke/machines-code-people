@@ -67,17 +67,20 @@ We are using this Git repository, so contributing an article is as easy as contr
 
 If this sounds complicated to you, just carefully follow these very easy steps to create a new article directly on the github web page:
 
-  1. Use this link to [create new article file in articles directory on a fork](https://github.com/Zuehlke/zuehlke-book/new/develop/articles)
+  1. Use this link to [fork the Zuehlke/zuehlke-book repository](https://github.com/Zuehlke/zuehlke-book/fork).
 
-  2. Enter a unique name for your article file, in kebap style, Example: `my-funny-article.md`
-    
-  3. Copy content of [Article Example as template to start with](https://raw.githubusercontent.com/Zuehlke/zuehlke-book/develop/articles/_example.md).
-    
-  6. Adjust `authorName` and `authorGithubUsername` at the top of the file
-    
-  7. Commit the new file: Please use the issue number prefixed with `#` in the commit comment, before submitting the new file, e.g. `#15 initial version of My Funny Article`.
+  2. Navigate to the `articles` folder in your forked repository. The URL looks something like:
+  https://github.com/{username}/zuehlke-book/tree/develop/articles
 
-You can now continue to work on your article incrementally directly in your fork. If you prefer your own text editor: feel free to use your own "clone-edit-commit-push"- workflow with your local git client.
+  3. Enter a unique name for your article file followed by the *.md file extension. Example: `my-funny-article.md` (can be changed later)
+
+  4. Copy the content of [Article Example as template to start with](https://raw.githubusercontent.com/Zuehlke/zuehlke-book/develop/articles/_example.md) into the file
+    
+  5. Adjust `authorName` and `authorGithubUsername` at the top of the file
+    
+  6. Commit the new file
+
+Congratulations, you have created the article file in your repository! You can now continue to work on your article incrementally directly in GitHub. If you prefer your own text editor: feel free to use your own "clone-edit-commit-push"- workflow with your local git client.
 
 Please apply the following formal rules:
 

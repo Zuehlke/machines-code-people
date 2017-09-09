@@ -2,7 +2,7 @@
 
 ## Vision
 
-We create a collection of articles containing advices we'd like to share with our collegues at Zühlke and with the world of Engineering in general (e.g. potential new colleagues and customers).
+We create a **collection of articles** containing advices we'd like to share with our collegues at Zühlke and with the world of Engineering in general (e.g. potential new colleagues and customers).
 
 We write for all engineers at Zühlke and outside of Zühlke - from professional engineers to distinguished consultants - and from future engineers to alumnis.
 
@@ -10,15 +10,15 @@ Through our articles, the Zühlke culture manifests itself: they contain practic
 
 ## How to Contribute
 
-1. Announce an article by opening an [Issue in our Backlog](https://github.com/Zuehlke/zuehlke-book/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E).  
+1. Announce an article by opening an [Issue in our Backlog](https://github.com/Zuehlke/zuehlke-book/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E).
 
 2. Write the article
 
 3. Get it reviewed and published
 
-To contribute follow one of our two contribution guidelines: 
+Follow one of our two contribution guidelines to contribute your article:
 
-1. The [GitHub Contribution Guidelines](./github-contribution-guideline.md) is the preferred choice. It ensures a seamless process using Git and GitHub.
+1. The [GitHub Contribution Guidelines](./github-contribution-guideline.md) is the preferred choice. It ensures a seamless process using Git and GitHub tooling.
 
 2. The [General Contribution Guideline](./general-contribution-guideline.md) is your choice you prefer to work independently from GitHub as far as possible.
 
