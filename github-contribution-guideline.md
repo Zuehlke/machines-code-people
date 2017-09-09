@@ -95,15 +95,19 @@ Please note that we are using a public repository - everything you commit can be
 
 To get your article reviewed you have can simply send the URL of your forked repository to a reviewer.
 
-If you'd like to use the more advanced review features Github you can directly skip to the next chapter.
+If you'd like to use the review features of Github you can directly skip to the next chapter.
 
 ### Publish 
 
 To get your article published you have to go through this review and publishing process:
 
-1. Open a pull request with your article to get it reviewed.
+1. Open a pull request with your article to get it reviewed. 
 
-2. Find some colleagues (at least one!) that will review your article and assign him to the Pull Request.
+   Look out for the "New Pull Request" button. The base fork is "Zuehlke/zuehlke-book" and the head fork is "{you}/zuehlke-book".
+
+   Use the issue number of your article prefixed with `#`in the pull request title
+
+2. Find some colleagues (at least one!) that will review your article and assign him to the pull request.
 
 3. As a reviewer you can use [GitHubs Review Feature](https://help.github.com/articles/about-pull-request-reviews/) to give feedback
 
