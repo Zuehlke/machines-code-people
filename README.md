@@ -1,16 +1,40 @@
-# zuehlke-book
+# Zühlke Book
 
-Open Source Book about practicaly proven concepts, best practices, cultural philosophies and great ideas that we use in our daily work in Software Engineering Projects at Zühlke.
+This is still a working title - ideas for better titles appreciated: see [Find a title](https://github.com/Zuehlke/zuehlke-book/issues/14).
 
-CURRENT STATUS: *We are starting with a pilot and are currently setting up the tooling. We are not yet ready for contributions.*
+*CURRENT STATUS:  
+This project is still in progress to setup, content is not yet ready for publishing, but first pilot articles can be contributed.*
+
+## TLDR - Basic Process to Contribute
+
+Contribute to this collection of articles and share your most valued experiences:
+
+1. Propose a new article by opening an [Issue in our Backlog](https://github.com/Zuehlke/zuehlke-book/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E).  
+Please check before that there is no similar article yet in the [Backlog](https://github.com/Zuehlke/zuehlke-book/issues?q=is%3Aopen+is%3Aissue+label%3Aarticle).
+
+2. Create a new article file `/articles/my-article-title.md` in a fork of this repository:  
+ [You can simply use this link](https://github.com/Zuehlke/zuehlke-book/new/develop/articles).
+
+3. Use content of [Example Article as Template](https://raw.githubusercontent.com/Zuehlke/zuehlke-book/master/articles/_example.md) to write your article.
+
+4. Link your article in the `/SUMMARY.md` file on your fork.
+
+5. Create a pull request to get your article reviewed.
+
+6. Assign it to one of the [Lead Authors](#lead-authors) for publishing.
+
+*Not experienced with using git or github or markdown syntax or having problems?*  
+Just read our more detailed [Contribution Guide](#contribution-guide) for how to work with git and this repo or contact one of the [Lead Authors](#lead-authors) in case of problems to help you.
+
+In any case we recommend to follow all our detailed guidelines in this readme file.
 
 ## Vision
 
-We create a collection of articles containing advices we'd like to share with our collegues at Zühlke and with the world of Software Engineering in general (e.g. potential new colleagues and customers).
+We create a collection of articles containing advices we'd like to share with our collegues at Zühlke and with the world of Engineering in general (e.g. potential new colleagues and customers).
 
-We write for all software engineers at Zühlke and outside of Zühlke - from professional engineers to distinguished consultants - and from future engineers to alumnis.
+We write for all engineers at Zühlke and outside of Zühlke - from professional engineers to distinguished consultants - and from future engineers to alumnis.
 
-Through our articles, the Zühlke culture manifests itself: they are technically interesting, they motivate you to reflect about the work and they encourage you to share your knowlege and experiences. 
+Through our articles, the Zühlke culture manifests itself: they contain practicaly proven concepts, best practices, cultural philosophies and great ides, they are technically interesting, they motivate you to reflect about the work and they encourage you to share your knowlege and experiences. 
 
 ## Lead Authors
 
@@ -18,102 +42,136 @@ The following lead authors are responsible to create, organize, administrate and
 
 * Christian Abegg (@abeggchr)
 * Rolf Bruderer (@bruderol)
-* maybe more (to be defined)
+* maybe more later (to be defined)
 
 You can contact them if you need help to get your contribution into this book.
 
 ## Contribution Guide
 
-This section describes the process and guidelines to follow for contributing an article. Please read and follow it carefully.
+This section describes the process and guidelines to follow for contributing an article in all details with additional explanations. Please read and follow it carefully.
 
+### Prerequisites
+
+1. Get a Github Account if you not yet have one
+   
+2. Make sure you are properly registered as a public member of the "Zühlke Github Community":
+    * Follow these instructions: https://github.com/Zuehlke/core/issues/6
+    * If you can not access this issue: 
+      * send your github username to one of the admins, e.g. Rolf Bruderer
+      * after you received the invitation, accept it
+      * then proceed as described on https://github.com/Zuehlke/core/issues/6
+      
+    
 ### Propose and Discuss a New Article
 
-1. **Check for duplicates:** Is there already an article about your topic?  
-   * Please check our backlog of articles whether there is already an article or was planned already: https://github.com/Zuehlke/zuehlke-book/issues?q=is%3Aissue+label%3Aarticle
-   * If there is already an article planned, you can contact the author and find a solution (leave the subject to the author, offer your help as reviewer or co-author, take the subject over, ...). 
+1. **Check for Duplicates:** Is there already an article about your topic?
+  
+   * Please check our [Backlog of Articles](https://github.com/Zuehlke/zuehlke-book/issues?q=is%3Aissue+label%3Aarticle) whether there is already an article existing or planned for similar topic. 
+  
+   * If there is already a similar article, you can contact the author and find a solution (leave the subject to the author, offer your help as reviewer or co-author, take the subject over, or write a second article in response or extension to the first article, ...). 
    
-2. **Propose a topic:**
-   * Open an issue: https://github.com/Zuehlke/zuehlke-book/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E
+2. **Propose a Topic:**
+  
+   * Open a [New Issue for your Article](https://github.com/Zuehlke/zuehlke-book/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E)
+  
    * Describe roughly the idea you have in mind, what the article should be about, such that others can challenge or discuss about it.
+  
    * Assign yourself or the ones that you want to nominate to write about this topic to the issue.
 
 3. **Discuss about your idea:** 
+  
    * Start to discuss with your colleagues, maybe they have some valuable input, before you start to write.
+  
    * Discussion can be done directly on the issue, as comments.
+  
    * Sometimes it might be a good idea to put the article idea into yammer for this purpose.
 
 ### Add the Article
 
-We are using this Git repository, so contributing an article is as easy as contributing source code in any project.
+We are using this Git repository, so contributing an article is as easy as contributing source code in any project. Every article will be written in your personal fork of the repository as a simple markdown (*.md) file and reviewed and published by using Pull Requests. 
 
-Every article is writen in a feature branch inside this repository as a simple markdown file, as follows:
+If this sounds complicated to you, just carefully follow these very easy steps to create a new article directly on the github web page:
 
-1. Fork this repository
-2. Create a new feature branch for your article with following naming scheme: `feature/#<issue-number>-<title> (so e.g. `feature/#128-test-driven-requirements-engineering` just as an example)
-3. Copy the template file `/articles/template/template.md` to the articles sub folder where your article belongs under a meaningful name (e.g. `articles/testing/requirements-driven-test-engineering.md`)
-     * Adjust `title`, `author` and `authorEmail` inside the copied markdown file
-     * TODO is authorEmail really needed? Shouldnt we use just the github accounts for communication?
-     * TODO to be discussed: maybe some subfolders for common major chapter topics might make sense? As proposed in current example above, what you think about this? 
-4. Link your article in the SUMMARY.md file in an appropriate place.
-5. Commit your first draft and push to your feature branch
-6. Work on your article incrementaly (see also [Write the Article](#write-the-article) below)  and do more commits and pushes (this might be helpful also if you work with colleagues on the article or to get some early feedback).
-7. See later: how to get your article reviewed and merged/published
+  1. Use this link to [create new article file in articles directory on a fork](https://github.com/Zuehlke/zuehlke-book/new/develop/articles)
 
-If you are not familiar with using git or github then just contact one of the [Lead Authors](#lead-authors) for help.
+  2. Enter a unique name for your article file, in kebap style, Example: `my-funny-article.md`
+    
+  3. Copy content of [Article Example as template to start with](https://raw.githubusercontent.com/Zuehlke/zuehlke-book/develop/articles/_example.md).
+    
+  4. Write initial article version (no worries, it does not have to be perfect or finished yet!).
+    
+  5. Adjust `authorName` and `authorGithubUsername` at the top of the file
+    
+  6. Commit the new file: Please use the issue number prefixed with `#` in the commit comment, before submitting the new file, e.g. `#15 initial version of My Funny Article`.
+    
+  7. Submit the new article as a pull request, such that others can already see your draft and could start to give feedback on it: again use the issue number of your article prefixed with `#` and followed by the article name as a name for the pull request, e.g. `#15 My Funny Article`. 
+  
+  8. Continue to work on your article incrementally on your fork, as described in next section: [Write the Article](#write-the-article).
+
+If you prefer your own text editor: feel free to use your own "clone-edit-commit-push"- workflow with your local git client.
 
 ### Write the Article
 
-Write your article in your article's markdown file using the Markdown syntax. The syntax used is similar to the [GitHub Flavored Markdown syntax](https://guides.github.com/features/mastering-markdown/).
+You can work on your article in your personal forked repo, which you will find in your personal github repositories after you followed the steps as described in [Add the Article](#add-the-article).
 
-Your article should follow the following conventions:
+**How to finalize your article:**
+
+  * Go to your forked repo and continue to edit your article file in directory `/articles`.
+
+  * Use [GitHub Flavored Markdown Syntax](https://guides.github.com/features/mastering-markdown/) in the markdown file.
+
+
+  * In all your commits you should use the issue number of your article prefixed with `#` .  
+   Example: `#15 add article to Table of Content`.
+      
+  * Edit the `/SUMMARY.md` file on your fork to list and link your article in the Table of Content.
+
+**Conventions / Guidelines for Article Content:**
+
 * written in English
-* short enough to be read in 10 minutes (minimum chars: ..., maximum chars: ...)
-* reflects on a single subject only (better make several articles, if you have too much material / ideas to write about)
-* matches our [Vision](#vision): it is about practicaly proven concepts, best practices, cultural philosophies or great ideas that we use in our daily work in Software Engineering Projects at Zühlke.
-* the subject is related to our work and the advice concrete enough to consider.
-* the subject is something you have experience on in some real projects and not just theoretical ideas
 
-~Replace the `author.jpg` image with an image of you. The image must be a quadratic *.jpg file and it should be in high resolution~
-TODO
-I think the last point about profile pictures is not needed, we can use the github profile pictures, and everybody is just responsible to set a useful github profile picture into his profile.
-Later when we really make a printed form, we can check to use better pictures, if this is not good enough, but for a start I vote to go with this, to not loose time with profile pictures in the start.
+* short enough to be read in 10 minutes: size should be less than 2 A4 pages long in printout PDF version.
+
+* reflects on a single subject only (better make several articles, if you have too much material / ideas to write about)
+
+* matches our [Vision](#vision): it is about practicaly proven concepts, best practices, cultural philosophies or great ideas that we use in our daily work in Software Engineering Projects at Zühlke.
+
+* the subject is related to our work and the advice concrete enough to consider.
+
+* the subject is something you have experience on in some real projects and not just theoretical ideas
 
 ### Review and Publish
 
 To get your article published you have to go through this review and publishing process:
 
-1. We recommend to get feedback as early as possible. So better not hesitate to ask colleagues for feedback as early as possible.
-2. When you think your article is ready to be published then make a Pull Request.
-3. Find some colleagues (at least one!) that will review your article and assign him to the Pull Request.
-4. Also at least one of the [Lead Authors](#lead-authors) will review your article.
-5. Your colleagues will review the Pull Request and maybe give you some feedback (comments). Take the feedback serious, discuss with them and do some corrections or improvements, where needed.
-6. One of the [Lead Authors](#lead-authors) will finally merge your pull request, when it is good to be published.
-7. Once published, you can still correct or improve it, by doing new pull requests from the feature branch.
-8. Do not forget to close the issue of your article, once it is published.
+1. Open a pull request with your article to get it reviewed and receive and discuss feedback (if not already done right from the start when you added the article, which we recommend to get feedback as early as possible).
 
-### Quality Control
+2. Find some colleagues (at least one!) that will review your article and assign him to the Pull Request.
 
-TODO Maybe rename to "Oppinionated Articles and Controversial Discussions" ??
+3. Assign your Pull Request to one of the [Lead Authors](#lead-authors) for final review and publication.
 
-If you find an article in progress too opinionated, then ...
+4. Your colleagues will review the Pull Request and maybe give you some feedback (comments). Take the feedback serious, discuss with them and do some corrections or improvements, where needed.
 
-* Do not forget this is an open community and that we should respect all other oppinions and be open for discussion about our ideas with each other in a resspectful kind. This is also what we want to advertise in this book, that we as Zühlke are open for our colleagues ideas and oppinions and value each other, even in controversial discussions.
-* Do not hesitate to contact the author and discuss with him (e.g. on the issue of the article or for more contraversal discussions maybe face to face or via non-public communication channels)
+5. The assigned lead author will finally merge your pull request, when all the review comments are resolved.
+
+6. Once published, you can still correct or improve it, by doing new pull requests from your fork of the repository.
+
+7. Do not forget to close the issue of your article, once it is published.
+
+Althought most of the authors are not native English speakers, there is currently no translation service or lectorate foreseen.
+
+### Oppinionated Articles and Controversial Discussions
+
+If you find an article in progress too opinionated or controversial, then ...
+
+* Do not forget this is an open community and that we should respect all other oppinions and be open for discussion about our ideas with each other in a resspectful kind. This is also what we want to advertise in this book, that we as Zühlke are open for our colleagues ideas and opinions and value each other, even in controversial discussions.
+* Do not hesitate to contact the author and discuss with him (e.g. on the issue of the article or for more controversial discussions maybe better face to face or via non-public communication channels)
 * Do not forget that the original author was maybe writing the article with another context in mind.
-* Consider to plan and write a counter article to relativate the original article or add your own view on it.
+* Consider to plan and write a counter article to pick up the point where you disagree with the original article or add your own view or aspect concerning that topic.
+* We motivate to also write about controversial topics and in some cases it might even make sense to have two articles, one with the arguments pro, another with the arguments contra. See also following example: in the book "Lessons Learned in Software Testing" there are two articles, one that recommends using the "IEEE-829-Standard" and right on the next page there is the next article that recommends to not use this standard (this was mentioned in https://www.heise.de/developer/artikel/Neuer-Test-Standard-ISO-29119-pro-und-contra-2429610.html).
+* If you can not agree on a topic and there is a conflict that you think needs some help with resolution, you can contact the [Lead Authors](#lead-authors), they will try to moderate in the conflict situation and help you to decide how to proceed with the article(s) in question.
 * Also relax and bare in mind that not all articles might find place in a printed edition of this collection.
-
-Lectorate ?
-
-TODO
-define more quality control recommendations? or what you mean with "Lectorate"? Maybe we should list that the [Lead Authors](#lead-authors) will moderate in difficult situations and decide how to proceed with the article in question.
-I thought that we should maybe even motivate to have oppinionated articles and then motivate to write a counter article if somebody disagrees for some too oppinionated articles? This might be interesting for the reader as well. I recently stumbled about a very good and nice example of such a case: "Beispielsweise raten Cem Kaner, James Bach und Bret Pettichord in "Lessons Learned in Software Testing" – einem Schlüsselwerk der Community – in Lektion 145, den IEEE-829-Standard für Testdokumentation zu verwenden. Lektion 146 auf der gleichen Seite rät dazu, IEEE 829 nicht zu nutzen. Natürlich beleuchten die Autoren die jeweiligen Umständen, unter denen der Einsatz sinnvoll ist und wo nicht." - see: https://www.heise.de/developer/artikel/Neuer-Test-Standard-ISO-29119-pro-und-contra-2429610.html
-I think that is a very nice example of how to deal with such contraversial topics and that is why I added the above points about it. Is this well enough? We could also even mention that example and clarify a little bit more about this idea. What you think?
 
 ## Licence
 
-All content is licensed under the [Creative Commons Attribution Non Commercial Share Alike 4.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) license.
-
-TODO
-I am not sure whether this is a good idea to put this license here? why this license? shouldnt we keep the Copyright for us? 
-and why does the link mention version 4.0 but points to version 3.0 ?
+All content is licensed under the [Creative Commons Attribution Non Commercial Share Alike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
