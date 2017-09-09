@@ -18,9 +18,9 @@ Through our articles, the Zühlke culture manifests itself: they contain practic
 
 Follow one of our two contribution guidelines to contribute your article:
 
-1. The [GitHub Contribution Guidelines](./github-contribution-guideline.md) is the preferred choice. It ensures a seamless process using Git and GitHub tooling.
+* The [GitHub Contribution Guidelines](./github-contribution-guideline.md) is the preferred choice. It ensures a seamless process using Git and GitHub tooling.
 
-2. The [General Contribution Guideline](./general-contribution-guideline.md) is your choice you prefer to work independently from GitHub as far as possible.
+* The [General Contribution Guideline](./general-contribution-guideline.md) is your choice you prefer to work independently from GitHub as far as possible.
 
 ## Lead Authors
 
