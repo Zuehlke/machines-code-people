@@ -22,6 +22,8 @@ Follow one of our two contribution guidelines to contribute your article:
 
 * The [General Contribution Guideline](./general-contribution-guideline.md) is your choice you prefer to work independently from GitHub as far as possible.
 
+For additional questions, we created a page about [advanced contribution topics](./advanced-contribution-topics.md).
+
 ## Lead Authors
 
 The following lead authors are responsible to create, organize, administrate and moderate this project:
