@@ -7,3 +7,4 @@
 
 ## Articles
 * [Article Example](articles/_example.md)
+* [Start Using a Time Management Technique Today](articles/time-management.md)
