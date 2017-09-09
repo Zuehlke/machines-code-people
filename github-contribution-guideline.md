@@ -1,6 +1,6 @@
 # Contribution Guide using Github
 
-This section describes the process for contributing an article using Github in all details with additional explanations.
+This guide describes the process and the conventions for contributing an article using the tools provided by GitHub.
 
 ## Prerequisites
 
@@ -59,6 +59,7 @@ It proved to be useful to discuss about an articles content before writing the a
 
 **Language Conventions:**
 
+@Rolf: Please add title guideline
 
 **Work directly with GitHub:**
 
@@ -84,6 +85,8 @@ Please apply the following formal rules:
 
   * In all your commits you should use the issue number of your article prefixed with `#` .  
    Example: `#15 add article to Table of Content`.
+
+Please note that we are using a public repository - everything you commit can be read by everyone.
 
 ### Review
 

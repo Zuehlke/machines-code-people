@@ -1,12 +1,12 @@
 # Contribution Guidelines (general)
 
-This article gives you guidelines regarding the content of your article and the contribution process.
+This guide describes the process and the conventions for contributing an article without relaying too much on GitHub. For detailed instructions on how to contribute using GitHub, please refer to the [GitHub Contribution Guidelines](./github-contribution-guidelines.md). 
 
 ## Announce
 
 1. **Check for Duplicates:** Is there already an article about your topic?
   
-   * Please check our [Backlog of Articles](https://github.com/Zuehlke/zuehlke-book/issues?q=is%3Aissue+label%3Aarticle) whether there is already an article existing or planned for similar topic. 
+   * Please check our [Backlog of Articles](https://github.com/Zuehlke/zuehlke-book/issues?q=is%3Aissue+label%3Aarticle) whether there is already an article existing or planned for similar topic. You need a GitHub account for this.
   
    * If there is already a similar article, you can contact the author and find a solution (leave the subject to the author, offer your help as reviewer or co-author, take the subject over, or write a second article in response or extension to the first article, ...). 
    
@@ -65,3 +65,5 @@ Before you publish your article, make sure you get your article reviewed by at l
 ## Publish
 
 As soon as your article is reviewed and ready to be published, you can send it to a Lead Author or use a pull request on Github as described in [GitHub Contribution Guidelines](./github-contribution-guidelines.md#Publish)
+
+Please note that we are using a public repository - everything you publish/commit can be read by everyone.
