@@ -36,7 +36,7 @@ To discuss about an articles content, you have various options:
 
 * reflects on a single subject only (better make several articles, if you have too much material / ideas to write about)
 
-* matches our [Vision](../README.md#vision): it is about practicaly proven concepts, best practices, cultural philosophies or great ideas that we use in our daily work at Zühlke.
+* matches our [Vision](./README.md#vision): it is about practicaly proven concepts, best practices, cultural philosophies or great ideas that we use in our daily work at Zühlke.
 
 * the subject is related to our work and the advice concrete enough to consider.
 
