@@ -10,7 +10,7 @@ Through our articles, the Zühlke culture manifests itself: they contain practic
 
 ## How to Contribute
 
-1. Announce an article by opening an [Issue in our Backlog](https://github.com/Zuehlke/zuehlke-book/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E).
+1. Announce an article by opening an [issue in our backlog](https://github.com/Zuehlke/zuehlke-book/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E)
 
 2. Write the article
 
@@ -18,9 +18,9 @@ Through our articles, the Zühlke culture manifests itself: they contain practic
 
 Follow one of our two contribution guidelines to contribute your article:
 
-* The [GitHub Contribution Guidelines](./github-contribution-guideline.md) is the preferred choice. It ensures a seamless process using Git and GitHub tooling.
+* The [GitHub Contribution Guidelines](./github-contribution-guideline.md) is the default choice. It ensures a seamless process using Git and GitHub tooling.
 
-* The [General Contribution Guideline](./general-contribution-guideline.md) is your choice you prefer to work independently from GitHub as far as possible.
+* The [General Contribution Guideline](./general-contribution-guideline.md) is for those who are new to GitHub and prefer to work independently from GitHub as much as possible.
 
 For additional questions, we created a page about [advanced contribution topics](./advanced-contribution-topics.md).
 

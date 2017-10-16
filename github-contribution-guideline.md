@@ -6,13 +6,8 @@ This guide describes the process and the conventions for contributing an article
 
 1. Get a Github Account if you not yet have one
    
-2. Make sure you are properly registered as a public member of the "Zühlke Github Community":
-    * Follow these instructions: https://github.com/Zuehlke/core/issues/6
-    * If you can not access this issue: 
-      * send your github username to one of the admins, e.g. Rolf Bruderer
-      * after you received the invitation, accept it
-      * then proceed as described on https://github.com/Zuehlke/core/issues/6
-    
+2. (optional) Registered as a public member of the "Zühlke Github Community" (see [advanced contribution topics](./advanced-contribution-topics.md))
+
 ## Announce
 
 1. **Check for Duplicates:** Is there already an article about your topic?
@@ -59,7 +54,7 @@ It proved to be useful to discuss about an articles content before writing the a
 
 **Language Conventions:**
 
-@Rolf: Please add title guideline
+* apply the [rules for capitalization in titles](http://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html) (at least to the "style guide similarities" mentioned)
 
 **Work directly with GitHub:**
 
@@ -86,8 +81,7 @@ Please apply the following formal rules:
 
   * Use [GitHub Flavored Markdown Syntax](https://guides.github.com/features/mastering-markdown/) in the markdown file.
 
-  * In all your commits you should use the issue number of your article prefixed with `#` .  
-   Example: `#15 add article to Table of Content`.
+  * It is good practice to prefix your commit message with the issue number of your article. Example: `#15 add article to Table of Content`.
 
 Please note that we are using a public repository - everything you commit can be read by everyone.
 

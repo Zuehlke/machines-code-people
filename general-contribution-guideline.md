@@ -44,7 +44,7 @@ To discuss about an articles content, you have various options:
 
 **Language Conventions:**
 
-@Rolf: Please add title guideline
+* apply the [rules for capitalization in titles](http://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html) (at least to the "style guide similarities" mentioned)
 
 **Formal Conventions:**
 

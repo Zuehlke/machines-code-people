@@ -14,6 +14,15 @@ Including pictures is not yet set up.
 
 To provide resources like links or books, create a second *.md file and name it like your article file including a ".resources". Example: The resources file for "my-funny-article.md" is "my-funny-article.resources.md".
 
+# Zühlke Github Community
+
+To becoma properly registered as a public member of the "Zühlke Github Community":
+* Follow these instructions: https://github.com/Zuehlke/core/issues/6
+* If you can not access this issue: 
+    * send your github username to one of the admins, e.g. Rolf Bruderer
+    * after you received the invitation, accept it
+    * then proceed as described on https://github.com/Zuehlke/core/issues/6
+
 # Oppinionated Articles and Controversial Discussions
 
 If you find an article in progress too opinionated or controversial, then ...
