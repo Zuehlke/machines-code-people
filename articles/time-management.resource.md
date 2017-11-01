@@ -1,4 +1,4 @@
-# Resources
+# Links
 
 ## About the Technique
 
