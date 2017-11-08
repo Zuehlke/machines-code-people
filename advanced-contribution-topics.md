@@ -8,7 +8,9 @@ The Table Of Contents is in the `/SUMMARY.md` file. Feel free to adjust it, othe
 
 # Pictures
 
-Including pictures is not yet set up. 
+1. Place images in a folder with same name as your article. Example: The images folder for `my-funny-article.md` is called `my-funny-article`
+2. Save the images into this folder
+3. Include the images in your article using: `![Alternative Text (will be hidden)](./my-funny-article/picture.jpg)`
 
 # Resources
 
