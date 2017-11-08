@@ -3,7 +3,8 @@ authorName: Markus Flückiger
 authorGithubUsername: mdf88
 title: Meet With Users - Often
 ---
-# Meet With Users - Often
+# {{page.title}}
+
 _Meeting with users, the more the better, is essential to create great products._
 
 Even though – as a UX professional – I must stress the importance of meeting users, I have to admit that the title of this article is not exactly accurate and just meeting users is not really the point. Having revealed this, I should probably explain what really matters when meeting users and give some indication on how to do it. 
@@ -154,3 +155,5 @@ Getting to users can be quite difficult, even though it's necessairy. Here a few
 ## Need a final word?
  
 Here it is, adapted from google: Focus the team on meeting with users and everything else follows.
+
+*By {{page.authorName}}*

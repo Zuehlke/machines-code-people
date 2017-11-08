@@ -6,7 +6,7 @@ Althought most of the authors are not native English speakers, there is currentl
 
 ## Table of Contents
 
-The Table Of Contents is in the `/SUMMARY.md` file. Feel free to adjust it, otherwise a Lead Author will do this for you.
+The Table Of Contents is in the `/SUMMARY.md` file. The Lead Authors will take care of this.
 
 ## Pictures
 
