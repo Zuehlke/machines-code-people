@@ -20,3 +20,4 @@ _book
 .idea/
 
 npm-debug.log   
+SUMMARY.generated.md
