@@ -1,3 +1,8 @@
+---
+authorName: Markus Flückiger
+authorGithubUsername: mdf88
+title: Meet With Users - Often
+---
 # Meet With Users - Often
 _Meeting with users, the more the better, is essential to create great products._
 

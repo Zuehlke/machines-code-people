@@ -7,7 +7,8 @@
     "expandable-chapters",
     "puml"
   ],
-  "title": "Zühlke Book",
+  "title": "50 Shades of Zühlke",
+  "bookname": "50 Shades of Zühlke",
   "pluginsConfig": {
     "edit-link": {
       "base": "https://github.com/zuehlke/fifty-shades/edit/master",
@@ -16,5 +17,14 @@
     "github": {
       "url": "https://github.com/zuehlke/fifty-shades"
     }
-  }
+  },
+  "outputfile": "SUMMARY.generated.md",
+  "catalog": "articles",
+  "ignores": [
+    "_example.resources",
+    "time-management.resources",
+    "preface"],
+  "unchanged": [], 
+  "sortedBy": "-", 
+  "disableTitleFormatting": true
 }

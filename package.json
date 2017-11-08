@@ -2,9 +2,13 @@
   "name": "fifty-shades",
   "scripts": {
     "start": "gitbook install && gitbook serve",
-    "build": "gitbook install && gitbook build"
+    "build": "gitbook install && gitbook build",
+    "summary": "book sm"
   },
   "devDependencies": {
     "gitbook-cli": "2.3.0"
+  },
+  "dependencies": {
+    "gitbook-summary-abeggchr": "git://github.com/abeggchr/gitbook-summary.git"
   }
 }

@@ -6,7 +6,7 @@
 * [License](LICENSE.md)
 
 ## Articles
-* [Article Example](articles/_example.md)
-* [Build Rules](articles/build-rules.md)
-* [Start Using a Time Management Technique Today](articles/time-management.md)
+* [Examples are Essential](articles/_example.md)
+* [TBD](articles/build-rules.md)
 * [Meet With Users - Often](articles/meet-users.md)
+* [Start Using a Time Management Technique Today](articles/time-management.md)
