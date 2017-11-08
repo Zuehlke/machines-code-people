@@ -10,11 +10,11 @@
   "title": "Zühlke Book",
   "pluginsConfig": {
     "edit-link": {
-      "base": "https://github.com/zuehlke/zuehlke-book/edit/master",
+      "base": "https://github.com/zuehlke/fifty-shades/edit/master",
       "label": "Edit This Page"
     },
     "github": {
-      "url": "https://github.com/zuehlke/zuehlke-book"
+      "url": "https://github.com/zuehlke/fifty-shades"
     }
   }
 }

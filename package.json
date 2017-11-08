@@ -1,5 +1,5 @@
 {
-  "name": "zuehlke-book",
+  "name": "fifty-shades",
   "scripts": {
     "start": "gitbook install && gitbook serve",
     "build": "gitbook install && gitbook build"
