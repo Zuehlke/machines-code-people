@@ -44,4 +44,4 @@ The first thing I noticed after applying the Pomodoro Technique was, that I was 
 
 It doesn't matter whether you choose an existing personal time management technique, combine aspects of them or come up with something completely different yourself. I just think it is important that you find a way how to stay focussed.
 
-{% include "./time-management.resource.md" %}
+{% include "./time-management.resources.md" %}
