@@ -3,7 +3,9 @@
 ## About
 * [Preface](articles/preface.md)
 * [Contribution Guide](README.md)
-* [License](LICENSE.md)
+ * [GitHub Contribution Guidelines](github-contribution-guideline.md) 
+ * [General Contribution Guideline](general-contribution-guideline.md)
+ * [Advanced Contribution Topics](advanced-contribution-topics.md)
 
 ## Articles
 * [Examples are Essential](articles/_example.md)
