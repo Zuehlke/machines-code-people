@@ -3,7 +3,7 @@ authorName: Vassilis Rizopoulos
 authorGithubUsername: damphyr
 title: TBD
 ---
-# {{page.title}}
+# TBD
 
 This article discusses the application of the [Separation of Concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) concept in Build & CI systems. It highlights the difference between a build system and a build management system, the responsibilities of each and some considerations on the consequences when following the rules.
 
@@ -99,8 +99,6 @@ All of this segues nicely into the final rule:
 Rule #4 means you need tests and CI and a plan. You need to budget for CI, for creating a build system specific to your project, for teaching people how to use it.
 
 To make matters worse your users are some of the most obnoxious, impatient and down right pedantic users on the face of the planet. They want everything perfect, robust, simple and fast and they want it yesterday. You better be dogfooding by this point...
-
-*By {{page.authorName}}*
 
 ------
 <sup>1</sup>The concept of CRISP builds was first introduced by Mike Clark in his book [Pragmatic Project Automation](https://www.amazon.de/gp/product/0974514039/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0974514039&linkCode=as2&tag=ampelofilos05-21&linkId=0103a93a3eb10aaae253ddac6f0f5446)

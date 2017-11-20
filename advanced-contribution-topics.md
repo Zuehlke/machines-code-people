@@ -1,20 +1,37 @@
-# Translation / Lectorate
+# Advanced Contribution Topics
+
+## Translation / Lectorate
 
 Althought most of the authors are not native English speakers, there is currently no translation service or lectorate foreseen.
 
-# Table of Contents
+## Table of Contents
 
-The Table Of Contents is in the `/SUMMARY.md` file. Feel free to adjust it, otherwise a Lead Author will do this for you.
+The Table Of Contents is in the `/SUMMARY.md` file. The Lead Authors will take care of this.
 
-# Pictures
+## Pictures
 
-Including pictures is not yet set up. 
+1. Place images in a folder with same name as your article. Example: The images folder for `my-funny-article.md` is called `my-funny-article`
+2. Save the images into this folder
+3. Include the images in your article using: 
 
-# Resources
+```
+![Alternative Text (will be hidden)](./my-funny-article/picture.jpg)
+```
 
-To provide resources like links or books, create a second *.md file and name it like your article file including a ".resources". Example: The resources file for "my-funny-article.md" is "my-funny-article.resources.md".
+## Resources
 
-# Zühlke Github Community
+To provide resources like links or books:
+
+1. Create a second *.md file and name it like your article file including a ".resources". Example: The resources file for `my-funny-article.md` is `my-funny-article.resources.md`
+2. Include the resources at the end of your article using: 
+
+```
+{% include "./my-funny-article.resources.md" %}
+```
+
+Please note: This is a temporary solution. In the future we'd like to auto-detect resources and include them in different ways based on the output. For an electronic format (web, pdf, ebook) the resources are just included. For a printed format (book) the resources might be printed as a QR-Code linking to a website. For more information see https://github.com/Zuehlke/fifty-shades/issues/18
+
+## Zühlke Github Community
 
 To becoma properly registered as a public member of the "Zühlke Github Community":
 * Follow these instructions: https://github.com/Zuehlke/core/issues/6
@@ -23,7 +40,7 @@ To becoma properly registered as a public member of the "Zühlke Github Communit
     * after you received the invitation, accept it
     * then proceed as described on https://github.com/Zuehlke/core/issues/6
 
-# Oppinionated Articles and Controversial Discussions
+## Oppinionated Articles and Controversial Discussions
 
 If you find an article in progress too opinionated or controversial, then ...
 

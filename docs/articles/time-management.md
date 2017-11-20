@@ -3,7 +3,7 @@ authorName: Christian Abegg
 authorGithubUsername: abeggchr
 title: Start Using a Time Management Technique Today
 ---
-# {{page.title}}
+# Start Using a Time Management Technique Today
 
 So you take a task from the board, work on it from A to Z and on nothing else. Sounds familiar? I mainly know this situation theoretically. In real life there is always some interruption like a review to be conducted, a bug to be analysed or a phone call to be answered. And having the smartphone laying around vibrating with the latest funny pictures on WhatsApp doesn't help either. Even though we use a prioritized list of work items in our teams, my work as a developer is far away from being focussed on a single task. 
 
@@ -44,7 +44,5 @@ The Pomodoro Technique supports you brain to be as efficient as possible:
 The first thing I noticed after applying the Pomodoro Technique was, that I was more relaxed after work. Only on a second sight I also noticed that I was more focused during the work. This is mainly through the changed way I handle interuptions with this technique. Internal interuptions like other tasks coming to my mind during work are just written to the work log - and it can be forgotten again. External interuptions like phone calls, emails or collegues walking to your desk need a different approach. The easy part is all electronic stuff: switch off Outlook notifications, put your chat to "not available" and turn smartphone to silent mode - et voilà, you will not be interupted by these means during your pomodoro. But do not forget to check email and phone in the next break! Working with collegues is more difficult: I think collaboration is so important, that I generally do not consider a collegue walking to to my desk to be an interuption. But in times when I really want to focus on my pomodoro, rescheduling the conversation usually works fine. I just say: "I'll be with you in 10 minutes", make a note and then keep my promise.
 
 It doesn't matter whether you choose an existing personal time management technique, combine aspects of them or come up with something completely different yourself. I just think it is important that you find a way how to stay focussed.
-
-*By {{page.authorName}}*
 
 {% include "./time-management.resources.md" %}

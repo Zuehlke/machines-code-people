@@ -1,4 +1,10 @@
-# Meet With Users - Often
+---
+authorName: Markus Flückiger
+authorGithubUsername: mdf88
+title: Meet With Users - Often
+---
+# {{page.title}}
+
 _Meeting with users, the more the better, is essential to create great products._
 
 Even though – as a UX professional – I must stress the importance of meeting users, I have to admit that the title of this article is not exactly accurate and just meeting users is not really the point. Having revealed this, I should probably explain what really matters when meeting users and give some indication on how to do it. 
@@ -24,7 +30,7 @@ _What really matters: create products quickly and let users use them so you can 
 
 As theoretical background, I need to combine two elements on one time line: 
 
-![UCD cycle, layers and when to do what](./MeetUsers UCD Theory.png)
+![UCD cycle, layers and when to do what](./meet-users/theory.png)
 
 The UCD (User Centred Design) cycle is probably self explanatory. It is the basic iteration principle and tells you to get to know context and users, create solutions, evaluate the solution against context and users, and learn from it. You do this cycle over and over again.
 Two of the three layers are probalby quite easy to understand as well. While you create the product, you will work on the concept and work-out all the details so using the product really becomes a great experience. The story is the product in a nutshell and tells what impact the product should create for whom and how. It is sometimes referred to as product vision. 
@@ -149,3 +155,5 @@ Getting to users can be quite difficult, even though it's necessairy. Here a few
 ## Need a final word?
  
 Here it is, adapted from google: Focus the team on meeting with users and everything else follows.
+
+*By {{page.authorName}}*

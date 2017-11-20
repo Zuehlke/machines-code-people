@@ -10,7 +10,7 @@ Through our articles, the Zühlke culture manifests itself: they contain practic
 
 ## How to Contribute
 
-1. Announce an article by opening an [issue in our backlog](https://github.com/Zuehlke/zuehlke-book/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E)
+1. Announce an article by opening an [issue in our backlog](https://github.com/Zuehlke/fifty-shades/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E)
 
 2. Write the article
 
