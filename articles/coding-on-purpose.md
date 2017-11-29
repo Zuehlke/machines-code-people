@@ -1,9 +1,9 @@
 ---
 authorName: Adrian Herzog
 authorGithubUsername: adiherzog
+title: Coding On Purpose
 ---
-
-# Coding On Purpose
+# {{page.title}}
 
 When I do a project, it's essential to know what for I'm doing it. And usually we start our projects exactly there, with some sort of *mission statement*, defining the *goal* of our endavour. But it's all too easy to loose sight of this goal in the daily struggle of solving the hard nitty gritty problems. That's why, many methodologies in software development try to support us to keep the project aligned with it's *purpose*.
 
