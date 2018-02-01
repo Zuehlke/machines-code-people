@@ -21,12 +21,6 @@ This guide describes the process and the conventions for contributing an article
    * Open a [New Issue for your Article](https://github.com/Zuehlke/fifty-shades/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E)
   
    * Describe roughly the idea you have in mind, what the article should be about.
-  
-   * Assign yourself to the issue.
-
-   * Assign the label "article".
-
-   * If you have a great idea about an article, but would not like to write about yourself? Add your idea to the existing [Ideas for Articles](https://github.com/Zuehlke/fifty-shades/issues/41) issue!
 
 ## Discuss
 
