@@ -8,6 +8,7 @@
  * [Advanced Contribution Topics](advanced-contribution-topics.md)
 
 ## Articles
+* [Coding on Purpose](articles/coding-on-purpose.md)
 * [Examples are Essential](articles/_example.md)
 * [TBD](articles/build-rules.md)
 * [Meet With Users - Often](articles/meet-users.md)
