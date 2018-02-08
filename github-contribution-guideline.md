@@ -101,7 +101,7 @@ To get your article published you have to go through this review and publishing 
 
 4. As an author, after receiving feedback, you modify your content (or ignore the feedback) and commit the modified version into your fork. The Pull Request will automatically be updated. And don't forget to thank your reviewer!
 
-5. When the issue is ready to be published, assign your Pull Request to one of the [Lead Authors](./README.md##lead-authors) for final review and publication.
+5. When the issue is ready to be published, assign your Pull Request to one of the [Lead Authors](./README.md#lead-authors) for final review and publication.
 
 6. The assigned lead author will finally merge your pull request, when all the review comments are resolved.
 
