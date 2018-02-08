@@ -64,6 +64,6 @@ Before you publish your article, make sure you get your article reviewed by at l
 
 ## Publish
 
-As soon as your article is reviewed and ready to be published, you can send it to a Lead Author or use a pull request on Github as described in [GitHub Contribution Guidelines](./github-contribution-guidelines.md#Publish)
+As soon as your article is reviewed and ready to be published, you can send it to a [Lead Author](./README.md#lead-authors) or use a pull request on Github as described in [GitHub Contribution Guidelines](./github-contribution-guidelines.md#Publish)
 
 Please note that we are using a public repository - everything you publish/commit can be read by everyone.
