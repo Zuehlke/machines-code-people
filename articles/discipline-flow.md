@@ -14,7 +14,7 @@ idea of this article: use discipline flow to describe what we mean with operatio
 ## Discipline Flow
 The Discipline Flow is a method that relates software engineering disciplines in context of a digital product lifecycle. The lifecycle includes discovery, development and delivery of a product, from user needs and business goals to the product as delivered by operations to the user.
 
-![Disciplines and Flow Relations](./discipline-flow/dflow.jpg)
+![Disciplines and Flow Relations](./discipline-flow/dflow-sketch.jpg)
 
 Disciplines 
 
