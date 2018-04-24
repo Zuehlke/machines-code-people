@@ -2,7 +2,7 @@
 authorName: Janko Sokolović
 authorGithubUsername: jasofalcon
 issue: 81
-title: Frontend is not your enemy 
+title: Frontend Is Not Your Enemy 
 ---
 # Frontend Is Not Your Enemy
 
