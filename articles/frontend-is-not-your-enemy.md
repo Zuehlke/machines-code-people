@@ -12,9 +12,7 @@ For many years, developers are discriminating frontend technologies because of v
 
 *“But I've just learned AngularJS version 1.0 yesterday, today it's already v3.3.1”*, many yelled while hiding the tears...
 
-*“It doesn't work the same in every browser!”*, others cried
-
-*“NaN === NaN is* ***false***!”, was heard from distance...
+*“It doesn't work the same in every browser!”*, was heard from distance...
 
 We admit it. It is partially our fault. Us, engineers.
 
@@ -31,7 +29,7 @@ Classes. There have been several patterns used to simulate behavior of classes w
 ```js
 class MyObject {
 
-    constructor(num: number) {
+    constructor(number) {
         this.field = number;
     }
 
