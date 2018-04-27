@@ -2,13 +2,11 @@
 authorName: Erik Steiner
 authorGithubUsername: estfra
 issue: 63
-title: Successful Agile Device Development with Continuous System Integration
+title: Successful Agile System Development with Continuous System Integration
 ---
 # {{page.title}}
 
-TO BE SHORTENED!!!
-
-A functioning continuous integration (CI) infrastructure is the core of successful agile software development. In consequence, successful agile system development should be based on a functioning CI infrastructure on the system level. 
+A functioning continuous integration (CI) infrastructure is the core of successful agile software development. In consequence, successful agile system development, e.g. a medical device, should be based on a functioning CI infrastructure on the system level. 
  
 Continuous Integration of Software
  
@@ -65,6 +63,7 @@ Fail Early! 
 System CI enables us to fail early and allows for time to react, change, and test in fast cycles. Hence, System CI heavily reduces the risk of late design breakage. Additionally, the progress of system development need not only be reported but can be demonstrated with the current state of the integrated system.
  
 The order of meaningful system integration steps needs to be roughly planned. Given a product vision and a draft system architecture a value- and risk-based system backlog planning leads to meaningful system integration steps.
-*By {{page.authorName}}*
+
+By {{page.authorName}}*
 
 {% include "./_example.resources.md" %}
