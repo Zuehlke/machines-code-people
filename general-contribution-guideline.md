@@ -54,7 +54,7 @@ To discuss about an articles content, you have various options:
 
 The [Example Article](https://raw.githubusercontent.com/Zuehlke/fifty-shades/develop/articles/_example.md) is a good starting point.
 
-## Review
+## Peer Review
 
 Before you publish your article, make sure you get your article reviewed by at least one collegue. To get it reviewed, you have the following options:
 
@@ -62,7 +62,7 @@ Before you publish your article, make sure you get your article reviewed by at l
    * Ask on Yammer for (a) reviewer
    * Share your article using Office 365, Email, whatever suits you
 
-## Publish
+## Lead Author Review
 
 As soon as your article is reviewed and ready to be published, you can send it to a [Lead Author](./README.md#lead-authors) or use a pull request on Github as described in [GitHub Contribution Guidelines](./github-contribution-guidelines.md#Publish)
 

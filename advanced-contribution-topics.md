@@ -1,8 +1,13 @@
 # Advanced Contribution Topics
 
-## Translation / Lectorate
+## Lectorate
 
-Althought most of the authors are not native English speakers, there is currently no translation service or lectorate foreseen.
+As most of the authors are not native English speakers, all articles will we professionally lectured before being printed.
+
+## Translation
+
+As an author, you have the possiblity to write the article in your native language and have it translated afterwards.
+Please contact a lead author if you plan to use a transation service.
 
 ## Table of Contents
 
@@ -33,7 +38,7 @@ Please note: This is a temporary solution. In the future we'd like to auto-detec
 
 ## Zühlke Github Community
 
-To becoma properly registered as a public member of the "Zühlke Github Community":
+To becom a properly registered as a public member of the "Zühlke Github Community":
 * Follow these instructions: https://github.com/Zuehlke/core/issues/6
 * If you can not access this issue: 
     * send your github username to one of the admins, e.g. Rolf Bruderer
@@ -51,3 +56,38 @@ If you find an article in progress too opinionated or controversial, then ...
 * We motivate to also write about controversial topics and in some cases it might even make sense to have two articles, one with the arguments pro, another with the arguments contra. See also following example: in the book "Lessons Learned in Software Testing" there are two articles, one that recommends using the "IEEE-829-Standard" and right on the next page there is the next article that recommends to not use this standard (this was mentioned in https://www.heise.de/developer/artikel/Neuer-Test-Standard-ISO-29119-pro-und-contra-2429610.html).
 * If you can not agree on a topic and there is a conflict that you think needs some help with resolution, you can contact the [Lead Authors](#lead-authors), they will try to moderate in the conflict situation and help you to decide how to proceed with the article(s) in question.
 * Also relax and bare in mind that not all articles might find place in a printed edition of this collection.
+
+## Lead Author Review
+
+Checklist:
+- Does the article match the formal conventions defined in the contribution guide?
+- Does the article match the language conventions defined in the contribution guide?
+- Does the article match the content conventions defined in the contribution guide?
+- Are there statements which might harm the Zuhlke brand/name? -> Discuss with jdi
+- Do you have input to improve the articles structure and/or readability?
+- Spelling and grammar mistakes?
+
+### Template (en):
+
+Playing the perfection game (https://www.benlinders.com/2014/getting-feedback-with-the-perfection-game/), I rate the artice X on a scale from 1-10.
+What I liked about it:
+- ...
+To make it perfect:
+- ...
+I expect you to:
+- ...
+
+### Template (de):
+
+Als "Perfection Game" Feedback (https://www.benlinders.com/2014/getting-feedback-with-the-perfection-game/), gebe ich dem Artikel X Punkte auf der Skala von 1-10.
+Das gefällt mir:
+- ...
+Um den Artikel perfekt zu machen:
+- ...
+Ich erwarte, dass du noch folgende Änderungen vornimmst:
+- ...
+
+
+
+
+
