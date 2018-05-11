@@ -58,7 +58,7 @@ Internet of course and people :)
 Infrastructure is important aspect that needs to be setled by having dedicated rooms/places for video conference, good headsets and other video and audio equipment. If properly set, each of your team mate is on a click of a button away.
 Team spirit and motivation is develop as the project progresses but there is nothing better to kick start this then a proper colocated project kick off and a good new memebers omboarding plan. Online tools and their preparation (accounts, spaces, licences etc.) is also important to be setup in earliest phase as possible.
 
-**_After all said and done, if well prepared with the guidelines from above Distributed Development can be a very powerfull asset to the company and a very fun adn efficent way to do projects._**
+**_After all said and done, if well prepared with the guidelines from above Distributed Development can be a very powerfull asset to the company and a very fun and efficent way to do projects._**
 
 
 *By {{page.authorName}}*
