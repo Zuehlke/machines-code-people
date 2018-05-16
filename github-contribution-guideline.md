@@ -34,8 +34,6 @@ It proved to be useful to discuss about an articles content before writing the a
 
 **Content Conventions:**
 
-* written in English
-
 * short enough to be read in 10 minutes: size should be less than 2 A4 pages long in printout PDF version (that is between 400 and 750 words)
 
 * reflects on a single subject only (better make several articles, if you have too much material / ideas to write about)
@@ -46,9 +44,15 @@ It proved to be useful to discuss about an articles content before writing the a
 
 * the subject is something you have experience on in some real projects and not just theoretical ideas
 
+**Structural Conventions:**
+
+* start with an introduction and end with a conclusion (see [advanced contribution topics](./advanced-contribution-topics.md) for more info on structuring)
+
 **Language Conventions:**
 
 * apply the [rules for capitalization in titles](http://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html) (at least to the "style guide similarities" mentioned)
+
+* written in English (see [advanced contribution topics](./advanced-contribution-topics.md) for information about a translation)
 
 **Work directly with GitHub:**
 

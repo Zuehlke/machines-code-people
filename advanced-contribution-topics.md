@@ -1,5 +1,34 @@
 # Advanced Contribution Topics
 
+## Structure
+
+We do not require you to follow a certain structure. Nevertheless, a clear structure is very important for every article. 
+
+Here are some structures you could base your article on:
+
+### A Perfect Blog Post
+
+1. Introduction: hooks the reader, draws them in, and sets up the post.
+2. Main Body: works through a logical sequence of points, holding the reader’s attention.
+3. Conclusion: ends the post decisively and calls the reader to take action.
+
+Source: [a perfect blog post](https://syedbalkhi.com/how-to-structure-a-perfect-blog-post-with-examples/)
+
+### Quick Ideas
+
+1. Tell a story (Situation)
+2. What do you suggest
+3. Key Benefit
+4. How to make it work
+
+This is the structure applied in the [fifty quick ideas](https://leanpub.com/50quickretrospectives) book series.
+
+### Problem Oriented
+
+1. Start with a problem description
+2. Present your solution
+3. Conclusion
+
 ## Lectorate
 
 As most of the authors are not native English speakers, all articles will we professionally lectured before being printed.
