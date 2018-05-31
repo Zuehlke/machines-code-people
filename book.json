@@ -23,6 +23,7 @@
   "ignores": [
     "_example.resources",
     "time-management.resources",
+    "tech-lead-needed.resources",
     "preface"],
   "unchanged": [], 
   "sortedBy": "-", 
