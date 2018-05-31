@@ -9,6 +9,10 @@
     "gitbook-cli": "2.3.0"
   },
   "dependencies": {
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-puml": "^1.0.1",
     "gitbook-summary": "git://github.com/abeggchr/gitbook-summary.git"
   }
 }
