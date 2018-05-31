@@ -1,4 +1,4 @@
-# 50 Shades of Zühlke
+# Bookname To Be Defined
 
 - articles
   * [Examples are Essential](articles/_example.md)
