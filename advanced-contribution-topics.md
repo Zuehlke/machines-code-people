@@ -59,8 +59,10 @@ To provide resources like links or books:
 1. Create a second *.md file and name it like your article file including a ".resources". Example: The resources file for `my-funny-article.md` is `my-funny-article.resources.md`
 2. Include the resources at the end of your article using: 
 
-```
+```twig
+{% raw %}
 {% include "./my-funny-article.resources.md" %}
+{% endraw %}
 ```
 
 Please note: This is a temporary solution. In the future we'd like to auto-detect resources and include them in different ways based on the output. For an electronic format (web, pdf, ebook) the resources are just included. For a printed format (book) the resources might be printed as a QR-Code linking to a website. For more information see https://github.com/Zuehlke/fifty-shades/issues/18
