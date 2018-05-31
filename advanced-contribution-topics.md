@@ -118,6 +118,24 @@ Um den Artikel perfekt zu machen:
 Ich erwarte, dass du noch folgende Änderungen vornimmst:
 - ...
 
+## Output / Theming
+
+Theming can be done in the _layouts folder. It's based on the original GitBook theme.
+
+### Website
+
+
+### EBook
+
+* Let GibBook generate an EPub File (On Windows, install Callibre to be able to do that)
+
+### Printed Book
+
+* Word? Convert the EPub File to Word with Callibre
+* LaTeX? Convert the EPub File to LaText using PanDoc (`pandoc -f epub -t latex -o .\mybook.tex .\mybook.epup`) and then open it with a LaTeX distribution (i.e. MiTex)
+
+
+
 
 
 
