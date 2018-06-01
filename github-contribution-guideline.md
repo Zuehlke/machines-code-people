@@ -34,8 +34,6 @@ It proved to be useful to discuss about an articles content before writing the a
 
 **Content Conventions:**
 
-* written in English
-
 * short enough to be read in 10 minutes: size should be less than 2 A4 pages long in printout PDF version (that is between 400 and 750 words)
 
 * reflects on a single subject only (better make several articles, if you have too much material / ideas to write about)
@@ -46,9 +44,15 @@ It proved to be useful to discuss about an articles content before writing the a
 
 * the subject is something you have experience on in some real projects and not just theoretical ideas
 
+**Structural Conventions:**
+
+* start with an introduction and end with a conclusion (see [advanced contribution topics](./advanced-contribution-topics.md) for more info on structuring)
+
 **Language Conventions:**
 
 * apply the [rules for capitalization in titles](http://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html) (at least to the "style guide similarities" mentioned)
+
+* written in English (see [advanced contribution topics](./advanced-contribution-topics.md) for information about a translation)
 
 **Work directly with GitHub:**
 
@@ -79,15 +83,11 @@ Please apply the following formal rules:
 
 Please note that we are using a public repository - everything you commit can be read by everyone.
 
-### Review
+### Peer Review
 
 To get your article reviewed you have can simply send the URL of your forked repository to a reviewer.
 
-If you'd like to use the review features of Github you can directly skip to the next chapter.
-
-### Publish 
-
-To get your article published you have to go through this review and publishing process:
+If you'd like to use the review features of Github you can open a pull request and send it to a peer as follows:
 
 1. Open a pull request with your article to get it reviewed. 
 
@@ -95,16 +95,25 @@ To get your article published you have to go through this review and publishing 
 
    Use the issue number of your article prefixed with `#`in the pull request title
 
-2. Find some colleagues (at least one!) that will review your article and assign him to the pull request.
+2. Find some colleagues (at least one!) that will review your article. Send her/him a mail with the URL to the pull request.
 
 3. As a reviewer you can use [GitHubs Review Feature](https://help.github.com/articles/about-pull-request-reviews/) to give feedback
 
 4. As an author, after receiving feedback, you modify your content (or ignore the feedback) and commit the modified version into your fork. The Pull Request will automatically be updated. And don't forget to thank your reviewer!
 
-5. When the issue is ready to be published, assign your Pull Request to one of the [Lead Authors](./README.md#lead-authors) for final review and publication.
 
-6. The assigned lead author will finally merge your pull request, when all the review comments are resolved.
+### Lead Author Review 
 
-7. Once published, you can still correct or improve it, by doing new pull requests from your fork of the repository.
+When the article is ready to be published, ask a lead author for a review. 
 
-8. Do not forget to close the issue of your article, once it is published.
+1. If you do not already have a pull request, create a pull request with your article to get it reviewed 
+
+   Look out for the "New Pull Request" button. The base fork is "Zuehlke/fifty-shades" and the head fork is "{you}/fifty-shades".
+
+   Use the issue number of your article prefixed with `#`in the pull request title
+
+2. Ask a [Lead Authors](./README.md#lead-authors) for final review and publication using email or leave a comment in the pull request saying "ready for lead author review".
+
+3. The assigned lead author will finally merge your pull request, when all the review comments are resolved. He will also close the issue.
+
+4. Once published, you can still correct or improve it, by doing new pull requests from your fork of the repository.

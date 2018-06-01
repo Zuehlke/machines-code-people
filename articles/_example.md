@@ -1,6 +1,7 @@
 ---
 authorName: Christian Abegg, Rolf Bruderer
 authorGithubUsername: abeggchr,bruderol
+issue: 8
 title: Examples are Essential
 ---
 # {{page.title}}
