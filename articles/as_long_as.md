@@ -2,13 +2,13 @@
 authorName: Sabrina Lange
 authorGithubUsername: sweinzie
 issue: 96
-title: "As long as you put your Feet Under my Table" - If the Project Manager Leads Differently than I Would 
+title: "As long as you live under my roof, you'll do as I say" - If the Project Manager Leads Differently than I Would 
 ---
 # {{page.title}}
 
-"As long as you put your Feet Under my Table" - If the Project Manager Leads Differently than I Would 
- 
-After 1.5 years of solely working with Zühlke people, a colleague transferred to a project team with people from several service providers. After a few days, he complained that the way of working and the approach in his new project was completely different compared to what he was used to when working with Zühlke teams. He was afraid that continuoing this approach, this would not become a successful project.
+Here are 3 observed stories of how to deal with personal conflicts inside project.
+
+A colleague of mine moved from working solely with Zühlke people to a project team with people from several service providers. After a few days, he complained that the way of working and the approach in his new project was completely different compared to what he was used to when working with Zühlke teams. He was afraid that continuoing this approach, this would not become a successful project.
 
 Another colleague switched from several Zühlke-led projects to another project in which he was the only Zühlke employee. After one month where procedures within the project seemed to have changed arbitrarily on a daily basis and with inexistent internal communication, he was frustrated and wanted to leave the project.
 
@@ -24,6 +24,5 @@ If the situation will change in a way you are no longer able to deal with it won
  
 You may have tried to adapt to your teams’ way of working but then you found out that this will not satisfy you. And you tried to change the way things are going, but instead of finding a solution that fits for all, you simply found rejection and resistance. At this point in time best alternative is to leave the court or at least ask the line manager for support leaving the project. Not as an escape but as a protection for yourself and the team if this situation is not acceptable and proposals are not welcome.
 
-At the end of the day, you will have to be able to look in your mirror and decide for yourself whether you can take the decision or not. Was the action of the others fundamentally wrong or just different? Was I too comfortable to get involved in the new approach or did I try my best to be efficient on the project? Were my suggestions for change appropriate or did I offend my colleagues rather than motivate them? All these questions can help with the decision - love, change or leave - to be at peace with myself.
-*By {{page.authorName}}*
-{% include "./_example.resources.md" %}
+At the end of the day, you will have to be able to look in your mirror and decide for yourself whether you can take the decision or not. Was the behavior of the others (team or project manager) fundamentally wrong or just different? Was I too comfortable to get involved in the new approach or did I try my best to be efficient on the project? Were my suggestions for change appropriate or did I offend my colleagues rather than motivate them? All these questions can help with the decision - love, change or leave - to be at peace with yourself.
+
