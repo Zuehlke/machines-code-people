@@ -1,13 +1,17 @@
 {
   "gitbook": "3.2.2",
   "plugins": [
-    "-fontsettings"
+    "-fontsettings",
+    "onlineresources@git+https://github.com/abeggchr/gitbook-plugin-onlineresources"
   ],
   "title": "Title To Be Defined",
   "bookname": "Bookname To Be Defined",
   "pluginsConfig": {
     "github": {
       "url": "https://github.com/zuehlke/fifty-shades"
+    },
+    "onlineresources": {
+      "url": "https://pages.github.com/zuehlke/"
     }
   },
   "outputfile": "SUMMARY.generated.md",
