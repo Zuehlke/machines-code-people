@@ -8,7 +8,7 @@ title: “As long as you put your Feet Under my Table” - If the Project Manage
 
 “As long as you put your Feet Under my Table” - If the Project Manager Leads Differently than I Would 
  
-After 1.5 years of solely working with Zühlke people, a colleague transferred to a project team with people from several service providers. After a few days he complained that the way of working and the approach in his new project was so completely different compared to what he was used to when working with Zühlke teams. He was afraid that this would not become a successful project following this approach.
+After 1.5 years of solely working with Zühlke people, a colleague transferred to a project team with people from several service providers. After a few days he complained that the way of working and the approach in his new project were completely different compared to what he was used to when working with Zühlke teams. He was afraid that continuoing this approach, this would not become a successful project.
 
 Another colleague switched from several Zühlke-led projects to another project in which he was the only Zühlke employee. After one month where procedures within the project seemed to have changed arbitrarily on a daily basis and with inexistent internal communication, he was frustrated and wanted to leave the project.
 
