@@ -68,7 +68,8 @@ case of smaller databases, the biggest performance jump is obtained if the
 whole database is in the memory.
 1. Bad hardware. Sometimes you just need to get a better one.
 
-That would be database performance debugging crash course, that you can, I
-hope, use as a starting point for your personal optimization conquest.
+Here we introduced some practical solutions how to tackle database 
+performance issues, and this can be used as a starting point for you personal 
+optimization conquest.
 
 *By: {{page.authorName}}*
