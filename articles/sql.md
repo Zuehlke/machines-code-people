@@ -42,7 +42,9 @@ be analyzed individually and possibly accelerated by those means:
 columns in JOINs, columns for search / selection)
 1. Create partial indexes (e.g. over active records, or over records of a
 particular type)
-1. Avoid selecting unnecessarily large amounts of data
+1. Avoid selecting unnecessarily large amounts of data (e.g. selecting all
+rows from big table when user might view only first couple of pages, or
+selecting all columns when only some of them are presented to the user)
 1. Optimize correlated subqueries
 1. Check the plan for query execution and database statistics, and update
 statistics if necessary
