@@ -60,7 +60,10 @@ a TCP connection takes time
 1. Incorrectly configured memory allocations can contribute to unwanted
 swapping of virtual memory between RAM and disk, which is disastrous for
 performance
-1. Wrong file system
+1. Wrong file system and RAID configuration (e.g. for PostgreSQL ZFS seems to be
+usual winner, and RAID 10 or several RAID 1 groups perform the best. Avoid 
+jornaling on log partition file system, and avoid RAID 5 as it does not perform
+so well).
 1. Wrongly selected storage. For example: NAS and SAN, despite similar
 acronyms, are very different storage solutions with completely different
 performance.
