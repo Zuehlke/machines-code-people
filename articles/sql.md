@@ -33,8 +33,11 @@ queries, but to join more queries into one. A typical problem with ORM
 framework is unnecessary lazy loading. Carefully selected eager loading
 (either as part of query using "fetch join" construct, or declerative) can
 significantly reduced the number of queries and improve performance.
-1. If a smaller queries are really necessary caching can be a solution that
-will speed up all such queries dramatically.
+1. If a smaller queries are really necessary, then analyze the queries. It may
+happen that a lot of queries like ID/username lookup is being repeated over 
+and over again. If that is the case, consider caching the results of often
+executed queries (either by using the ORM cache, or rolling your own). It 
+may speed up total query execution time dramatically.
 
 If the database has one very slow query, or several of them, then they need to
 be analyzed individually and possibly accelerated by those means:
