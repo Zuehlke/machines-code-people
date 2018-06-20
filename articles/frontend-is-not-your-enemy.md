@@ -97,3 +97,5 @@ Some other tools you might want to look into: Protractor, CucumberJS, Ava, Chai,
 Either for your personal development or for project needs, you should invest effort in mastering frontend technologies.
 
 _"Any application that can be written in JavaScript, will eventually be written in JavaScript."_ - Atwood's Law
+
+*By {{page.authorName}}*

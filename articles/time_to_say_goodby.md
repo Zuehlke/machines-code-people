@@ -6,8 +6,6 @@ title: Time To Say Goodby
 ---
 # {{page.title}}
 
-
-
 Setting up a project in an efficient way is not an easy task: To share the vision of the project, to ensure that all are aligned and have a common understanding of how the project will be managed. It is nowadays a good practice to have a kick off workshops, not only 1h but one day with with teambuilding and vision sharpening, not only once but depending on the project duration in regular intervals. 
 
 But how does it look like at the end of the project? Is everyone aware of how long he will be involved in the project? What are the tasks when the project is coming to an end? When will be the last working day? What will happen with the project deliveries after project closing? Who is going to ensure operations starting when and how?
@@ -43,3 +41,5 @@ Invite right beforehand all team members to a lessons learned meeting. Ensure th
 Most often project manager forget to take some budget in account for celebration of the project success or have a small give away as “Thank you” to the project members. No matter if you have any budget or not, it is a good habit to invite your team members in advance to a project closing meeting. Purpose of this meeting is to officially hand over all responsibilities to the operations team and relieve the project team. That is also a good possibility to reflect the past months and perform a project review. Summarize the findings from your lessons learned meeting and share the impressions of that. This is the moment to say thank you. Maybe by some personal words to each member, a card with some keywords what was special to the person during the project duration, photos, etc... There are many possibilities to show recognition without expensive gifts or events.
  
 As a conclusion in my opinion a successful project closure must be prepared already at the beginning of the development phase. Documents should be updated with each sprint or iteration and each learning and insight should be documented in a way that this can be handed over to support and operation to enable them to solve issues by themselves. Also some kind of project diary for the whole project might help at the end of the project to remember what happened, what has been done to solve issues and if these measurements were successful. As the project has a planning phase at the beginning, so does it have a transition phase when it is coming to an end. Here I dare to make the statement that transparency gives security. Talk about what’s going on, what are the plans and involve all team members and stakeholders as you have (hopefully) done at the beginning of the project.
+
+*By {{page.authorName}}*
