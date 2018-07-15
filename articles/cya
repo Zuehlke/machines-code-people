@@ -32,5 +32,9 @@ When: When has the decision been taken?
 Who: Who was involved in taking this decision? Hint: The more people agreed on a decision the better. 
 
 
+What happens if a decision is revoked? Strikethrough the decision and define a new decision where you document why the decision No. X has been revoked. 
+CYA = Cover your ass will make your life easy and everybody in your team will know where to look to see why a decision was taken so that you can move to the next project without being hunted by unknown old decisions from the past. 
+
+
 *By {{page.authorName}}*
 
