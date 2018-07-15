@@ -47,6 +47,11 @@ When: When has the decision been taken?
 
 Who: Who was involved in taking this decision? Hint: The more people agreed on a decision the better. 
 
+| No.| What (Decision that is taken)| Why(reasoning and arguments, constraints, implications, references)| When (Date of the decision) | Who (Agreement and communication) |
+| - | -- | ----| -----| ---- |
+| D-1| We will use a decision log in our project | Context:<br>-	Decisions need to be documented so that everyone knows why a decision was made.<br> Problem:<br>- Not everyone remembers after a more than a year why a decision was made.<br>- Knowledge drain: People are leaving the project<br>Decision:<br>- We will introduce a decision log.<br>Consequences:<br>- Every decision is documented in the decision log
+ |01.01.2020 | Hans Muster Simon Stucki|
+
 What happens if a decision is revoked? Strikethrough the decision and define a new decision where you document why the decision No. X has been revoked. 
 
 CYA = Cover your ass will make your life easy and everybody in your team will know where to look to see why a decision was taken so that you can move to the next project without being hunted by unknown old decisions from the past. 
