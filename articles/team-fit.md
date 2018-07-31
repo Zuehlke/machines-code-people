@@ -23,13 +23,13 @@ Software is everywhere. Professional services will take us to many different fie
 To work, contribute and progress in such system, we need to go beyond technical competencies. Equally important are those from domain of emotional and social intelligence. Those I listed here, proved as most critical in my work with engineers, as engineer and line manager:
 
 - **Approachable:** Prerequisite for collaboration to happen is that you feel comfortable to approach your colleague no matter if you bring bad or good news. 
-- **Accountable:** They may rely on you. Once you came to agreement with your team mates, and the work is shared, they should be able to trust you that you’ll complete your tasks in agreed timeframe and quality.
+- **Accountable:** _They may rely on you_. Once you came to agreement with your team mates, and the work is shared, they should be able to trust you that you’ll complete your tasks in agreed timeframe and quality.
 - **Integrity:** May your actions be _the one_ with your values, principles and beliefs, in every context. People of integrity always do the right thing. They are honest and feel comfortable to say when don’t know. They are open for different opinion and always welcome feedback.
 - **Empathy:** Only if you’re honestly concerned and understand others’ feelings and perspective you’ll be able to establish a mutual bond. That bond is fundamental for establishing a feeling of psychological safety in the team – base of every high-performance team.
 - **Adaptability:** We live in the world of diversities. People we work with come from different cultures, opinions and professional/education backgrounds. Projects we work on are from different industries ran by various technologies. As an integral part of these processes, we absorb, analyze and assimilate a huge amount of information and emotions. We adapt.
 - **Pro-active:** In the time of innovations, products do not only respond on impulses from market in real-time, but also try to predict them and act ahead of time. Engineers follow that rhythm, and assisted by proven practices, methodologies and right technology choices bring this to reality.
 - **Courage:** It takes courage to challenge the status quo and going out of comfort zone. Those are first two steps on the way forward – road between opportunity and success. 
-- **Endurance:** Good things take time. Just try to remember how many things, that made an impact or you’re proud of, took short time to happen.
+- **Endurance:** _Good things take time_. Just try to remember how many things, that made an impact or you’re proud of, took short time to happen.
 
 You may ask yourself how realistic is to expect someone to possess all these competencies.
 From my experience, it is. Difference is only which of these are closer to surface.
