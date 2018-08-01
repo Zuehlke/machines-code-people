@@ -10,17 +10,13 @@ title: Team Fit
 
 Science tends to measure and quantify things. By making them concrete, tangible, it sets boundaries to itself. But passion breaks them. That’s why they work so well together and why they can’t “be” without each other. For engineer to perform beyond ordinary, an organization must provide a system that will foster the passion. That system is culture.
 
-Culture is group phenomenon. It manifests through shared values and behaviors and experienced through the norms and expectations of a group. When in harmony with personal traits, provides environment that empowers people to perform at their best. Degree of that harmony is called team fit.
+Culture is group phenomenon. It manifests through shared values and behaviors and experienced through the norms and expectations of a group. When in harmony with personal traits, provides environment that empowers people to perform at their best. Degree of that harmony is called _team fit_.
 
-Each organization has its own culture style and each fit a different set of personal traits. Talking in general terms would be impossible. The one I have in mind is the software engineer working in professional services, always part of a team and in regular contact with the client.
+Software engineering is highly collaborative process. From its very beginning, in discovery phase, until its retirement we’re in constant contact with various stakeholders. Furthermore, as we take on more responsibility, collaboration become more important.
 
-Software engineering is the youngest engineering discipline. In early development stages things are changing fast and growing rapidly, not allowing us to settle for the moment.
+It's everywhere. Professional services will take us to diverse industry sectors. Creating solution that will meet end-user expectations, require from us to really understand the business. Regardless the role in that process.
 
-It is also highly collaborative process. From its very beginning, in discovery phase, until its retirement we’re in constant contact with numerous stakeholders (client, managers, architect, developers, third-part companies, etc.). Furthermore, as we take on more responsibility, collaboration become more important.
-
-Software is everywhere. Professional services will take us to many different fields and industries. All of them have their specific needs which require different architectural decisions and implementation by very broad technology stacks. 
-
-To work, contribute and progress in such system, we need to go beyond technical competencies. Equally important are those from domain of emotional and social intelligence. Those I listed here, proved as most critical in my work with engineers, as engineer and line manager:
+To work, contribute and progress in such system, we need to go beyond technical competencies. Equally important are those from domain of emotional and social intelligence. Often, importance of one competence over the another is reflection of personal experience. After several individual and groups discussions with colleagues, I assembled the list of eight compatencies, of which all are perceived as crucial in certain context:
 
 - **Approachable:** Prerequisite for collaboration to happen is that you feel comfortable to approach your colleague no matter if you bring bad or good news. 
 - **Accountable:** _They may rely on you_. Once you came to agreement with your team mates, and the work is shared, they should be able to trust you that you’ll complete your tasks in agreed timeframe and quality.
