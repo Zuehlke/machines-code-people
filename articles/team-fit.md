@@ -16,7 +16,9 @@ Software engineering is highly collaborative process. From its very beginning, i
 
 Software is everywhere. Professional services takes us to diverse industry sectors. Creating solution that will meet end-user expectations, require from us to really understand the business, regardless of the role.
 
-To work, contribute and progress in such system, we need to go beyond technical competencies. Equally important are those from domain of emotional and social intelligence. Often, importance of one competence over the another is reflection of personal experience. After several individual and groups discussions with colleagues, I assembled the list of eight compatencies, of which all are perceived as crucial in certain context:
+To work, contribute and progress in such system, we need to be equipped with competencies beyond technical. For that we'll look in domain of emotional and social intelligence. Former provides skills to execute the task, while the latter enable us to take it through the process efficiently.
+
+So, what is that, exactly, we are looking for? This is a question I brought to colleagues. After several individual and group discussions, we came to the consensus on the list of eight compatencies, of which all are perceived as crucial in certain context:
 
 - **Approachable:** Prerequisite for collaboration to happen is that you feel comfortable to approach your colleague no matter if you bring bad or good news. 
 - **Accountable:** _They may rely on you_. Once you came to agreement with your team mates, and the work is shared, they should be able to trust you that you’ll complete your tasks in agreed timeframe and quality.
