@@ -14,7 +14,7 @@ Culture is group phenomenon. It manifests through shared values and behaviors an
 
 Software engineering is highly collaborative process. From its very beginning, in discovery phase, until its retirement we’re in constant contact with various stakeholders. Furthermore, as we take on more responsibility, collaboration become more important.
 
-It's everywhere. Professional services will take us to diverse industry sectors. Creating solution that will meet end-user expectations, require from us to really understand the business. Regardless the role in that process.
+Software is everywhere. Professional services takes us to diverse industry sectors. Creating solution that will meet end-user expectations, require from us to really understand the business, regardless of the role.
 
 To work, contribute and progress in such system, we need to go beyond technical competencies. Equally important are those from domain of emotional and social intelligence. Often, importance of one competence over the another is reflection of personal experience. After several individual and groups discussions with colleagues, I assembled the list of eight compatencies, of which all are perceived as crucial in certain context:
 
