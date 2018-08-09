@@ -1,8 +1,7 @@
 {
   "gitbook": "3.2.2",
   "plugins": [
-    "-fontsettings",
-    "onlineresources@git+https://github.com/abeggchr/gitbook-plugin-onlineresources"
+    "-fontsettings"
   ],
   "title": "Title To Be Defined",
   "bookname": "Bookname To Be Defined",
