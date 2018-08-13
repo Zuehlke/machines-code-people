@@ -2,7 +2,7 @@
 authorName: Vassilis Rizopoulos
 authorGithubUsername: damphyr
 issue: 26
-title: TBD
+title: Rules for building systems
 ---
 # {{page.title}}
 
@@ -87,7 +87,7 @@ The first rule sets the frame within which the build system operates. To adhere 
 
 The first rule combined with the third lead to the prioritization of command line usage. It doesn't mean we do everything just from the command line but that CLI is the first priority when adding features to the tools comprising the development environment. CLI is the one interface both humans and bots can operate with the same facility.
 
-The second rule's consequences are a bit more subtle. Avoiding inconsistencies between execution environments is a critical issue and to handle it correctly we need to introduce the concept of a consistent development environment (usually called the 'project VM' as we use virtual machines for encapsulation). The challenge of maintaining and replicating such an environment unavoidably leads to the introduction of a provisioning (A.K.A. configuration management) tool such as Chef, Ansible or Puppet.
+The second rule's consequences are a bit more subtle. Avoiding inconsistencies between execution environments is a critical issue and to handle it correctly we need to introduce the concept of a consistent development environment (usually called the 'project VM' as we use virtual machines for encapsulation - although at the time of writing containerization offers a less resource intensive approach for specific development scenarios). The challenge of maintaining and replicating such an environment unavoidably leads to the introduction of a provisioning (A.K.A. configuration management) tool such as Chef, Ansible or Puppet.
 
 ## Who does what
 
@@ -99,7 +99,8 @@ All of this segues nicely into the final rule:
 
 Rule #4 means you need tests and CI and a plan. You need to budget for CI, for creating a build system specific to your project, for teaching people how to use it.
 
-To make matters worse your users are some of the most obnoxious, impatient and down right pedantic users on the face of the planet. They want everything perfect, robust, simple and fast and they want it yesterday. You better be dogfooding by this point...
+To make matters worse your users are some of the most obnoxious, impatient and downright pedantic users on the face of the planet. They want everything perfect, robust, simple and fast and they want it yesterday.
+ You better be dogfooding by this point...
 
 *By {{page.authorName}}*
 
