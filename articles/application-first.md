@@ -6,7 +6,7 @@ title: Application First - A Bottom Up Architecture Approach
 ---
 # {{page.title}}
 
-One scenario we often encounter when advising a large company is the development of a bunch  of smaller or larger applications writen by employees for various purposes. Commonly these tools are spreadsheets stored in Microsoft Excel with a portion of business logic or databases created in Microsoft Access. Those application accumulate quite some knowledge and information that is essential for the business. The apparent ease with which such applications facilitate the work of the business units ("Let me just do this in Excel") ensures a rapid spread of these applications as "undercover projects" and thus presents the company with a broad set of challenges.
+One scenario we often encounter when advising a large company is the development of a bunch of smaller or larger applications written by employees for various purposes. Commonly these tools are spreadsheets stored in Microsoft Excel with a portion of business logic or databases created in Microsoft Access. Those application accumulate quite some knowledge and information that is essential for the business. The apparent ease with which such applications facilitate the work of the business units ("Let me just do this in Excel") ensures a rapid spread of these applications as "undercover projects" and thus presents the company with a broad set of challenges.
 
 ## The Challenge
 
