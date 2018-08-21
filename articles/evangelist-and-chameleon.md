@@ -6,6 +6,8 @@ title: The Evangelist and The Chameleon
 ---
 # {{page.title}}
 
+When we encounter obstacles, we have preferred reaction. Usually, this preference unconscious, which means that we act without thinking about the impact of our actions.
+
 Imagine this quite common situation: Somebody, let's call her Andrea, has her preferred tools. But now, she is forced to use other tools at work. Andrea has four basic options for how she can act in this situation:
 
 # Possibility 1: The Whiner
@@ -52,7 +54,7 @@ Each of these possibilities is useful in the right situation:
  * Without evangelists, we would still use the tools from the last century. But please listen to the people in your context, there might be more pressing issues than the migration of some supporting tool!
  * Both the tightrope walker and the chameleon have a good chance to be able to focus on the big issues in many environments. But don't forget that sometimes, a migration is long overdue and needs your active support and participation.
 
-So instead of simply relying on your favourite reaction, try to adapt your reaction to the situation at hand. 
+No matter whether you work as a team member, as a consultant or in a management position: Your actions have an impact. Don't let your unconscious preferences rule your actions. Instead, adapt your behaviour to the requirements of the situation.
 
 *By {{page.authorName}}*
 
