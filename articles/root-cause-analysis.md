@@ -6,7 +6,11 @@ title: You Always Have Time for a Proper Root Cause Analysis
 ---
 # {{page.title}}
 
-Eventually, there will be an issue in production, even in the best piece of software. Since people are blocked from getting their stuff done, pressure rightfully rises a bit (or a lot). Hence, we're more than eager to resolve the issue quickly. That's noble, yet skipping careful analysis is never worth it. You might very well deploy another embarassing bug to production, maybe making everything worse. More importantly though, you might suppress the symptoms without solving the problem.
+Production will pop up, even in solid software. [Don't panic.](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Don't_Panic)
+
+We're more than eager to resolve the issue quickly. We should be, yet we should never stop being careful and analytical. Otherwise we might deploy another embarassing bug or suppress the problem without solving it, making everything worse.
+
+Saving an hour of analysis is not worth it.
 
 ## People Will Describe the Symptoms
 
@@ -67,6 +71,8 @@ Every issue needs careful and thorough analysis. The problem might seem obvious,
 Having said that, be pragmatic with the fix. Don't overengineer. Decide what's needed _now_ to put out the fire, and what should be done  _later_ to prevent further blazes.
 
 But let it be an educated decision.
+
+P.S. Whatever you do. Test, test, test!
 
 *By {{page.authorName}}*
 
