@@ -10,59 +10,55 @@ Eventually, there will be an issue in production, even in the best piece of soft
 
 ## People Will Describe the Symptoms
 
-Keep in mind that users - and to some extent also Ops teams - can only tell you _what_ happens, but not _why_. Not necessarily because they lack the skills, but they only have the outside view of your software. Hence, don't jump to conclusions.
+Keep in mind that users will report _symptoms_. This has nothing to do with a lack of understanding or skill. They have an outside view.
 
-Listen to all the clues. Then analyse. Re-produce. Re-think. Write down the problem in a ticket, including test cases, which are explicit about expected and actual results. Don't have the BA do it for you, you need to be part of the thinking. Even if it's [PEBKAC](https://en.wikipedia.org/wiki/User_error) or an external system failure, it's professional to help and teaches you _something_.
+What you need to find, and then fix, is the _problem_ (or more precisely its _cause_).
 
-If you don't do this slowly and deliberately, you might only see the tip of the iceberg and not realise there's more than meets the eye.
+Listen to all the clues. Then analyse. Re-produce. Re-think. Refine (or create) the ticket. Think of test cases, which are explicit about expected and actual results.
 
-**TODO:** good way to phrase: sounds obvious, so getting more specific
+Don't have the BA do it for you, you need to be part of the thinking. This might very well take longer than the coding. But if you don't do this slowly and deliberately, you might eliminate only half the problem or even make it worse. Don't be that cowboy.
 
 ## Can We Be More Specific?
 
 Absolutely!
 
-Let's have a look at some of the pitfalls which are painfully obvious in hindsight, yet painfully common too.
+Let's have a look at some of the painfully obvious yet all too common pitfalls.
 
-### Issue Not Really Fixed
+### Not Really Fixing the Issue. Or: Not Fixing The Real Issue.
 
-You might simply add a fix in the wrong place. You might even add a new bug, but certainly haven't done anything about the problem at hand.
+Do you feel some guilt reading through the three examples below? I do.
 
-Assuming you're working on the right piece of code, has any of this happened to you?
+* Added a fix in the wrong place. Didn't solve the problem, optionally introduced another one?
+* Fixed a `NullReferenceException` by adding another `if`, ended up with no exception but a wrong result?
+* Divided an `x` through `total` to make it relative, deployed to production, got an "unexpected" `DivideByZeroException` the day after?
 
-* Fixed a `NullReferenceException` by adding a null-check, ended up with an incomplete calculation?
-* Divided an absolute value `x` through `total` to make it relative, deployed to production, got a `DivideByZeroException` the day after?
+Things are often more subtle and not that silly. What they have in common though is that we didn't think it through all the way. We knew what _shouldn't_ happen, but didn't find out _why_ and what _should_.
 
-While both sounds silly, it's real, albeit not always as simple as this example. What we need to do here is find out what should happen. Chances are you're working on an edge case no one has thought of before ("The total cannot be null. I don't know how that happened!"), so some refinement is needed.
+### "It's a Feature." Or: "We Cannot Re-Produce This!"
 
-### It's Actually a Feature. Or: We Cannot Re-Produce This!
+It's a chance to improve the error message.
 
-However, it may be a chance to improve the error message.
+You couldn't find customer #316 in the DB? A `NullReferenceException` with a stack trace is a bug. Tell them what's wrong, in their language, so they can understand the problem without a debugger.
 
-You couldn't find customer #316 in the DB? A `NullReferenceException` with a stack trace is always a bug. "User not found." is the very least you should offer.
+Also try this when you cannot re-produce a problem. Don't try to solve it based on assumptions; refine your error handling and use it to find the problem.
 
-Remember that everyone but you needs to understand the error without the code and a debugger. Give them all the information they need to understand the problem and act accordingly.
+## ... This Might Have Happened Somewhere Else
 
-Being unable to re-produce an error is a change to improve error messages too. Don't try to solve a problem based on assumptions. Clear error messages, however, might make it easy to find the very same problem quickly next time.
+"I think we might divide by `total` there, there and there too. We should check if that also throws a `DivideByZeroException`."
 
-### ... this Might Have Happened Somewhere Else
+It's great to think about it. The problem might be a pattern. But analyse and fix it separately.
 
-The problem might be a pattern. Multiple classes and methods might make the same or similar assumptions (e.g. "the `total` from the accounting system is never zero").
-
-It's great to include this in your analysis! Scrutinise and prioritise every occurrence separately though.
-
-Does this happen too often? Maybe the [DRY priciple](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) can help your project.
+Does this happen too often? That's what the [DRY priciple](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) is about.
 
 ### There's a "Real Solution" and a "Quick Solution" (and a "Workaround")
 
-As mentioned above, the analysis probably taught you something about the problem. The solution could be anything like
+After understanding the problem there might be multiple options to solve or work around it:
 
-1. adding another `if` to handle this case
-1. refactoring the accounting system interface service so support zero totals
-1. breaking down the system into different microservices that can scale individually
-1. ... let 3rd level support handle it until the next release
+1. adding another `if` in method x
+1. refactoring the accounting system interface to support zero totals
+1. breaking down the system into different microservices
 
-I encourage to hotfix what is needed _immediately_, but writing everything down for the backlog. Adding the `if` can very well be good enough to get you out of the reactive bug-fixing mode, which gives you time to shape the microservices with your team. After adding the 5th `if` though, think about the medium-size solution. Use your judgement, but get the data first.
+It's fine to add an `if` to get the production issue out of the way - if you have thought it through first! By all means write all the options down and prioritise. After adding the 5th `if`, another solution could be increasingly compelling.
 
 ## Conclusion
 
