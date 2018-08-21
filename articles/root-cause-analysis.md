@@ -64,11 +64,13 @@ As mentioned above, the analysis probably taught you something about the problem
 
 I encourage to hotfix what is needed _immediately_, but writing everything down for the backlog. Adding the `if` can very well be good enough to get you out of the reactive bug-fixing mode, which gives you time to shape the microservices with your team. After adding the 5th `if` though, think about the medium-size solution. Use your judgement, but get the data first.
 
-## Wrapping Up
+## Conclusion
 
-Careful analysis is imperative with any production issue. Don't let yourself trick you into thinking you don't have time for analysis or you know the issue already. Take that time.
+Every issue needs careful and thorough analysis. The problem might seem obvious, but it's always worth double-checking. You always have that much time.
 
-Don't strive for unnecessary perfection though when implementing a fix. Don't overengineer, be pragmatic. Decide what's needed _now_, what's needed _later_. But let it be an educated decision.
+Having said that, be pragmatic with the fix. Don't overengineer. Decide what's needed _now_ to put out the fire, and what should be done  _later_ to prevent further blazes.
+
+But let it be an educated decision.
 
 *By {{page.authorName}}*
 
