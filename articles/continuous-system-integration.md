@@ -6,7 +6,7 @@ title: Successful Agile System Development with Continuous System Integration
 ---
 # {{page.title}}
 
-Continuous integration (CI) is the core of successful agile software development. A practice that makes agile systems development, e.g., development of a medical device, successful as well!
+Continuous integration (CI) is a core practice of successful agile software development. A practice that makes agile systems development, e.g., development of a medical device, successful as well!
 
 ##Continuous Integration of Software
 
