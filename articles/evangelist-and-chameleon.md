@@ -6,9 +6,7 @@ title: The Evangelist and The Chameleon
 ---
 # {{page.title}}
 
-When we encounter obstacles, we have preferred reaction. Usually, this preference unconscious, which means that we act without thinking about the impact of our actions.
-
-Imagine this quite common situation: Somebody, let's call her Andrea, has her preferred tools. But now, she is forced to use other tools at work. Andrea has four basic options for how she can act in this situation:
+Imagine this quite common situation: Somebody, let's call her Andrea, has her preferred tools. But now, she is forced to use other tools at work. Now, Andrea has a choice: She can either react according to her (probably unconscious) preference, or she can choose her reaction based on what she wants to achieve. Here is one way of looking at her possibilities:
 
 # Possibility 1: The Whiner
 
