@@ -10,9 +10,9 @@ Imagine on a Monday morning you are coming into the office start up your compute
 
 There is a problem with the software you are building in production. In the meeting there is the CIO, your line manager, the technology line manager, the operation line manager, the central architect line manager and you. 
 
-There is a problem with an open source library you have introduced one year ago in your software which is causing crashes of the software in production and the company is losing money because the users cannot work.
+There is a problem with an library you have introduced one year ago in your software which is causing crashes of the software in production and the company is losing money because the users cannot work.
 
-The managers want to know why you have chosen to use this library wo has given you the sign off to use this library. 
+The managers want to know why you have chosen to use this library who has given you the sign off to use this library. 
 There are now two possibilities: 
 
 A)	You start like hmmmm, this was one year ago and hmmm, actually I don’t know, but this is not from interest now let me go and fix the problem….
@@ -26,15 +26,15 @@ Look I now you hate to document things and I know that you think you will rememb
 Use CYA = Cover your ass. 
 CYA has one simple rule: Document EVERY Decision => DED
 
-Yes, document every decision. Whatever you are a Software Architect, Business Analyst, Consultant, Engineer, Developer, Manager or a fluffy unicorn dancing on a rainbow. 
+Yes, document every decision. Wether you are a Software Architect, Business Analyst, Consultant, Engineer, Developer, Manager or a fluffy unicorn dancing on a rainbow. 
 
 Now how are you documenting a decision? 
 
 You are creating a decision log in a tabular form in a suitable medium (Git, wiki, SharePoint, word, excel, …).
 
-No.: Every Decision has an id or number. Which can be referred to. 
+Number: Every Decision has an id or number. Which can be referred to. 
 
-What: Every decision has the what: What is the decision that was taken
+What: What is the decision that was taken
 
 Why: Here we document the reasoning and arguments, constraints, implications and references. 
 
@@ -47,7 +47,7 @@ When: When has the decision been taken?
 
 Who: Who was involved in taking this decision? Hint: The more people agreed on a decision the better. 
 
-| No.| What (Decision that is taken)| Why(reasoning and arguments, constraints, implications, references)| When (Date of the decision) | Who (Agreement and communication) |
+| No.| What | Why | When | Who  |
 | -- | --------------------------- | --------------------------------------------------------------------| ----------------------------| --------------------------------- |
 | D-1| We will use a decision log in our project | Context:<br>-	Decisions need to be documented so that everyone knows why a decision was made.<br> Problem:<br>- Not everyone remembers after a more than a year why a decision was made.<br>- Knowledge drain: People are leaving the project<br>Decision:<br>- We will introduce a decision log.<br>Consequences:<br>- Every decision is documented in the decision log|01.01.2020 | Hans Muster Simon Stucki|
 
