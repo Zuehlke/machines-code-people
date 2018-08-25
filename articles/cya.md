@@ -16,17 +16,17 @@ The managers want to know why you have chosen to use this library who has given 
 There are now two possibilities: 
 
 A)	You start like hmmmm, this was one year ago and hmmm, actually I don’t know, but this is not from interest now let me go and fix the problem….
-very bad idea! Your screwed…
+very bad idea! You're screwed…
 
 B)	You take the laptop and navigate to the list of architecture decisions, you show them the architecture decision with the evaluation and the approval. And now you say: “Can you excuse me? I have a problem to fix.”
 
 Of course: All characters and events in this article are entirely fictional ;-).
 
-Look I now you hate to document things and I know that you think you will remember anything. But just take my advice for your career.
+I know you hate to document things and I know that you think you will remember anything. But just take my advice for your career.
 Use CYA = Cover your ass. 
 CYA has one simple rule: Document EVERY Decision => DED
 
-Yes, document every decision. Wether you are a Software Architect, Business Analyst, Consultant, Engineer, Developer, Manager or a fluffy unicorn dancing on a rainbow. 
+Yes, document every decision. Whether you are a Software Architect, Business Analyst, Consultant, Engineer, Developer, Manager or a fluffy unicorn dancing on a rainbow. 
 
 Now how are you documenting a decision? 
 
@@ -36,12 +36,12 @@ Number: Every Decision has an id or number. Which can be referred to.
 
 What: What is the decision that was taken
 
-Why: Here we document the reasoning and arguments, constraints, implications and references. 
+Why: The reasoning and arguments, constraints, implications and references. 
 
 -	Context: In this part we document the context of the decision. We give the reader some extra information, so he can understand the context of the decision. 
--	Problem: Here we document the problem or the challenge in which leads to this decision. 
--	Decision: Here we document the decision which has been made. Document here the evaluation you have done which have led to this decision.
--	Consequences: Here we document the consequences of the decision.
+-	Problem: The problem or the challenge in which leads to this decision. 
+-	Decision: The decision which has been made. Document here the evaluation you have done which have led to this decision.
+-	Consequences: The consequences of the decision.
 
 When: When has the decision been taken?
 
