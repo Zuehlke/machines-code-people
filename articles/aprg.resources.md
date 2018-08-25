@@ -2,8 +2,14 @@
 
 ## Books
 
-* Lorem Ipsum Illustrated: Chuck Norris, 1812, Edition, 978-1-93435-650-0.
+* [RISK] Just Enough Software Architecture: A Risk-Driven Approach: George Fairbanks, 2010, ISBN 978-0984618101.
+* [DDD] Domain-Driven Design: Tackling Complexity in the Heart of Software: Eric J. Evans, 2003, ISBN 978-0321125217.
+* [EVOL] Building Evolutionary Architectures: Support Constant Change, Neil Ford et Al. 2017 ISBN 978-1491986363.
 
 ## Links
 
-* [Fifty-Shades](https://github.com/Zuehlke/fifty-shades/) repository contains our source code.
+* [ADR] http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions
+* Evolutionary Architecture http://nealford.com/downloads/Evolutionary_Architecture_Keynote_by_Neal_Ford.pdf
+* Fitness functions: 
+** https://blog.timsommer.be/using-fitness-functions-to-create-evolving-architectures/
+** https://www.thoughtworks.com/radar/techniques/architectural-fitness-function
