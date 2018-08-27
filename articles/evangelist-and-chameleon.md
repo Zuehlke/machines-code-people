@@ -44,7 +44,7 @@ The disadvantage is that Andrea might miss an opportunity to improve the situati
 
 # Possibility 4: The Chameleon
 
-Even though Andrea has her preferred tools, she can work with many other tools. She adapts her way of working to fit the tool in use and continues to learn about each tool she uses. Given her experience with various tools, she can choose the tool that fits best to the problem at hand, even if the chosen tool isn't her favourite.
+Even though Andrea has her preferred tools, she can work with many other tools. She adapts her way of working to fit the tool in use and continues to learn about each tool she uses. Given her experience with various tools, she can choose the tool that fits best to the problem at hand, regardless of her personal preferences.
 
 Like the whiner, the chameleon does not attempt to change anything. But the motivation is completely different: For the chameleon, the choice of the tool far less important than many other things. The chameleon neither attempts to convince anybody nor takes any action to change the situation. This is not due to resignation, but because the chameleon adapts and is happy with many tools.
 
