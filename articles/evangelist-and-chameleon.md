@@ -10,7 +10,7 @@ Imagine this quite common situation: Somebody, let's call her Andrea, has her pr
 
 # Possibility 1: The Whiner
 
-Andrea will complain every day for hours about the tool she is forced to use. It is slow and this specific bug leads at least daily to undesired behaviour. And anyway, this tool is simply not as good as her favourite tool. Even after years, Andrea complains about the same problems. During this time, she has neither learnt how the tool works nor found any of the workarounds her teammates use nor taken any steps to replace the tool.
+Andrea will complain continuously about the tool she is forced to use. It is slow and this specific bug leads at least daily to undesired behaviour. And anyway, this tool is simply not as good as her favourite tool. Even after years, Andrea complains about the same problems. During this time, she has neither learnt how the tool works nor found any of the workarounds her teammates use nor taken any steps to replace the tool.
 
 The whiner tries to convince others that her preferences are the best, but she doesn't take any steps to actually switch to her preferred tool.
 
@@ -20,11 +20,9 @@ The disadvantage is that having a whiner in your team is annoying and there's th
 
 # Possibility 2: The Evangelist
 
-Whoever wants to listen (and everyone else, too) will hear continuously from Andrea about all the advantages of her favourite tool. She does everything she can to have as many people as possible switch to her favourite tool, even if there are good reasons why up to now, something else was in use.
+Whoever wants to listen (and everyone else, too) will hear continuously about all the advantages of Andrea's favourite tool. She does everything she can to have as many people as possible switch to her favourite tool, even if there are good reasons why up to now, something else was in use.
 
-The big challenge of evangelists is that they usually don't know the alternatives. This means that they sound more like "I don't want to learn about this alternative" than like "I know something better". In the worst case, the functionality they point out as the biggest advantage has been implemented in an improved way in the very alternative they are trying to replace.
-
-The evangelist attempts to convince everybody that her preferences are the best and takes steps to have the whole team switch to her preferred tool.
+The big challenge of an evangelists is that they usually don't know the alternatives. This means that Andrea sounds more like "I don't want to learn about this alternative" than like "I know something better". In the worst case, the functionality she points out as the biggest advantage has been implemented in an improved way in the very alternative she is trying to replace.
 
 The advantage of the evangelist is that many migrations need the tenacity of an evangelist. Without evangelists, we would still use the tools from the last century.
 
@@ -32,7 +30,7 @@ The disadvantage is that Andrea might overlook a far more important issue or a p
 
 # Possibility 3: The Tightrope Walker
 
-Whether Andrea uses the team's conventions or her preferred tool is a conscious decision. It is a balancing act:
+Where possible, Andrea uses her preferred tool. Whether she adheres to the team's conventions or not is a balancing act:
 
  * If your environment differs too much from everybody else's, pair programming will become more difficult.
  * Most companies have rules about what can be installed/used. Because Andrea most likely doesn't know the reasoning for each of these rules, she has to consider carefully which rules she breaks.
@@ -50,7 +48,7 @@ Even though Andrea has her preferred tools, she can work with many other tools. 
 
 Like the whiner, the chameleon does not attempt to change anything. But the motivation is completely different: For the chameleon, the choice of the tool far less important than many other things. The chameleon neither attempts to convince anybody nor takes any action to change the situation. This is not due to resignation, but because the chameleon adapts and is happy with many tools.
 
-The advantages and disadvantages of the chameleon are the same as for the tightrope walker with the added advantage that the chameleon has more experience with a broade range of tools.
+The advantages and disadvantages of the chameleon are the same as for the tightrope walker with the added advantage that the chameleon has more experience with a broad range of tools.
 
 # Conclusion
 
