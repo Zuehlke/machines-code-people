@@ -123,9 +123,9 @@ Ich erwarte, dass du noch folgende Änderungen vornimmst:
 
 ### Prepare
 
-1. Pick the next articles (min. 5), mark them as "submitted" in the excel
+1. Pick the next articles (min. 5), mark them as "sent" in the excel
 1. Copy the Markdown files into a folder
-1. Execute `pandoc file.md -s -o file.docx` for each file
+1. Execute `dir *.md | rename-item -newname { [io.path]::ChangeExtension($_.name, "txt") }` in the folder (rename from *.md to *.txt)
 1. Zip it
 
 Challenge: title
@@ -133,13 +133,13 @@ Challenge: title
 ### Feedback
 
 1. Extract ZIP to a folder
-1. Execute `pandoc file_en-GB-1869522_final.docx -o file.md -to=gfm --wrap=preserve` for each file
+1. Execute `dir *.txt | rename-item -newname { [io.path]::ChangeExtension($_.name, "md") }` for each file
 1. Copy the *.md files into to `articles` folder
 1. compare and fix markdown related stuff (frontmatter, titles, empty lines between list items, special chars like: &lt;)
 1. Generate summary `npm run-script summary`
 1. Update SUMMARY.md
 1. Create a PDF `gitbook pdf ./ ./wisdomz-dev-2018-07-11.pdf`, perform sanity check
-1. Commit to development
+1. Commit to development branch, pull request to master
 1. Send email to authors:
 
 [WisdomZ] Article lectored
