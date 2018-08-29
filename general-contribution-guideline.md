@@ -46,9 +46,9 @@ To discuss about an articles content, you have various options:
 
 **Language Conventions:**
 
-* apply the [rules for capitalization in titles](http://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html) (at least to the "style guide similarities" mentioned)
+* written in UK English (see [advanced contribution topics](./advanced-contribution-topics.md) for information about a translation)
 
-* written in English (see [advanced contribution topics](./advanced-contribution-topics.md) for information about a translation)
+* Titles are written in sentence case (i.e. lower case for all words apart from the first one) 
 
 **Formal Conventions:**
 
