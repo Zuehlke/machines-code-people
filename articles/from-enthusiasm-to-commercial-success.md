@@ -1,5 +1,5 @@
 ---
-authorName: Your Name
+authorName: Bojan Jelaca
 authorGithubUsername: yellboy
 issue: 82
 title: From Enthusiasm to Commercial Success
