@@ -48,5 +48,5 @@ Packet forwarding should ideally work similarly: each packet should contain cryp
 
 Finally, TCP's vulnerability can be fixed by so-called SYN cookies, i.e., sequence numbers that encode information about the client so that state at the server can be significantly reduced. Due to space constraints, we refer to the literature for more information.
 
-To conclude, the storage location of state is crucial for enabling efficient processes. In order to store state with the service requester, efficient cryptography is required that makes the entire application not only more secure, but -- surprisingly -- also more efficient.
+To conclude, the storage locations of all application state are crucial for enabling efficient system processes. Ideally, state is treated as first-class citizen and outsourced to users and service requesters. In order to avoid abuse of functionality based on the outsourced state, efficient cryptography is required. Fortunately, today's cryptography not only makes the entire application more secure, but - perhaps surprisingly for some - also more efficient.
 
