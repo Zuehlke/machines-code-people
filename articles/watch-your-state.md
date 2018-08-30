@@ -46,6 +46,7 @@ A very similar solution works for web authentication: The server should not reme
 
 Packet forwarding should ideally work similarly: each packet should contain cryptographically protected information about its path to the destination. Each router on the path checks such forwarding information by efficiently verifying an AES-MAC, instead of wasting energy and time with costly database lookups. The efficacy of this solution is demonstrated by the Internet architecture SCION.
 
-
 Finally, TCP's vulnerability can be fixed by so-called SYN cookies, i.e., sequence numbers that encode information about the client so that state at the server can be significantly reduced. Due to space constraints, we refer to the literature for more information.
+
+To conclude, the storage location of state is crucial for enabling efficient processes. In order to store state with the service requester, efficient cryptography is required that makes the entire application not only more secure, but -- surprisingly -- also more efficient.
 
