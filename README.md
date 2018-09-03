@@ -1,4 +1,4 @@
-# {Title To Be Defined} [see issue #14](https://github.com/Zuehlke/fifty-shades/issues/14)
+# Machines, Code, People: 50 Things Zühlke Engineers Are Passionate About 
 
 ## Vision
 

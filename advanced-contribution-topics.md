@@ -118,16 +118,48 @@ Um den Artikel perfekt zu machen:
 Ich erwarte, dass du noch folgende Änderungen vornimmst:
 - ...
 
+
+## Lectorate
+
+### Prepare
+
+1. Pick the next articles (min. 5), mark them as "sent" in the excel
+1. Copy the Markdown files into a folder
+1. Execute `dir *.md | rename-item -newname { [io.path]::ChangeExtension($_.name, "txt") }` in the folder (rename from *.md to *.txt)
+1. Zip it
+
+Challenge: title
+
+### Feedback
+
+1. Extract ZIP to a folder
+1. Execute `dir *.txt | rename-item -newname { [io.path]::ChangeExtension($_.name, "md") }` for each file
+1. Copy the *.md files into to `articles` folder
+1. compare and fix markdown related stuff (frontmatter, titles, empty lines between list items, special chars like: &lt;)
+1. Generate summary `npm run-script summary`
+1. Update SUMMARY.md
+1. Create a PDF `gitbook pdf ./ ./wisdomz-dev-2018-07-11.pdf`, perform sanity check
+1. Commit to development branch, pull request to master
+1. Send email to authors:
+
+[WisdomZ] Article lectored
+Dear Author
+Your article was lectored by a professional lecturing agent. 
+Take the opportunity to improve your English and inspect the changes. You can find them in the following commit: 
+I also send you the current book as PDF. We are still working on the layout and might add or remove empty lines between list items. 
+But please check if the formatting of your article is still correct. If you have not change, your article will not be modified.
+Regards,
+Christian
+
 ## Output / Theming
 
 Theming can be done in the _layouts folder. It's based on the original GitBook theme.
 
 ### Website
 
-
 ### EBook
 
-* Let GibBook generate an EPub File (On Windows, install Callibre to be able to do that)
+* Let GitBook generate an EPub File (On Windows, install Callibre to be able to do that)
 
 ### Printed Book
 

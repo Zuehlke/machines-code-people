@@ -1,11 +1,10 @@
 {
   "gitbook": "3.2.2",
   "plugins": [
-    "-fontsettings",
-    "onlineresources@git+https://github.com/abeggchr/gitbook-plugin-onlineresources"
+    "-fontsettings"
   ],
   "title": "Title To Be Defined",
-  "bookname": "Bookname To Be Defined",
+  "bookname": "Machines, Code, People: 50 Things Zühlke Engineers Are Passionate About ",
   "pluginsConfig": {
     "github": {
       "url": "https://github.com/zuehlke/fifty-shades"
