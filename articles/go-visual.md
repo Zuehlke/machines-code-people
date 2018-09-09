@@ -41,4 +41,8 @@ Sketches can help you to understand and solve many of those issues. Let's make a
 The requirement for the transformation will probably be a list of rules. Including how to handle different currencies and its exchange rate.
 To draw a workflow diagram and having it on a paper in front of you, will help you to understand the data flow and the connection between the rules. It will help you to simplify your workflow diagram. Maybe some conditions are already included in other ones and can be pruned away. Or you can simplify the workflow by changing the order in which the rules are applied.
 
+## Conclusion
+Visualizing your work can save you time, energy and sharpen your thoughts. All you need to do is to grab a pen and paper.
+Try to sketch more often during your daily work. And next time you have to explain your system architecture to a new team member, sketch it.
+
 *By {{page.authorName}}*
