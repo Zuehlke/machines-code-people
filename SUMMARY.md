@@ -4,6 +4,7 @@
   * [Coding On Purpose](articles/coding-on-purpose.md)
   * [Start Using a Time Management Technique Today](articles/time-management.md)
   * ["You are not a Software Engineer" - What am I then?](articles/you-are-not-a-software-engineer.md)
+  * [Fast tracking into new projects – Take notes!](articles/note-taking.md)
 
 ## People
   * [Your team needs a Tech Lead, not a Lead Techie](articles/tech-lead-needed.md)
