@@ -6,13 +6,11 @@ title: Architectural Programming
 # {{page.title}}
 
 
-Architectural Programming (APRG) is a programming discipline for architectural elements and structures like servers, databases, load balancers or network components. Our approach requires APIs for architectural elements or at least for infrastructure to create and evolve an architecture model using code. For instance Azure, Google or AWS all provide such APIs with services ranging from IaaS, CaaS to PaaS.
+Architectural Programming (APRG) is a programming discipline for architectural elements and structures like servers, databases, load balancers or network components. The approach requires APIs for architectural elements or infrastructure to create and evolve an architecture model using code. For instance Azure, Google or AWS all provide such APIs with services ranging from IaaS, CaaS to PaaS.
 
-With our first implementation of the APRG approach we extended Structurizr, an executable Architectural Description Language (ADL), with an explicit and coded relation to the cloud infrastructure that is actually needed to implement and execute the system. This bridges a gap that nowadays still exist in most software development projects, a gap between models and code.
+With the first implementation of the APRG approach we extended Structurizr, an executable Architectural Description Language (ADL), with an explicit and coded relation to the cloud infrastructure that is actually needed to implement and execute the system. This bridges a gap that nowadays still exist in most software development projects, a gap between models and code.
 
-The coded model is the very basis for an envisioned development workflow that allows for validating architectural decisions by implementing tests as executable quality attribute scenarios. Both, the decisions as well as the scenarios might also be stored in the same repositories like the code for functional components, architecture and infrastructure, hence further reducing the risk of architectural erosion due to the system's evolution during its development and lifetime.
-
-(TBD section may need a clearer statement of what we have achieved so far and what is planned or envisioned for the future)
+The coded model is the very basis for an envisioned overall development workflow that allows for validating architectural decisions by executable quality attribute scenarios similar to validating acceptance criteria by automated functional tests. 
 
 ## Architecture Models in the Product Lifecycle
 Architecture modelling takes user and business requirements into account to provide guiding structure and decisions for implementation and operation of a system ultimately delivered as a product to the customer.
@@ -26,14 +24,12 @@ Such a model comprises at least
 
 
 ## Architectural Erosion and the Model-Code Gap
-Architectural erosion is the divergence of the architecture model from the source code and infrastructure that actually implements the model. It results in a model-code gap and usually happens stepwise by iterative and incremental development and maintenance of a system. The code and infrastructure evolves, but the architecture model is not kept in sync. After some time we end up with an architectural model that describes the system as it was meant in the beginning but not as it is actually implemented and delivered. 
+Architectural erosion is the divergence of the architecture model from the source code and infrastructure that actually implements the model. It results in a model-code gap and usually happens stepwise during iterative and incremental development and maintenance of a system. The code and infrastructure evolves, but the architecture model is not kept in sync. After some time we end up with a model that describes the system as it was meant in the beginning but not as it is actually implemented and delivered. 
 
-Such a system is often called "historically grown". It is difficult to maintain and to evolve further since earlier decisions were implicit, based on local knowledge and are not comprehendable any more. Fulfilment of quality attribute requirements is getting harder and harder to achieve.
+Such a system is often called "historically grown". It is difficult to maintain and to evolve further since decisions are often implicit, based on local knowledge and are not comprehendable after some time any more. Fulfilment of quality attribute requirements is getting harder and harder to achieve.
 
 ## Towards Architecture as Code 
-Our approach is one step towards closing the model-code gap. It combines Architecture as Code with APIs for Infrastructure within the same code base, hence making it easier to keep the architectural model of a system in sync with the code and the infrastructure which actually implements this model. 
-
-As an example consider the following simplified architecture of an eShop:
+Our approach is one step towards closing the model-code gap. It combines Architecture as Code with APIs for Infrastructure within the same code base. As an example consider the following simplified architecture of an eShop:
 
 (TBD add the sys and app architecture sketch here)
 	
@@ -45,15 +41,15 @@ Instead of modelling the architecture in a diagram we may use code like the foll
 	
 Now, when this gets executed the corresponding infrastructure and connectors are created and the system is ready to be used according to its description in the code.
 
-Note that the implementation is based on our extension of Structurizr, an executable ADL which also allows to generate architectural diagrams. Therefore we may additionally generate up-to-date views of our current models as needed in the system's Architecture Guidebook, for instance.
+Note that the implementation is based on Structurizr, an executable ADL which also allows to generate architectural diagrams. Therefore we may additionally generate up-to-date views of our current models as needed in the system's Architecture Guidebook, for instance.
 
-In case we need to evolve or refactor the architecture we must work directly with the code. Only by this means we are able to modify the actual system and hence the model is always in sync with code and infrastructure. Of course we could also change the system directly, but this is similar to change something in a running system without modifying the underlying source code in the repository. 
+In case we need to evolve or refactor the architecture we must work directly with the code. Only by this means we are able to modify the actual system and hence the model is always in sync with code and infrastructure. Of course we could also change the system directly, but this is similar to changing something in a running system without modifying the underlying source code in the repository. 
 
 ## Envisioned Development Workflow
 
-(TBD section is still too long) 
+(TBD section is still too long > einfach als 2.ter Artikel?) 
 
-How does the APRG approach integrate in the development workflow of a software product? We think the first important step is to have the model managed in the same repositories like the source code that implements the functionality of the system. This provides the very basis to evolve the approach even further, towards an approach of system development that allows to validate and test architectural decisions similar to BDD [todo link BDD] for functional acceptance.
+How does the APRG approach integrate in the development workflow of a software product? We think the first important step is to have the model managed in the same repositories like the source code that implements the functionality of the system. This provides the very basis towards an approach of system development that allows to validate and test architectural decisions similar to BDD [todo link BDD] for functional acceptance.
 
 ### Version Control and Executability
 
