@@ -28,7 +28,8 @@ Here's the basic workflow:
 3.	If one step involves adding a dialog on top of an existing page, create a wireframe "snippet" that just shows the dialog. This also works for other small changes on a screen.
 4.	The result is a stack of sketched or printed screens and a collection of snippets.
 
-![An example paper prototype](./paper-prototyping/prototype-example.png)
+![An paper prototype created using Balsamiq](./paper-prototyping/prototype-example.png)
+![An hand-sketched paper prototype](./paper-prototyping/paper-prototype-sketched.png)
 
 ## Conducting the test
 
