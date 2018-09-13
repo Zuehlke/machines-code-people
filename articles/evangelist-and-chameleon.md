@@ -38,7 +38,7 @@ Where possible, Andrea uses her preferred tool. Whether she adheres to the team'
 
 The difference between a tightrope walker and an evangelist is that the tightrope walker focuses on her own productivity and comfort. She doesn't attempt to convince anybody, but simply uses whatever she prefers (as long as she believes that it is ok within the context).
 
-The advantage of the tightrope walker is that because the specific tools are less important, Andrea can look at the big picture and focus on the most important issues.
+The advantage of the tightrope walker is that her focus is not on a specific tool. This gives Andrea the freedom to look at the big picture and focus on the most important issues.
 
 The disadvantage is that Andrea might miss an opportunity to improve the situation of the whole team.
 
@@ -46,15 +46,15 @@ The disadvantage is that Andrea might miss an opportunity to improve the situati
 
 Even though Andrea has her preferred tools, she can work with many other tools. She adapts her way of working to fit the tool in use and continues to learn about each tool she uses. Given her experience with various tools, she can choose the tool that fits best to the problem at hand, regardless of her personal preferences.
 
-Like the whiner, the chameleon does not attempt to change anything. But the motivation is completely different: For the chameleon, the choice of the tool far less important than many other things. The chameleon neither attempts to convince anybody nor takes any action to change the situation. This is not due to resignation, but because the chameleon adapts and is happy with many tools.
+Like the whiner, the chameleon does not attempt to change anything. But the motivation is completely different: For the chameleon, the choice of the tool is far less important than many other things. The chameleon neither attempts to convince anybody nor takes any action to change the situation. This is not due to resignation, but because the chameleon adapts and is happy with many tools.
 
 The advantages and disadvantages of the chameleon are the same as for the tightrope walker with the added advantage that the chameleon has more experience with a broad range of tools.
 
-# Conclusion
+# It's Your Choice
 
 Each possibility has strengths and weaknesses that may or may not fit your situation. So choose wisely: What's your intended impact? And which possibility matches your impact best?
 
-No matter whether you work as a team member, as a consultant or in a management position: Don't let your unconscious preferences rule your actions. Instead, adapt your behaviour to the requirements of the situation.
+No matter whether you work as a team member, as a consultant or in a management position: Don't let your unconscious preferences rule your actions. Instead, adapt your behaviour to the requirements of the situation and continuously ask yourself: Which of the possibilities above is the best to achieve my goals? Does my behaviour match my chosen possibility?
 
 *By {{page.authorName}}*
 
