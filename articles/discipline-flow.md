@@ -26,11 +26,11 @@ The three major parts each have a slightly different focus: (1) Understand what 
 
 If the product is delivered to a customer instead of the final user(s) we get a number of variations in part one and three.  As an extreme, these two parts might end up as blackbox for the development, getting input from the cutomer's own user research and then just delivering the results. However, we may assume that in this case the customer instantiates disciplines and flow relations similar to the one sketched above. 
 
-Finally, one might think of Testing (TST) as a discipline on its own, for instance between IMPL and OPS or OPS and the delivered Product. In some project contexts this would make perfectly sense, however in general we'd more like to think of Testing as a discipline-specific activity. Starting with BIZ we may think about how to test the business model hypothesis, as part of UX we may think about how to do the User Acceptance testing and in ARCH the testing for Quality Attributes is paramount. Of course, all this needs general testing knowledge as a foundation and this is where testing as a discipline comes back into the game again.
+Finally, one might think of Testing (TST) as a discipline on its own, for instance between IMPL and OPS or OPS and the delivered Product. In some project contexts this would make perfectly sense, however in general we'd more like to think of testing as a discipline-specific activity. Starting with BIZ we may think about how to test the business model hypothesis, as part of UX we may think about how to do the User Acceptance testing and in ARCH the testing for Quality Attributes is paramount. Of course, all this needs general testing knowledge as a foundation and this is where Testing as a discipline might play an explicit role in your project again.
 
 
 ## Views on the Model
-There are three foundational views on the model, each with a certain notion of excellence.
+There are three foundational views, each with a certain notion of excellence.
 
 ### Discipline Experts
 The disciplines and relations described above form the core elements of an abstract product delivery machinery. However, the machinery is only the basic structure. It needs to be implemented by people who are experts in their disciplines, and at the same time have general knowledge of all other disciplines in order to be able to put specific work always into context of the overall product lifecycle. Only then we may avoid silos and waterfall-like delivery processes.
