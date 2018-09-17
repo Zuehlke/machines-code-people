@@ -32,20 +32,20 @@ Finally, one might think of Testing (TST) as a discipline on its own, for instan
 ## Views on the Model
 There are three foundational views, each with a certain notion of excellence.
 
-### Discipline Experts
-The disciplines and relations described above form the core elements of an abstract product delivery machinery. However, the machinery is only the basic structure. It needs to be implemented by people who are experts in their disciplines, and at the same time have general knowledge of all other disciplines in order to be able to put specific work always into context of the overall product lifecycle. Only then we may avoid silos and waterfall-like delivery processes.
+### Discipline Experts 
+The disciplines and relations described above form the core elements of an abstract product delivery machinery. However, the machinery is only the basic structure. It needs to be implemented by people who are experts in their disciplines. At the same time they must have general knowledge of all other disciplines in order to be able to put specific work always into context of the overall product lifecycle. Only then we may avoid silos and waterfall-like delivery processes.
 
 The more direct the disciplines are related, the more this knowledge is required. For instance working on the architecture requires a solid understanding of all the requirements, both the functional requirements as well as the requirements for quality attributes. And in the downstream flow we need a thourough understanding which infrastructure is needed for effective operations. This holds not only for production but also for development and test environments.
 
-### Project Excellence
+### Project Excellence 
 We need people working together as a team often facilitated by somebody in the team taking care of collaboration topics like establishing and customizing an agile process, enabling appropriate levels of self-organisation but also considering individual personal development goals. At Zühlke this is typically done by a Collaboration Owner, elsewhere this might be a Scrum Master. Additionally somebody taking care of project budget and risk is needed within the team. Typically this is done by a team member from the project management domain.
 
 Both roles, the collaboration owner and the project manager (PM) are not part of the sketch above, since both are somewhat always concerned with the complete flow on a meta level and not so much with the product flow directly. At least in some parts, the PM has some stakes in the business discipline, but his responsibility is usually more related to the project delivery than to the business case of the project.
 
-Both roles together ensure that not only some features are delivered, but that they are also delivered in time and in budget with appropriate quality by a team that sees purpose individually as well as on level of the product development as a whole.
+Both roles together ensure that not only features are delivered, but that they are also delivered in time and in budget with appropriate quality by a team that sees purpose individually as well as on level of the product development as a whole.
 
 ### Successful Products
-Even if we have achieved project excellence we usually do not yet have delivered a successful product. Excellent products require additionally that user and business needs and goals are explicitly taken into account from early on. We need to develop and deliver incrementally and incorporate feedback and learnings continuously. Each discipline has its specific contribution:
+Even if we have achieved project excellence we usually do not yet have delivered a successful product. These require additionally that user and business needs and goals are explicitly taken into account from early on. We need to develop and deliver incrementally and incorporate feedback and learnings continuously. Each discipline has its specific contribution:
 
 - BIZ: models with statements about value and impact
 - CX: overarching product(s) delivery and experience concept
@@ -57,8 +57,8 @@ Even if we have achieved project excellence we usually do not yet have delivered
 
 One key aspect to achieve product excellence is to track and monitor product features (or increments) as they make their way through the complete cyclical flow in order to learn and improve continuously within and from each discipline. That is all the way from CX/UX to delivery in production systems, including the tracking and monitoring of the product's usage and business performance.
 
-## Use Cases for the Model
-There are a number of application scenarios for the basic model, for instance:
+## Specific Use Cases for the Model
+There are a number of specific usage scenarios, for instance:
 
 - Define essentials and their relation for your project: What are the discipline-specific contributions for this project? How do they relate to each other?
 - Clarify roles and staffing for your project: Who is needed, doing what and interacting with whom? This includes explaining the role of architecture in your development project, technically and organisationally: This role is again and again a particular challenge.
