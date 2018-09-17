@@ -5,14 +5,14 @@ title: Discipline Flow
 ---
 
 # {{page.title}}
-The Discipline Flow sketches relations between software engineering disciplines in a general product lifecycle context. There are a number of different application scenarios, but its general key application is to get a comprehensive overview of disciplines and flows required for product discovery, development and delivery - from user needs over business goals to the product as delivered by operations to the user.
+The Discipline Flow relates software engineering disciplines in a general product lifecycle context. There are a number of different application scenarios, but its core use case is to get a comprehensive overview of disciplines and flows required for product discovery, development and delivery - from user needs over business goals to the product as delivered by operations to the user.
 
-## Basic Model
-Products should take user as well as business goals into account. Relations between the disciplines Business (BIZ), Customer Experience (CX), User Experience (UX), Requirements (REQ), Architecture (ARCH), Implementation (IMPL) and Operations (OPS) aim to establish the basic flow to achieve this.  
+## The Basic Model
+Product development should take user as well as business goals into account and allow for continuous delivery of product increments. Relations between the Business (BIZ), Customer Experience (CX), User Experience (UX), Requirements (REQ), Architecture (ARCH), Implementation (IMPL) and Operations (OPS) define a basic flow model to achieve this.  
 
 ![Discipline Flow](./discipline-flow/dflow-sketch.jpg)
 
-The three major parts each have a slightly different focus: (1) Understand what is needed (2) Develop what is needed (3) Deliver what is needed. We then incorporate feedbacks and research from what was delivered and start again to improve and extend. The disciplines need to work on discipline-specific essentials: 
+The disciplines work on discipline-specific essentials: 
 
 - BIZ: Business, organisational and societal goals
 - CX: Customer's overall journey
@@ -22,10 +22,15 @@ The three major parts each have a slightly different focus: (1) Understand what 
 - IMPL: Components and connectors
 - OPS: Infrastructure and monitoring
 
+The three major parts each have a slightly different focus: (1) Understand what is needed (2) Develop what is needed (3) Deliver what is needed. Then we incorporate feedbacks and research for what was delivered and start again to improve and extend. 
+
 If the product is delivered to a customer instead of the final user(s) we get a number of variations in part one and three.  As an extreme, these two parts might end up as blackbox for the development, getting input from the cutomer's own user research and then just delivering the results. However, we may assume that in this case the customer instantiates disciplines and flow relations similar to the one sketched above. 
 
+Finally, one might think of Testing (TST) as a discipline on its own, for instance between IMPL and OPS or OPS and the delivered Product. In some project contexts this would make perfectly sense, however in general we'd more like to think of Testing as a discipline-specific activity. Starting with BIZ we may think about how to test the business model hypothesis, as part of UX we may think about how to do the User Acceptance testing and in ARCH the testing for Quality Attributes is paramount. Of course, all this needs general testing knowledge as a foundation and this is where testing as a discipline comes back into the game again.
+
+
 ## Views on the Model
-There are three basic views on the model, each with a certain notion of excellence.
+There are three foundational views on the model, each with a certain notion of excellence.
 
 ### Discipline Experts
 The disciplines and relations described above form the core elements of an abstract product delivery machinery. However, the machinery is only the basic structure. It needs to be implemented by people who are experts in their disciplines, and at the same time have general knowledge of all other disciplines in order to be able to put specific work always into context of the overall product lifecycle. Only then we may avoid silos and waterfall-like delivery processes.
@@ -39,7 +44,7 @@ Both roles, the collaboration owner and the project manager (PM) are not part of
 
 Both roles together ensure that not only some features are delivered, but that they are also delivered in time and in budget with appropriate quality by a team that sees purpose individually as well as on level of the product development as a whole.
 
-### Successful Product(s)
+### Successful Products
 Even if we have achieved project excellence we usually do not yet have delivered a successful product. Excellent products require additionally that user and business needs and goals are explicitly taken into account from early on. We need to develop and deliver incrementally and incorporate feedback and learnings continuously. Each discipline has its specific contribution:
 
 - BIZ: models with statements about value and impact
@@ -55,14 +60,13 @@ One key aspect to achieve product excellence is to track and monitor product fea
 ## Use Cases for the Model
 There are a number of application scenarios for the basic model, for instance:
 
-- Define essentials and their relation for your project: What are the discipline-specific contributions for this project? 
-- Clarify roles and staffing for your project: Who is needed, doing what and interacting with whom?
-- Explain the role of architecture in your development project, technically and organisationally: This role is again and again a particular challenge.
-- Measure lead and cycle times for feature delivery: How long do we need for a full cycle? This is one of the core metrics for Continuous Delivery.
+- Define essentials and their relation for your project: What are the discipline-specific contributions for this project? How do they relate to each other?
+- Clarify roles and staffing for your project: Who is needed, doing what and interacting with whom? This includes explaining the role of architecture in your development project, technically and organisationally: This role is again and again a particular challenge.
+- Measure lead and cycle times for feature delivery: How long do you need for a full cycle? This is one of the core metrics for Continuous Delivery.
 - Explain personal development paths: Usually one starts at Zühlke within a single discipline and then develops further, for instance from IMPL to ARCH and OPS who would then be a "Coding architect with operations skills".
 - Explain the evolution of the Zühlke business model: From development service provider to partner for business innovation and/or to AMS (Application Management Services).
 
-In general the Discipline Flow makes the big picture of disciplines and their relations a first class citizen and allows to explain what we sometimes call 'Operational Excellence'. This kind of excellence is a result of discipline experts working together within a lean project organisation and for a product delivery that focuses on user and market needs from the very beginning on. 
+In general the Discipline Flow makes the big picture of disciplines and their relations a first class citizen and allows to explain what we sometimes call 'Operational Excellence'. This kind of excellence is a result of discipline experts working together within a lean project organisation for product delivery that focuses on user and market needs from the very beginning on. 
 
 *By {{page.authorName}}*
 
