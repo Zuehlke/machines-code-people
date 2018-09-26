@@ -1,4 +1,4 @@
-# Zühlke Book - Preface
+# Preface
 
 I can still remember my early days as a software developer after my studies. I was in the wild years in the middle of the New Economy and I had to get up speed in new projects and acquire the technical knowledge within a very short time. I had to gain a lot of experience myself and learned a lot on the job and unfortunately sometimes also in the hard way. 
 
