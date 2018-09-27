@@ -8,7 +8,7 @@ title: Architectural Programming
 
 Architectural Programming (APRG) is a programming discipline for architectural elements and structures like services, data sinks and sources, communication channels. With this scope it abstracts from infrastructure and marks a distinction to infrastructure as code. The approach requires APIs for architectural elements to create and evolve an architecture model using code. For instance Azure, Google or AWS all provide such APIs with services ranging from IaaS, CaaS to PaaS.
 
-![Architectual programming in context](./aprg/aprg.png)
+![Architectual programming in context](./aprg/aprg_context.png)
 
 With the first implementation of the APRG approach we extended Structurizr, an executable Architectural Description Language (ADL), with an explicit and coded relation to the cloud infrastructure that is actually needed to implement and execute the system. This bridges a gap that nowadays still exist in most software development projects, a gap between models and code.
 
