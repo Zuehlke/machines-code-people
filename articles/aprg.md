@@ -6,14 +6,14 @@ title: Architectural Programming
 # {{page.title}}
 
 
-Architectural Programming (APRG) is a programming discipline for architectural elements and structures like servers, databases, load balancers or network components. The approach requires APIs for architectural elements or infrastructure to create and evolve an architecture model using code. For instance Azure, Google or AWS all provide such APIs with services ranging from IaaS, CaaS to PaaS.
+Architectural Programming (APRG) is a programming discipline for architectural elements and structures like services, data sinks and sources, communication channels. With this scope it abstracts from infrastructure and marks a distinction to infrastructure as code. The approach requires APIs for architectural elements to create and evolve an architecture model using code. For instance Azure, Google or AWS all provide such APIs with services ranging from IaaS, CaaS to PaaS.
 
 With the first implementation of the APRG approach we extended Structurizr, an executable Architectural Description Language (ADL), with an explicit and coded relation to the cloud infrastructure that is actually needed to implement and execute the system. This bridges a gap that nowadays still exist in most software development projects, a gap between models and code.
 
-The coded model is the very basis for an envisioned overall development workflow that allows for validating architectural decisions by executable quality attribute scenarios similar to validating acceptance criteria by automated functional tests. 
+The coded model is the very basis for an envisioned overall development workflow that allows the validation of architectural decisions by executable quality attribute scenarios similar to the validation of acceptance criteria by automated functional tests. 
 
 ## Architecture Models in the Product Lifecycle
-Architecture modelling takes user and business requirements into account to provide guiding structure and decisions for implementation and operation of a system ultimately delivered as a product to the customer.
+Architecture modeling takes user and business requirements into account to provide a guiding structure and decisions for implementation and operation of a system, ultimately delivered as a product to the customer.
 
 Such a model comprises at least
 
@@ -29,7 +29,7 @@ Architectural erosion is the divergence of the architecture model from the sourc
 Such a system is often called "historically grown". It is difficult to maintain and to evolve further since decisions are often implicit, based on local knowledge and are not comprehendable after some time any more. Fulfilment of quality attribute requirements is getting harder and harder to achieve.
 
 ## Towards Architecture as Code 
-Our approach is one step towards closing the model-code gap. It combines Architecture as Code with APIs for Infrastructure within the same code base. As an example consider the following simplified architecture of an eShop:
+Our approach is one step towards closing the model-code gap. It combines Architecture as Code with APIs for Infrastructure within the same code base. As an example consider the following simplified architecture of a software steering a monkey factory:
 
 (TBD add the sys and app architecture sketch here)
 	
