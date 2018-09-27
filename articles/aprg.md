@@ -31,7 +31,7 @@ Architectural erosion is the divergence of the architecture model from the sourc
 Such a system is often called "historically grown". It is difficult to maintain and to evolve further since decisions are often implicit, based on local knowledge and are not comprehendable after some time any more. Fulfilment of quality attribute requirements is getting harder and harder to achieve.
 
 ## Towards Architecture as Code 
-Our approach is one step towards closing the model-code gap. It combines Architecture as Code with APIs for Infrastructure within the same code base. As an example consider the following simplified architecture of a software steering a monkey factory:
+Our approach is one step towards closing the model-code gap. It combines Architecture as Code with APIs for Infrastructure within the same code base. As an example consider the following architecture of a software steering a monkey factory:
 
 ![Containerdiagramm monkey factory](./aprg/container_diagramm_monkey.png)
 
