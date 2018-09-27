@@ -48,6 +48,12 @@ Note that the implementation is based on Structurizr, an executable ADL which al
 In case we need to evolve or refactor the architecture we must work directly with the code. Only by this means we are able to modify the actual system and hence the model is always in sync with code and infrastructure. Of course we could also change the system directly, but this is similar to changing something in a running system without modifying the underlying source code in the repository. 
 
 
+## Conclusion and outlook
+
+The idea of architecture as code provides a required abstraction to infrastructure as code. With tools like Structurizr we gain already some insights in the power this diszipline will have. It must now be proven in the real world by using it in a real project. The article "Architectural Programming in the developement workflow" provides concepts of how this can be used in the software development workflow.
+
+
+
 *By {{page.authorName}}*
 
 {% include "./aprg.resources.md" %}

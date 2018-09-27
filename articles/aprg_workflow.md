@@ -30,7 +30,7 @@ We could write tests against these requirements similar to the BDD approach für
 
 Important is that the architecture of the test system is setup using architecture code. Only then it is possible to automatically verify that the system to be delivered continuously still fits to all requirements. Since the effort for testing as usual must be balanced against the actual value it creates, it is advisable to follow a risk-driven approach to create ADRs and tests only for the parts of the system where the potential risk indeed requires it [RISK]. 
 
-## Conclusion and Outlook
+## Conclusion and outlook
 The current state already provides a good base for storing architecture as code with your source code. With ADRs you can store the important decisions versioned and the approaches regarding architecture as code get more and more mature. Implementing the architecture gives you the full spectrum of software engineering techniques for your architecture, starting with version control, CI & CD pipelines and testing against given acceptance criteria. Parts of this idea already exists, others must be developed and some still sound like fiction.
 
 
