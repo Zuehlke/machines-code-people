@@ -8,7 +8,7 @@ title: Architectural Programming in the developement workflow
 
 ## Envisioned Development Workflow
 
-How does the APRG approach integrate in the development workflow of a software product? We think the first important step is to have the model managed in the same repositories like the source code that implements the functionality of the system. This provides the very basis towards an approach of system development that allows to validate and test architectural decisions similar to BDD [todo link BDD] for functional acceptance.
+How does the APRG approach integrate in the development workflow of a software product? We think the first important step is to have the model managed in the same repositories like the source code that implements the functionality of the system. This provides the very basis towards an approach of system development that allows to validate and test architectural decisions similar to Behavior-driven development [BDD] for functional acceptance.
 
 ### Version Control and Executability
 
@@ -26,13 +26,11 @@ A further step to bring the complete architecture model and the code together, i
 
 ADRs are made to fulfill quality attribute requirements for a system. When we now see our ADRs as the user stories of the architecture then the quality attribute requirements are acceptance criteria for these stories. 
 
-We could write tests against these requirements similar to the BDD approach für functional acceptance testing [todo BDD link]. As described in [EVOL] writing these tests can be a challenge, since there will not be the one recipe to rule them all. One could be an execution of a performance test in a special environment set up by the architecture as code scripts to test performance requirements. Another can be automated penetration tests for security or resilience tests following the principles of chaos engineering. 
+We could write tests against these requirements similar to the BDD approach für functional acceptance testing. As described in [EVOL] writing these tests can be a challenge, since there will not be the one recipe to rule them all. One could be an execution of a performance test in a special environment, set up by the architecture code to test performance requirements. Another can be automated penetration tests for security or resilience tests following the principles of chaos engineering. 
 
 Important is that the architecture of the test system is setup using architecture code. Only then it is possible to automatically verify that the system to be delivered continuously still fits to all requirements. Since the effort for testing as usual must be balanced against the actual value it creates, it is advisable to follow a risk-driven approach to create ADRs and tests only for the parts of the system where the potential risk indeed requires it [RISK]. 
 
 ## Conclusion and Outlook
-
-(TBD section still needs revision)
 
 The current state already provides a good base for storing architecture as code with your source code. With ADRs you can store the important decisions versioned and the approaches regarding architecture as code get more and more mature. Implementing the architecture gives you the full spectrum of software engineering techniques for your architecture, starting with version control, CI & CD pipelines and testing against given acceptance criteria. Parts of this idea already exists, others must be developed and some still sound like fiction.
 

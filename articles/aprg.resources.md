@@ -9,6 +9,7 @@
 ## Links
 
 * [ADR] http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions
+* [BDD] https://en.wikipedia.org/wiki/Behavior-driven_development
 * Evolutionary Architecture http://nealford.com/downloads/Evolutionary_Architecture_Keynote_by_Neal_Ford.pdf
 * Fitness functions: 
 ** https://blog.timsommer.be/using-fitness-functions-to-create-evolving-architectures/
