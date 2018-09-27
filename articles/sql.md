@@ -7,7 +7,12 @@ title: Do something about that slow SQL query
 # {{page.title}}
 
 Solving the problem of poor database performance is the topic on which the
-books are written, but we will here briefly describe the procedure.
+books are written, but we will here briefly describe the procedure how to 
+start dealing with database performance problems.
+
+Typical performance problem would be one large query executing for a long
+time, or enormous amount of micro queries bringing the database server to his
+knees.
 
 First of all, you need to understand the cause of the problem. Do not optimize
 blindly. Find a way to monitor all processes on a troublesome server. Be sure
@@ -19,8 +24,8 @@ find out why that happens. Database essentially responds to a set of queries
 sent by clients, using the data that are stored in the tables. You need to
 have an insight into these queries to know which one of them exactly is
 problematic. The database, or the ORM framework, usually has the ability to
-record all the queries in the log file, as well as the timing of their
-execution. It is vital that you are able to search the log files, find the
+record all the queries in the log file, as well as to measure their
+performance. It is vital that you are able to search the log files, find the
 number of queries at a certain time interval, find the slowest queries and
 frequently repeated queries. Sometimes for these things there is sufficient to
 manualy review a log files, and sometimes you will use tools (like pgBadger
