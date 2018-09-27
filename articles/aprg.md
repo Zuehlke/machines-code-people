@@ -33,8 +33,6 @@ Such a system is often called "historically grown". It is difficult to maintain 
 ## Towards Architecture as Code 
 Our approach is one step towards closing the model-code gap. It combines Architecture as Code with APIs for Infrastructure within the same code base. As an example consider the following simplified architecture of a software steering a monkey factory:
 
-![System Context diagramm monkey factory](./aprg/system_context_monkey.png)
-
 ![Containerdiagramm monkey factory](./aprg/container_diagramm_monkey.png)
 
 The frontend tier initially integrates directly with the event store, which is a Azure blob storage. After some development iterations it is decided to separate the persistence logic into an event manager component acting as a facade to the event store. An update of the diagram according to this new component is necessary and if not done leads to architectural erosion. 
