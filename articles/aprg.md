@@ -5,13 +5,12 @@ title: Architectural Programming
 ---
 # {{page.title}}
 
-
-Architectural Programming (APRG) is a programming discipline for architectural elements and structures like services, data sinks and sources, communication channels. With this scope it abstracts from infrastructure and marks a distinction to infrastructure as code. The approach requires APIs for architectural elements to create and evolve an architecture model using code. For instance Azure, Google or AWS all provide such APIs with services ranging from IaaS, CaaS to PaaS.
+Architectural Programming (APRG) is a programming discipline for architectural elements and structures like services, data sinks and sources or communication channels. It abstracts from infrastructure elements and hence is distinct to infrastructure as code. The approach requires APIs for architectural elements to create and evolve an architecture model using code. For instance Azure, Google or AWS all provide such APIs with services ranging from IaaS, CaaS to PaaS.
 
 ![Architectual programming in context](./aprg/aprg_context.png)
 
 
-With the first implementation of the APRG approach we extended Structurizr [TODO link to simon repo], an executable Architectural Description Language (ADL), with an explicit and coded relation to the cloud infrastructure that is actually needed to implement and execute the system [TODO löink to ched repo]. This bridges a gap that nowadays still exist in most software development projects, a gap between models and code.
+With the first implementation of the APRG approach we extended Structurizr, an executable Architectural Description Language (ADL), with an explicit and coded relation to the cloud infrastructure that is actually needed to implement and execute the system. This bridges a gap that nowadays still exist in most software development projects, a gap between models and code.
 
 The coded model is the very basis for an envisioned overall development workflow that allows the validation of architectural decisions by executable quality attribute scenarios similar to the validation of acceptance criteria by automated functional tests. 
 
@@ -46,7 +45,7 @@ Instead of modelling the architecture in a diagram we may use code like the foll
 Now, when this gets executed the corresponding infrastructure and connectors are created and the system is ready to be used according to its description in the code.
 
 
-Note that the implementation is based on Structurizr [TODO link], an executable ADL which also allows to generate architectural diagrams. Therefore we may additionally generate up-to-date views of our current models as needed in the system's Architecture Guidebook, for instance.
+Note that the implementation is based on Structurizr, an executable ADL which also allows to generate architectural diagrams. Therefore we may additionally generate up-to-date views of our current models as needed in the system's Architecture Guidebook, for instance.
 
 In case we need to evolve or refactor the architecture we work directly with the code. Only by this means we are able to modify the actual system and hence the model is always in sync with code and infrastructure. Of course we could also change the system directly, but this is similar to changing code in a running system without updating the underlying source code in the repository, an anti-pattern which is hopefully nowadays nowhere practiced anymore. 
 
@@ -54,8 +53,10 @@ Finally, code can be executed and tested. If architectural requirements are impl
 
 ## Conclusion and Outlook
 
-The idea of architecture as code provides a required abstraction to infrastructure as code. With tools like Structurizr we gain already some insights in the power this diszipline will have. It must now be proven in the real world by using it in a real project. The article "Architectural Programming in the developement workflow" provides concepts of how this can be used in the software development workflow.
+The idea of Architecture as Code provides a required abstraction to Infrastructure as Code. With tools like Structurizr and its extension we move further towards executable ADLs which do not only describe but actually indeed *implement* the architecture of a system.
+
 
 *By {{page.authorName}}*
 
 {% include "./aprg.resources.md" %}
+1
