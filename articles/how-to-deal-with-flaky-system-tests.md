@@ -7,7 +7,7 @@ title: How to deal with flaky system tests
 
 # {{page.title}}
 
-This article is not about whether UI / system / end to end tests should be automated or not. There's enough material and controversy about that in the developer community and it could easily fill a separate article, if not a whole book. Instead I will fokus on strategies to keep these tests as stable as possible.
+The higher we climb up the test automation pyramid, the less oxygen there is in the air. Some tests are fine with that. But others can't handle it and randomly fail every now and then. These poor tests need help. In this article I will focus on strategies to keep these tests as stable as possible.
 
 ## The problem with flakiness
 
@@ -21,15 +21,15 @@ As soon as one test fails, insist on fixing it. Otherwise people might start ign
 
 ### Control as much as possible
 
-The more control you have over the system under test (SUT), the higher your changes to write stable tests. Some practical implications:
+The more control you have over the system under test (SUT) and the test data, the higher your changes to get the tests table. There are many ways to increase control, here are some important ones:
 
-* Have a deterministic build process, e.g. fix the exact versions of the used libraries in the code.
-* Test dependencies to other systems that are not under your control in isolation, so that failure has a limited impact. E.g. use CDC tests for checking interface contracts.
+* Prefer system tests that cover only the system you are responsible for (at runtime) over system integration tests that also include the systems of other teams. This requires simulators to mock the other systems away.
+* Define the exact versions of the libraries you are using in the code, so that you don't get surprised by unintended updates that introduce issues.
+* Control the test data setup and automate it as much as possible.
+* Make sure tests are independant from each other (i.e. one test must not rely on the outcome of another test).
+* Increase testability by modifying the system code (e.g. by adding automation IDs to the UI).
+* If your tests also cover other teams systems, know when they do their deployments or have downtimes.
 * Keep continuous health checks separate from your test suite, they should not have an impact on your build pipeline.
-* Control the test data setup.
-* Add automation IDs to your UI code to make automation easier and more stable.
-* Use mocks / simulators to replace unstable or hard to control peripheral systems. I would even say: cover as much as possible with system tests instead of system integration tests.
-* Know when other systems you rely on do their deployments or have downtimes.
 
 ### Timing is (almost) everything
 
