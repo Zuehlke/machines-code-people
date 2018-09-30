@@ -40,6 +40,9 @@ Some common ones are: Concurrency issues, async dataflow, evolutionary architect
 Sketches can help you to understand and solve many of those issues. Let's make an example. You're a software engineer and have to implement a part of a business logic. A service that creates an overview of all your bank accounts and their credit.
 The requirement for the transformation will probably be a list of rules. Including how to handle different currencies and its exchange rate.
 To draw a workflow diagram and having it on a paper in front of you, will help you to understand the data flow and the connection between the rules. It will help you to simplify your workflow diagram. Maybe some conditions are already included in other ones and can be pruned away. Or you can simplify the workflow by changing the order in which the rules are applied.
+Manual sketches are first and foremost for you. They should help you to understand a part of your software. So, don't be afraid to make a mistake and cross out a part of your sketch.
+In comparison to a modelling tool, manual sketching is often much faster and gives you a higher degree of freedom.
+Your sketches can also be used for the system documentation. But if you illustrate e.g. the architecture of a still evolving software, it is recommended to use a tool. This is because it’s much easier to adapt your illustration to new changes.
 
 ## Conclusion
 Visualizing your work can save you time, energy and sharpen your thoughts. All you need to do is to grab a pen and paper.
