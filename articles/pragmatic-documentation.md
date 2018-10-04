@@ -12,6 +12,7 @@ Writing documentation is a task that most programmers find tiresome. The pattern
 * how is this documentation written
 * where is this documentation written
 
+By asking yourself these questions the documentation can end up completely different form than originally expected.
 
 ## For whom is this documentation written?
   
