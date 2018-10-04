@@ -17,7 +17,7 @@ without understanding:
 
 ## For whom is this documentation written?
   
-The first question - _Whom do I write for this documentation?_ - you should
+The first question - _For whom do I write this documentation?_ - you should
 have a clear answer before you even start writing. Sometimes these are exactly
 certain people you know, sometimes they are existing users that you don't 
 know, and sometimes it is not yet known who the readers will be.
@@ -52,12 +52,12 @@ When you have answers to the questions for who and why you are writing
 documents, the third question - _How to write it?_ -
 can be a little easier to answer. Put yourself in
 the role of a person who needs of help. Why? Because, people value their own
-time. They try to be efficiant, and prefer to start using product or service,
-as soon as possible, instead of reading up front how they suppose to use it.
-Therefore, most of the people will won't evenr read the documentation
-until they need help. Put yourself as a user and try to
+time. They try to be efficiant, and prefer to switch to action as soon as possible, 
+instead of reading up front about what to do and how to do it.
+Therefore, most of the people won't even read the documentation
+until they need help. Put yourself as a reader and try to
 imagine a very concrete thing that he fails to do or fails to
-understand by himself. If you already have existing users, you can create
+understand by himself. If you already have porential future readers, you can create
 a list of questions that they would like to have an answer. It is good if the
 questions are very specific, e.g.:
 
@@ -66,7 +66,7 @@ questions are very specific, e.g.:
 3. How do I recover the object that I just deleted?
 
 If the short answers to the collected questions are sufficient for your
-users, then write them down, and call the documents FAQ or Q & A or something
+readers, then write them down, and call the documents FAQ or Q & A or something
 like that. 
 
 Sometimes the gathered questions would indicate that there is something that 
@@ -79,7 +79,7 @@ that will naturally lead user to the answer (principle known in UI design as
 immediately show visible plus sign (+) to indicate that more roles can be 
 added.
 2. Add tooltip text "Search" for magnifier glass icon.
-3. After deletion open an (unitrusive) infobox informing user what is the
+3. After deletion open an (unitrusive) infobox informing the user what is the
 procedure to undelete an object.
 
 Often, through the questions of future readers, you will understand that the
@@ -91,11 +91,11 @@ is to provide links in your documentation where the reader can supplement his
 knowledge.
 
 When you have a text in which you explain the concepts, links to external
-materials, and the answers to questions that are troubling your users, you
+materials, and the answers to questions that are troubling your readers, you
 will use this material to group and organize documentation so that it has a
 logical and easily understandable structure. As with programming, try to
 adhere to the principles of least surprise, that is, to put each chapter in
-the place where most of the users first search it.
+the place where most of the readers first search it.
 
 ## Where is this documentation written?
 
