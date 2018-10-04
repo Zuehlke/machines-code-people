@@ -6,7 +6,7 @@ title: Pragmatic documentation
 ---
 # {{page.title}}
 
-Writing documentation is a task that most developers and engineers find
+Writing documentation is a task that most programmers find
 tiresome. The pattern I see is that they are asked to write documentation 
 without understanding:
 * for whom is this documentation written
