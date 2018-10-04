@@ -6,9 +6,9 @@ title: Do something about that slow SQL query
 ---
 # {{page.title}}
 
-Solving the problem of poor database performance is the topic on which the books are written, but we will here briefly describe the procedure how to start dealing with database performance problems.
+No, you probably won't need more memory, faster disks or CPUs. To start solving database performance problems, first of all, you need understanding. So, let's start removing veil of mystery from SQL performance topic. Let's understand what can we do to make our database run faster.
 
-Typical performance problem would be one large query executing for a long time, or enormous amount of micro queries bringing the database server to hisknees.
+Typical performance problem would be one large query executing for a long time, or enormous amount of micro queries bringing the database server to his knees.
 
 First of all, you need to understand the cause of the problem. Do not optimize blindly. Find a way to monitor all processes on a troublesome server. Be sure that there is no other process that suffocates the server, i.e. that the slowness of the database is not caused by some external factor.
 
