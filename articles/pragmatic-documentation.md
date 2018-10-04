@@ -9,12 +9,13 @@ title: Pragmatic documentation
 Writing documentation is a task that most developers and engineers find
 tiresome. The pattern I see is that they are asked to write documentation 
 without understanding:
-* for whom the documentation is written,
-* why
-* how and
-* where?
+* for whom is this documentation written
+* why is this documentation written
+* how is this documentation written
+* where is this documentation written
 
-## For whom?
+
+## For whom is this documentation written?
   
 The first question - _Whom do I write for this documentation?_ - you should
 have a clear answer before you even start writing. Sometimes these are exactly
@@ -33,7 +34,7 @@ and try to put yourself in his/her shoes. It's not always easy, but thinking
 from the perspective of other readers -- albeit fictitious -- will help you
 decide what to write.
 
-## Why?
+## Why is this documentation written?
 
 To the second question - _Why?_ - The answer is as follows: to explain to the
 reader what he dosn't know. Remember this. If you explain to the reader what
@@ -45,7 +46,7 @@ You need to know which
 things most of your readers do not know, and which only individuals don't,
 and accordingly organize the documentation.
 
-## How?
+## How is this documentation written?
 
 When you have answers to the questions for who and why you are writing
 documents, the third question - _How to write it?_ -
@@ -96,7 +97,7 @@ logical and easily understandable structure. As with programming, try to
 adhere to the principles of least surprise, that is, to put each chapter in
 the place where most of the users first search it.
 
-## Where?
+## Where is this documentation written?
 
 Final question: _where to publish the documentation?_ Answer: Where most users
 will first look. Help to log on to the system should be located as a link on
