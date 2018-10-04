@@ -55,7 +55,7 @@ the role of a person who needs of help. Why? Because, people value their own
 time. They try to be efficiant, and prefer to start using product or service,
 as soon as possible, instead of reading up front how they suppose to use it.
 Therefore, most of the people will won't evenr read the documentation
-until they need help. So, put imagine yourself as a user and try to
+until they need help. Put yourself as a user and try to
 imagine a very concrete thing that he fails to do or fails to
 understand by himself. If you already have existing users, you can create
 a list of questions that they would like to have an answer. It is good if the
