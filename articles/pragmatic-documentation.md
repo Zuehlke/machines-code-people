@@ -23,7 +23,7 @@ certain people you know, sometimes they are existing users that you don't
 know, and sometimes it is not yet known who the readers will be.
 
 If you are able to reach at least a certain portion of people who will read
-your documentation, do it and talk to them about the documentation you are
+your documentation, talk to them about the documentation you are
 writing. Explain to them that you are doing something they should use and that
 you want to do it in the best possible way. It will surely help you, because
 it is in their interest. After all, they are the ones who will eventually read
@@ -50,7 +50,7 @@ and accordingly organize the documentation.
 
 When you have answers to the questions for who and why you are writing
 documents, the third question - _How to write it?_ -
-can be a little easier to answer. You must, the best you can, put yourself in
+can be a little easier to answer. Put yourself in
 the role of a person who needs of help. Why? Because, people value their own
 time. They try to be efficiant, and prefer to start using product or service,
 as soon as possible, instead of reading up front how they suppose to use it.
@@ -99,7 +99,7 @@ the place where most of the users first search it.
 
 ## Where is this documentation written?
 
-Final question: _where to publish the documentation?_ Answer: Where most users
+Final question: _where to publish the documentation?_ Answer: Where most readers
 will first look. Help to log on to the system should be located as a link on
 the Login page. Help for compiling and running an application can be a file
 (for example, RUNNING.md) in the root of your project. Help for certain
@@ -108,7 +108,7 @@ interaface where this functionality is (see previously given example for
 undelete), and HowTo article for DevOps - on the
 corporate wiki / knowledge base.
 
-So, the methodology is always the same -- putting yourself in user's and reader's
+So, the methodology is always the same -- putting yourself in eader's
 shoes. It is a powerful technique that can be used in various business and
 private situations, but one of the best uses, in my opinion, is exatcly --
 writing documentation.
