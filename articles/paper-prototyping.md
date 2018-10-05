@@ -33,7 +33,7 @@ Here's the basic workflow:
 
 ## Conducting the test
 
-Let "real" users of your system test the paper prototype. For a typical early-stage paper prototyping test, five representative users are enough to find the most important issues in your design. 
+Let real users of your system test the paper prototype. For a typical early-stage paper prototyping test, five representative users are enough to find the most important issues in your design. 
 
 Your goal during the test is to observe users performing the scenarios. It's very much like a regular usability test where you replace the computer with a stack of paper. To prepare the test, write an instruction sheet that asks the users to perform the tasks underlying the scenarios you used for creating the wireframes.
 
