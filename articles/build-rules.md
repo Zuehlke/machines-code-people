@@ -105,6 +105,7 @@ To make matters worse, your users are some of the most obnoxious, impatient and 
 *By {{page.authorName}}*
 
 
-
 <sup>1</sup>The concept of CRISP builds was first introduced by Mike Clark in his book _Pragmatic Project Automation_
 <sup>2</sup> We can debate on CMake and Maven
+
+{% include "./build-rules.resources.md" %}

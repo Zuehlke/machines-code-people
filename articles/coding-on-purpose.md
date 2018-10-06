@@ -6,11 +6,11 @@ title: Coding On Purpose
 ---
 # {{page.title}}
 
-When I carry out a project, it is essential to know its ultimate goal. And usually we start our projects exactly there, with some sort of *mission statement*, defining the *goal* of our endeavour. But it is all too easy to lose sight of this goal in the daily struggle of solving specific issues along the way. That's why many methodologies in software development try to help us by keeping the project aligned with its *purpose*.
+When carrying out a project, it is essential to know its ultimate goal. And usually we start our projects exactly there, with some sort of *mission statement*, defining the *goal* of our endeavour. But it is all too easy to lose sight of this goal in the daily struggle of solving specific issues along the way. That's why many methodologies in software development try to help us by keeping the project aligned with its *purpose*.
 
 * In **RUP**, one tries to establish traceability from lower level items to higher level goals.
-* **Use cases** represent a goal at an abstracted level and it can be show how lower level use cases support higher level use cases in a use case diagram.
-* **User stories** are formulated according to a template that includes a *goal* and a *benefit* (e.g. "as &lt;role&gt; I want to &lt;goal&gt; so that &lt;benefit&gt;").
+* **Use cases** represent a goal at some level of abstraction. A use case diagram shows how lower level use cases support higher level use cases.
+* **User stories** are often formulated according to a template that includes a *goal* and a *benefit* (e.g. "as &lt;role&gt; I want to &lt;goal&gt; so that &lt;benefit&gt;").
 * With **user story maps** we sort *user stories* by how important they are in achieving a goal.
 * An **impact map** traces down the high level goals to stakeholders, impacts and finally deliverables.
 * **Design thinking** has a strong focus on *identifying and understanding customer needs*.
@@ -60,6 +60,6 @@ When leading a team, you should put a strong focus on communicating the *why* of
 
 ## Wrap up
 
-If all of this was a bit much, here's one simple tip for coding the right away: no matter how minimalistic you want to keep your user stories, make sure they contain at least the desired impact.
+If all of this was a bit much, here's one simple tip: no matter how minimalistic you want to keep your user stories, make sure they contain at least the desired impact.
 
 *By {{page.authorName}}*
