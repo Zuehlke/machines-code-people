@@ -1,5 +1,7 @@
 # Table of Content
 
+  * [Preface](articles/preface.md)
+
 ## Me
   * [Coding On Purpose](articles/coding-on-purpose.md)
   * [Start Using a Time Management Technique Today](articles/time-management.md)
@@ -13,6 +15,12 @@
   * ["As long as you live under my roof, you'll do as I say" - If the Project Manager Leads Differently than I Would](articles/as_long_as.md)
   * [CYA: Cover your ass](articles/cya.md)
   * [Meeting with users is essential for creating great products](articles/meet-users.md)
+  * [Business Readiness – is there readiness for agile development in Business?](articles/business-readiness.md)
+  * [The House of the Six Wise Men](articles/six-wise-men.md)
+  * [The evangelist and the chameleon](articles/evangelist-and-chameleon.md)
+  * [From Enthusiasm to Commercial Success](articles/from-enthusiasm-to-commercial-success.md)
+  * [When machine learning meets software engineering](articles/ml-meets-swe.md)
+  * [Team Fit](articles/team-fit.md)
 
 ## Machines, Code
   * [Clean code best practices](articles/clean-code-best-practices.md)
@@ -20,3 +28,4 @@
   * [Rules for building systems](articles/build-rules.md)
   * [Successful Agile System Development with Continuous System Integration](articles/continuous-system-integration.md)
   * [Transitioning Systems Engineering Into The Lean-Agile World](articles/transition-system-engineering.md)
+  * [Watch your state](articles/watch-your-state.md)
