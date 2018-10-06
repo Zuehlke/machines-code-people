@@ -2,46 +2,46 @@
 authorName: Michael Richter 
 authorGithubUsername: abeggchr
 issue: 8
-title: Das Haus der sechs Weisen 
+title: The House of the Six Wise Men 
 ---
 # {{page.title}}
 
-Eine alte Sage erzählt über die verschiedenen Ebenen, die es beim Design einer neuen Lösung zu berücksichtigen gilt. Sie geht wie folgt: 
+An old saga tells the story of the different levels that have to be taken into account when designing a new solution. It goes like this: 
 
-Eines Tages kam ein ehrgeiziger, junger Schiffsbauer zum Haus der Weisen. Die Königin persönlich hatte ihn geschickt. Er solle dort lernen, Schiffe von höchstem Nutzen zu fertigen. 
+One day, an ambitious young shipbuilder came to the House of the Wise Men. The queen had personally sent him. He was to learn there how to make the most useful ships possible. 
 
-Auf dem Vorplatz des Hauses traf der Schiffsbauer auf einen alten Mann, der Laub wischte. Der Alte wies ihm den Weg zum Eingang, wo er bereits erwartet wurde. 
+In the forecourt of the building, the shipbuilder met an old man sweeping up leaves. The old man showed him the way to the entrance, where he was already expected. 
 
-Der Schiffsbauer trat in die erste Kammer ein. 
+The shipbuilder entered the first chamber. 
 
-«Du möchtest einen Rat von mir?», fragte der erste Weise mit ruhiger Stimme. «Den kann ich dir wohl geben. Das Wichtigste ist die Zweckmässigkeit deines Schiffes für deine Mission. Überlege dir genau, was dein Schiff können soll. Führt es Ruder mit für den Fall einer Flaute? Benötigt es Waffen zur Verteidigung? Hast du an die Navigation gedacht? So manches Schiff ist schon auf Grund gelaufen, weil es unbemerkt in seichte Gewässer fuhr. Du musst abwägen, was dir wirklich wichtig ist. Kann dein Schiff zu wenig, werdet ihr euer Ziel nicht erreichen. Willst du zu viel, wird es untergehen. Merke dir: Die Funktion bestimmt den Nutzen.» 
+"Are you here to get some advice from me?", asked the first man quietly. "I can indeed give you some. The most important thing is how useful your ship will be for your mission. Think carefully about what you want your ship to be able to do. Does it need to have oars, in case there is no wind? Does it need to have weapons, so that it can defend itself? Have you given any thought to navigation? Many a ship has run aground because it unintentionally entered shallow waters. You have to weigh up what is especially important for you. If your ship cannot do enough things, you will not reach your destination. If you want too much, it will go down. Take note: The functionality determines the usefulness." 
 
-Nachdenklich ging der Schiffsbauer zur zweiten Türe, die sich sogleich öffnete. 
+Deep in thought, the shipbuilder went to the second door, which opened as he approached. 
 
-«Es kann nichts Wichtigeres geben als die Zuverlässigkeit deines Schiffes», sprach der zweite Weise. «Wird der Rumpf ausreichend robust sein, aber auch wendig und schnell genug, um dein Ziel zu erreichen? Wird das Schiff nicht kentern, wenn die Wogen hochschlagen? Halten die Masten im Sturm? Was machst du, wenn der Wind deine Segel zerreisst? Sei dir bewusst: Nützlich kann nur sein, was zuverlässig und frei von Fehlern ist.» 
+"There is nothing more important than the reliability of your ship," said the second wise man. "Is the hull sturdy enough, but also agile and fast enough to reach your destination? Is the ship built so that it doesn't capsize when the waves become high? Do the masts remain firm in a storm? What do you do when the wind tears your sails? Don't forget: A ship can only be useful if it is reliable and free from defects." 
 
-Der Schiffsbauer überlegte noch, als er in die nächste Kammer trat, wo ihn der dritte Weise empfing. 
+The shipbuilder was still thinking as he entered the next chamber, where the third wise man was waiting for him. 
 
-«Am wichtigsten ist die Handhabung deines Schiffes. Wenn dein Steuermann das Schiff nicht beherrscht, werdet ihr Hindernissen nicht ausweichen können. Ihr müsst die Segel setzen und auch schnell wieder einziehen, wenn der Wind aufbraust. Sonst seid ihr dem Untergang geweiht. Mein Rat ist: Stelle sicher, dass deine Mannschaft mit Schiff und Ausrüstung umgehen kann, bevor du in See stichst. Denn merke: Alle Technik dieser Welt kann nur dann einen Nutzen erbringen, wenn die Menschen sie auch anwenden können.» 
+"The most important aspect is your ship's handling. If your helmsman cannot control the ship, you will not be able to avoid obstacles. You have to be able to set the sails and also take them down again quickly, if the wind gets too strong. Otherwise you are doomed. My advice is: Make sure your crew can handle the ship and the equipment before you go to sea. Because, remember: All the technology in the world is only useful if people can use it." 
 
-Der Schiffsbauer war gespannt auf die Ratschläge, die ihn hinter der vierten Türe erwarteten. 
+The shipbuilder was excited in anticipation of the advice waiting for him behind the fourth door. 
 
-«Dein oberstes Ziel muss die Nachhaltigkeit sein», meinte der vierte Weise. «Sei dir bewusst, woher du dein Bauholz nimmst, andernfalls wird eines Tages kein guter Baum mehr stehen. Wird das Pech, das du für deine Planken benötigst, auch nicht dein Dorf vergiften? Denn sonst wird niemand mehr hier sein, wenn du zurückkehrst. Kommt das Garn deiner Tücher aus ehrlichen Händen? Nur was sich langfristig auszahlt, kann einen Nutzen erbringen. Du hast die Wahl: Du kannst ein Geehrter oder ein Geächteter werden.» 
+"Your priority has to be sustainability," said the fourth wise man. "Be careful regarding from where you take your timber, otherwise one day there will not be any good trees left. Will the tar pitch that that you need for your planks poison your village? That would result in nobody being left when you return. Does the yarn for your fabrics come from honest sources? Only what pays dividends in the long term can bring real benefits. You have the choice: You can be highly respected or ostracised." 
 
-Der junge Schiffsbauer war beeindruckt, als er schliesslich durch die fünfte Türe ging. 
+This made an impression on the young shipbuilder, as he finally went through the fifth door. 
 
-«Die grösste Bedeutung sollte die Wirkung haben, die dein Schiff auf die Menschen ausübt. Denn sonst wirst du keine Mannschaft finden, die mit dir segeln will. Dein Schiff muss Macht ausstrahlen, damit Piraten es nicht für leichte Beute halten. Achte auf die Anmut. Bedenke, ihr werdet viele Tage und Nächte auf dem Schiff verbringen. Das Schiff soll euch erfreuen, wenn die Fahrt kein Leiden werden soll. Gib auf jede Kleinigkeit acht, denn die Schönheit ist ein wichtiges Gut. Alles was uns umgibt muss ansprechend sein, denn ohne Schönheit gibt es keinen Nutzen.» 
+"The greatest importance should be given to the impression your ship makes on people. Otherwise you will not be able to find a crew that is prepared to sail with you. Your ship has to radiate power, so that pirates do not consider it easy prey. Be sure to make it graceful. Remember that you will spend many days and nights on the ship. It should be a pleasure rather than a hardship to spend your time on the ship. Pay attention to every little detail, because beauty is an important asset. Everything that surrounds us must be appealing, because without beauty it is of no use." 
 
-Als der junge Schiffsbauer das Haus verliess, kam er wieder an dem alten Mann vorbei, der noch immer Blätter zusammenwischte. 
+When the young shipbuilder left the building, he again passed the old man sweeping up leaves. 
 
-«Und?», fragte der Alte. Bist du zufrieden mit den Ratschlägen? 
+"So," asked the old man. "Are you satisfied with the advice you have received?" 
 
-«Ich bin verwirrt», antwortete der junge Schiffsbauer. «Jeder der fünf Weisen hat mir eine plausible Antwort gegeben, worauf ich achten muss, damit mein Schiff den höchsten Nutzen erbringen kann. Aber nun weiss ich gar nicht mehr, womit ich anfangen soll.» 
+"I'm confused," replied the young shipbuilder. "Each of the five wise men gave me a plausible suggestion regarding what to focus on in order to ensure that my ship can be of the greatest possible use. So now I'm really not sure where to start." 
 
-«Könntest du mir kurz helfen, die Ecke unter diesem Gebüsch zu wischen? Ich bin schon alt und erreiche sie fast nicht», bat ihn der alte Mann. 
+"Could you give me a little bit of help to sweep the corner under this shrubbery? I'm old and can hardly reach there," the old man asked him. 
 
-Der junge Schiffsbauer nahm den Besen und begann mit der Arbeit. «Diese Blätter kleben so fest. Dein Besen müsste weniger, aber härtere Borsten haben, um hier zu wischen. Und der gedrechselte Stiel sieht zwar ansprechend aus, aber er gleitet mir dauernd aus der Hand. Dein Besen ist sicher viel besser geeignet, um einen Hauseingang zu reinigen. Ich glaube, mir wird nun klar, was der erste Weise meinte: Es ist die Funktion, die alles bestimmt!» 
+The young shipbuilder took the broom and started sweeping. "These leaves get stuck. Your broom needs to have fewer, but harder bristles to be able to sweep here. And the nice handle looks appealing, but constantly slides out of my hand. Your broom is most likely much better suited to cleaning a doorstep. I now understand what the first wise man meant: It is the functionality that determines everything!" 
 
-Der alte Mann lächelte. „Komm morgen wieder, dann werden wir weitermachen.“
+The old man smiled. "Come back tomorrow, and we will continue with our work."
 
 *By {{page.authorName}}*
