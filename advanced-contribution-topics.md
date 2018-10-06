@@ -133,7 +133,8 @@ Challenge: title
 ### Feedback
 
 1. Extract ZIP to a folder
-1. Execute `dir *.txt | rename-item -newname { [io.path]::ChangeExtension($_.name, "md") }` for each file
+1. Execute `dir * | rename-item -newname { $_.name.substring(0,$_.name.length-11) }` to remove postfix
+1. Execute `dir * | rename-item -newname { [io.path]::ChangeExtension($_.name, "md") }` for each file
 1. Copy the *.md files into to `articles` folder
 1. compare and fix markdown related stuff (frontmatter, titles, empty lines between list items, special chars like: &lt;)
 1. Generate summary `npm run-script summary`
