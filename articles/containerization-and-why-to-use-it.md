@@ -6,7 +6,7 @@ title: Containerization and why to use it
 ---
 # {{page.title}}
 
-You are a good software engineer, but you dread releases as they are known as a time of pain. Your project matches one or more of the following:
+You are a good software engineer, but releases are a time of pain. Your project matches one or more of the following:
 * Deployments are done manually or via scripts that execute on some remote host.
 * Scaling the app is hard as new machines or VMs take weeks to arrive & setup.
 * Your application dependencies differ in version or feature set between environments.
@@ -21,8 +21,7 @@ Running scripts on a host seems OK in the beginning, but over time your host wil
 
 With containerization, you immediately get rid of leftovers your software may cause. By **throwing away the old container** after deploying a new version you have already cleaned up after your application.
 
-A tangent about volumes/host mounts: Sometimes your app writes files outside of its container. In these cases the files still need to be cleaned up, but usually an app has a well-defined output directory that rarely changes.
-
+Sometimes you want to persist data across container crashes or restarts. In these cases you can use volumes to store the data and not pollute your host.
 Volumes allow you to use containerization with databases quite nicely: The data is safe from crashes but up- and downgrading a DB is just a question of stopping the old container and booting a new one.
 
 ## More hardware and the procurement process
@@ -35,7 +34,7 @@ Protip: Most platforms offer some functionality for doing rolling updates, you c
 
 ## Different environments, different dependencies and the highway to hell
 
-While differences between environments should be as small they tend to increase over time. Someone upgrades only the QA database for testing; someone applies emergency security fixes only to production because other environments are not critical. You find an increasing number of builds pass QA but fail in staging or production!
+Differences between environments should be as small as possible, but they tend to increase over time. Someone upgrades only the QA database for testing; someone applies emergency security fixes only to production because other environments are not critical. You find an increasing number of builds pass QA but fail in staging or production!
 
 Containerization can remove this problem as **whatever is containerized is versioned** and there are **orchestration tools** that ensure all dependencies are the correct version. Orchestration means that the app and its dependencies are deployed together as one coherent bundle. This way you can remove uncertainties for everything you can containerize. 
 
