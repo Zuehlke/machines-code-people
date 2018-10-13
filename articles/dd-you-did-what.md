@@ -1,6 +1,6 @@
 ---
 authorName: Marko Ivanovic
-authorGithubUsername: ivma
+authorGithubUsername: markoi13
 issue: 88
 title: You DiD what?
 ---
