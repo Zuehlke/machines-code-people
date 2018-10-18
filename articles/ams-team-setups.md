@@ -6,7 +6,7 @@ title: AMS Team Setups
 ---
 # {{page.title}}
 
-![Dummy Placeholder Image](./_example/dummy-picture.jpg)
+![Dummy Placeholder Image](./images/ams/AMS.png)
 P.1 – ADM phases
 
 The Live phase of the application (the final phase in the ADM*), or better the moment in time when the actual users start using the application, is the point in the development lifecycle when the Customer gets a return on his investment. It is a live or die situation – the stability and the performance of the application in production can either guarantee your Customer’s success or ensure his failure. This is the main reason why considering as early as possible the handover and collaboration between delivery and operations should be your point of attention already in the Discovery phase.
