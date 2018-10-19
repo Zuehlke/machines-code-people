@@ -14,19 +14,19 @@ In happy circumstances, the future members of the Operations team are involved f
 As the application approaches the Live phase, the team undergoes a shift in focus and setup. A Service Manager and a DevOps engineer get added to the team, and Developer and Quality Manager undergo a slight change of the mindset – their primary focus isn’t only delivering new features but also ensuring that the existing ones are performing in production and satisfying user needs.
 In our projects we use three Live team*** setups and cover a scenario specific to the agile development frameworks – the delivery of the new features goes in parallel to the operations in production. Also, as the change always brings challenges, and such change in our case impacts mostly the Developer role, our scenarios are named after him. 
 
-FIXED DEVELOPER
+**FIXED DEVELOPER**
 
 ![Dummy Placeholder Image](./images/ams/fixed.png)
  
 The first scenario we considered is ‘Fixed Developer’, a situation where there is a clear distinction between the delivery and Live teams and the Live team has a fixed developer assigned that deals only with Operations topics (Event Management, Incident Handling, performance enhancements etc.). The benefit of such an approach is that there is no capacity impact to the development, and there is a dedicated person to respond to the operations demands. The main con is the knowledge transfer from Delivery to Fixed Developer that needs to follow each new feature implemented into production. An additional downside is no full allocation to the Live team (in most cases it works like this) – the team cannot assure that the SLAs are always followed, and the constant project and context switching by the developer can cause a knowledge disperse. Considered the above, we came to the conclusion that this scenario is fit only for such setups where there is no more ongoing development.
 
-ROTATING DEVELOPER
+**ROTATING DEVELOPER**
 
 ![Dummy Placeholder Image](./images/ams/rotating.png)
  
 The ‘Rotating Developer’ scenario as a Live team setup is a situation where developers change ‘hats’ and temporarily (for a week or some weeks) join the Live team to be in charge of the operations topics that require development. The benefits of this approach are multiple – the knowledge transfer is rather lean, as each rotation brings knowledge from operations to Delivery and vice versa, and short rotations enable speedy knowledge spreading within the project. The developer stays fully allocated to the project, and his capacity is shared between Delivery and AMS. A great pro of this approach is definitely the ‘eat your own dog food’ moment, as the developers have a chance to maintain the code they have written. This effect often leads to better software and better software quality. The downside of the ‘RD’ scenario is that the developers cannot be fully assigned to backlog work. An additional point to consider is definitely the knowledge needs – the developer in the RD role needs to have a broad understanding of the system and technologies involved for the application. These are the main reasons we would not recommend this approach for applications with a wide spectrum of technologies (.Net, Mobile etc.). Also, this approach is good for customers who are strict in terms of delivery dates.
 
-ONE TEAM
+**ONE TEAM**
 
 ![Dummy Placeholder Image](./images/ams/one.png)
  
