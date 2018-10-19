@@ -2,9 +2,9 @@
 authorName: Tijana Krstajic, Guido Angenendt
 authorGithubUsername: doogu
 issue: 91
-title: AMS Team Setups
+title: Operations Team Setups
 ---
-# {{page.title}}
+# {{Operations team setups}}
 
 ![Dummy Placeholder Image](./images/ams/AMS.png)
 ADM phases
@@ -37,7 +37,7 @@ The three Live team setups are a product of our learnings and it represents an e
 
 **CI/CD – Continuous Integration/Continuous Deployment chain – tooling that supports deployment and testing of the code changes
 
-***Live or AMS team will support the application once it is productive. AMS – Application Maintenance Services – activities needed to handle and prevent incidents, manage releases and other important tasks related to the production environment. 
+***Live or AMS or Operations team will support the application once it is productive. AMS – Application Maintenance Services – activities needed to handle and prevent incidents, manage releases and other important tasks related to the production environment. 
 
 
 *By {{page.authorName}}*
