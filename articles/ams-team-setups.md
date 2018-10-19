@@ -7,7 +7,7 @@ title: AMS Team Setups
 # {{page.title}}
 
 ![Dummy Placeholder Image](./images/ams/AMS.png)
-P.1 – ADM phases
+ADM phases
 
 The Live phase of the application (the final phase in the ADM*), or better the moment in time when the actual users start using the application, is the point in the development lifecycle when the Customer gets a return on his investment. It is a live or die situation – the stability and the performance of the application in production can either guarantee your Customer’s success or ensure his failure. This is the main reason why considering as early as possible the handover and collaboration between delivery and operations should be your point of attention already in the Discovery phase.
 In happy circumstances, the future members of the Operations team are involved first in the bid process (during Discovery phase) – like the Service Manager, the System Champion as early as the Alpha phase (when the environments and CI/CD** get set up). Latest, these team members should get involved by the mid of Beta phase (or in other words Development or Delivery phase), in order to set up proper tools and processes to support Release Management, preventive maintenance as well as Incident Management.
@@ -34,7 +34,9 @@ The ‘One team’ scenario integrates some of the RD scenario benefits – it c
 The three Live team setups are a product of our learnings and it represents an evolution path – starting from Fixed Developer as a logical and simplest setup and arriving to One Team as a logical conclusion – the project team is one, as the overall goal should be one. We are a part of the project to ensure the success of our Customer in all areas that are in our responsibility.
 
 *Agile Delivery Method has been a point of reference in Zuehlke for some years now. It has been developed based on the need to have a project structure, on top of agile practices, in order to foster communication and learning across projects. It covers the whole product lifecycle. ADM has been initially based on UK government’s (GDS) lifecycle model and later enriched with roles and ownerships that suit customer-supplier relationship in Zuehlke (cit. Alex Boegli). For the explanation of phases, please see P.1 – ADM phases.
+
 **CI/CD – Continuous Integration/Continuous Deployment chain – tooling that supports deployment and testing of the code changes
+
 ***Live or AMS team will support the application once it is productive. AMS – Application Maintenance Services – activities needed to handle and prevent incidents, manage releases and other important tasks related to the production environment. 
 
 
