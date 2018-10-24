@@ -4,7 +4,7 @@ authorGithubUsername: smurve
 issue: 55
 title: When machine learning meets software engineering
 ---
-# {{title}}
+# {{page.title}}
 
 Software engineering (SWE) and machine learning (ML) have recently become neighbours in academics as well as in professional services. They are so closely adjacent, indeed, that some authors dare to conclude that SWE and ML are simply different ways to achieve the same result, at least within the boundaries of particularly well-defined problems such as rule-centred functional problems, for example. The thinking goes like this:
 

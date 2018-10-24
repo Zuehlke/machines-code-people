@@ -2,7 +2,7 @@
 authorName: Bojan Jelaca
 authorGithubUsername: yellboy
 issue: 82
-title: from enthusiasm to commercial success
+title: From enthusiasm to commercial success
 ---
 # {{page.title}}
 
