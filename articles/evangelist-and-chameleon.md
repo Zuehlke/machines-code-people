@@ -57,5 +57,3 @@ Each possibility has strengths and weaknesses that may or may not fit your situa
 No matter whether you work as a team member, as a consultant or in a management position: don't let your unconscious preferences rule your actions. Instead, adapt your behaviour to the requirements of the situation and continuously ask yourself: which of the possibilities above is the best to achieve my goals? Does my behaviour match my chosen possibility?
 
 *By {{page.authorName}}*
-
-{% include "./_example.resources.md" %}
