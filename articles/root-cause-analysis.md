@@ -18,9 +18,9 @@ Keep in mind that users will report _symptoms_. This has nothing to do with a la
 
 What you need to find, and then fix, is the _problem_ (or more precisely its _cause_).
 
-Don't jump to conclusions. Listen to all the clues. Analyse. Re-produce. Re-think. Refine (or create) the ticket. Think of test cases which are explicit about expected and actual results. Remember that every bug is a strong indicator of a missing test. So write tests to cover your findings.
+Don't jump to conclusions. Listen to all the clues. Analyse. Re-produce. Re-think. Refine (or create) the ticket. Remember that every bug is a strong indicator of a missing test, so think of test cases which are explicit about expected and actual results. And write tests to cover your findings.
 
-Don't have someone else do the analysis for you, you need to be part of the thought process. This might very well take longer than the coding. But if you don't do this slowly and deliberately, you might fix only half the problem or even make it worse. Don't be that cowboy.
+Don't have someone else do the analysis for you; you need to be part of the thought process. This might very well take longer than the coding. But if you don't do this slowly and deliberately, you might fix only half the problem or even make it worse. Don't be that cowboy.
 
 ## Can We Be More Specific?
 
