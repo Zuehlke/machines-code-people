@@ -6,11 +6,11 @@ title: You Always Have Time for a Proper Root Cause Analysis
 ---
 # {{page.title}}
 
-A production issue will pop up, even in solid software. [Don't panic.](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Don't_Panic)
+A production issue will pop up, even in solid software. Don't panic.
 
-We're more than eager to resolve the issue quickly. We should be, yet we should never stop being careful and analytical. Otherwise we might deploy another embarassing bug or suppress the problem without solving it, making everything worse.
+We as software engineers are more than eager to resolve the issue quickly. We should be, yet we should never stop being careful and analytical. Otherwise we might deploy another embarassing bug or suppress the problem without solving it, making everything worse.
 
-Saving an hour of analysis is not worth it.
+Investing an hour in analysis is always worth it.
 
 ## People Will Describe the Symptoms
 
@@ -18,9 +18,9 @@ Keep in mind that users will report _symptoms_. This has nothing to do with a la
 
 What you need to find, and then fix, is the _problem_ (or more precisely its _cause_).
 
-Don't jump to conclusions. Listen to all the clues. Analyse. Re-produce. Re-think. Refine (or create) the ticket. Think of test cases which are explicit about expected and actual results.
+Don't jump to conclusions. Listen to all the clues. Analyse. Re-produce. Re-think. Refine (or create) the ticket. Think of test cases which are explicit about expected and actual results. Remember that every bug is a strong indicator of a missing test. So write tests to cover your findings.
 
-Don't have the BA do it for you, you need to be part of the thinking. This might very well take longer than the coding. But if you don't do this slowly and deliberately, you might eliminate only half the problem or even make it worse. Don't be that cowboy.
+Don't have someone else do the analysis for you, you need to be part of the thought process. This might very well take longer than the coding. But if you don't do this slowly and deliberately, you might fix only half the problem or even make it worse. Don't be that cowboy.
 
 ## Can We Be More Specific?
 
@@ -36,9 +36,9 @@ Do you feel some guilt reading through the three examples below? I do.
 * Fixed a `NullReferenceException` by adding another `if`, ended up with no exception but a wrong result?
 * Divided an `x` through `total` to make it relative, deployed to production, got an "unexpected" `DivideByZeroException` the day after?
 
-Things are often more subtle and not that silly. What they have in common though is that we didn't think it through all the way. We knew what _shouldn't_ happen, but didn't find out _why_ and what _should_.
+Things are often more subtle and not that silly. What the three examples have in common though is that we didn't think it through all the way. We knew what _shouldn't_ happen, but didn't find out _why_ and what _should_.
 
-### "It's a Feature." Or: "We Cannot Re-Produce This!"
+### "We Cannot Re-Produce This!" Or "It's Expected Behaviour."
 
 It's a chance to improve the error message.
 
@@ -52,7 +52,7 @@ Also do this when you cannot re-produce a problem. Don't try to solve it based o
 
 It's great to think about it. The problem might be a pattern. But fix that separately. Equally carefully!
 
-Does this happen too often? That's what the [DRY priciple](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) is about.
+Does this happen too often? That's what the DRY priciple is about.
 
 ### There's a "Real Solution" and a "Quick Solution" (and a "Workaround")
 
@@ -70,10 +70,6 @@ All issues, even seemingly trivial ones, demand careful and thorough analysis. T
 
 Having said that, be pragmatic with the fix. Don't overengineer. Decide what's needed _now_ to put out the fire, and what should be done  _later_ to prevent further blazes.
 
-But let it be an educated decision.
-
-P.S. Whatever you do. Test, test, test!
+But let it be an educated decision. And always test thoroughly.
 
 *By {{page.authorName}}*
-
-{% include "./_example.resources.md" %}
