@@ -42,7 +42,7 @@ Things are often more subtle and not that silly. What the three examples have in
 
 It's a chance to improve the error message.
 
-You couldn't find customer #316 in the DB, which is expected? A `NullReferenceException` with a stack trace is still a bug. Tell them what's wrong, in their language, so everyone can understand the problem without a debugger.
+You couldn't find customer #316 in the DB, because it actually doesn't exist? A `NullReferenceException` with a stack trace is still a bug. Tell them what's wrong, in their language, so everyone can understand the problem without a debugger.
 
 Also do this when you cannot re-produce a problem. Don't try to solve it based on assumptions; refine your error handling and use it to find the problem.
 
