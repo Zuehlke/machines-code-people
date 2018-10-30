@@ -7,14 +7,14 @@ title: Watch your state
 # {{page.title}}
 
 
-In May 1960, the legendary Peugeot 404 was presented to the public. Its manufacturing process was controlled by manually curated lists in which each car in the production pipeline had its particular entry. Each car was assembled according to a fixed plan. Consequently, spontaneous adaptations or dynamic modifications of the production plan were impossible when components were suddenly missing, or when experts responsible for certain tasks were sick.
+In May 1960, the legendary Peugeot 404 was presented to the public. Its manufacturing process was controlled by manually curated lists in which each car in the production pipeline had its particular entry. Each car was assembled according to a fixed plan. Consequently, spontaneous adaptations or dynamic modifications of the production plan were impossible when components were suddenly missing, or when experts responsible for certain tasks got sick.
 
-[](./watch-your-state/photo-1488724034958-0faad88cf69f.jpg)
+![A classical Peugeot](./watch-your-state/photo-1488724034958-0faad88cf69f.jpg)
 
 
 #### It's all about state
 
-The main factor enabling the transition from the *centralized* setup of the early 60s to today's *decentralized* Industry 4.0 is the way in which state is handled: today, each car body automatically knows its exact specification and configuration. Such local state provides a great deal of flexibility: the order in which cars are assembled can be adapted at any time. No central list or global database needs to be queried or updated. Fewer central points of failure and bottlenecks exist. Moreover, cars and other manufactured "smart" items can be connected, they can identify each other, and they can exchange information using a decentralized ad hoc mesh-up topology. The exchange between the manufactured items is even possible during the production process. Thanks to early feedback, fewer dependencies, and more independent production units, it is possible to achieve early adaptation and just-in-time production. Consequently, production quality is significantly improved and costs are reduced.
+The main factor enabling the transition from the *centralised* setup of the early 60s to today's *decentralised* Industry 4.0 is the way in which state is handled: today, each car body automatically knows its exact specification and configuration. Such local state provides a great deal of flexibility: the order in which cars are assembled can be adapted at any time. No central list or global database needs to be queried or updated. Fewer central points of failure and bottlenecks exist. Moreover, cars and other manufactured "smart" items can be connected, they can identify each other, and they can exchange information using a decentralised ad hoc mesh-up topology. The exchange between the manufactured items is even possible during the production process. Thanks to early feedback, fewer dependencies, and more independent production units, it is possible to achieve early adaptation and just-in-time production. Consequently, production quality is significantly improved and costs are reduced.
 
 #### State in today's communication protocols
 
@@ -46,7 +46,7 @@ A very similar solution works for web authentication: The server should not reme
 
 Packet forwarding should ideally work similarly: each packet should contain cryptographically protected information about its path to the destination. Each router on the path checks such forwarding information by efficiently verifying an AES-MAC, instead of wasting energy and time on costly database lookups. The efficacy of this solution is demonstrated by the Internet architecture SCION.
 
-Finally, TCP's vulnerability can be fixed by so-called SYN cookies, i.e. sequence numbers that encode information about the client so that state at the server can be significantly reduced. Due to space constraints, reference should be made to the literature for more information.
+Finally, TCP's vulnerability can be fixed by so-called SYN cookies, i.e. sequence numbers that encode information about the client so that state at the server can be significantly reduced. Due to space constraints, we refer to the literature for more information.
 
 To conclude, the storage locations of all application state are crucial for enabling efficient system processes. Ideally, state is treated as a first-class citizen and outsourced to users and service requesters. In order to avoid abuse of functionality based on the outsourced state, efficient cryptography is required. Fortunately, today's cryptography not only makes the entire application more secure, but - perhaps surprisingly at first glance - also more efficient.
 
