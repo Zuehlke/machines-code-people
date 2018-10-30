@@ -1,5 +1,60 @@
 [
   {
+    "url": "https://api.github.com/repos/Zuehlke/fifty-shades/issues/146",
+    "repository_url": "https://api.github.com/repos/Zuehlke/fifty-shades",
+    "labels_url": "https://api.github.com/repos/Zuehlke/fifty-shades/issues/146/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Zuehlke/fifty-shades/issues/146/comments",
+    "events_url": "https://api.github.com/repos/Zuehlke/fifty-shades/issues/146/events",
+    "html_url": "https://github.com/Zuehlke/fifty-shades/issues/146",
+    "id": 374786624,
+    "node_id": "MDU6SXNzdWUzNzQ3ODY2MjQ=",
+    "number": 146,
+    "title": "Article: Don't teach kids programming",
+    "user": {
+      "login": "igr",
+      "id": 2280001,
+      "node_id": "MDQ6VXNlcjIyODAwMDE=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2280001?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/igr",
+      "html_url": "https://github.com/igr",
+      "followers_url": "https://api.github.com/users/igr/followers",
+      "following_url": "https://api.github.com/users/igr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/igr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/igr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/igr/subscriptions",
+      "organizations_url": "https://api.github.com/users/igr/orgs",
+      "repos_url": "https://api.github.com/users/igr/repos",
+      "events_url": "https://api.github.com/users/igr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/igr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 514489184,
+        "node_id": "MDU6TGFiZWw1MTQ0ODkxODQ=",
+        "url": "https://api.github.com/repos/Zuehlke/fifty-shades/labels/article",
+        "name": "article",
+        "color": "fbca04",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2018-10-28T19:01:47Z",
+    "updated_at": "2018-10-30T14:13:35Z",
+    "closed_at": null,
+    "author_association": "MEMBER",
+    "body": "Programming is becoming more and more in primary schools. This initiative is recognized all around the world - many kids are being taught programming.\r\n\r\nStop! We're wrong! Do not teach children programming!\r\n\r\nThe assumption is wrong. What we are doing is observing the present and we notice the rising trend of the need for developers. We extrapolate this fact and base the future on it, with the conclusion that the same rules will apply in 10 or 20 years from now; when our children are going to be old enough to work.\r\n\r\nIf there is something we do not know, that is the future of the world as it is now. The dynamics of the change in the digital industry is so big that there is no pattern which can be applied to it. The amount of information is being multiplied; requirements change faster than ever. The truth is, we have no idea how the world will look in 20 years. In such an environment, programming, unfortunately, is not a \"joker\" wildcard that will give the heirs a chance to master the future world.\r\n\r\nMoreover, programming IT market is looking for is mercilessly monotonous and stumbling. It's all about the skill; programming today is reduced to the framework timing, and less to the science. Do we really want to include children in such anemic world of programming?\r\n\r\nProgramming should not have a meaning in itself. Programming should become a tool - in fact, only one of the tools that will be available to people. The technical knowledge, which we boast of and so passionately wish to put into young brains, should not be taken as the primary source of knowledge.\r\n\r\nInstead, we need to teach children _critical thinking_. In a world without censorship, but with false news, a critical attitude is more important than programming patterns.\r\n\r\nWe need to teach children _communication_. A world in which everyone has a voice and an opinion about everything requires a precise and clear communication and exchange of ideas and thoughts.\r\n\r\nWe have to teach children to _work together_. In a world where there are more screens than people, cooperation becomes a necessary ingredient of progress.\r\n\r\nAnd finally, we have to teach the children _creativity_. Creativity is a part of the human definition. Creativity is something we need to constantly stimulate, now more than ever before, because that is the only way our children will discover new ways how the tomorrow will be functioning.\r\n\r\nDo not teach children programming. Teach them that they can and should change their present - that is going to be our future."
+  },
+  {
     "url": "https://api.github.com/repos/Zuehlke/fifty-shades/issues/121",
     "repository_url": "https://api.github.com/repos/Zuehlke/fifty-shades",
     "labels_url": "https://api.github.com/repos/Zuehlke/fifty-shades/issues/121/labels{/name}",
@@ -1391,7 +1446,7 @@
     "created_at": "2018-03-07T16:25:01Z",
     "updated_at": "2018-03-08T19:11:44Z",
     "closed_at": null,
-    "author_association": "NONE",
+    "author_association": "CONTRIBUTOR",
     "body": "Sometimes, the best solutions are the ones that don’t exist. The ones where we’ve taken a step back and said, “let’s do something low-tech,” or “let’s not do anything at all.”"
   },
   {
@@ -1577,7 +1632,7 @@
     "created_at": "2018-02-28T18:57:49Z",
     "updated_at": "2018-07-29T06:52:50Z",
     "closed_at": null,
-    "author_association": "NONE",
+    "author_association": "CONTRIBUTOR",
     "body": "Before I even read complete instruction, I've posted article here.\r\nSorry for this. \r\n\r\nFor review:\r\nhttps://github.com/masizuehlke/fifty-shades/blob/develop/articles/team-fit.md"
   },
   {
@@ -1670,7 +1725,7 @@
     "created_at": "2018-02-28T18:42:44Z",
     "updated_at": "2018-03-04T18:37:06Z",
     "closed_at": null,
-    "author_association": "NONE",
+    "author_association": "CONTRIBUTOR",
     "body": "This article is about why you should sketch more in your daily work and why you should use the power of shapes and colors in your documentation.\r\nWith the help of illustrations, you can transfer knowledge in a way that is faster, easier to remember and you can prevent misunderstandings."
   },
   {
@@ -1949,7 +2004,7 @@
     "created_at": "2018-02-28T15:27:49Z",
     "updated_at": "2018-03-01T18:43:26Z",
     "closed_at": null,
-    "author_association": "NONE",
+    "author_association": "CONTRIBUTOR",
     "body": "People don't like to write something that no one will read. People don't like to read unnecessery stuff. People don't like to waste time searching for documentation.\r\n\r\nHow to be pragmatic about documentation? Always think about the roles (users, developers, release managers, ops...), interview people in these roles what information are they missing, put information on place where they would usually look for it, and try to get feedback about documentation quality.\r\n\r\nIf the group of people is too big, split it into smaller groups, and think about the borders. Pass only the necessary information across the borders.\r\n\r\nWhat documentation needs to be introduced or archived when project changes its phase (e.g. from brainstorming to writing project proposal, or from active development to maintenance).\r\n\r\nThink in advance about soft and hard switches on the project. What will happen if someone live on short notice? Will his/her knowledge be preserved in the team?"
   },
   {
@@ -2042,7 +2097,7 @@
     "created_at": "2018-02-28T15:14:02Z",
     "updated_at": "2018-03-01T18:44:11Z",
     "closed_at": null,
-    "author_association": "NONE",
+    "author_association": "CONTRIBUTOR",
     "body": "Article for beginner to intermediate developer using SQL (or using ORM framework) how to analyze and optimize SQL queries.\r\n\r\nUnderstanding the physical layout of DB tables and indexes; differences between index, bitmap and heap/table scan; advices on good and bad practicies when writing queries."
   },
   {
@@ -2507,7 +2562,7 @@
     "created_at": "2018-02-24T17:03:39Z",
     "updated_at": "2018-02-24T18:55:51Z",
     "closed_at": null,
-    "author_association": "NONE",
+    "author_association": "CONTRIBUTOR",
     "body": "The general idea is drafted in context of our APRG topic: https://confluence.zuehlke.com/x/FwDc\r\n\r\nFor a bit more specific perspective with a connection to IaC see our meetup material here: https://confluence.zuehlke.com/x/HADNAg"
   },
   {
@@ -2600,7 +2655,7 @@
     "created_at": "2018-02-24T16:59:43Z",
     "updated_at": "2018-02-24T18:54:07Z",
     "closed_at": null,
-    "author_association": "NONE",
+    "author_association": "CONTRIBUTOR",
     "body": "The basic idea is drafted here https://confluence.zuehlke.com/x/44aLAQ"
   },
   {
@@ -2693,7 +2748,7 @@
     "created_at": "2018-02-19T17:16:33Z",
     "updated_at": "2018-02-24T16:21:44Z",
     "closed_at": null,
-    "author_association": "NONE",
+    "author_association": "CONTRIBUTOR",
     "body": "Coping strategies when you have to work with tools you don't like"
   },
   {
@@ -4181,7 +4236,7 @@
     "created_at": "2018-02-01T05:38:51Z",
     "updated_at": "2018-02-01T19:02:11Z",
     "closed_at": null,
-    "author_association": "NONE",
+    "author_association": "CONTRIBUTOR",
     "body": "Machine Learning and Software engineering require different practices to be efficient and successful. These practices need to become one when ML artifacts are supposed to go into production. "
   },
   {
@@ -4536,7 +4591,7 @@
     "id": 251869254,
     "node_id": "MDU6SXNzdWUyNTE4NjkyNTQ=",
     "number": 42,
-    "title": "Article: How to avoid / deal with flaky system tests",
+    "title": "Article: How to deal with flaky system tests",
     "user": {
       "login": "adiherzog",
       "id": 3780183,
@@ -4614,7 +4669,7 @@
     "milestone": null,
     "comments": 13,
     "created_at": "2017-08-22T07:57:54Z",
-    "updated_at": "2018-02-14T07:16:49Z",
+    "updated_at": "2018-09-25T22:20:48Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "body": "The higher level / the broader / the bigger an automated test / check is, the more likely it can become flaky. In order to maintain a stable set of system tests, it is vital to deal with this potential flakyness. Here are some tips that can help:\r\n\r\n1) Choose a good test design. I.e. make sure you have all components of the test under control. Don't rely on other teams systems if possible. Mock them away so you have full control. Create System Tests instead of System Integration Tests.\r\n\r\n2) Make the test failure pattern visible:\r\n![image](https://user-images.githubusercontent.com/3780183/29554529-cb66dc16-871f-11e7-93a3-eca1a116ccd3.png)\r\n\r\n3) Avoid broken window, insist on keeping the tests green. There's usually a root cause to every flaky test. Either it's the test itself that needs improvement or it's a bug in the software. And you don't want to miss a bug, right?\r\n\r\n@bruderol @tobiaszuercher @peitor @abeggchr Do you have more input for this one?"
