@@ -23,8 +23,7 @@ One thing to consider is the underlying question to this, which might be:
 "How do we get people to change their behavior?"
 So here are my thoughts.
 
-**Yourself First**  
-
+## **Yourself First**   
 First of all, think about things to consider for yourself:
 * Why is the practice or tool that you are suggesting any better than the current way of doing things?
 * Can you explain the value in the proposed change?
@@ -33,7 +32,7 @@ First of all, think about things to consider for yourself:
 I would try to work on yourself before trying to change others.
     
  
-**Roles?**  
+## **Roles?**  
 I see that a lot of people are focused on their role, forgetting the bigger picture of the team and purpose of the work they are doing.
 I would ask these questions:
 * Are we one team that focuses on the Sprint Goal?
@@ -42,7 +41,7 @@ I would ask these questions:
 * Are we doing whatever is necessary to deliver a usable product every Sprint?
  
 
-**Done?**  
+## **Done?**  
 Henri: "I don’t write any tests since I am not a tester".  
 Ask: "How do you know when you are done?"  
   
@@ -51,14 +50,14 @@ How can we build a usable, tested and fully integrated product increment every S
 Are we doing that already? Why not?
    
 
-**Tests are as important as documentation**  
+## **Tests are as important as documentation**  
 Documentation is needed, and one good way to document how software **must** work are tests. I emphasize **must**, since documentation only documents how the software **might** work.  
 We learned too often that documentation gets out of sync too easily.  
 I blogged about the ["Why are *automated tests* so important?"](http://blog.gfader.com/2010/10/why-are-automated-tests-so-important.html) on my personal blog.  
 
    
 
-**Quality**  
+## **Quality**  
 Quality is everyone’s responsibility in a Scrum Team. There is no QA Team in a Scrum context, which means the whole Scrum team is responsible for delivering high quality software that works and is fully tested.  
   
 Quality attributes that are important:
@@ -73,11 +72,12 @@ Quality attributes that are important:
    -> Yes! Value is key
 
    
-**Tests are code**  
-Are you a coder?? Yes? Tests are code. So write some tests, especially so that you can sleep better at night.  
+## **Tests are code**  
+Are you a coder?? Yes?   
+Tests are code. So write some tests, especially so that you can sleep better at night.  
   
 
-**Still not willing to write tests?**  
+## **Still not willing to write tests?**  
 Ask: 
 * How can You help? 
 * What can You do?
