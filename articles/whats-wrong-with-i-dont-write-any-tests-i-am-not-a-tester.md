@@ -80,7 +80,8 @@ Tests are code. So write some tests, especially so that you can sleep better at 
 ## **Still not willing to write tests?**  
 Ask: 
 * How can You help? 
-* What can You do?
+* What can You do?  
+  
 You can always get them coffee.
   
 Show support. We are in this together.  
