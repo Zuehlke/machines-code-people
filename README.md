@@ -30,6 +30,7 @@ The following lead authors are responsible to create, organize, administrate and
 
 * Christian Abegg (@abeggchr)
 * Rolf Bruderer (@bruderol)
+* Peter Gfader (@peitor)
 * maybe more later (to be defined)
 
 You can contact us if you need help to get your contribution into this book.
