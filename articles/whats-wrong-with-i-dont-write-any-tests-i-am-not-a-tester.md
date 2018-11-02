@@ -23,17 +23,16 @@ One thing to consider is the underlying question to this, which might be:
 "How do we get people to change their behavior?"
 So here are my thoughts.
 
-**Yourself First**
+**Yourself First**  
+
 First of all, think about things to consider for yourself:
 * Why is the practice or tool that you are suggesting any better than the current way of doing things?
 * Can you explain the value in the proposed change?
 * Can you lead by example?
 * Do you have enough patience and skills to teach others?
 I would try to work on yourself before trying to change others.
-  
     
  
-
 **Roles?**  
 I see that a lot of people are focused on their role, forgetting the bigger picture of the team and purpose of the work they are doing.
 I would ask these questions:
@@ -77,11 +76,6 @@ Quality attributes that are important:
 **Tests are code**  
 Are you a coder?? Yes? Tests are code. So write some tests, especially so that you can sleep better at night.  
   
-Get test infected in 3 days in my Scrum Developer class!  
-Recently I did a a video interview where I ask my students 3 questions about the Developer class.  
-Check it out here https://www.youtube.com/watch?v=oLxBV4hPMkU  
-
- 
 
 **Still not willing to write tests?**  
 Ask: 
