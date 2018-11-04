@@ -8,7 +8,7 @@ title: What’s Wrong With: “I don’t write any tests since I am not a tester
 
 "Not a tester, so what are you then?" you might ask.  
 Being that offending is generally not helpful.  
-Unless you try to catch the attention as I do in this blog post 😉  
+Unless you try to catch the attention as I do in this article 😉  
 Let’s digest the situation in detail.
 
 A friend of mine attended my [Scrum Developer class](https://www.scrum.org/courses/professional-scrum-developer-training) and caught fire during the "Testing" module where we talk about Code Quality, Testing, Test-First approaches, TDD and more.
