@@ -49,13 +49,22 @@ What is on our Definition of Done?
 How can we build a usable, tested and fully integrated product increment every Sprint?
 Are we doing that already? Why not?
    
+   
+## **Fast Automated Feedback**
+Tests send you a message. They send you a message now and in 5 years from now. They tell you:   
+**Is the code working as it is expected or not?**  
+This fast feedback is very valuable if you are working on your product, either by changing it, fixing a bug or by adding a new feature. 
+Ask: "How do you know our product works in 5 years?"    
+  
+
 
 ## **Tests are as important as documentation**  
-Documentation is needed, and one good way to document how software **must** work are tests. I emphasize **must**, since documentation only documents how the software **might** work.  
+Documentation is needed, and one good way to document how software **must** work are tests. I emphasize **must**, since written documentation only documents how the software **might** work.  
 We learned too often that documentation gets out of sync too easily.  
-I blogged about the ["Why are *automated tests* so important?"](http://blog.gfader.com/2010/10/why-are-automated-tests-so-important.html) on my personal blog.  
+ 
 
-   
+
+
 
 ## **Quality**  
 Quality is everyone’s responsibility in a Scrum Team. There is no QA Team in a Scrum context, which means the whole Scrum team is responsible for delivering high quality software that works and is fully tested.  
