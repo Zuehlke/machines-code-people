@@ -6,7 +6,7 @@ title: Make and Keep Your Tests Run Fast
 ---
 # {{page.title}}
 
-Automated testing of software is generally a good thing and is accepted as a standard practice in virtually all projects these days. However, more often than not, people get annoyed by the tests over time. More specifically, they loathe running them. They keep complaining about having to wait for those darn tests to finish on the CI, so they can finally merge their PR that took ten minutes to create and review.
+Automated testing of software is generally a good thing and is accepted as a standard practice in virtually all projects these days. However, more often than not, people get annoyed by the tests over time.  They keep complaining about having to wait for those darn tests to finish on the CI, so they can finally merge their PR.
 
 Clearly, no one sets out with the intention to slow everyone down. But then again, people rarely make it a priority to keep things fast. Which is understandable and sounds "pragmatic" at first. You will hear people say "it only takes a few seconds, making it faster won't be worth it!". Which is true in the early days of a project, where there are only a handful of tests. Fast forward six months and people are sitting idle staring at the progress indicator of the Jenkins pipeline, hoping that this time they did not forget to fix a failing test and have to waste another 30 minutes of their life.
 
