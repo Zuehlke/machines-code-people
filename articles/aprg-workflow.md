@@ -1,6 +1,7 @@
 ---
 authorName: Stephan Janisch, Christian Eder, Alexander Derenbach
 authorGithubUsername: sjanisch
+issue: 80
 title: Architectural Programming in the developement workflow
 ---
 # {{page.title}}
