@@ -1,7 +1,8 @@
 ---
 authorName: Daniel Mölle
 authorGithubUsername: dmlfra
-title: Your team needs a Tech Lead, not a Lead Techie
+issue: 56
+title: Your team needs a tech lead, not a lead techie
 ---
 # {{page.title}}
 
