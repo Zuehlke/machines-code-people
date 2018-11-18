@@ -24,7 +24,7 @@ The problems I often see in projects with such rules:
 * Applying rules in the wrong context might not have the desired effect at all
 * Using rules stricter than meant to be, causes adverse effects
 * Applying rules without really understanding them can result in more harm to the project than benefits
-* Some rules might be treated as god given, just because it has been defined in some famous article by some clever guy or in that holy Scrum bible or the process manual written by the higher management. This causes that people will not argue about these rules anymore about why, when and how some rules should be followed exactly. This can cause destructive discussion culture and lead to bad decisions without real arguments.
+* Treating rules as god given, causes people not to reason about these rules anymore. This can cause a destructive discussion culture and lead to bad decisions without real arguments.
 
 ## Conclusion and Recommendations
 
