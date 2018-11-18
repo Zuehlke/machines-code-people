@@ -4,7 +4,7 @@ authorGithubUsername: bruderol
 issue: 31
 title: Rules are Dangerous
 ---
-# Rules are Dangerous
+# {{page.title}}
 
 Rules followed blindly in a dogmatic way do a lot of harm. This is an uncomfortable truth especially for us as engineers. As such we are used to see the world in rigid rules, true and false, if and else. We like to have crystal clear and exact definitions, guidelines or best practices on how to do something. This is not bad in its first place. But we all must be very careful that we do not fall into the trap of just following such rules blindly without thinking well about consequences. Rules can do more harm than good when they are applied too strict or not as meant to be or in the wrong context.
 
