@@ -35,7 +35,7 @@ Finally, an automated developer VM should yield the following properties:
 
 The good news is that there are quite a few so-called "Configuration Management" tools out there, which essentially allow you to automate the provisioning of software and configuration on top of an existing operating system (in our case a fresh installation of the operating system of choice, within a VM image). 
 
-The bad news is that you have to choose one -- and in addition to the configuration management tools that do the provisioning, there is (gladly) also a multitude of tools for testing the configuration of such a (virtual) machine.
+The bad news is that you have to choose one. And in addition to the configuration management tools that do the provisioning, there is (gladly) also a multitude of tools for testing the configuration of such a (virtual) machine.
 
 Depending on your preference, these are the tools you will likely end up with:
 
