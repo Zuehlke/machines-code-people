@@ -11,7 +11,7 @@ Let’s talk about developer VMs, and why you absolutely and definitely must aut
 
 ## What is a "Developer VM"?
 
-A developer VM is a virtual machine image that contains the complete development toolchain that is needed to work on a specific project (including compiler toolchains, IDEs, sytem wide settings, etc...). The aim is to ensure a consistent environment not only between team members of that project (which may have completely different operating systems on their laptops) but also with the build agents in the CI environment.
+A developer VM is a virtual machine image that contains the complete development toolchain that is needed to work on a specific project (including compiler toolchains, IDEs, system wide settings, etc...). The aim is to ensure a consistent environment not only between team members of that project (which may have completely different operating systems on their laptops) but also with the build agents in the CI environment.
 
 ## Why would I need a Developer VM anyway?
 
