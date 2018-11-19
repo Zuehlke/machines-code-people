@@ -51,13 +51,13 @@ Depending on your preference, these are the tools you will likely end up with:
 
 ## I’m sold, sounds like pretty cool stuff! What is the fastest way to get there?
 
-It may sound a bit of effort to achieve this if you start from scratch, so that’s why we have a RUA with a template / skeleton project along with a tutorial for you. No excuses for doing it manually anymore! ;-)
+It may sound a bit of effort to achieve this if you start from scratch, so that’s why we have a template / skeleton project along with a tutorial for you. No excuses for doing it manually anymore! ;-)
 
 This is what you need to get started:
 
 * A ready-to-use template / skeleton project for a minimal, Linux based developer VM:
   https://github.com/Zuehlke/linux-developer-vm
-* An example Java Developer VM based on the above (see Pull Requests for a step-by-step guide!):
+* An example Java Developer VM based on the above (see Pull Requests for a step-by-step guide):
   https://github.com/tknerr/etka2017-developer-vm 
 * The accompanying conference talk for creating the example above:
   http://bit.ly/automated-developer-vms
