@@ -11,30 +11,17 @@ Let’s talk about developer VMs, and why you absolutely and definitely must aut
 
 ## What is a "Developer VM"?
 
-A developer VM is a virtual machine image that contains the complete development toolchain that is needed
-to work on a specific project (including compiler toolchains, IDEs, sytem wide settings, etc...).
-The aim is to ensure a consistent environment not only between team members of that project (which may have
-completely different operating systems on their laptops) but also with the build agents in the CI environment.
+A developer VM is a virtual machine image that contains the complete development toolchain that is needed to work on a specific project (including compiler toolchains, IDEs, sytem wide settings, etc...). The aim is to ensure a consistent environment not only between team members of that project (which may have completely different operating systems on their laptops) but also with the build agents in the CI environment.
 
 ## Why would I need a Developer VM anyway?
 
-Some people hate it, others love it. However you put it, it is one sure-fire way to ensure that the
-whole development team uses a consistent environment and avoids the typical “works on my machine”
-issues we all know about. Especially for us, executing and delivering a multitude of projects (and engineers
-joining and leaving these projects more or less frequently), developer VMs have become an indispensable tool.
-Not only for the consistency aspect, but also for reducing ramp-up times or being able to easily archive the
-development environment when the project enters the retirement phase.
+Some people hate it, others love it. However you put it, it is one sure-fire way to ensure that the whole development team uses a consistent environment and avoids the typical "works on my machine" issues we all know about. Especially for us, executing and delivering a multitude of projects (and engineers joining and leaving these projects more or less frequently), developer VMs have become an indispensable tool. Not only for the consistency aspect, but also for reducing ramp-up times or being able to easily archive the development environment when the project enters the retirement phase.
 
-On regulated projects this is even more relevant, since you need to validate and verify the development toolchain
-and need to ensure that everyone uses exactly that defined toolchain.
+On regulated projects this is even more relevant, since you need to validate and verify the development toolchain and need to ensure that everyone uses exactly that defined toolchain.
 
 ## OK, but why should I automate it?
 
-While we started out to craft these VMs manually (and with love) in the early days, we can nowadays easily
-automate the whole procedure with tools like Vagrant, Chef, Ansible and co. Applying automation and
-Infrastructure-as-Code principles to developer VMs not only increases transparency and reproducibility,
-but also allows for an in-VM update mechanism to maintain consistency while the toolchain evolves during
-the lifetime of the project.
+While we started out to craft these VMs manually (and with love) in the early days, we can nowadays easily automate the whole procedure with tools like Vagrant, Chef, Ansible and co. Applying automation and Infrastructure-as-Code principles to developer VMs not only increases transparency and reproducibility, but also allows for an in-VM update mechanism to maintain consistency while the toolchain evolves during the lifetime of the project.
 
 Finally, an automated developer VM should yield the following properties:
 
@@ -46,12 +33,9 @@ Finally, an automated developer VM should yield the following properties:
 
 ## How can I automate it?
 
-The good news is that there are quite a few so-called "Configuration Management" tools out there, which essentially
-allow you to automate the provisioning of software and configuration on top of an existing operating system
-(in our case a fresh installation of the operating system of choice, within a VM image). 
+The good news is that there are quite a few so-called "Configuration Management" tools out there, which essentially allow you to automate the provisioning of software and configuration on top of an existing operating system (in our case a fresh installation of the operating system of choice, within a VM image). 
 
-The bad news is that you have to choose one -- and in addition to the configuration management tools that do the
-provisioning, there is (gladly) also a multitude of tools for testing the configuration of such a (virtual) machine.
+The bad news is that you have to choose one -- and in addition to the configuration management tools that do the provisioning, there is (gladly) also a multitude of tools for testing the configuration of such a (virtual) machine.
 
 Assuming you have a preference for either Ruby or Python, these are the tools you will likely end up with:
 
@@ -67,8 +51,7 @@ Assuming you have a preference for either Ruby or Python, these are the tools yo
 
 ## I’m sold, sounds like pretty cool stuff! What is the fastest way to get there?
 
-It may sound a bit of effort to achieve this if you start from scratch, so that’s why we have a RUA with a
-template / skeleton project along with a tutorial for you. No excuses for doing it manually anymore! ;-)
+It may sound a bit of effort to achieve this if you start from scratch, so that’s why we have a RUA with a template / skeleton project along with a tutorial for you. No excuses for doing it manually anymore! ;-)
 
 This is what you need to get started:
 
