@@ -37,7 +37,7 @@ The good news is that there are quite a few so-called "Configuration Management"
 
 The bad news is that you have to choose one -- and in addition to the configuration management tools that do the provisioning, there is (gladly) also a multitude of tools for testing the configuration of such a (virtual) machine.
 
-Assuming you have a preference for either Ruby or Python, these are the tools you will likely end up with:
+Depending on your preference, these are the tools you will likely end up with:
 
 * Rubyists will like
   * Chef - as the configuration management tool
