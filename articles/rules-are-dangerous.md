@@ -41,13 +41,6 @@ Here are my recommendations on how to mitigate the problems with such rules in y
 Also remember this when reading all the other articles in this book from my brilliant coworkers! 
 There are many great rules and ideas in these articles that will help you a lot when applied wisely in the right context.
 
-## Further Readings
-
-I recommend reading about following related topics that inspired me:
-* **Context Driven Testing**, 
-  http://context-driven-testing.com
-* **Cynefin Model**, by Dave Snowden, 
-  see e.g. the article “A Leader’s Framework for Decission Making”, 
-  https://hbr.org/2007/11/a-leaders-framework-for-decision-making
+{% include "./rules-are-dangerous.resources.md" %}
   
 *By {{page.authorName}}*
