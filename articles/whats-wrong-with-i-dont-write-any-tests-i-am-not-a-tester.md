@@ -42,7 +42,7 @@ I would ask these questions:
  
 
 ## **Done?**  
-Henri: "I don’t write any tests since I am not a tester".  
+Colleague: "I don’t write any tests since I am not a tester".  
 Ask: "How do you know when you are done?"  
   
 What is on our Definition of Done?
