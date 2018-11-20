@@ -11,7 +11,7 @@ Being that offending is generally not helpful.
 Unless you try to catch the attention as I do in this article 😉  
 Let’s digest the situation in detail.
 
-A friend of mine attended my [Scrum Developer class](https://www.scrum.org/courses/professional-scrum-developer-training) and caught fire during the "Testing" module where we talk about Code Quality, Testing, Test-First approaches, TDD and more.
+A friend of mine attended my Scrum Developer class and caught fire during the "Testing" module where we talk about Code Quality, Testing, Test-First approaches, TDD and more.
 Boom! After that class he was on a mission to convince everyone that TDD is the only way to do things.
 
 The 1st day back at work he talked about improving the team and trying TDD and got the following statement from his colleague:
