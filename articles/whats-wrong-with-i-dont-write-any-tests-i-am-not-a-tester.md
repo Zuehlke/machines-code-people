@@ -15,7 +15,7 @@ A friend of mine attended my Scrum Developer class and caught fire during the "T
 Boom! After that class he was on a mission to convince everyone that TDD is the only way to do things.
 
 The 1st day back at work he talked about improving the team and trying TDD and got the following statement from his colleague:
-Henri (made up name): "I don’t write any tests since I am not a tester".
+"I don’t write any tests since I am not a tester".
 
 I know he handled the situation quite well, but he asked me for advice.
 
