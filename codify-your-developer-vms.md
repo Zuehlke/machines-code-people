@@ -48,8 +48,15 @@ Depending on your preference, these are the tools you will likely end up with:
   * Ansible - as the configuration management tool
   * ansible-lint - for linting their Ansible roles
   * TestInfra - for testing the Ansible-provisioned systems
+  
+## It's not all lavender and roses though!
 
-## I’m sold, sounds like pretty cool stuff! What is the fastest way to get there?
+Two things to highlight:
+
+1. surely, developer VMs are a compromise between consistency and performance: you save valuable time by avoiding the "works on my machine" issue and speeding up onboarding time for new team members. The price you pay is the runtime overhead for running the VM in a hypervisor rather than working with the tools natively on your operating system of choice.
+2. the automation part is sometimes hard (especially on Windows) and is not just software installation but also configuration of settings like networking, firewalls, access rights etc. These are not things everyone knows how to automate, and you will have to grow and master these skills as part of your journey.
+
+## I’m still sold, sounds like pretty cool stuff! What is the fastest way to get there?
 
 It may sound a bit of effort to achieve this if you start from scratch, so that’s why we have a template / skeleton project along with a tutorial for you. No excuses for doing it manually anymore! ;-)
 
