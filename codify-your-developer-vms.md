@@ -68,6 +68,8 @@ This is what you need to get started:
   https://github.com/tknerr/etka2017-developer-vm 
 * The accompanying conference talk for creating the example above:
   http://bit.ly/automated-developer-vms
+* A ready-to-use developer VM to with a toolchain for automating developer VMs:
+  https://github.com/tknerr/linus-kitchen
 
 
 *By {{page.authorName}}*
