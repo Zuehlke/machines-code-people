@@ -38,6 +38,8 @@ Here are my recommendations on how to mitigate the problems with such rules in y
 * Be open to discuss and reexplain rules in your projects with your team members and to adjust the rules to changes in the context (e.g. growing software, growing team, shorter release cycles, different team members, new ideas, etc.)
 * Be critical to existing rules, but also respect and try to understand them in a first place.
 
+## Conclusion
+
 There are a lot of clever rules or ideas out there in the world wide web, in books, in courses or in your projects, as well as in this collection of articles by my brilliant coworkers. Such rules can help you when applied wisely in the right context. But don't let your teams suffer from dictatorship by dogmatic rules and therefore follow my recommendations.
 
 {% include "./rules-are-dangerous.resources.md" %}
