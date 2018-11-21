@@ -1,5 +1,98 @@
 [
   {
+    "url": "https://api.github.com/repos/Zuehlke/fifty-shades/issues/156",
+    "repository_url": "https://api.github.com/repos/Zuehlke/fifty-shades",
+    "labels_url": "https://api.github.com/repos/Zuehlke/fifty-shades/issues/156/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Zuehlke/fifty-shades/issues/156/comments",
+    "events_url": "https://api.github.com/repos/Zuehlke/fifty-shades/issues/156/events",
+    "html_url": "https://github.com/Zuehlke/fifty-shades/issues/156",
+    "id": 383043840,
+    "node_id": "MDU6SXNzdWUzODMwNDM4NDA=",
+    "number": 156,
+    "title": "Article: Silos are for farmers",
+    "user": {
+      "login": "abeggchr",
+      "id": 1616011,
+      "node_id": "MDQ6VXNlcjE2MTYwMTE=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1616011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abeggchr",
+      "html_url": "https://github.com/abeggchr",
+      "followers_url": "https://api.github.com/users/abeggchr/followers",
+      "following_url": "https://api.github.com/users/abeggchr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abeggchr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abeggchr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abeggchr/subscriptions",
+      "organizations_url": "https://api.github.com/users/abeggchr/orgs",
+      "repos_url": "https://api.github.com/users/abeggchr/repos",
+      "events_url": "https://api.github.com/users/abeggchr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abeggchr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 514489184,
+        "node_id": "MDU6TGFiZWw1MTQ0ODkxODQ=",
+        "url": "https://api.github.com/repos/Zuehlke/fifty-shades/labels/article",
+        "name": "article",
+        "color": "fbca04",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": {
+      "login": "abeggchr",
+      "id": 1616011,
+      "node_id": "MDQ6VXNlcjE2MTYwMTE=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1616011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abeggchr",
+      "html_url": "https://github.com/abeggchr",
+      "followers_url": "https://api.github.com/users/abeggchr/followers",
+      "following_url": "https://api.github.com/users/abeggchr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abeggchr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abeggchr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abeggchr/subscriptions",
+      "organizations_url": "https://api.github.com/users/abeggchr/orgs",
+      "repos_url": "https://api.github.com/users/abeggchr/repos",
+      "events_url": "https://api.github.com/users/abeggchr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abeggchr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "abeggchr",
+        "id": 1616011,
+        "node_id": "MDQ6VXNlcjE2MTYwMTE=",
+        "avatar_url": "https://avatars1.githubusercontent.com/u/1616011?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/abeggchr",
+        "html_url": "https://github.com/abeggchr",
+        "followers_url": "https://api.github.com/users/abeggchr/followers",
+        "following_url": "https://api.github.com/users/abeggchr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/abeggchr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/abeggchr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/abeggchr/subscriptions",
+        "organizations_url": "https://api.github.com/users/abeggchr/orgs",
+        "repos_url": "https://api.github.com/users/abeggchr/repos",
+        "events_url": "https://api.github.com/users/abeggchr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/abeggchr/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2018-11-21T10:09:22Z",
+    "updated_at": "2018-11-21T10:09:31Z",
+    "closed_at": null,
+    "author_association": "MEMBER",
+    "body": "https://creativeheldstab.com/silos-are-for-farmers/"
+  },
+  {
     "url": "https://api.github.com/repos/Zuehlke/fifty-shades/issues/155",
     "repository_url": "https://api.github.com/repos/Zuehlke/fifty-shades",
     "labels_url": "https://api.github.com/repos/Zuehlke/fifty-shades/issues/155/labels{/name}",
@@ -1835,7 +1928,7 @@
     "created_at": "2018-03-06T07:28:38Z",
     "updated_at": "2018-03-09T15:30:07Z",
     "closed_at": null,
-    "author_association": "NONE",
+    "author_association": "CONTRIBUTOR",
     "body": "AMS Team Setups \r\nby tkrs & guan\r\n\r\nAbstract:\r\nThe setup of Agile Software Development teams changes when approaching the Live phase of a project. New team members with skills required for Application Maintenance join the team and the state of the production environment becomes more and more a topic of the team's daily business. The article at hand presents a set of team setups, including Fixed-, Rotating developer and OneTeam flavors. For each of these, we elaborate on advantages/disadvantages of each and under which conditions these work best, based on experiences of projects in the Live phase."
   },
   {
@@ -3602,7 +3695,7 @@
     "created_at": "2018-02-09T19:40:19Z",
     "updated_at": "2018-02-13T13:22:48Z",
     "closed_at": null,
-    "author_association": "NONE",
+    "author_association": "CONTRIBUTOR",
     "body": "Author: Simon Lehmann (sile)\r\n\r\nMotivation for this articles comes from the experience that execution time of tests quickly becomes a problem that can/could be avoided (to some extent).\r\n\r\nMy rough ideas on contents:\r\n- Outlining impact of \"slow\" (actually: long running) tests\r\n   - tests are not run at all/with every change\r\n   - tests are only selectively run (creating undocumented knowledge about which tests are \"important\")\r\n   - CI feedback loop gets longer (to the point where people are not feeling responsible anymore)\r\n   - developers sitting \"idle\", waiting for CI to check their PRs\r\n   - writing tests becomes a time consuming chore\r\n   - testing is seen as a bottleneck (even more than it already is...)\r\n- strategies for making your test suite fast:\r\n   - get time under your control (for time dependent tests)\r\n   - don't repeat yourself (by not testing the (more or less) exact same thing again and again)\r\n   - make use of tests that don't need to be run\r\n      - don't write tests for things your compiler, type system, ... can check for you\r\n      - ...\r\n   - clearly separate between unit, integration, functional/system, ... test suites (which of course means, agreeing on what is what for _your_ project), allowing you to\r\n      - easily run them separately (by technical separation)\r\n      - easily define and possibly enforce different time constraints on different types of tests\r\n- strategies for dealing with tests being still to \"slow\" (hint: they always will be):\r\n   - parallel execution (including to design and/or refactor to make this possible)\r\n   - categorize tests on how essential they are and run them in that order (and fail early), e.g.\r\n      - <no category> for everything that needs to be checked all the time (this is the default and should have the most tests)\r\n      - \"exhausting options and more (theoretical) corner cases\"\r\n      - \"complex workflows and/or tests where (slow) external dependencies could not (yet) be mocked\"\r\n   - prune old tests that don't cover actual requirements anymore (or never have?)"
   },
   {
