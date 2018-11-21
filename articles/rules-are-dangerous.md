@@ -26,20 +26,19 @@ The problems I often see in projects with such rules:
 * Applying rules without really understanding them can result in more harm to the project than benefits
 * Treating rules as god given, causes people not to reason about these rules anymore. This can cause a destructive discussion culture and lead to bad decisions without real arguments.
 
-## Conclusion and Recommendations
+## Recommendations
 
 Here are my recommendations on how to mitigate the problems with such rules in your projects:
 
 * We all must be always willing to explain ourselves, why we do something like that and what are the arguments to apply a rule in which context. Something like “just because our process manual says so” or “because I’ve read it in that article” is usually not a good answer.
 * Don’t try to replace critical thinking and adaptive methods by exact and rigid rules that people must follow strictly. 
 * Do not read my recommendations here in a dogmatic way. Which would be: “Rolf said rules are bad and harmful, so let’s trash all our rules in our project and don’t follow the scrum guide, our Definition of Done, Clean Code and similar things anymore”. This was not my message at all! 
-* Instead: Discuss, write down and live these rules in your Team, but see it more as a guide than exact rules to be 100% precisely followed in any case.
+* Instead: Discuss, write down and live these rules in your team, but see it more as a guide than exact rules to be 100% precisely followed in any case.
 * Note down not just the rules you use in your project but also the arguments why a rule should be applied. 
 * Be open to discuss and reexplain rules in your projects with your team members and to adjust the rules to changes in the context (e.g. growing software, growing team, shorter release cycles, different team members, new ideas, etc.)
 * Be critical to existing rules, but also respect and try to understand them in a first place.
 
-Also remember this when reading all the other articles in this book from my brilliant coworkers! 
-There are many great rules and ideas in these articles that will help you a lot when applied wisely in the right context.
+There are a lot of clever rules or ideas out there in the world wide web, in books, in courses or in your projects, as well as in this collection of articles by my brilliant coworkers. Such rules can help you when applied wisely in the right context. But don't let your teams suffer from dictatorship by dogmatic rules and therefore follow my recommendations.
 
 {% include "./rules-are-dangerous.resources.md" %}
   
