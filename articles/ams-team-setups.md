@@ -40,7 +40,7 @@ The three Live team setups are a product of our learnings and it represents an e
 *By {{page.authorName}}*
 
 
-* Agile Delivery Method has been a point of reference in Zuehlke for some years now. It has been developed based on the need to have a project structure, on top of agile practices, in order to foster communication and learning across projects. It covers the whole product lifecycle. ADM has been initially based on UK government’s (GDS) lifecycle model and later enriched with roles and ownerships that suit customer-supplier relationship in Zuehlke (cit. Alex Boegli). For the explanation of phases, please see P.1 – ADM phases.
+* Agile Delivery Method has been a point of reference in Zuehlke for some years now. It has been developed based on the need to have a project structure, on top of agile practices, in order to foster communication and learning across projects. It covers the whole product lifecycle. ADM has been initially based on UK government’s (GDS) lifecycle model and later enriched with roles and ownerships that suit customer-supplier relationship in Zuehlke (cit. Alex Boegli).
 
 ** CI/CD – Continuous Integration/Continuous Deployment chain – tooling that supports deployment and testing of the code changes
 
