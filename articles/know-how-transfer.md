@@ -2,7 +2,7 @@
 authorName: Christoph Zuber
 authorGithubUsername: abeggchr
 issue: 155
-title: Know-how Transfer – Just explaining once is not enough
+title: 'Know-how Transfer – Just explaining once is not enough'
 ---
 # {{page.title}}
 
