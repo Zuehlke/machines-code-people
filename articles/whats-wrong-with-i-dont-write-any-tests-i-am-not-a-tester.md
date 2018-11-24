@@ -2,7 +2,7 @@
 authorName: Peter Gfader
 authorGithubUsername: peitor
 issue: 149
-title: What’s Wrong With: “I don’t write any tests since I am not a tester”?
+title: 'What’s Wrong With: “I don’t write any tests since I am not a tester”?'
 ---
 # {{page.title}}
 
