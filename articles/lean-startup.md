@@ -6,7 +6,9 @@ title: Lean Startup: Taming the Uncertainty
 ---
 # {{page.title}}
 
-Lean Startup was conceived as an efficient method to handle the high level of uncertainty that start-up founders face when trying to discover a viable business model. Some of the principles of Lean Startup are:
+Have you ever been in a project with an unclear vision? Maybe a project where the stakeholders disagree about who the product's main users will be? Or a project with a long list of "must-have" features but no agreement on how to prioritize them? 
+
+The next time this happens, try the Lean Startup methodology to tame your project's uncertainty. Some of its the principles are:
 
 * treat everything you believe as an assumption that needs to be tested
 * build the smallest possible product increments and use them to get market feedback
@@ -24,9 +26,9 @@ Here’s why:
 
 All projects have to cope with uncertainty. It’s highest at the outset, but it never goes away. That’s why we employ agile methods. Lean Startup is useful because it helps you decide what to do next under conditions of uncertainty: everything is an assumption until you validate it. Find the assumption that carries the biggest risk for your project, then look for the simplest experiment to prove or disprove it.
 
-Do you understand the business case of the product or service you are helping to build? Who are its customers? Which of the customers’ problems will the product solve? What is its Unique Value Proposition and how is it going to be implemented (the solution)? Spending one hour with you team to answer these questions by filling in a Lean Canvas is an invaluable investment.
+Do you understand the business model of the product or service you are helping to build? Who are its customers? Which of the customers’ problems will the product solve? What is its Unique Value Proposition and how is it going to be implemented (the solution)? To answer these questions, spend one hour with your team to fill in a Lean Canvas - a one-page business model consisting of nine segments. It requires you to spell out all your assumptions about the product and supports a shared understanding of what you're trying to build.
 
-A Lean Canvas can also help with other activities within your project:
+A Lean Canvas can have additional benefits:
 
 * The customer segments point at personas to look into during UX research. 
 * The Unique Value Proposition will make discussions with stakeholders and users more purposeful. 
