@@ -85,13 +85,14 @@ Quality attributes that are important:
    
 ## **Tests are code**  
 Are you a coder?? Yes?   
-Tests are code. So write some tests, especially so that you can sleep better at night.  
+Tests are code. Don't wait for the "Test Automator" that tests your code. Its more efficient if you write tests that drive your production code and test your work.
+With those tests you get the benefit of fast feedback and your code gets tested and checked on every push. Additionally over time you will know you have not broken anything and now you can sleep better at night.  
   
   
   
 ## **Still not willing to write tests?**  
 Ask: 
-* How can You help? 
+* How can **You** help? 
 * What can You do?  
   
 You can always get them coffee.
