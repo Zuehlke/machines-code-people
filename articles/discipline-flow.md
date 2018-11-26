@@ -58,5 +58,3 @@ One key aspect in the achievement of product excellence is to track and monitor 
 In general, the discipline flow makes the big picture of disciplines and their relationships a first class citizen and makes it possible to explain what we sometimes call 'Operational Excellence'. This kind of excellence is a result of discipline experts working together within a lean project organisation for product delivery that focuses on user and market needs from the very beginning. The flow comprises only a small number of disciplines and relationships, simple enough to sketch ad-hoc whenever needed for discussions and complete enough to check the continuous delivery maturity in the context of your current project. 
 
 *By {{page.authorName}}*
-
-{% include "./discipline-flow.resources.md" %}
