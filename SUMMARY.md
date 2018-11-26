@@ -30,6 +30,7 @@
   * [Some inconvenient truths about the digitalization of your business](articles/inconvenient-truths-about-digitalization.md)
   * [Rules are Dangerous](articles/rules-are-dangerous.md)
   * [We are all engineers but work quite differently: software engineers, electronics engineers, mechanics engineers](articles/we-are-all-engineers.md)
+  * [Discipline flow](articles/discipline-flow.md)
 
 ## Machines, Code
   * [Making your tests run fast](articles/make-and-keep-your-tests-run-fast.md)
@@ -37,7 +38,6 @@
   * [Application first - a bottom-up architecture approach](articles/application-first.md)
   * [You always have time for a proper root cause analysis](articles/root-cause-analysis.md)
   * [Optimization and realization](articles/optimization-and-realisation.md)
-  * [Discipline flow](articles/discipline-flow.md)
   * [What’s Wrong With: “I don’t write any tests since I am not a tester”?](articles/whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.md)
   * [The best technology is not always the best choice](articles/technology-choice.md)
   * [Do something about that slow SQL query](articles/sql.md)
