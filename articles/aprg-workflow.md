@@ -37,4 +37,4 @@ The current state already provides a good basis for storing architecture as code
 
 *By {{page.authorName}}*
 
-{% include "./aprg_workflow.resources.md" %}
+{% include "./aprg-workflow.resources.md" %}
