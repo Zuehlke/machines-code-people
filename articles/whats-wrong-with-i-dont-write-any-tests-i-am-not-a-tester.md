@@ -58,7 +58,7 @@ Ask: "How do you know our product works in 5 years?"
   
 
 
-## **Tests are as important as documentation**  
+## **Tests are an important kind of documentation**  
 Documentation is needed, and one good way to document how software **must** work are tests. I emphasize **must**, since written documentation only documents how the software **might** work.  
 We learned too often that documentation gets out of sync too easily.  
  
