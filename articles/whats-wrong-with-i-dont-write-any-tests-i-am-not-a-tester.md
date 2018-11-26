@@ -54,14 +54,16 @@ Are we doing that already? Why not?
 Tests send you a message. They send you a message now and in 5 years from now. They tell you:   
 **Is the code working as it is expected or not?**  
 This fast feedback is very valuable if you are working on your product, either by changing it, fixing a bug or by adding a new feature. 
-Ask: "How do you know our product works in 5 years?"    
+Think of these tests as development support. These tests guide your development efforts and make sure your development doesn't derail and lets you go faster.
+And the additional benefit you get in the future is the answer to the question:   
+"Did we break something?"
   
 
 
 ## **Tests are an important kind of documentation**  
 Documentation is needed, and one good way to document how software **must** work are tests. I emphasize **must**, since written documentation only documents how the software **might** work.  
 We learned too often that documentation gets out of sync too easily.  
- 
+  
 
 
 
@@ -85,12 +87,6 @@ Quality attributes that are important:
 Are you a coder?? Yes?   
 Tests are code. So write some tests, especially so that you can sleep better at night.  
   
-  
-## **Another 2 reasons for automated tests**  
-1. You help your Team. You support development with a very fast feedback loop. You will find tests covering small units very helpful as they allow to develop logic quickly and with high confidence.  
-Developers that design, code, test and drive their implementation with tests are much faster in developing software.  
-
-2. You help to reduce regression issues: Did you break any major functionality? Bigger tests that cover entire "user scenarios" are especially helpful here.  
   
   
 ## **Still not willing to write tests?**  
