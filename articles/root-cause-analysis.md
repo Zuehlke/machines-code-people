@@ -14,9 +14,9 @@ Investing an hour in analysis is always worth it.
 
 ## People will describe the symptoms
 
-Keep in mind that users will report symptoms. This has nothing to do with a lack of understanding or skill. They have an outside view.
+Keep in mind that users will report _symptoms_. This has nothing to do with a lack of understanding or skill. They have an outside view.
 
-What you need to find, and then fix, is the problem (or, more precisely, its cause).
+What you need to find, and then fix, is the _problem_ (or, more precisely, its _cause_).
 
 Don't jump to conclusions. Listen to all the clues. Analyse. Reproduce. Rethink. Refine (or create) the ticket. Remember that every bug is a strong indicator of a missing test, so think of test cases which are explicit about expected and actual results. And write tests to cover your findings.
 
@@ -36,7 +36,7 @@ Do you feel some guilt reading through the three examples below? I do.
 * Fixed a `NullReferenceException` by adding another `if`, ended up with no exception but a wrong result?
 * Divided an `x` through `total` to make it relative, deployed to production, got an "unexpected" `DivideByZeroException` the day after?
 
-Things are often more subtle and not that silly. What the three examples have in common though is that we didn't think it through all the way. We knew what shouldn't happen, but didn't find out why it did and what should_happen.
+Things are often more subtle and not that silly. What the three examples have in common though is that we didn't think it through all the way. We knew what _shouldn't_ happen, but didn't find out _why_ it did and what _should_ happen.
 
 ### "We cannot reproduce this!" or "It's expected behaviour."
 
@@ -68,7 +68,7 @@ It's fine to add an `if` to get an imminent problem out of the way - after you h
 
 All issues, even seemingly trivial ones, demand careful and thorough analysis. The problem might seem obvious, but it's always worth double-checking. You always have time for that.
 
-Having said that, be pragmatic with the fix. Don't over-engineer. Decide what's needed now to put out the fire, and what should be done later to prevent further blazes.
+Having said that, be pragmatic with the fix. Don't over-engineer. Decide what's needed _now_ to put out the fire, and what should be done _later_ to prevent further blazes.
 
 But let it be an educated decision. And always test thoroughly.
 
