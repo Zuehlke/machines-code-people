@@ -10,6 +10,7 @@
   * [Start Using a Time Management Technique Today](articles/time-management.md)
   * ["You are not a Software Engineer" - What am I then?](articles/you-are-not-a-software-engineer.md)
   * [Fast tracking into new projects – Take notes!](articles/note-taking.md)
+  * [Never forget](articles/never-forget.md)
 
 ## People
   * [Why you should create a paper prototype - and how to test it with your users](articles/paper-prototyping.md)
