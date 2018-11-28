@@ -20,7 +20,7 @@ But being aware of these boundaries is not enough. The working mode used by each
 
 * Software usually provides end-to-end functionality at the concept phase (alpha), maybe even with mock ups. These existing features are extended and stabilized during the series development phase (beta).
 
-![Figure1](./we-are-all-engineers/figure1.png)
+![Main Drivers](./we-are-all-engineers/Figure1_MainDrivers_gray.jpg)
 Figure 1: Comparison of main drivers per discipline during product development lifecycle
 
 The next interesting cause of communication pitfalls are ambiguous terms! Are you sure you are talking the same language as your colleagues? Check out some terms that illustrate this problem  (the term “HW” refers here to electrical and mechanical engineering):
@@ -62,9 +62,7 @@ Talking about communication also requires thinking about the different types of 
   * For explaining a discipline-specific term, it is helpful to have a term of the week slot after the standup. Make sure to also document the term in the project glossary.
  
 * Technical sync
-  * Use a regular technical sync, e.g. weekly, for planning the big picture and details of the integration strategy
-
-* Discuss topics affected by more than one discipline, make the unknown visible!
+  * Use a regular technical sync, e.g. weekly, for planning the big picture and details of the integration strategy. Discuss topics affected by more than one discipline, make the unknown visible!
   * Document and communicate your integration plan (e.g. by using the maturity table described below) 
   * Include in this planning also the use of rapid prototyping means (EE, ME) for early integrations and physical samples.  These samples provide insights and value!
   * Use a continuous integration environment for the system to ensure robust artefacts where the new unit is to be integrated 
@@ -76,7 +74,7 @@ Talking about communication also requires thinking about the different types of 
 
 There is a central communication tool that addresses the needs mentioned above: we call it “maturity table”. This tool is a simple, but very effective, table describing the integration strategy with its steps and associated samples. It develops during the project lifetime and needs to be updated regularly. Typically, each insight to be generated (or realized device sample) is described by one column, each subsystem in one row with its required functionality and maturity (figure 2).
  
-![Figure1](./we-are-all-engineers/figure1.png)
+![Maturity Table](./we-are-all-engineers/Figure2_MaturityTable_gray.jpg)
 Figure 2: Maturity table as a central communication tool describing each integration sample (simplified example)
 
 This table is very valuable for discussions between the project team and the sponsor as well. Based on functions and subsystems, it allows you to trigger the necessary discussions to avoid surprises during device development.
