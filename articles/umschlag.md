@@ -14,7 +14,7 @@ In this book you will find many useful tips from various areas of todays tech in
 * Containerisation and why to use it
 * The evolution of support & operations team setups
 
-Zühlke Engineering is a partner for business innovation and combines both business and technology expertise. Zühlke develops financially successful products, services and business models for today’s digital world – from coming up with the initial idea through to the implementation and operation. 
+Zühlke Engineering is a partner for business innovation and has been combining both business and technology expertise for over 50 years. Zühlke develops financially successful products, services and business models for today’s digital world – from coming up with the initial idea through to the implementation and operation. 
 
 
 
