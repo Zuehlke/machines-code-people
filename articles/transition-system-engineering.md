@@ -2,7 +2,7 @@
 authorName: Rolf Maisch
 authorGithubUsername: abeggchr
 issue: 69
-title: Transitioning Systems Engineering Into The Lean-Agile World
+title: Transitioning systems engineering into the lean-agile world
 ---
 # {{page.title}}
 
