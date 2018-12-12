@@ -25,7 +25,7 @@ It is a legitimate concern that entire topics may be overlooked when following t
 
 ## Documentation
 
-If good documentation is available, the handover can be simplified to providing an introduction and overview of the documentation as well as explanations for undocumented topics. It is crucial, however, that the documentation is trusted and up-to-date. As a minimal structure, on-boarding checklists have proved helpful. These should not take the form of a list of technical setup tasks, nor that of comprehensive documentation, but should rather consist of a map of the most important topics and where to find documentation. They should be small enough to manage so that they do not become outdated as quickly as (yet another) documentation.
+If good documentation is available, the handover can be simplified to providing an introduction and overview of the documentation as well as explanations for undocumented topics. It is crucial, however, that the documentation is trusted and up-to-date. As a minimal structure, on-boarding checklists have proved helpful. These should just not take the form of a list of technical setup tasks, nor that of comprehensive documentation, but should rather consist of a map of the most important topics and where to find documentation. They should be small enough to manage so that they do not become outdated as quickly as (yet another) documentation.
 
 ## Apply what you have learnt
 
