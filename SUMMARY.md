@@ -1,10 +1,8 @@
 # Table of Content
   * [Preface](articles/preface.md)
 
-
-
 ## Me
-  * [Coding On Purpose](articles/coding-on-purpose.md)
+  * [Coding on purpose](articles/coding-on-purpose.md)
   * [Fast tracking into new projects – take notes!](articles/note-taking.md)
   * [If you like it then you shouldn't put some code in it](articles/if-you-like-it-then-you-shouldnt-put-some-code-in-it.md)
   * [Never forget](articles/never-forget.md)
