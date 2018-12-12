@@ -52,7 +52,7 @@
   * [Making your tests run fast](articles/make-and-keep-your-tests-run-fast.md)
   * [Optimization and realization](articles/optimization-and-realisation.md)
   * [Rules for building systems](articles/build-rules.md)
-  * [Successful Agile System Development with Continuous System Integration](articles/continuous-system-integration.md)
+  * [Successful agile system development with continuous system integration](articles/continuous-system-integration.md)
   * [The best technology is not always the best choice](articles/technology-choice.md)
   * [Watch your state](articles/watch-your-state.md)
   * [You always have time for a proper root cause analysis](articles/root-cause-analysis.md)

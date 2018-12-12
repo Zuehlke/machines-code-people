@@ -2,7 +2,7 @@
 authorName: Erik Steiner
 authorGithubUsername: estfra
 issue: 63
-title: Successful Agile System Development with Continuous System Integration
+title: Successful agile system development with continuous system integration
 ---
 # {{page.title}}
 
