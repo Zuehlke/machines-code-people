@@ -2,7 +2,7 @@
 authorName: Sven Bünte, Eric Fehse, Stefan Reichert
 authorGithubUsername: m3mitsuppe, stefanreichert
 issue: 53
-title: Lean startup: taming the uncertainty
+title: 'Lean startup: taming the uncertainty'
 ---
 # {{page.title}}
 

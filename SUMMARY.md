@@ -11,6 +11,7 @@
   * ["You are not a Software Engineer" - What am I then?](articles/you-are-not-a-software-engineer.md)
   * [Fast tracking into new projects – Take notes!](articles/note-taking.md)
   * [Never forget](articles/never-forget.md)
+  * [Rules are dangerous](articles/rules-are-dangerous.md)
 
 ## People
   * [Why you should create a paper prototype - and how to test it with your users](articles/paper-prototyping.md)
@@ -32,9 +33,14 @@
   * [Rules are Dangerous](articles/rules-are-dangerous.md)
   * [We are all engineers but work quite differently: software engineers, electronics engineers, mechanics engineers](articles/we-are-all-engineers.md)
   * [Discipline flow](articles/discipline-flow.md)
+  * [Know-how transfer – just explaining once is not enough](articles/know-how-transfer.md)
+  * [Lean startup: taming the uncertainty](articles/lean-startup.md)
+  * [What’s wrong with: “I don’t write any tests, since I am not a tester”?](articles/whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.md)
+  * [The evolution of support and operations team setups](articles/ams-team-setups.md)
 
 ## Machines, Code
   * [Making your tests run fast](articles/make-and-keep-your-tests-run-fast.md)
+  * [Architectural programming](articles/aprg.md)
   * [Architectural programming in the development workflow](articles/aprg-workflow.md)
   * [Application first - a bottom-up architecture approach](articles/application-first.md)
   * [You always have time for a proper root cause analysis](articles/root-cause-analysis.md)
@@ -46,6 +52,7 @@
   * [Containerisation and why to use it](articles/containerization-and-why-to-use-it.md)
   * [CI and CD Done Right](articles/ci-cd-done-right.md) 
   * [Clean code best practices](articles/clean-code-best-practices.md)
+  * [Codify your developer VMs!](articles/codify-your-developer-vms.md)
   * [Frontend Is Not Your Enemy](articles/frontend-is-not-your-enemy.md)
   * [Rules for building systems](articles/build-rules.md)
   * [Successful Agile System Development with Continuous System Integration](articles/continuous-system-integration.md)
