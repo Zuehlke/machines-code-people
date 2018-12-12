@@ -2,7 +2,7 @@
 authorName: Sabrina Lange
 authorGithubUsername: sweinzie 
 issue: 97
-title: Why every Project Should Have Gardeners
+title: Why every project should have gardeners
 ---
 # {{page.title}}
 

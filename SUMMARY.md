@@ -33,7 +33,7 @@
   * [We are all engineers but work quite differently: software engineers, electronics engineers, mechanics engineers](articles/we-are-all-engineers.md)
   * [What’s wrong with: “I don’t write any tests, since I am not a tester”?](articles/whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.md)
   * [When machine learning meets software engineering](articles/ml-meets-swe.md)
-  * [Why every Project Should Have Gardeners](articles/personal_growth.md)
+  * [Why every project should have gardeners](articles/personal_growth.md)
   * [Why you should create a paper prototype - and how to test it with your users](articles/paper-prototyping.md)
   * [You DiD what?](articles/dd-you-did-what.md)
   * [Your team needs a Tech Lead, not a Lead Techie](articles/tech-lead-needed.md)
