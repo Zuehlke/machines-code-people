@@ -42,7 +42,7 @@
   * [Application first - a bottom-up architecture approach](articles/application-first.md)
   * [Architectural programming](articles/aprg.md)
   * [Architectural programming in the development workflow](articles/aprg-workflow.md)
-  * [CI and CD Done Right](articles/ci-cd-done-right.md) 
+  * [CI and CD done right](articles/ci-cd-done-right.md) 
   * [Clean code best practices](articles/clean-code-best-practices.md)
   * [Codify your developer VMs!](articles/codify-your-developer-vms.md)
   * [Containerisation and why to use it](articles/containerization-and-why-to-use-it.md)

@@ -2,7 +2,7 @@
 authorName: Florian Besser
 authorGithubUsername: florian-besser
 issue: 75
-title: CI and CD Done Right
+title: CI and CD done right
 ---
 # {{page.title}}
 
