@@ -2,7 +2,7 @@
 authorName: Michael Richter 
 authorGithubUsername: abeggchr
 issue: 8
-title: The House of the Six Wise Men 
+title: The house of the six wise men
 ---
 # {{page.title}}
 
