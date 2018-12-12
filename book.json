@@ -13,7 +13,9 @@
       "url": "https://pages.github.com/zuehlke/"
     }
   },
-  "outputfile": "SUMMARY.generated.md",
+  "structure": {
+    "readme": "preface.md"
+  },
   "catalog": "articles",
   "ignores": [
     "_example.resources",

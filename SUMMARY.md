@@ -1,5 +1,6 @@
+* [Preface](preface.md)
+
 # Table of Content
-  * [Preface](articles/preface.md)
 
 ## Me
   * [Coding on purpose](articles/coding-on-purpose.md)
