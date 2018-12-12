@@ -13,7 +13,7 @@
   * ["You are not a software engineer" - What am I then?](articles/you-are-not-a-software-engineer.md)
 
 ## People
-  * ["As long as you live under my roof, you'll do as I say" - If the Project Manager Leads Differently than I Would](articles/as_long_as.md)
+  * ["As long as you live under my roof, you'll do as I say" - If the project manager leads differently than I would](articles/as_long_as.md)
   * [Business Readiness – is there readiness for agile development in Business?](articles/business-readiness.md)
   * [CYA: Cover your ass](articles/cya.md)
   * [Digitalization and its impact on customer interaction](articles/digitalization-and-its-impact.md)

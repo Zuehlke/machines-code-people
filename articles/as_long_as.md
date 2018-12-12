@@ -2,7 +2,7 @@
 authorName: Sabrina Lange
 authorGithubUsername: sweinzie
 issue: 96
-title: '"As long as you live under my roof, you''ll do as I say" - If the Project Manager Leads Differently than I Would'
+title: '"As long as you live under my roof, you''ll do as I say" - If the project manager leads differently than I would'
 ---
 # {{page.title}}
 
