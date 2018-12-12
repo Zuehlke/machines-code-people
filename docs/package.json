@@ -9,6 +9,6 @@
     "gitbook-cli": "2.3.0"
   },
   "dependencies": {
-    "gitbook-summary-abeggchr": "git://github.com/abeggchr/gitbook-summary.git"
+    "gitbook-summary": "git://github.com/abeggchr/gitbook-summary.git"
   }
 }

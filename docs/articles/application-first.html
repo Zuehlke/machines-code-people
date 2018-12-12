@@ -1,0 +1,893 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Application first - a bottom-up architecture approach · Machines, code, people</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="aprg.html" />
+    
+    
+    <link rel="prev" href="tech-lead-needed.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Preface
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Me</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="coding-on-purpose.html">
+            
+                <a href="coding-on-purpose.html">
+            
+                    
+                    Coding on purpose
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="note-taking.html">
+            
+                <a href="note-taking.html">
+            
+                    
+                    Fast tracking into new projects – take notes!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="if-you-like-it-then-you-shouldnt-put-some-code-in-it.html">
+            
+                <a href="if-you-like-it-then-you-shouldnt-put-some-code-in-it.html">
+            
+                    
+                    If you like it then you shouldn't put some code in it
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="never-forget.html">
+            
+                <a href="never-forget.html">
+            
+                    
+                    Never forget
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="pragmatic-documentation.html">
+            
+                <a href="pragmatic-documentation.html">
+            
+                    
+                    Pragmatic documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="rules-are-dangerous.html">
+            
+                <a href="rules-are-dangerous.html">
+            
+                    
+                    Rules are dangerous
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="time-management.html">
+            
+                <a href="time-management.html">
+            
+                    
+                    Start using a time management technique today
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="go-visual.html">
+            
+                <a href="go-visual.html">
+            
+                    
+                    Why you need to go visual
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="you-are-not-a-software-engineer.html">
+            
+                <a href="you-are-not-a-software-engineer.html">
+            
+                    
+                    "You are not a software engineer" - What am I then?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">People</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="as_long_as.html">
+            
+                <a href="as_long_as.html">
+            
+                    
+                    "As long as you live under my roof, you'll do as I say" - If the project manager leads differently than I would
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="business-readiness.html">
+            
+                <a href="business-readiness.html">
+            
+                    
+                    Business readiness – is there readiness for agile development in business?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="cya.html">
+            
+                <a href="cya.html">
+            
+                    
+                    CYA: Cover your ass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="digitalization-and-its-impact.html">
+            
+                <a href="digitalization-and-its-impact.html">
+            
+                    
+                    Digitalization and its impact on customer interaction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="discipline-flow.html">
+            
+                <a href="discipline-flow.html">
+            
+                    
+                    Discipline flow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="dont-teach-kids-programming.html">
+            
+                <a href="dont-teach-kids-programming.html">
+            
+                    
+                    Don't teach kids programming
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="from-enthusiasm-to-commercial-success.html">
+            
+                <a href="from-enthusiasm-to-commercial-success.html">
+            
+                    
+                    From enthusiasm to commercial success
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="know-how-transfer.html">
+            
+                <a href="know-how-transfer.html">
+            
+                    
+                    Know-how transfer – just explaining once is not enough
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="lean-startup.html">
+            
+                <a href="lean-startup.html">
+            
+                    
+                    Lean startup: taming the uncertainty
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="meet-users.html">
+            
+                <a href="meet-users.html">
+            
+                    
+                    Meeting with users is essential for creating great products
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="inconvenient-truths-about-digitalization.html">
+            
+                <a href="inconvenient-truths-about-digitalization.html">
+            
+                    
+                    Some inconvenient truths about the digitalization of your business
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="team-fit.html">
+            
+                <a href="team-fit.html">
+            
+                    
+                    Team fit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="evangelist-and-chameleon.html">
+            
+                <a href="evangelist-and-chameleon.html">
+            
+                    
+                    The evangelist and the chameleon
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="ams-team-setups.html">
+            
+                <a href="ams-team-setups.html">
+            
+                    
+                    The evolution of support and operations team setups
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="six-wise-men.html">
+            
+                <a href="six-wise-men.html">
+            
+                    
+                    The house of the six wise men
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.16" data-path="time_to_say_goodby.html">
+            
+                <a href="time_to_say_goodby.html">
+            
+                    
+                    Time to say goodby
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.17" data-path="transition-system-engineering.html">
+            
+                <a href="transition-system-engineering.html">
+            
+                    
+                    Transitioning systems engineering into the lean-agile world
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.18" data-path="we-are-all-engineers.html">
+            
+                <a href="we-are-all-engineers.html">
+            
+                    
+                    We are all engineers but work quite differently: software engineers, electronics engineers, mechanics engineers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.19" data-path="whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.html">
+            
+                <a href="whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.html">
+            
+                    
+                    What’s wrong with: “I don’t write any tests, since I am not a tester”?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.20" data-path="ml-meets-swe.html">
+            
+                <a href="ml-meets-swe.html">
+            
+                    
+                    When machine learning meets software engineering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.21" data-path="personal_growth.html">
+            
+                <a href="personal_growth.html">
+            
+                    
+                    Why every project should have gardeners
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.22" data-path="paper-prototyping.html">
+            
+                <a href="paper-prototyping.html">
+            
+                    
+                    Why you should create a paper prototype - and how to test it with your users
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.23" data-path="dd-you-did-what.html">
+            
+                <a href="dd-you-did-what.html">
+            
+                    
+                    You DiD what?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.24" data-path="tech-lead-needed.html">
+            
+                <a href="tech-lead-needed.html">
+            
+                    
+                    Your team needs a tech lead, not a lead techie
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Machines, Code</li>
+        
+        
+    
+        <li class="chapter active" data-level="4.1" data-path="application-first.html">
+            
+                <a href="application-first.html">
+            
+                    
+                    Application first - a bottom-up architecture approach
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="aprg.html">
+            
+                <a href="aprg.html">
+            
+                    
+                    Architectural programming
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="aprg-workflow.html">
+            
+                <a href="aprg-workflow.html">
+            
+                    
+                    Architectural programming in the development workflow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="ci-cd-done-right.html">
+            
+                <a href="ci-cd-done-right.html">
+            
+                    
+                    CI and CD done right
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="clean-code-best-practices.html">
+            
+                <a href="clean-code-best-practices.html">
+            
+                    
+                    Clean code best practices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="codify-your-developer-vms.html">
+            
+                <a href="codify-your-developer-vms.html">
+            
+                    
+                    Codify your developer VMs!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="containerization-and-why-to-use-it.html">
+            
+                <a href="containerization-and-why-to-use-it.html">
+            
+                    
+                    Containerisation and why to use it
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="sql.html">
+            
+                <a href="sql.html">
+            
+                    
+                    Do something about that slow SQL query
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="frontend-is-not-your-enemy.html">
+            
+                <a href="frontend-is-not-your-enemy.html">
+            
+                    
+                    Frontend is not your enemy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="how-to-deal-with-flaky-system-tests.html">
+            
+                <a href="how-to-deal-with-flaky-system-tests.html">
+            
+                    
+                    How to deal with flaky system tests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.11" data-path="make-and-keep-your-tests-run-fast.html">
+            
+                <a href="make-and-keep-your-tests-run-fast.html">
+            
+                    
+                    Making your tests run fast
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.12" data-path="optimization-and-realisation.html">
+            
+                <a href="optimization-and-realisation.html">
+            
+                    
+                    Optimization and realization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.13" data-path="build-rules.html">
+            
+                <a href="build-rules.html">
+            
+                    
+                    Rules for building systems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.14" data-path="continuous-system-integration.html">
+            
+                <a href="continuous-system-integration.html">
+            
+                    
+                    Successful agile system development with continuous system integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.15" data-path="technology-choice.html">
+            
+                <a href="technology-choice.html">
+            
+                    
+                    The best technology is not always the best choice
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.16" data-path="watch-your-state.html">
+            
+                <a href="watch-your-state.html">
+            
+                    
+                    Watch your state
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.17" data-path="root-cause-analysis.html">
+            
+                <a href="root-cause-analysis.html">
+            
+                    
+                    You always have time for a proper root cause analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Application first - a bottom-up architecture approach</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="application-first---a-bottom-up-architecture-approach">Application first - a bottom-up architecture approach</h1>
+<p>When advising a large company, we often encounter a scenario in which a range of small to large applications, written by employees for various purposes, has been developed. Commonly these tools are spreadsheets stored in Microsoft Excel with a portion of business logic or databases created in Microsoft Access. Those applications accumulate a significant amount of knowledge and information that is essential for the business. The apparent ease with which such applications facilitate the work of the business units (&quot;Let me just do this in Excel&quot;) ensures a rapid spread of these applications as &quot;undercover projects&quot; and thus presents the company with a broad set of challenges.</p>
+<h2 id="the-challenge">The challenge</h2>
+<p>On the part of the business units, business-critical data and information are handled in an uncontrolled manner and this goes unnoticed by the company&apos;s IT department. This entails risks, not only in terms of data protection and the availability of the applications, but also in terms of non-compliance. Both may have serious consequences for the company. In addition, the business unit staff spend a considerable amount of their time maintaining these applications instead of concentrating on their actual duties.</p>
+<p>On the part of the company&apos;s IT departments, however, there is a need to curb this &quot;uncontrolled growth&quot;. To ensure that this can be done efficiently, in the eyes of both the employees and the company, it is important to ensure a standardized application landscape. This allows for new applications to be developed quickly and for existing applications to be maintained cheaply.</p>
+<h2 id="a-bottom-up-architecture-approach">A bottom-up architecture approach</h2>
+<p>A popular choice is to first develop a common framework. By decree, this is then used as a foundation for all applications created henceforth. However, creating a framework is usually expensive and time-consuming without creating direct added value for the company&apos;s business. In addition, there is a high risk that the framework does not meet the actual requirements when the applications are eventually developed.</p>
+<p>When facing such challenges, we usually guide our customers in a different direction:
+Instead of creating a framework upfront, we simply create the first of the new applications. This application not only delivers added value to the business right from the first release, but acts as a nucleus for upcoming projects too! We call this first application the &#x201C;incubator application&#x201D;.</p>
+<p>The development of the second application starts with generalizing components from the incubator into an &#x201C;architectural construction kit&#x201D;. This includes the application skeleton with a basic UI layout, navigation structure and authentication and authorization capabilities.</p>
+<p><img src="application-first/process.png" alt="Schematic display of the approach"></p>
+<p>As the family of applications built using our construction kit grows, so does the construction kit. While more and more components are shared between applications, it is important to provide the re-usable artefacts in an appropriate and easily accessible form, together with comprehensive documentation.
+This approach enables effective and efficient development, since the developers do not have to complete recurring standard tasks repeatedly with each project. On the other hand, it increases the quality of the software in the long run, since defects that have been fixed in the construction kit remove the issue from all affected applications.</p>
+<h2 id="money-for-nothin-and-change-for-free">Money for nothin&#x2019; and change for free?</h2>
+<p>Although this approach is certainly cost-effective, it does not come for free. Both the construction kit and the developers&#x2019; mindset need active maintenance. Otherwise, the once flexible construction kit will become stale and turn into yet another framework rather quickly.</p>
+<p>Usually, the construction kit maintenance will be carried out as part of the ongoing application development. But as the number of applications and developers grows, it is essential to have an experienced developer acting as what we like to call a &#x201C;free electron&#x201D;. This developer should have both the time and the budget to enable communication and know-how transfer between project teams. This ensures that synergies between the projects are reliably recognized and utilized, and that differences in the know-how of developers can be balanced by suitable measures. A question we usually get in this context is: who is going to pay for the free electron? In our experience it is important to fund this role in a way that does not strain the projects&apos; budgets. This mitigates the risk of projects missing out on using the construction kit due to financial concerns. It also ensures that maintenance of the construction kit is not being rationalized away due to being seen as just a cost factor with no added value.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Using a bottom-up architecture approach has many advantages over a top-down one. Apart from delivering additional value to the business right from the beginning, it comes with a high return on investment: projects will get started faster with fewer problems. Due to a common set of components and common standards, developers will gain speed more quickly. Re-use becomes a reality and not a nightmare.
+Try it for yourself: If you start to think about developing a framework, start with a real application instead &#x2013; your framework will emerge over time when needed!</p>
+<p><em>By Markus Rehrs</em></p>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="tech-lead-needed.html" class="navigation navigation-prev " aria-label="Previous page: Your team needs a tech lead, not a lead techie">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="aprg.html" class="navigation navigation-next " aria-label="Next page: Architectural programming">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"authorName":"Markus Rehrs","authorGithubUsername":"spontifixus","issue":73,"title":"Application first - a bottom-up architecture approach","level":"4.1","depth":1,"next":{"title":"Architectural programming","level":"4.2","depth":1,"path":"articles/aprg.md","ref":"articles/aprg.md","articles":[]},"previous":{"title":"Your team needs a tech lead, not a lead techie","level":"3.24","depth":1,"path":"articles/tech-lead-needed.md","ref":"articles/tech-lead-needed.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-fontsettings","livereload"],"ignores":["_example.resources","time-management.resources","tech-lead-needed.resources","dd-you-did-what.resources","build-rules.resources","ci-cd-done-right.resources","aprg.resources","discipline-flow.resources","rules-are-dangerous.resources","aprg-workflow.resources","preface"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/zuehlke/fifty-shades"},"onlineresources":{"url":"https://pages.github.com/zuehlke/"},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"preface.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Machines, code, people: 50 things Zühlke engineers are passionate about","sortedBy":"-","disableTitleFormatting":true,"variables":{},"title":"Machines, code, people","catalog":"articles","gitbook":"3.2.2","unchanged":[]},"file":{"path":"articles/application-first.md","mtime":"2018-11-26T07:02:52.658Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-12-12T10:21:29.470Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
