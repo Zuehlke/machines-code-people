@@ -2,7 +2,7 @@
 authorName: Sven Bayer
 authorGithubUsername: SvenBayer
 issue: 84
-title: "Fast tracking into new projects – Take notes!"
+title: "Fast tracking into new projects – take notes!"
 ---
 # {{page.title}}
 
