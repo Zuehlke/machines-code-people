@@ -1,9 +1,11 @@
 # Table of Content
   * [Preface](articles/preface.md)
 
+
+
 ## Me
   * [Coding On Purpose](articles/coding-on-purpose.md)
-  * [Fast tracking into new projects – Take notes!](articles/note-taking.md)
+  * [Fast tracking into new projects – take notes!](articles/note-taking.md)
   * [If you like it then you shouldn't put some code in it](articles/if-you-like-it-then-you-shouldnt-put-some-code-in-it.md)
   * [Never forget](articles/never-forget.md)
   * [Pragmatic documentation](articles/pragmatic-documentation.md)
@@ -16,6 +18,7 @@
   * ["As long as you live under my roof, you'll do as I say" - If the Project Manager Leads Differently than I Would](articles/as_long_as.md)
   * [Business Readiness – is there readiness for agile development in Business?](articles/business-readiness.md)
   * [CYA: Cover your ass](articles/cya.md)
+  * [Digitalization and its impact on customer interaction](articles/digitalization-and-its-impact.md)
   * [Discipline flow](articles/discipline-flow.md)
   * [Don't teach kids programming](articles/dont-teach-kids-programming.md)
   * [From Enthusiasm to Commercial Success](articles/from-enthusiasm-to-commercial-success.md)
@@ -28,6 +31,7 @@
   * [The evolution of support and operations team setups](articles/ams-team-setups.md)
   * [The House of the Six Wise Men](articles/six-wise-men.md)
   * [Time To Say Goodby](articles/time_to_say_goodby.md)
+  * [Transitioning Systems Engineering Into The Lean-Agile World](articles/transition-system-engineering.md)
   * [We are all engineers but work quite differently: software engineers, electronics engineers, mechanics engineers](articles/we-are-all-engineers.md)
   * [What’s wrong with: “I don’t write any tests, since I am not a tester”?](articles/whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.md)
   * [When machine learning meets software engineering](articles/ml-meets-swe.md)
@@ -52,7 +56,5 @@
   * [Rules for building systems](articles/build-rules.md)
   * [Successful Agile System Development with Continuous System Integration](articles/continuous-system-integration.md)
   * [The best technology is not always the best choice](articles/technology-choice.md)
-  * [Transitioning Systems Engineering Into The Lean-Agile World](articles/transition-system-engineering.md)
   * [Watch your state](articles/watch-your-state.md)
-  * [What’s Wrong With: “I don’t write any tests since I am not a tester”?](articles/whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.md)
   * [You always have time for a proper root cause analysis](articles/root-cause-analysis.md)
