@@ -8,7 +8,7 @@
   * [Never forget](articles/never-forget.md)
   * [Pragmatic documentation](articles/pragmatic-documentation.md)
   * [Rules are dangerous](articles/rules-are-dangerous.md)
-  * [Start Using a Time Management Technique Today](articles/time-management.md)
+  * [Start using a time management technique today](articles/time-management.md)
   * [Why you need to go visual](articles/go-visual.md)
   * ["You are not a Software Engineer" - What am I then?](articles/you-are-not-a-software-engineer.md)
 

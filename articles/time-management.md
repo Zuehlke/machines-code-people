@@ -2,7 +2,7 @@
 authorName: Christian Abegg
 authorGithubUsername: abeggchr
 issue: 20
-title: Start Using a Time Management Technique Today
+title: Start using a time management technique today
 ---
 # {{page.title}}
 
