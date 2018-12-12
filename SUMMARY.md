@@ -10,7 +10,7 @@
   * [Rules are dangerous](articles/rules-are-dangerous.md)
   * [Start using a time management technique today](articles/time-management.md)
   * [Why you need to go visual](articles/go-visual.md)
-  * ["You are not a Software Engineer" - What am I then?](articles/you-are-not-a-software-engineer.md)
+  * ["You are not a software engineer" - What am I then?](articles/you-are-not-a-software-engineer.md)
 
 ## People
   * ["As long as you live under my roof, you'll do as I say" - If the Project Manager Leads Differently than I Would](articles/as_long_as.md)

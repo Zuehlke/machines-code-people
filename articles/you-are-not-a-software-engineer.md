@@ -2,7 +2,7 @@
 authorName: Stefan Djelekar
 authorGithubUsername: djelekar
 issue: 60
-title: '"You are not a Software Engineer" - What am I then?'
+title: '"You are not a software engineer" - What am I then?'
 ---
 # {{page.title}}
 
