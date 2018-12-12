@@ -28,7 +28,7 @@
   * [The evangelist and the chameleon](articles/evangelist-and-chameleon.md)
   * [The evolution of support and operations team setups](articles/ams-team-setups.md)
   * [The house of the six wise men](articles/six-wise-men.md)
-  * [Time To Say Goodby](articles/time_to_say_goodby.md)
+  * [Time to say goodby](articles/time_to_say_goodby.md)
   * [Transitioning Systems Engineering Into The Lean-Agile World](articles/transition-system-engineering.md)
   * [We are all engineers but work quite differently: software engineers, electronics engineers, mechanics engineers](articles/we-are-all-engineers.md)
   * [What’s wrong with: “I don’t write any tests, since I am not a tester”?](articles/whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.md)

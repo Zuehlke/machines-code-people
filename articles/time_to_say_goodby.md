@@ -2,7 +2,7 @@
 authorName: Sabrina Lange
 authorGithubUsername: sweinzie
 issue: 95
-title: Time To Say Goodby
+title: Time to say goodby
 ---
 # {{page.title}}
 
