@@ -2,7 +2,7 @@
 authorName: Ina Paschen
 authorGithubUsername: abeggchr
 issue: 121
-title: Business Readiness – is there readiness for agile development in Business? 
+title: Business readiness – is there readiness for agile development in business? 
 ---
 # {{page.title}}
 

@@ -14,7 +14,7 @@
 
 ## People
   * ["As long as you live under my roof, you'll do as I say" - If the project manager leads differently than I would](articles/as_long_as.md)
-  * [Business Readiness – is there readiness for agile development in Business?](articles/business-readiness.md)
+  * [Business readiness – is there readiness for agile development in business?](articles/business-readiness.md)
   * [CYA: Cover your ass](articles/cya.md)
   * [Digitalization and its impact on customer interaction](articles/digitalization-and-its-impact.md)
   * [Discipline flow](articles/discipline-flow.md)
