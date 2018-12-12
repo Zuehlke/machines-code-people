@@ -19,7 +19,7 @@
   * [Digitalization and its impact on customer interaction](articles/digitalization-and-its-impact.md)
   * [Discipline flow](articles/discipline-flow.md)
   * [Don't teach kids programming](articles/dont-teach-kids-programming.md)
-  * [From Enthusiasm to Commercial Success](articles/from-enthusiasm-to-commercial-success.md)
+  * [From enthusiasm to commercial success](articles/from-enthusiasm-to-commercial-success.md)
   * [Know-how transfer – just explaining once is not enough](articles/know-how-transfer.md)
   * [Lean startup: taming the uncertainty](articles/lean-startup.md)
   * [Meeting with users is essential for creating great products](articles/meet-users.md)
