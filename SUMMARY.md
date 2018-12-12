@@ -36,7 +36,7 @@
   * [Why every project should have gardeners](articles/personal_growth.md)
   * [Why you should create a paper prototype - and how to test it with your users](articles/paper-prototyping.md)
   * [You DiD what?](articles/dd-you-did-what.md)
-  * [Your team needs a Tech Lead, not a Lead Techie](articles/tech-lead-needed.md)
+  * [Your team needs a tech lead, not a lead techie](articles/tech-lead-needed.md)
 
 ## Machines, Code
   * [Application first - a bottom-up architecture approach](articles/application-first.md)
