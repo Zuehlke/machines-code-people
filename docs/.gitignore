@@ -15,9 +15,11 @@ _book
 *.mobi
 *.pdf
 
-# IDEA files
+# IDE files
 *.iml
 .idea/
+.vscode
 
 npm-debug.log   
 SUMMARY.generated.md
+.DS_Store

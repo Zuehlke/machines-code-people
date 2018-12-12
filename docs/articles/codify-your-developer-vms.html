@@ -1,0 +1,930 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Codify your developer VMs! · Machines, code, people</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="containerization-and-why-to-use-it.html" />
+    
+    
+    <link rel="prev" href="clean-code-best-practices.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Preface
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Me</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="coding-on-purpose.html">
+            
+                <a href="coding-on-purpose.html">
+            
+                    
+                    Coding on purpose
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="note-taking.html">
+            
+                <a href="note-taking.html">
+            
+                    
+                    Fast tracking into new projects – take notes!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="if-you-like-it-then-you-shouldnt-put-some-code-in-it.html">
+            
+                <a href="if-you-like-it-then-you-shouldnt-put-some-code-in-it.html">
+            
+                    
+                    If you like it then you shouldn't put some code in it
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="never-forget.html">
+            
+                <a href="never-forget.html">
+            
+                    
+                    Never forget
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="pragmatic-documentation.html">
+            
+                <a href="pragmatic-documentation.html">
+            
+                    
+                    Pragmatic documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="rules-are-dangerous.html">
+            
+                <a href="rules-are-dangerous.html">
+            
+                    
+                    Rules are dangerous
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="time-management.html">
+            
+                <a href="time-management.html">
+            
+                    
+                    Start using a time management technique today
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="go-visual.html">
+            
+                <a href="go-visual.html">
+            
+                    
+                    Why you need to go visual
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="you-are-not-a-software-engineer.html">
+            
+                <a href="you-are-not-a-software-engineer.html">
+            
+                    
+                    "You are not a software engineer" - What am I then?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">People</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="as_long_as.html">
+            
+                <a href="as_long_as.html">
+            
+                    
+                    "As long as you live under my roof, you'll do as I say" - If the project manager leads differently than I would
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="business-readiness.html">
+            
+                <a href="business-readiness.html">
+            
+                    
+                    Business readiness – is there readiness for agile development in business?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="cya.html">
+            
+                <a href="cya.html">
+            
+                    
+                    CYA: Cover your ass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="digitalization-and-its-impact.html">
+            
+                <a href="digitalization-and-its-impact.html">
+            
+                    
+                    Digitalization and its impact on customer interaction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="discipline-flow.html">
+            
+                <a href="discipline-flow.html">
+            
+                    
+                    Discipline flow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="dont-teach-kids-programming.html">
+            
+                <a href="dont-teach-kids-programming.html">
+            
+                    
+                    Don't teach kids programming
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="from-enthusiasm-to-commercial-success.html">
+            
+                <a href="from-enthusiasm-to-commercial-success.html">
+            
+                    
+                    From enthusiasm to commercial success
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="know-how-transfer.html">
+            
+                <a href="know-how-transfer.html">
+            
+                    
+                    Know-how transfer – just explaining once is not enough
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="lean-startup.html">
+            
+                <a href="lean-startup.html">
+            
+                    
+                    Lean startup: taming the uncertainty
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="meet-users.html">
+            
+                <a href="meet-users.html">
+            
+                    
+                    Meeting with users is essential for creating great products
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="inconvenient-truths-about-digitalization.html">
+            
+                <a href="inconvenient-truths-about-digitalization.html">
+            
+                    
+                    Some inconvenient truths about the digitalization of your business
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="team-fit.html">
+            
+                <a href="team-fit.html">
+            
+                    
+                    Team fit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="evangelist-and-chameleon.html">
+            
+                <a href="evangelist-and-chameleon.html">
+            
+                    
+                    The evangelist and the chameleon
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="ams-team-setups.html">
+            
+                <a href="ams-team-setups.html">
+            
+                    
+                    The evolution of support and operations team setups
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="six-wise-men.html">
+            
+                <a href="six-wise-men.html">
+            
+                    
+                    The house of the six wise men
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.16" data-path="time_to_say_goodby.html">
+            
+                <a href="time_to_say_goodby.html">
+            
+                    
+                    Time to say goodby
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.17" data-path="transition-system-engineering.html">
+            
+                <a href="transition-system-engineering.html">
+            
+                    
+                    Transitioning systems engineering into the lean-agile world
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.18" data-path="we-are-all-engineers.html">
+            
+                <a href="we-are-all-engineers.html">
+            
+                    
+                    We are all engineers but work quite differently: software engineers, electronics engineers, mechanics engineers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.19" data-path="whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.html">
+            
+                <a href="whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.html">
+            
+                    
+                    What’s wrong with: “I don’t write any tests, since I am not a tester”?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.20" data-path="ml-meets-swe.html">
+            
+                <a href="ml-meets-swe.html">
+            
+                    
+                    When machine learning meets software engineering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.21" data-path="personal_growth.html">
+            
+                <a href="personal_growth.html">
+            
+                    
+                    Why every project should have gardeners
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.22" data-path="paper-prototyping.html">
+            
+                <a href="paper-prototyping.html">
+            
+                    
+                    Why you should create a paper prototype - and how to test it with your users
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.23" data-path="dd-you-did-what.html">
+            
+                <a href="dd-you-did-what.html">
+            
+                    
+                    You DiD what?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.24" data-path="tech-lead-needed.html">
+            
+                <a href="tech-lead-needed.html">
+            
+                    
+                    Your team needs a tech lead, not a lead techie
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Machines, Code</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="application-first.html">
+            
+                <a href="application-first.html">
+            
+                    
+                    Application first - a bottom-up architecture approach
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="aprg.html">
+            
+                <a href="aprg.html">
+            
+                    
+                    Architectural programming
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="aprg-workflow.html">
+            
+                <a href="aprg-workflow.html">
+            
+                    
+                    Architectural programming in the development workflow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="ci-cd-done-right.html">
+            
+                <a href="ci-cd-done-right.html">
+            
+                    
+                    CI and CD done right
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="clean-code-best-practices.html">
+            
+                <a href="clean-code-best-practices.html">
+            
+                    
+                    Clean code best practices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.6" data-path="codify-your-developer-vms.html">
+            
+                <a href="codify-your-developer-vms.html">
+            
+                    
+                    Codify your developer VMs!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="containerization-and-why-to-use-it.html">
+            
+                <a href="containerization-and-why-to-use-it.html">
+            
+                    
+                    Containerisation and why to use it
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="sql.html">
+            
+                <a href="sql.html">
+            
+                    
+                    Do something about that slow SQL query
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="frontend-is-not-your-enemy.html">
+            
+                <a href="frontend-is-not-your-enemy.html">
+            
+                    
+                    Frontend is not your enemy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="how-to-deal-with-flaky-system-tests.html">
+            
+                <a href="how-to-deal-with-flaky-system-tests.html">
+            
+                    
+                    How to deal with flaky system tests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.11" data-path="make-and-keep-your-tests-run-fast.html">
+            
+                <a href="make-and-keep-your-tests-run-fast.html">
+            
+                    
+                    Making your tests run fast
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.12" data-path="optimization-and-realisation.html">
+            
+                <a href="optimization-and-realisation.html">
+            
+                    
+                    Optimization and realization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.13" data-path="build-rules.html">
+            
+                <a href="build-rules.html">
+            
+                    
+                    Rules for building systems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.14" data-path="continuous-system-integration.html">
+            
+                <a href="continuous-system-integration.html">
+            
+                    
+                    Successful agile system development with continuous system integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.15" data-path="technology-choice.html">
+            
+                <a href="technology-choice.html">
+            
+                    
+                    The best technology is not always the best choice
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.16" data-path="watch-your-state.html">
+            
+                <a href="watch-your-state.html">
+            
+                    
+                    Watch your state
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.17" data-path="root-cause-analysis.html">
+            
+                <a href="root-cause-analysis.html">
+            
+                    
+                    You always have time for a proper root cause analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Codify your developer VMs!</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="codify-your-developer-vms">Codify your developer VMs!</h1>
+<p>Let&#x2019;s talk about developer VMs, and why you absolutely and definitely must automate them (no excuses)! :)</p>
+<h2 id="what-is-a-developer-vm">What is a &quot;Developer VM&quot;?</h2>
+<p>A developer VM is a virtual machine image that contains the complete development toolchain that is needed to work on a specific project (including compiler toolchains, IDEs, system wide settings, etc...). The aim is to ensure a consistent environment not only between team members of that project (which may have completely different operating systems on their laptops), but also with the build agents in the CI environment.</p>
+<h2 id="why-would-i-need-a-developer-vm-anyway">Why would I need a developer VM anyway?</h2>
+<p>Some people hate it, others love it. However you put it, it is a sure-fire way to ensure that the whole development team uses a consistent environment and avoids the typical &quot;works on my machine&quot; issues we all know about. Especially for us, executing and delivering a multitude of projects (and engineers joining and leaving these projects more or less frequently), developer VMs have become an indispensable tool. Not only for the consistency aspect, but also for reducing ramp-up times or being able to easily archive the development environment when the project enters the retirement phase.</p>
+<p>On regulated projects this is even more relevant, since you need to validate and verify the development toolchain and need to ensure that everyone uses exactly that defined toolchain.</p>
+<h2 id="ok-but-why-should-i-automate-it">OK, but why should I automate it?</h2>
+<p>While we started out to craft these VMs manually (and with love) in the early days, we can nowadays easily automate the whole procedure with tools like Vagrant, Chef, Ansible, etc. Applying automation and Infrastructure-as-Code principles to developer VMs not only increases transparency and reproducibility, but also allows for an in-VM update mechanism to maintain consistency while the toolchain evolves during the lifetime of the project.</p>
+<p>Finally, an automated developer VM should exhibit the following properties:</p>
+<ul>
+<li>updatability - an existing VM can be updated with the push of a button from within the VM</li>
+<li>testability - automated tests are run in the VM to ensure that it works as expected</li>
+<li>installability - the VM is distributed as a standard VirtualBox / VMware image</li>
+<li>adaptability &#x2013; developers can easily adapt and improve the VM as the toolchain evolves</li>
+<li>reproducibility - changes to the development environment are transparent, traceable and reproducible</li>
+</ul>
+<h2 id="how-can-i-automate-it">How can I automate it?</h2>
+<p>The good news is that there are quite a few so-called &quot;Configuration Management&quot; tools out there, which essentially allow you to automate the provisioning of software and configuration on top of an existing operating system (in our case a fresh installation of the operating system of choice, within a VM image). </p>
+<p>The bad news is that you have to choose one. In addition to the configuration management tools that do the provisioning, there is (fortunately) also a multitude of tools for testing the configuration of such a (virtual) machine.</p>
+<p>Depending on your preference, these are the tools you are likely to end up with:</p>
+<ul>
+<li><p>Rubyists will like</p>
+<ul>
+<li>Chef - as the configuration management tool</li>
+<li>Foodcritic - for linting their Chef recipes</li>
+<li>InSpec / ServerSpec - for testing the Chef-provisioned systems</li>
+</ul>
+</li>
+<li><p>Pythonistas probably prefer</p>
+<ul>
+<li>Ansible - as the configuration management tool</li>
+<li>Ansible Lint - for linting their Ansible roles</li>
+<li>TestInfra - for testing the Ansible-provisioned systems</li>
+</ul>
+</li>
+</ul>
+<h2 id="it-is-not-all-a-bed-of-roses-though">It is not all a bed of roses though!</h2>
+<p>Two things to highlight:</p>
+<ol>
+<li>Developer VMs are clearly a compromise between consistency and performance: you save valuable time by avoiding the &quot;works on my machine&quot; issue and speeding up onboarding time for new team members. The price you pay is the runtime overhead for running the VM in a hypervisor rather than working with the tools natively on your operating system of choice.</li>
+<li>The automation part is sometimes hard (especially on Windows) and is not just a case of software installation but also configuration of settings like networking, firewalls, access rights, etc. These are not things that everyone knows how to automate, and you will have to grow and master these skills as part of your journey.</li>
+</ol>
+<h2 id="im-still-sold-sounds-like-pretty-cool-stuff-what-is-the-fastest-way-to-get-there">I&#x2019;m still sold, sounds like pretty cool stuff! What is the fastest way to get there?</h2>
+<p>It may sound like a bit of effort is required to achieve this if you start from scratch, so that is why we have a template / skeleton project along with a tutorial for you. No excuses for doing it manually anymore! ;-)</p>
+<p>This is what you need to get started:</p>
+<ul>
+<li>A ready-to-use template / skeleton project for a minimal, Linux based developer VM:
+<a href="https://github.com/Zuehlke/linux-developer-vm" target="_blank">https://github.com/Zuehlke/linux-developer-vm</a></li>
+<li>An example Java Developer VM based on the above (see Pull Requests for a step-by-step guide):
+<a href="https://github.com/tknerr/etka2017-developer-vm" target="_blank">https://github.com/tknerr/etka2017-developer-vm</a> </li>
+<li>The accompanying conference talk for creating the example above:
+<a href="http://bit.ly/automated-developer-vms" target="_blank">http://bit.ly/automated-developer-vms</a></li>
+<li>A ready-to-use developer VM to with a toolchain for automating developer VMs:
+<a href="https://github.com/tknerr/linus-kitchen" target="_blank">https://github.com/tknerr/linus-kitchen</a></li>
+</ul>
+<p><em>By Torben Knerr</em></p>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="clean-code-best-practices.html" class="navigation navigation-prev " aria-label="Previous page: Clean code best practices">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="containerization-and-why-to-use-it.html" class="navigation navigation-next " aria-label="Next page: Containerisation and why to use it">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"authorName":"Torben Knerr","authorGithubUsername":"tknerr","issue":24,"title":"Codify your developer VMs!","level":"4.6","depth":1,"next":{"title":"Containerisation and why to use it","level":"4.7","depth":1,"path":"articles/containerization-and-why-to-use-it.md","ref":"articles/containerization-and-why-to-use-it.md","articles":[]},"previous":{"title":"Clean code best practices","level":"4.5","depth":1,"path":"articles/clean-code-best-practices.md","ref":"articles/clean-code-best-practices.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-fontsettings","livereload"],"ignores":["_example.resources","time-management.resources","tech-lead-needed.resources","dd-you-did-what.resources","build-rules.resources","ci-cd-done-right.resources","aprg.resources","discipline-flow.resources","rules-are-dangerous.resources","aprg-workflow.resources","preface"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/zuehlke/fifty-shades"},"onlineresources":{"url":"https://pages.github.com/zuehlke/"},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"preface.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Machines, code, people: 50 things Zühlke engineers are passionate about","sortedBy":"-","disableTitleFormatting":true,"variables":{},"title":"Machines, code, people","catalog":"articles","gitbook":"3.2.2","unchanged":[]},"file":{"path":"articles/codify-your-developer-vms.md","mtime":"2018-12-12T08:56:53.264Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-12-12T10:21:29.470Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+

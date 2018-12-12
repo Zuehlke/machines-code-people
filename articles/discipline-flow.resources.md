@@ -1,7 +1,0 @@
-# Resources
-
-## Books
-
-
-## Links
-

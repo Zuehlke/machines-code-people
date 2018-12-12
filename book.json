@@ -3,8 +3,8 @@
   "plugins": [
     "-fontsettings"
   ],
-  "title": "Title To Be Defined",
-  "bookname": "Machines, Code, People: 50 Things Zühlke Engineers Are Passionate About ",
+  "title": "Machines, code, people",
+  "bookname": "Machines, code, people: 50 things Zühlke engineers are passionate about",
   "pluginsConfig": {
     "github": {
       "url": "https://github.com/zuehlke/fifty-shades"
@@ -13,7 +13,9 @@
       "url": "https://pages.github.com/zuehlke/"
     }
   },
-  "outputfile": "SUMMARY.generated.md",
+  "structure": {
+    "readme": "preface.md"
+  },
   "catalog": "articles",
   "ignores": [
     "_example.resources",
