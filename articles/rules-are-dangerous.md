@@ -41,7 +41,7 @@ Here are my recommendations on how to mitigate the problems with such rules in y
 ## Conclusion
 
 There are a lot of clever rules or ideas out there on the World Wide Web, in books, in courses or in your projects, as well as in this collection of articles by my brilliant co-workers. Such rules can help you when applied wisely in the right context. But don't let your teams suffer from dictatorship by dogmatic rules and therefore follow my recommendations.
-
-{% include "./rules-are-dangerous.resources.md" %}
   
 *By {{page.authorName}}*
+
+{% include "./rules-are-dangerous.resources.md" %}
