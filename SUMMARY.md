@@ -47,7 +47,7 @@
   * [Codify your developer VMs!](articles/codify-your-developer-vms.md)
   * [Containerisation and why to use it](articles/containerization-and-why-to-use-it.md)
   * [Do something about that slow SQL query](articles/sql.md)
-  * [Frontend Is Not Your Enemy](articles/frontend-is-not-your-enemy.md)
+  * [Frontend is not your enemy](articles/frontend-is-not-your-enemy.md)
   * [How to deal with flaky system tests](articles/how-to-deal-with-flaky-system-tests.md)
   * [Making your tests run fast](articles/make-and-keep-your-tests-run-fast.md)
   * [Optimization and realization](articles/optimization-and-realisation.md)
