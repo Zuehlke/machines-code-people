@@ -2,7 +2,7 @@
 authorName: Marko Simic
 authorGithubUsername: masizuehlke
 issue: 90
-title: Team Fit
+title: Team fit
 ---
 # {{page.title}}
 
