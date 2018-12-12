@@ -69,7 +69,7 @@ We have too often learnt that documentation can easily get out of sync.
 
 
 ## **Quality**  
-Quality is everyone’s responsibility in a scrum team. There is no QA team in a scrum context, which means the whole scrum team is responsible for delivering high-quality software that works and is fully tested.  
+Quality is everyone’s responsibility in a Scrum Team. There is no QA team in a Scrum context, which means the whole Scrum Team is responsible for delivering high-quality software that works and is fully tested.  
   
 Quality attributes that are important:
 * Does it work at all?  

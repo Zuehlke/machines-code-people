@@ -44,7 +44,7 @@ If the team is distributed between different countries, it is important that the
 Other powerful tools are informal distributed sessions such as distributed coffee breaks. Yes, it's as simple as that: grab a coffee or your beverage of choice, join the group meeting, turn on the camera and have fun - talk with your team members about anything you want :)
 
 ### 5. What can you distribute?
-Almost any role that doesn't require close proximity to the customer can be distributed. We have experience of distributing roles such as PO, scrum master, meeting facilitator, software engineer, QA, SD, UX, DevOps, PM, Agile coaches and many more.
+Almost any role that doesn't require close proximity to the customer can be distributed. We have experience of distributing roles such as PO, Scrum master, meeting facilitator, software engineer, QA, SD, UX, DevOps, PM, Agile coaches and many more.
 
 ### 6. What setup do you need for it?
 Internet of course, and people :)
