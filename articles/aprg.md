@@ -11,7 +11,7 @@ Architectural Programming (APRG) is a programming discipline for architectural e
 ![Architectual programming in context](./aprg/aprg_context.png)
 
 
-With the first implementation of the APRG approach, we extended Structurizr, an executable Architectural Description Language (ADL), with an explicit and coded relationship to the cloud infrastructure that is actually needed to implement and execute the system. This bridges a gap that nowadays still exists in most software development projects, a gap between models and code.
+With the first implementation of the APRG approach, we extended Structurizr [Structurizr], an executable Architectural Description Language (ADL), with an explicit and coded relationship to the cloud infrastructure that is actually needed to implement and execute the system. This bridges a gap that nowadays still exists in most software development projects, a gap between models and code.
 
 The coded model is the very basis for an envisioned overall development workflow that allows the validation of architectural decisions by executable quality attribute scenarios similar to the validation of acceptance criteria by automated functional tests. By expressing the model as code, compliance with quality attributes such as "all storage services are only available from virtual networks" can be tested.
 
