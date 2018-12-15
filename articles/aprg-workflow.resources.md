@@ -11,5 +11,5 @@
 * [BDD] https://en.wikipedia.org/wiki/Behavior-driven_development
 * Evolutionary Architecture http://nealford.com/downloads/Evolutionary_Architecture_Keynote_by_Neal_Ford.pdf
 * Fitness Functions: 
-** https://blog.timsommer.be/using-fitness-functions-to-create-evolving-architectures/
-** https://www.thoughtworks.com/radar/techniques/architectural-fitness-function
+  * https://blog.timsommer.be/using-fitness-functions-to-create-evolving-architectures/
+  * https://www.thoughtworks.com/radar/techniques/architectural-fitness-function
