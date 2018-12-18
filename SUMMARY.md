@@ -27,7 +27,7 @@
 * [Lean startup: taming the uncertainty](articles/lean-startup.md)
 * [Meeting with users is essential for creating great products](articles/meet-users.md)
 * [Some inconvenient truths about the digitalization of your business](articles/inconvenient-truths-about-digitalization.md)
-* [Team fit)](articles/team-fit.md)
+* [Team fit](articles/team-fit.md)
 * [The evangelist and the chameleon](articles/evangelist-and-chameleon.md)
 * [The evolution of support and operations team setups](articles/ams-team-setups.md)
 * [The house of the six wise men](articles/six-wise-men.md)
