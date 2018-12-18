@@ -9,6 +9,6 @@
 * MOBI: https://zuehlke.github.io/machines-code-people/machines-code-people.mobi
 * PDF:  https://zuehlke.github.io/machines-code-people/machines-code-people.pdf
 
- ## Online resources
+## Further reading and additional resources
 
- Some articles refer to external resources. As most of them are only available online, the printed version of this book contains QR codes referring to the HTML version of the article where you will find the links to these external resources.
+Some articles refer to further reading and additional resources. As most of them are only available online, the printed version of this book contains QR codes referring to the HTML version of the article where the links to these external resources can be found.
