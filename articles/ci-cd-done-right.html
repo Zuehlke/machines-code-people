@@ -1,0 +1,953 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>CI and CD done right (Florian Besser) · Machines, code, people</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="clean-code-best-practices.html" />
+    
+    
+    <link rel="prev" href="aprg-workflow.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Introduction</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Foreword (Nicolas Durville)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../preface.md">
+            
+                <span>
+            
+                    
+                    Preface
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Me</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="coding-on-purpose.html">
+            
+                <a href="coding-on-purpose.html">
+            
+                    
+                    Coding on purpose (Adrian Herzog)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="note-taking.html">
+            
+                <a href="note-taking.html">
+            
+                    
+                    Fast tracking into new projects – take notes! (Sven Bayer)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="if-you-like-it-then-you-shouldnt-put-some-code-in-it.html">
+            
+                <a href="if-you-like-it-then-you-shouldnt-put-some-code-in-it.html">
+            
+                    
+                    If you like it then you shouldn't put some code in it (Jonathan Rothwell)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="never-forget.html">
+            
+                <a href="never-forget.html">
+            
+                    
+                    Never forget (Igor Spasić)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="pragmatic-documentation.html">
+            
+                <a href="pragmatic-documentation.html">
+            
+                    
+                    Pragmatic documentation (Ognjen Blagojević)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="rules-are-dangerous.html">
+            
+                <a href="rules-are-dangerous.html">
+            
+                    
+                    Rules are dangerous (Rolf Bruderer)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="time-management.html">
+            
+                <a href="time-management.html">
+            
+                    
+                    Start using a time management technique today (Christian Abegg)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="go-visual.html">
+            
+                <a href="go-visual.html">
+            
+                    
+                    Why you need to go visual (Gabriel Duss)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="you-are-not-a-software-engineer.html">
+            
+                <a href="you-are-not-a-software-engineer.html">
+            
+                    
+                    "You are not a software engineer" - What am I then? (Stefan Djelekar)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">People</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="as_long_as.html">
+            
+                <a href="as_long_as.html">
+            
+                    
+                    "As long as you live under my roof, you'll do as I say" - If the project manager leads differently than I would (Sabrina Lange)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="business-readiness.html">
+            
+                <a href="business-readiness.html">
+            
+                    
+                    Business readiness – is there readiness for agile development in business? (Ina Paschen)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="cya.html">
+            
+                <a href="cya.html">
+            
+                    
+                    CYA: Cover your ass (Romano Roth)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="digitalization-and-its-impact.html">
+            
+                <a href="digitalization-and-its-impact.html">
+            
+                    
+                    Digitalization and its impact on customer interaction (Beat Bischof)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="discipline-flow.html">
+            
+                <a href="discipline-flow.html">
+            
+                    
+                    Discipline flow (Stephan Janisch)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="dont-teach-kids-programming.html">
+            
+                <a href="dont-teach-kids-programming.html">
+            
+                    
+                    Don't teach kids programming (Igor Spasić)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="from-enthusiasm-to-commercial-success.html">
+            
+                <a href="from-enthusiasm-to-commercial-success.html">
+            
+                    
+                    From enthusiasm to commercial success (Bojan Jelaca)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="know-how-transfer.html">
+            
+                <a href="know-how-transfer.html">
+            
+                    
+                    Know-how transfer – just explaining once is not enough (Christoph Zuber)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="lean-startup.html">
+            
+                <a href="lean-startup.html">
+            
+                    
+                    Lean startup: taming the uncertainty (Eric Fehse, Sven Bünte, Stefan Reichert)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="meet-users.html">
+            
+                <a href="meet-users.html">
+            
+                    
+                    Meeting with users is essential for creating great products (Markus Flückiger)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="inconvenient-truths-about-digitalization.html">
+            
+                <a href="inconvenient-truths-about-digitalization.html">
+            
+                    
+                    Some inconvenient truths about the digitalization of your business (Moritz Gomm)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="team-fit.html">
+            
+                <a href="team-fit.html">
+            
+                    
+                    Team fit (Marko Simic)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="evangelist-and-chameleon.html">
+            
+                <a href="evangelist-and-chameleon.html">
+            
+                    
+                    The evangelist and the chameleon (Franziska Meyer)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="ams-team-setups.html">
+            
+                <a href="ams-team-setups.html">
+            
+                    
+                    The evolution of support and operations team setups (Tijana Krstajic, Guido Angenendt)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="six-wise-men.html">
+            
+                <a href="six-wise-men.html">
+            
+                    
+                    The house of the six wise men (Michael Richter)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.16" data-path="time_to_say_goodby.html">
+            
+                <a href="time_to_say_goodby.html">
+            
+                    
+                    Time to say goodby (Sabrina Lange)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.17" data-path="transition-system-engineering.html">
+            
+                <a href="transition-system-engineering.html">
+            
+                    
+                    Transitioning systems engineering into the lean-agile world (Rolf Maisch)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.18" data-path="we-are-all-engineers.html">
+            
+                <a href="we-are-all-engineers.html">
+            
+                    
+                    We are all engineers but work quite differently: software engineers, electronics engineers, mechanics engineers (Thomas Weber)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.19" data-path="whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.html">
+            
+                <a href="whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.html">
+            
+                    
+                    What’s wrong with: “I don’t write any tests, since I am not a tester”? (Peter Gfader)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.20" data-path="ml-meets-swe.html">
+            
+                <a href="ml-meets-swe.html">
+            
+                    
+                    When machine learning meets software engineering (Wolfgang Giersche)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.21" data-path="personal_growth.html">
+            
+                <a href="personal_growth.html">
+            
+                    
+                    Why every project should have gardeners (Sabrina Lange)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.22" data-path="paper-prototyping.html">
+            
+                <a href="paper-prototyping.html">
+            
+                    
+                    Why you should create a paper prototype - and how to test it with your users (Eric Fehse, Manuel Jung)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.23" data-path="dd-you-did-what.html">
+            
+                <a href="dd-you-did-what.html">
+            
+                    
+                    You DiD what? (Marko Ivanovic)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.24" data-path="tech-lead-needed.html">
+            
+                <a href="tech-lead-needed.html">
+            
+                    
+                    Your team needs a tech lead, not a lead techie (Daniel Mölle)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Machines, Code</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="application-first.html">
+            
+                <a href="application-first.html">
+            
+                    
+                    Application first - a bottom-up architecture approach (Markus Rehrs)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="aprg.html">
+            
+                <a href="aprg.html">
+            
+                    
+                    Architectural programming (Stephan Janisch, Christian Eder, Alexander Derenbach)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="aprg-workflow.html">
+            
+                <a href="aprg-workflow.html">
+            
+                    
+                    Architectural programming in the development workflow (Stephan Janisch, Christian Eder, Alexander Derenbach)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.4" data-path="ci-cd-done-right.html">
+            
+                <a href="ci-cd-done-right.html">
+            
+                    
+                    CI and CD done right (Florian Besser)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="clean-code-best-practices.html">
+            
+                <a href="clean-code-best-practices.html">
+            
+                    
+                    Clean code best practices (Milan Milanovic)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="codify-your-developer-vms.html">
+            
+                <a href="codify-your-developer-vms.html">
+            
+                    
+                    Codify your developer VMs! (Torben Knerr)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="containerization-and-why-to-use-it.html">
+            
+                <a href="containerization-and-why-to-use-it.html">
+            
+                    
+                    Containerisation and why to use it (Florian Besser)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="sql.html">
+            
+                <a href="sql.html">
+            
+                    
+                    Do something about that slow SQL query (Ognjen Blagojević)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="frontend-is-not-your-enemy.html">
+            
+                <a href="frontend-is-not-your-enemy.html">
+            
+                    
+                    Frontend is not your enemy (Janko Sokolovic)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="how-to-deal-with-flaky-system-tests.html">
+            
+                <a href="how-to-deal-with-flaky-system-tests.html">
+            
+                    
+                    How to deal with flaky system tests (Adrian Herzog)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.11" data-path="make-and-keep-your-tests-run-fast.html">
+            
+                <a href="make-and-keep-your-tests-run-fast.html">
+            
+                    
+                    Making your tests run fast (Simon Lehmann)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.12" data-path="optimization-and-realisation.html">
+            
+                <a href="optimization-and-realisation.html">
+            
+                    
+                    Optimization and realization (Igor Spasić)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.13" data-path="build-rules.html">
+            
+                <a href="build-rules.html">
+            
+                    
+                    Rules for building systems (Vassilis Rizopoulos)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.14" data-path="continuous-system-integration.html">
+            
+                <a href="continuous-system-integration.html">
+            
+                    
+                    Successful agile system development with continuous system integration (Erik Steiner)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.15" data-path="technology-choice.html">
+            
+                <a href="technology-choice.html">
+            
+                    
+                    The best technology is not always the best choice (Carsten Kind)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.16" data-path="watch-your-state.html">
+            
+                <a href="watch-your-state.html">
+            
+                    
+                    Watch your state (Raphael M. Reischuk)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.17" data-path="root-cause-analysis.html">
+            
+                <a href="root-cause-analysis.html">
+            
+                    
+                    You always have time for a proper root cause analysis (Matthias Meid)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >CI and CD done right (Florian Besser)</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="ci-and-cd-done-right-florian-besser">CI and CD done right (Florian Besser)</h1>
+<h2 id="short-introduction-and-history-of-ci">Short Introduction and History of CI</h2>
+<p>Continuous integration (CI) was adopted and driven by the extreme programming (XP) methodology in order to combat <em>integration hell</em>. XP first advocated writing unit tests which every developer can run locally before merging to the main line. In later iterations of XP, the concept of a build server was introduced and further improvements led to what we refer to as CI:</p>
+<ul>
+<li>Fast automated builds</li>
+<li>Run on every commit</li>
+<li>Including tests</li>
+<li>Run by some mechanism that can provide feedback to developers.</li>
+</ul>
+<h2 id="short-introduction-to-cd">Short Introduction to CD</h2>
+<p>Continuous delivery (CD) builds upon CI with the aim that the mainline branch can be released and deployed to production at any time. Continuous delivery is quite similar to continuous deployment but continuous deployment will deploy any merges to mainline to production (if tests pass), whereas with continuous delivery, releases and deployments are triggered by a human. For an example see below:</p>
+<p><img src="ci-c-done-right/delivery-pipeline.png" alt="Example delivery pipeline">
+The pipeline follows the <em>fail fast</em> approach, delivering quick feedback and ensuring target systems remain in an acceptable state if tests fail.</p>
+<h2 id="how-to-do-it-right">How to Do It Right</h2>
+<p>There is no <em>one way</em> to do CI/CD right. The same way you can&apos;t have a <em>right</em> way to do Scrum or XP.</p>
+<p>There are a number of obstacles to overcome on your road to CI and CD. Obstacles you must overcome can be categorised as:</p>
+<ol>
+<li>People</li>
+<li>Organisations</li>
+<li>Tooling</li>
+</ol>
+<h2 id="issues-around-people">Issues around people</h2>
+<h3 id="inexperienced-developers">Inexperienced developers</h3>
+<p>They tend to write code that is not designed for testability, resulting in </p>
+<ul>
+<li>fewer tests, which then results in bad quality and an increasing chance for a bug to sneak into production. This can torpedo CI/CD because people advocate &quot;taking more time&quot; to fix issues. It is important to remember that CI/CD can give you the same quality <em>faster</em>. Your best approach will be to coach or lead by example on how the issue could have been fixed without sacrificing speed. Your success depends on how much the team believes in CI/CD.</li>
+<li>Tests using a lot of mocks tend to be more fragile. Fragile tests directly hinder integration because tests have to be fixed. Here, your best bet is enabling developers to design better code so they can get rid of fragile tests altogether. It is imperative that you act early because once this issue escalates, CI/CD will be seen as a constant pain.</li>
+<li>Slow/flaky tests with a difficult setup on a higher unit than necessary. Your delivery pipeline slows down and must be fixed by demonstrating better software design to your team.</li>
+</ul>
+<h3 id="large-product-backlog-items">Large product backlog items</h3>
+<p>Large product backlog items (PBI) or big impact changes created by inexperienced requirements engineers are the enemies of quick integration if they must be integrated as a whole. Inexperienced developers may be tempted to defer integration until &quot;their&quot; PBI is done, leading to integration hell as by then a sizeable piece of the codebase will have been changed.</p>
+<h3 id="scepticism">Scepticism</h3>
+<p>A lot of people are sceptical until they experience the benefits. The best way is to focus on a small set of pain points and to address them transparently. There may be people that object to the idea of having a faster integration cycle fundamentally; if their beliefs are motivated by personal reasons then you may need to restructure your team. Examples are:</p>
+<ul>
+<li>Clinging to manual tests out of fear of losing control</li>
+<li>Weak confidence (without explanation) if build is green</li>
+<li>Taking pride in a &quot;build master&quot;, that is a human quality gate through which all code must pass</li>
+</ul>
+<h2 id="organisational-issues">Organisational issues</h2>
+<ul>
+<li>Increase in pressure: An organisation may redirect its resources away from CI/CD. Prepare stakeholder buy-in before starting CI/CD, be transparent and point to buy-in throughout implementation. There is no shame in failing transparently.</li>
+<li>Unsuitable process: There may be other processes conflicting with the goals you want to achieve. Get management buy-in beforehand and pick which processes to challenge; you will lose some battles to win the war.</li>
+<li>Unsuitable infrastructure: It may be very difficult to realise CI/CD with the current infrastructure. This is something you should check before starting and raise as a precondition. Explore different infrastructure providers by going to the cloud, or request new hardware.</li>
+<li>Code review ping-pong: Asynchronous code reviews take longer and require more task switches. Try out face-to-face reviews or pair programming.</li>
+</ul>
+<h2 id="tooling-issues">Tooling issues</h2>
+<ul>
+<li>Slow regression feedback: You may experience slow feedback due to hardware constraints. The first solution is to pay for better hardware (which is cheaper than humans). Otherwise see &quot;Slow/flaky tests&quot; above.</li>
+<li>High-noise feedback: The feedback from your pipeline can overwhelm people, and they will ignore feedback altogether. Make sure you only send feedback in cases where human intervention is required.</li>
+<li>Long integration queue: If you see a build server being overloaded with requests, get more servers/scale out in the cloud.</li>
+</ul>
+<p><strong>Solving obstacles around people is both the hardest and most important challenge you must overcome, while tooling is the easiest and least important.</strong>
+A successful CI/CD pipeline will make you and your team more productive and will increase quality.</p>
+<p><em>By Florian Besser</em></p>
+<h1 id="resources">Resources</h1>
+<h2 id="history-of-ci">History of CI</h2>
+<ul>
+<li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.617.9195&amp;rep=rep1&amp;type=pdf" target="_blank">Embracing change with extreme programming</a>: The original idea by Kent Beck</li>
+<li>XP as a book: &quot;Extreme Programming: A Humanistic Discipline of Software Development&quot;. ISBN 9783540643036.</li>
+<li><a href="https://martinfowler.com/articles/continuousIntegration.html" target="_blank">Fowler on CI</a></li>
+</ul>
+<h2 id="introduction-to-cd">Introduction to CD</h2>
+<ul>
+<li><a href="https://martinfowler.com/bliki/ContinuousDelivery.html" target="_blank">Fowler on CD</a></li>
+</ul>
+<h2 id="other">Other</h2>
+<ul>
+<li><a href="https://github.com/Zuehlke/fifty-shades/" target="_blank">Fifty-Shades</a> repository contains our source code.</li>
+</ul>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="aprg-workflow.html" class="navigation navigation-prev " aria-label="Previous page: Architectural programming in the development workflow (Stephan Janisch, Christian Eder, Alexander Derenbach)">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="clean-code-best-practices.html" class="navigation navigation-next " aria-label="Next page: Clean code best practices (Milan Milanovic)">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"authorName":"Florian Besser","authorGithubUsername":"florian-besser","issue":75,"title":"CI and CD done right (Florian Besser)","level":"4.4","depth":1,"next":{"title":"Clean code best practices (Milan Milanovic)","level":"4.5","depth":1,"path":"articles/clean-code-best-practices.md","ref":"articles/clean-code-best-practices.md","articles":[]},"previous":{"title":"Architectural programming in the development workflow (Stephan Janisch, Christian Eder, Alexander Derenbach)","level":"4.3","depth":1,"path":"articles/aprg-workflow.md","ref":"articles/aprg-workflow.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-fontsettings","onlineresources@git+https://github.com/abeggchr/gitbook-plugin-onlineresources"],"ignores":["_example.resources","time-management.resources","tech-lead-needed.resources","dd-you-did-what.resources","build-rules.resources","ci-cd-done-right.resources","aprg.resources","discipline-flow.resources","rules-are-dangerous.resources","aprg-workflow.resources","coding-on-purpose.resources","preface"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/zuehlke/fifty-shades"},"onlineresources":{"url":"https://zuehlke.github.io/machines-code-people/"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"foreword.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Machines, code, people: 50 things Zühlke engineers are passionate about","sortedBy":"-","disableTitleFormatting":true,"variables":{},"title":"Machines, code, people","catalog":"articles","gitbook":"3.2.2","unchanged":[]},"file":{"path":"articles/ci-cd-done-right.md","mtime":"2018-12-12T09:48:01.566Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-12-18T10:31:29.564Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+

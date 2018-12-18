@@ -1,0 +1,943 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Rules for building systems (Vassilis Rizopoulos) · Machines, code, people</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="continuous-system-integration.html" />
+    
+    
+    <link rel="prev" href="optimization-and-realisation.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Introduction</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Foreword (Nicolas Durville)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../preface.md">
+            
+                <span>
+            
+                    
+                    Preface
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Me</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="coding-on-purpose.html">
+            
+                <a href="coding-on-purpose.html">
+            
+                    
+                    Coding on purpose (Adrian Herzog)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="note-taking.html">
+            
+                <a href="note-taking.html">
+            
+                    
+                    Fast tracking into new projects – take notes! (Sven Bayer)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="if-you-like-it-then-you-shouldnt-put-some-code-in-it.html">
+            
+                <a href="if-you-like-it-then-you-shouldnt-put-some-code-in-it.html">
+            
+                    
+                    If you like it then you shouldn't put some code in it (Jonathan Rothwell)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="never-forget.html">
+            
+                <a href="never-forget.html">
+            
+                    
+                    Never forget (Igor Spasić)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="pragmatic-documentation.html">
+            
+                <a href="pragmatic-documentation.html">
+            
+                    
+                    Pragmatic documentation (Ognjen Blagojević)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="rules-are-dangerous.html">
+            
+                <a href="rules-are-dangerous.html">
+            
+                    
+                    Rules are dangerous (Rolf Bruderer)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="time-management.html">
+            
+                <a href="time-management.html">
+            
+                    
+                    Start using a time management technique today (Christian Abegg)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="go-visual.html">
+            
+                <a href="go-visual.html">
+            
+                    
+                    Why you need to go visual (Gabriel Duss)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="you-are-not-a-software-engineer.html">
+            
+                <a href="you-are-not-a-software-engineer.html">
+            
+                    
+                    "You are not a software engineer" - What am I then? (Stefan Djelekar)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">People</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="as_long_as.html">
+            
+                <a href="as_long_as.html">
+            
+                    
+                    "As long as you live under my roof, you'll do as I say" - If the project manager leads differently than I would (Sabrina Lange)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="business-readiness.html">
+            
+                <a href="business-readiness.html">
+            
+                    
+                    Business readiness – is there readiness for agile development in business? (Ina Paschen)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="cya.html">
+            
+                <a href="cya.html">
+            
+                    
+                    CYA: Cover your ass (Romano Roth)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="digitalization-and-its-impact.html">
+            
+                <a href="digitalization-and-its-impact.html">
+            
+                    
+                    Digitalization and its impact on customer interaction (Beat Bischof)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="discipline-flow.html">
+            
+                <a href="discipline-flow.html">
+            
+                    
+                    Discipline flow (Stephan Janisch)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="dont-teach-kids-programming.html">
+            
+                <a href="dont-teach-kids-programming.html">
+            
+                    
+                    Don't teach kids programming (Igor Spasić)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="from-enthusiasm-to-commercial-success.html">
+            
+                <a href="from-enthusiasm-to-commercial-success.html">
+            
+                    
+                    From enthusiasm to commercial success (Bojan Jelaca)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="know-how-transfer.html">
+            
+                <a href="know-how-transfer.html">
+            
+                    
+                    Know-how transfer – just explaining once is not enough (Christoph Zuber)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="lean-startup.html">
+            
+                <a href="lean-startup.html">
+            
+                    
+                    Lean startup: taming the uncertainty (Eric Fehse, Sven Bünte, Stefan Reichert)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="meet-users.html">
+            
+                <a href="meet-users.html">
+            
+                    
+                    Meeting with users is essential for creating great products (Markus Flückiger)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="inconvenient-truths-about-digitalization.html">
+            
+                <a href="inconvenient-truths-about-digitalization.html">
+            
+                    
+                    Some inconvenient truths about the digitalization of your business (Moritz Gomm)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="team-fit.html">
+            
+                <a href="team-fit.html">
+            
+                    
+                    Team fit (Marko Simic)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="evangelist-and-chameleon.html">
+            
+                <a href="evangelist-and-chameleon.html">
+            
+                    
+                    The evangelist and the chameleon (Franziska Meyer)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="ams-team-setups.html">
+            
+                <a href="ams-team-setups.html">
+            
+                    
+                    The evolution of support and operations team setups (Tijana Krstajic, Guido Angenendt)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="six-wise-men.html">
+            
+                <a href="six-wise-men.html">
+            
+                    
+                    The house of the six wise men (Michael Richter)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.16" data-path="time_to_say_goodby.html">
+            
+                <a href="time_to_say_goodby.html">
+            
+                    
+                    Time to say goodby (Sabrina Lange)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.17" data-path="transition-system-engineering.html">
+            
+                <a href="transition-system-engineering.html">
+            
+                    
+                    Transitioning systems engineering into the lean-agile world (Rolf Maisch)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.18" data-path="we-are-all-engineers.html">
+            
+                <a href="we-are-all-engineers.html">
+            
+                    
+                    We are all engineers but work quite differently: software engineers, electronics engineers, mechanics engineers (Thomas Weber)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.19" data-path="whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.html">
+            
+                <a href="whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.html">
+            
+                    
+                    What’s wrong with: “I don’t write any tests, since I am not a tester”? (Peter Gfader)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.20" data-path="ml-meets-swe.html">
+            
+                <a href="ml-meets-swe.html">
+            
+                    
+                    When machine learning meets software engineering (Wolfgang Giersche)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.21" data-path="personal_growth.html">
+            
+                <a href="personal_growth.html">
+            
+                    
+                    Why every project should have gardeners (Sabrina Lange)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.22" data-path="paper-prototyping.html">
+            
+                <a href="paper-prototyping.html">
+            
+                    
+                    Why you should create a paper prototype - and how to test it with your users (Eric Fehse, Manuel Jung)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.23" data-path="dd-you-did-what.html">
+            
+                <a href="dd-you-did-what.html">
+            
+                    
+                    You DiD what? (Marko Ivanovic)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.24" data-path="tech-lead-needed.html">
+            
+                <a href="tech-lead-needed.html">
+            
+                    
+                    Your team needs a tech lead, not a lead techie (Daniel Mölle)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Machines, Code</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="application-first.html">
+            
+                <a href="application-first.html">
+            
+                    
+                    Application first - a bottom-up architecture approach (Markus Rehrs)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="aprg.html">
+            
+                <a href="aprg.html">
+            
+                    
+                    Architectural programming (Stephan Janisch, Christian Eder, Alexander Derenbach)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="aprg-workflow.html">
+            
+                <a href="aprg-workflow.html">
+            
+                    
+                    Architectural programming in the development workflow (Stephan Janisch, Christian Eder, Alexander Derenbach)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="ci-cd-done-right.html">
+            
+                <a href="ci-cd-done-right.html">
+            
+                    
+                    CI and CD done right (Florian Besser)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="clean-code-best-practices.html">
+            
+                <a href="clean-code-best-practices.html">
+            
+                    
+                    Clean code best practices (Milan Milanovic)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="codify-your-developer-vms.html">
+            
+                <a href="codify-your-developer-vms.html">
+            
+                    
+                    Codify your developer VMs! (Torben Knerr)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="containerization-and-why-to-use-it.html">
+            
+                <a href="containerization-and-why-to-use-it.html">
+            
+                    
+                    Containerisation and why to use it (Florian Besser)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="sql.html">
+            
+                <a href="sql.html">
+            
+                    
+                    Do something about that slow SQL query (Ognjen Blagojević)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="frontend-is-not-your-enemy.html">
+            
+                <a href="frontend-is-not-your-enemy.html">
+            
+                    
+                    Frontend is not your enemy (Janko Sokolovic)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="how-to-deal-with-flaky-system-tests.html">
+            
+                <a href="how-to-deal-with-flaky-system-tests.html">
+            
+                    
+                    How to deal with flaky system tests (Adrian Herzog)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.11" data-path="make-and-keep-your-tests-run-fast.html">
+            
+                <a href="make-and-keep-your-tests-run-fast.html">
+            
+                    
+                    Making your tests run fast (Simon Lehmann)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.12" data-path="optimization-and-realisation.html">
+            
+                <a href="optimization-and-realisation.html">
+            
+                    
+                    Optimization and realization (Igor Spasić)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.13" data-path="build-rules.html">
+            
+                <a href="build-rules.html">
+            
+                    
+                    Rules for building systems (Vassilis Rizopoulos)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.14" data-path="continuous-system-integration.html">
+            
+                <a href="continuous-system-integration.html">
+            
+                    
+                    Successful agile system development with continuous system integration (Erik Steiner)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.15" data-path="technology-choice.html">
+            
+                <a href="technology-choice.html">
+            
+                    
+                    The best technology is not always the best choice (Carsten Kind)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.16" data-path="watch-your-state.html">
+            
+                <a href="watch-your-state.html">
+            
+                    
+                    Watch your state (Raphael M. Reischuk)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.17" data-path="root-cause-analysis.html">
+            
+                <a href="root-cause-analysis.html">
+            
+                    
+                    You always have time for a proper root cause analysis (Matthias Meid)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Rules for building systems (Vassilis Rizopoulos)</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="rules-for-building-systems-vassilis-rizopoulos">Rules for building systems (Vassilis Rizopoulos)</h1>
+<p>This article discusses the application of the <a href="https://en.wikipedia.org/wiki/Separation_of_concerns" target="_blank">Separation of Concerns</a> concept in Build &amp; CI systems. It highlights the difference between a build system and a build management system, the responsibilities of each person and some considerations regarding the consequences when following the rules.</p>
+<p>It is structured out as a set of rules to follow when creating build and CI infrastructure for your project. </p>
+<p>Think of each rule as a <a href="https://en.wikipedia.org/wiki/TARDIS" target="_blank">T.A.R.D.I.S.</a>: they are bigger on the inside. </p>
+<p>The purpose of this set of rules is to guide us toward C.R.I.S.P. (Complete, Repeatable, Informative, Scheduled, Portable) builds<sup>1</sup></p>
+<h2 id="distinctions-definitions">Distinctions, definitions</h2>
+<p>To identify the separate concerns, we should provide definitions for the terms: </p>
+<p>A <strong>build system</strong> performs transformations in sequence in accordance with a predetermined dependency chain, to create artefacts. A subset of this is the compilation of sources to binaries.</p>
+<p>A <strong>build management system</strong> coordinates build system(s).</p>
+<h3 id="specificity">Specificity</h3>
+<p>A build system is highly project specific. It is affected by toolchains, project conventions and can generally only run on a specially configured host.</p>
+<p>A build management system can run everywhere as long as it can start the build system on the appropriate host. The specificity of a build management system is limited to the number of version control systems it supports. Although it theoretically doesn&apos;t have to provide version control support, it is a given that such support will be provided in the minimum feature set.</p>
+<h3 id="the-makefile-is-the-build-system">The Makefile is the build system</h3>
+<p>Make, rake, Ant, MSBuild, Gradle, grunt etc. <strong>are not build systems</strong><sup>2</sup>. You create build systems with them. </p>
+<p>Jenkins, TeamCity, TravisCI, BuildBot etc. are build management systems.</p>
+<h2 id="the-rules">The Rules</h2>
+<h3 id="1-i-am-build-server">1. I am Build Server</h3>
+<p>Rule #1 requires that the build server follows the exact same steps as any other developer. </p>
+<p>Expressed the other way around: Every developer has to be able to re-create the complete build process locally, without deviations, when given the development environment and the correct version of the source tree.</p>
+<h3 id="2-when-the-build-server-says-no-it-means-no">2. When the build server says no, it means no!</h3>
+<p>Rule #2 says that if a build server marks a build as broken, then the build is broken. Drop everything and read the logs. </p>
+<p>There is no &quot;it works for me&quot;, your build server is <a href="https://en.wikipedia.org/wiki/Judge_Dredd" target="_blank">Judge Dredd</a>: judge, juror and executioner.</p>
+<p>You can only adhere to this rule if you have followed Rule #1</p>
+<h3 id="3-ides-are-the-enemy-aka-f5-is-not-a-build-process">3. IDEs are the enemy A.K.A. F5 is not a build process</h3>
+<p>This means that if you drive your development process from an IDE there is no way you can adhere to the Build Rules. </p>
+<p>This rule has major consequences regarding the development environment and ties directly into the subject of allowing your developers to use whatever tools they feel comfortable with.</p>
+<h2 id="adhering-to-the-rules">Adhering to the rules</h2>
+<p>To create a system that adheres to rules #1 &amp; #2, you have to think like a Lego builder: Lots of small, specialized tasks that do one thing and can be used to compose more complex processes.</p>
+<p>As an example, doing a <em>releases</em> task instead of doing everything in one big implementation will depend on the build tasks for each of the libraries and applications and the tasks that run the tests etc. Using the rake syntax in a contrived example one would do</p>
+<pre><code class="lang-ruby">task <span class="hljs-symbol">:release</span> =&gt;[<span class="hljs-symbol">:<span class="hljs-string">&quot;test:all&quot;</span></span>]
+
+task <span class="hljs-symbol">:<span class="hljs-string">&quot;test:all&quot;</span></span> =&gt; [<span class="hljs-symbol">:<span class="hljs-string">&quot;test:foo&quot;</span></span>, <span class="hljs-symbol">:<span class="hljs-string">&quot;test:bar&quot;</span></span>]
+
+task <span class="hljs-symbol">:<span class="hljs-string">&quot;test:foo&quot;</span></span> =&gt; [<span class="hljs-symbol">:<span class="hljs-string">&quot;build:foo&quot;</span></span>]
+</code></pre>
+<p>A developer will probably use the component tasks a lot more than the composite release task and we will certainly have a build job on the server that only does releases.</p>
+<p>This is a necessity since the system needs to satisfy different usage patterns: </p>
+<ul>
+<li>The build server uses composite tasks that implement complete workflows.</li>
+<li>The developer uses component tasks with surgical precision in the interests of speed and effectiveness.</li>
+</ul>
+<p>From the perspective of the build system engineer, this approach is self-evident for the same reason it is evident when building applications: Small chunks of code are easier to manage, test, reuse and understand.</p>
+<h2 id="consequences">Consequences</h2>
+<p>The above rules have widespread consequences in structuring the build and CI processes of a project.</p>
+<p>The first rule sets the frame within which the build system operates. To adhere to it we avoid using IDE integrations but also build management system integrations (Maven integration in Jenkins being one such example). Handling dependencies, configuring toolchains, and even things like naming conventions are left to the build system. The build server becomes just another user, performing exactly the same steps a human developer would use.</p>
+<p>The first rule combined with the third lead to the prioritisation of command line usage. This doesn&apos;t mean we do everything just from the command line but rather that CLI is the first priority when adding features to the tools comprising the development environment. CLI is the one interface that both humans and bots can operate with the same facility.</p>
+<p>The second rule&apos;s consequences are a bit more subtle. Avoiding inconsistencies between execution environments is a critical issue and to handle it correctly we need to introduce the concept of a consistent development environment (usually called the &apos;project VM&apos; as we use virtual machines for encapsulation - although at the time of writing containerisation offers a less resource-intensive approach for specific development scenarios). The challenge of maintaining and replicating such an environment unavoidably leads to the introduction of a provisioning (A.K.A. configuration management) tool such as Chef, Ansible or Puppet.</p>
+<h2 id="who-does-what">Who does what</h2>
+<p>Another way to look at it is that a build system determines the how and what (build, test, package, deploy, release) while a build management system determines the where and when (which CI node, when to trigger etc.).</p>
+<p>All of this segues nicely into the final rule:</p>
+<h2 id="4-your-build-infrastructure-is-a-software-development-project">4. Your (build) infrastructure is a software development project</h2>
+<p>Rule #4 means you need tests and CI and a plan. You need to budget for CI, for creating a build system specific to your project, and for teaching people how to use it.</p>
+<p>To make matters worse, your users are some of the most obnoxious, impatient and downright pedantic users on the face of the planet. They want everything perfect, robust, simple and fast and they want it yesterday.
+ You had better be dogfooding by this point...</p>
+<p><em>By Vassilis Rizopoulos</em></p>
+<p><sup>1</sup>The concept of CRISP builds was first introduced by Mike Clark in his book <em>Pragmatic Project Automation</em>
+<sup>2</sup> We can debate on CMake and Maven</p>
+<h1 id="books">Books</h1>
+<p>The concept of CRISP builds was first introduced by Mike Clark in his book <a href="https://www.amazon.de/gp/product/0974514039/ref=as_li_tl?ie=UTF8&amp;camp=1638&amp;creative=6742&amp;creativeASIN=0974514039&amp;linkCode=as2&amp;tag=ampelofilos05-21&amp;linkId=0103a93a3eb10aaae253ddac6f0f5446" target="_blank">Pragmatic Project Automation</a></p>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="optimization-and-realisation.html" class="navigation navigation-prev " aria-label="Previous page: Optimization and realization (Igor Spasić)">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="continuous-system-integration.html" class="navigation navigation-next " aria-label="Next page: Successful agile system development with continuous system integration (Erik Steiner)">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"authorName":"Vassilis Rizopoulos","authorGithubUsername":"damphyr","issue":26,"title":"Rules for building systems (Vassilis Rizopoulos)","level":"4.13","depth":1,"next":{"title":"Successful agile system development with continuous system integration (Erik Steiner)","level":"4.14","depth":1,"path":"articles/continuous-system-integration.md","ref":"articles/continuous-system-integration.md","articles":[]},"previous":{"title":"Optimization and realization (Igor Spasić)","level":"4.12","depth":1,"path":"articles/optimization-and-realisation.md","ref":"articles/optimization-and-realisation.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-fontsettings","onlineresources@git+https://github.com/abeggchr/gitbook-plugin-onlineresources"],"ignores":["_example.resources","time-management.resources","tech-lead-needed.resources","dd-you-did-what.resources","build-rules.resources","ci-cd-done-right.resources","aprg.resources","discipline-flow.resources","rules-are-dangerous.resources","aprg-workflow.resources","coding-on-purpose.resources","preface"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/zuehlke/fifty-shades"},"onlineresources":{"url":"https://zuehlke.github.io/machines-code-people/"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"foreword.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Machines, code, people: 50 things Zühlke engineers are passionate about","sortedBy":"-","disableTitleFormatting":true,"variables":{},"title":"Machines, code, people","catalog":"articles","gitbook":"3.2.2","unchanged":[]},"file":{"path":"articles/build-rules.md","mtime":"2018-09-12T18:15:40.849Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-12-18T10:31:29.564Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
