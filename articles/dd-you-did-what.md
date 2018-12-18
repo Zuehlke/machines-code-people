@@ -55,4 +55,5 @@ Team spirit and motivation should develop as the project progresses, but there i
 
 *By {{page.authorName}}*
 
+
 {% include "./dd-you-did-what.resources.md" %}

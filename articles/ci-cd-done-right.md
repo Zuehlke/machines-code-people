@@ -68,4 +68,5 @@ A successful CI/CD pipeline will make you and your team more productive and will
 
 *By {{page.authorName}}*
 
+
 {% include "./ci-cd-done-right.resources.md" %}

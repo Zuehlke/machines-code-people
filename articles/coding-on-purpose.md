@@ -64,4 +64,5 @@ If all of this was a bit much, here's one simple tip: no matter how minimalistic
 
 *By {{page.authorName}}*
 
+
 {% include "./coding-on-purpose.resources.md" %}
