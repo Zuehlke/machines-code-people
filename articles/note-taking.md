@@ -21,7 +21,7 @@ For organising notes, I recommend using the outlining method. To me this has pro
 
 To get started in the project, you should identify individuals that can provide you access to the infrastructure, wiki, and task tracking board. For project related abbreviations, it might be a good idea to maintain a glossary. Once you get access to the project glossary, you can update your entries to it. By looking at the task tracking board or the wiki and by talking to stakeholders, you can gather valuable information about the Use Cases of the software your team works.
 
-# Take notes to advance
+## Take notes to advance
 
 Once you got started in the project, you can gather further information so you stand out in the project very quickly.
 
