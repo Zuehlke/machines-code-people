@@ -2,12 +2,12 @@
 
  ## Electronic version
 
- This book is also available as e-book:
+ This book is also available as eBook:
 
 * HTML: https://zuehlke.github.io/machines-code-people/
 * EPUB: https://zuehlke.github.io/machines-code-people/machines-code-people.epub
 * MOBI: https://zuehlke.github.io/machines-code-people/machines-code-people.mobi
-* PDF: https://zuehlke.github.io/machines-code-people/machines-code-people.pdf
+* PDF:  https://zuehlke.github.io/machines-code-people/machines-code-people.pdf
 
  ## Online resources
 
