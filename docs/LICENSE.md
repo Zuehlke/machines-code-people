@@ -1,1 +1,0 @@
-All content is licensed under the [Creative Commons Attribution Non Commercial Share Alike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
