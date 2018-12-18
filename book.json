@@ -5,7 +5,9 @@
     "onlineresources@git+https://github.com/abeggchr/gitbook-plugin-onlineresources"
   ],
   "title": "Machines, code, people",
+  "description": "50 things Zühlke engineers are passionate about",
   "bookname": "Machines, code, people: 50 things Zühlke engineers are passionate about",
+  "author": "Christian Abegg, Peter Gfader",
   "pluginsConfig": {
     "github": {
       "url": "https://github.com/zuehlke/fifty-shades"
