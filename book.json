@@ -11,7 +11,16 @@
       "url": "https://github.com/zuehlke/fifty-shades"
     },
     "onlineresources": {
-      "url": "https://zuehlke.github.io/machines-code-people/"
+      "url": "https://zuehlke.github.io/machines-code-people/",
+      "text": {
+        "above": "Further reading and additional resources:",
+        "before": "",
+        "left" : "",
+        "right": ""
+      },
+      "qrCodeOptions": {
+        "margin" : 0
+      }
     }
   },
   "structure": {
