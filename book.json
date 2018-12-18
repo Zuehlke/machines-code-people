@@ -19,7 +19,8 @@
         "right": ""
       },
       "qrCodeOptions": {
-        "margin" : 0
+        "margin" : 0,
+        "scale" : 3
       }
     }
   },
