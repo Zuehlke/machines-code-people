@@ -25,7 +25,7 @@ There are also other features that you will fall in love with. Like _let, const,
 
 I recommend taking a look into the ES6 documentation and getting familiar with the features.
 
-## Compile Time Checking
+## Compile time checking
 
 Ok, I guess that some of you might feel more comfortable working on *backend* with strongly typed languages, and you are used to having your IDE insult you with **_Cannot assign boolean to string!_** So you perhaps find frontend rather repulsive.
 
@@ -33,7 +33,7 @@ Well, guess what, you have all that now with TypeScript! You can even customise 
 
 It has all the OO principles that Java has (and much more), such as interfaces, abstract classes, enums, etc...
 
-## Build Tools
+## Build tools
 
 Yes, there's a proper build in frontend. And this has been the case for a while now. And do you know what, one can even import .css into .js files now! I know, what kind of monster would do such a thing. Well...
 
@@ -42,7 +42,7 @@ It started with simple task-runner packages (Grunt and Gulp) that can help you o
 
 When you have to choose a build tool, choose the one which is battle tested, has a great community support, is feature-rich and performant.
 
-## Frameworks and Libraries
+## Frameworks and libraries
 
 What kind of IT article would this be if the word *framework* didn’t find its way on to the page somewhere. However, I will try to be unbiased and talk about them in general.
 
