@@ -1,0 +1,53 @@
+﻿Examples are Essential
+Start using a time management technique today
+Coding on purpose
+Codify your developer VMs!
+Meeting with users is essential for creating great products
+Rules for building systems
+Rules are dangerous
+How to deal with flaky system tests
+Why you should create a paper prototype - and how to test it with your users
+Lean startup: taming the uncertainty
+Watch your state
+When machine learning meets software engineering
+Your team needs a tech lead, not a lead techie
+Clean code best practices
+"You are not a software engineer" - What am I then?
+Some inconvenient truths about the digitalization of your business
+Successful agile system development with continuous system integration
+We are all engineers but work quite differently: software engineers, electronics engineers, mechanics engineers
+Transitioning systems engineering into the lean-agile world
+Making your tests run fast
+CYA: Cover your ass
+Application first - a bottom-up architecture approach
+Digitalization and its impact on customer interaction
+CI and CD done right
+Containerisation and why to use it
+The evangelist and the chameleon
+Discipline flow
+Architectural programming in the development workflow
+Frontend is not your enemy
+From enthusiasm to commercial success
+The house of the six wise men
+Fast tracking into new projects - take notes!
+Do something about that slow SQL query
+Pragmatic documentation
+You DiD what?
+Why you need to go visual
+Team fit
+The evolution of support and operations team setups
+If you like it then you shouldn't put some code in it
+Time to say goodby
+"As long as you live under my roof, you''ll do as I say" - If the project manager leads differently than I would
+Why every project should have gardeners
+You always have time for a proper root cause analysis
+The best technology is not always the best choice
+Optimization and realization
+Never forget
+Business readiness - is there readiness for agile development in business?
+Don't teach kids programming
+What's wrong with: "I don't write any tests, since I am not a tester"
+Know-how transfer - just explaining once is not enough
+Silos are for farmers
+Architectural programming
+Umschlag
