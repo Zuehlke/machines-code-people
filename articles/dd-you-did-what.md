@@ -1,5 +1,5 @@
 ---
-authorName: Marko Ivanovic
+authorName: Marko Ivanović
 authorGithubUsername: markoi13
 issue: 88
 title: You DiD what?

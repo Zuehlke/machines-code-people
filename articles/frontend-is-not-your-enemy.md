@@ -1,5 +1,5 @@
 ---
-authorName: Janko Sokolovic
+authorName: Janko Sokolović
 authorGithubUsername: jasofalcon
 issue: 81
 title: Frontend is not your enemy

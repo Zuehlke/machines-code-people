@@ -1,5 +1,5 @@
 ---
-authorName: Marko Simic
+authorName: Marko Simić
 authorGithubUsername: masizuehlke
 issue: 90
 title: Team fit
