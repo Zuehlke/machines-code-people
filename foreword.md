@@ -1,4 +1,4 @@
-# Preface
+# Foreword
 
 I can still remember my early days as a software developer after my studies. It was during the wild years in the middle of the "new economy" and I had to get up to speed with new projects and acquire the necessary technical knowledge within a very short time. I had to gain a lot of experience for myself and I learned a great amount on the job; unfortunately, sometimes the hard way. 
 
