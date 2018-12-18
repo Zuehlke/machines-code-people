@@ -8,7 +8,7 @@ title: The evangelist and the chameleon
 
 Imagine this quite common situation: somebody, let's call her Andrea, works in a team that uses a particular tool that isn't Andrea's favourite. Andrea has a choice: she can either react according to her (probably unconscious) preference, or she can choose her reaction based on what she wants to achieve. Here is one way of looking at her possibilities:
 
-# Possibility 1: the whiner
+## Possibility 1: the whiner
 
 Andrea will complain continuously about the tool she is forced to use. It is slow and a particular bug leads to undesired behaviour at least daily. And anyway, this tool is simply not as good as her favourite tool. Even after years, Andrea complains about the same problems. She has neither learnt how the tool works nor found any of the workarounds her teammates use nor taken any steps to replace the tool.
 
@@ -18,7 +18,7 @@ The advantage of the whiner is short-lived: It is a good way to find out whether
 
 The disadvantages are that whiners are annoying and there's the risk that people stop listening to Andrea even when discussing unrelated topics.
 
-# Possibility 2: the evangelist
+## Possibility 2: the evangelist
 
 Whoever wants to listen (and everyone else, too) will hear continuously about all the advantages of Andrea's favourite tool. She does everything she can to have as many people as possible switch to her favourite tool, even if there are good reasons why, up to now, something else was in use.
 
@@ -28,7 +28,7 @@ The advantage of the evangelist is that many migrations need the tenacity of an 
 
 The disadvantage is that Andrea might overlook a far more important issue or a precondition for the migration.
 
-# Possibility 3: the tightrope walker
+## Possibility 3: the tightrope walker
 
 Where possible, Andrea uses her preferred tool. Whether she adheres to the team's conventions or not is a balancing act:
 
@@ -42,7 +42,7 @@ The advantage of the tightrope walker is that her focus is not on a specific too
 
 The disadvantage is that Andrea might miss an opportunity to improve the situation of the whole team.
 
-# Possibility 4: the chameleon
+## Possibility 4: the chameleon
 
 Even though Andrea has her preferred tools, she can work with many other tools. She adapts her way of working to fit the tool in use and continues to learn about each tool she uses. Given her experience with various tools, she can choose the tool that best fits the problem at hand, regardless of her personal preferences.
 
@@ -50,7 +50,7 @@ Like the whiner, the chameleon does not attempt to change anything. But the moti
 
 The advantages and disadvantages of the chameleon are the same as for the tightrope walker, with the added advantage that the chameleon has more experience with a broad range of tools.
 
-# It's your choice
+## It's your choice
 
 Each possibility has strengths and weaknesses that may or may not fit your situation. So choose wisely: what's your intended impact? And which possibility matches your impact best?
 
