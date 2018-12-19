@@ -9,7 +9,3 @@
 ## Introduction to CD
 
 * [Fowler on CD](https://martinfowler.com/bliki/ContinuousDelivery.html)
-
-## Other
-
-* [Fifty-Shades](https://github.com/Zuehlke/fifty-shades/) repository contains our source code.
