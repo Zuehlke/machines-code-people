@@ -1,4 +1,4 @@
-# Links
+## Links
 
 * [Simon Sinek, Start with Why!](https://startwithwhy.com/)
 * [Paul Watzlawick: "By searching for solutions we restrict ourselves with constraints that don't exist in the original problem."](https://www.youtube.com/watch?v=7etsh4HwG78)
