@@ -2,7 +2,7 @@
 
 ## Introduction
 * [Foreword](foreword.md)
-* [Preface](preface.md)
+* [Preface](articles/preface.md)
 
 ## Me
 * [Coding on purpose](articles/coding-on-purpose.md)
