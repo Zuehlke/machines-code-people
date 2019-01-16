@@ -1,4 +1,6 @@
 @startuml
+skinparam dpi 300   
+skinparam monochrome true
 
 title Delivery pipeline
 
