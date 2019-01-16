@@ -80,4 +80,4 @@ Leadership is a very complex subject, and hence, it is a bold undertaking to try
 
 *By {{page.authorName}}*
 
-{% include "./rules-are-dangerous.resources.md" %}
+{% include "./tech-lead-needed.md" %}
