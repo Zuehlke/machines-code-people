@@ -1,5 +1,5 @@
 ---
-authorName: Milan Milanovic
+authorName: Milan Milanović
 authorGithubUsername: milanm
 issue: 59
 title: Clean code best practices

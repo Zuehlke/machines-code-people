@@ -1,6 +1,5 @@
 ﻿# Table of Content
 
-## Introduction
 * [Foreword (Nicolas Durville)](foreword.md)
 * [Preface](preface.md)
 
@@ -27,18 +26,18 @@
 * [Lean startup: taming the uncertainty (Eric Fehse, Sven Bünte, Stefan Reichert)](articles/lean-startup.md)
 * [Meeting with users is essential for creating great products (Markus Flückiger)](articles/meet-users.md)
 * [Some inconvenient truths about the digitalization of your business (Moritz Gomm)](articles/inconvenient-truths-about-digitalization.md)
-* [Team fit (Marko Simic)](articles/team-fit.md)
+* [Team fit (Marko Simić)](articles/team-fit.md)
 * [The evangelist and the chameleon (Franziska Meyer)](articles/evangelist-and-chameleon.md)
 * [The evolution of support and operations team setups (Tijana Krstajic, Guido Angenendt)](articles/ams-team-setups.md)
 * [The house of the six wise men (Michael Richter)](articles/six-wise-men.md)
-* [Time to say goodby (Sabrina Lange)](articles/time_to_say_goodby.md)
+* [Time to say goodbye (Sabrina Lange)](articles/time_to_say_goodby.md)
 * [Transitioning systems engineering into the lean-agile world (Rolf Maisch)](articles/transition-system-engineering.md)
 * [We are all engineers but work quite differently: software engineers, electronics engineers, mechanics engineers (Thomas Weber)](articles/we-are-all-engineers.md)
 * [What’s wrong with: “I don’t write any tests, since I am not a tester”? (Peter Gfader)](articles/whats-wrong-with-i-dont-write-any-tests-i-am-not-a-tester.md)
 * [When machine learning meets software engineering (Wolfgang Giersche)](articles/ml-meets-swe.md)
 * [Why every project should have gardeners (Sabrina Lange)](articles/personal_growth.md)
 * [Why you should create a paper prototype - and how to test it with your users (Eric Fehse, Manuel Jung)](articles/paper-prototyping.md)
-* [You DiD what? (Marko Ivanovic)](articles/dd-you-did-what.md)
+* [You DiD what? (Marko Ivanović)](articles/dd-you-did-what.md)
 * [Your team needs a tech lead, not a lead techie (Daniel Mölle)](articles/tech-lead-needed.md)
 
 ## Machines, Code
@@ -46,11 +45,11 @@
 * [Architectural programming (Stephan Janisch, Christian Eder, Alexander Derenbach)](articles/aprg.md)
 * [Architectural programming in the development workflow (Stephan Janisch, Christian Eder, Alexander Derenbach)](articles/aprg-workflow.md)
 * [CI and CD done right (Florian Besser)](articles/ci-cd-done-right.md)
-* [Clean code best practices (Milan Milanovic)](articles/clean-code-best-practices.md)
+* [Clean code best practices (Milan Milanović)](articles/clean-code-best-practices.md)
 * [Codify your developer VMs! (Torben Knerr)](articles/codify-your-developer-vms.md)
 * [Containerisation and why to use it (Florian Besser)](articles/containerization-and-why-to-use-it.md)
 * [Do something about that slow SQL query (Ognjen Blagojević)](articles/sql.md)
-* [Frontend is not your enemy (Janko Sokolovic)](articles/frontend-is-not-your-enemy.md)
+* [Frontend is not your enemy (Janko Sokolović)](articles/frontend-is-not-your-enemy.md)
 * [How to deal with flaky system tests (Adrian Herzog)](articles/how-to-deal-with-flaky-system-tests.md)
 * [Making your tests run fast (Simon Lehmann)](articles/make-and-keep-your-tests-run-fast.md)
 * [Optimization and realization (Igor Spasić)](articles/optimization-and-realisation.md)

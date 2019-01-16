@@ -44,4 +44,5 @@ There are a lot of clever rules or ideas out there on the World Wide Web, in boo
   
 *By {{page.authorName}}*
 
+
 {% include "./rules-are-dangerous.resources.md" %}

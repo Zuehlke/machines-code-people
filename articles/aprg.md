@@ -57,4 +57,5 @@ The idea of Architecture as Code provides a required abstraction to Infrastructu
 
 *By {{page.authorName}}*
 
+
 {% include "./aprg.resources.md" %}

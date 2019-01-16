@@ -35,4 +35,4 @@ Finally, if the number of queries is within expectations, and the execution of e
 
 Here, we have introduced some practical solutions for how to tackle database performance issues, and this can be used as a starting point for you personal optimisation quest.
 
-*By: {{page.authorName}}*
+*By {{page.authorName}}*

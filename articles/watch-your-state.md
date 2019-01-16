@@ -12,11 +12,11 @@ In May 1960, the legendary Peugeot 404 was presented to the public. Its manufact
 ![A classical Peugeot](./watch-your-state/photo-1488724034958-0faad88cf69f.jpg)
 
 
-#### It's all about state
+## It's all about state
 
 The main factor enabling the transition from the *centralised* setup of the early 60s to today's *decentralised* Industry 4.0 is the way in which state is handled: today, each car body automatically knows its exact specification and configuration. Such local state provides a great deal of flexibility: the order in which cars are assembled can be adapted at any time. No central list or global database needs to be queried or updated. Fewer central points of failure and bottlenecks exist. Moreover, cars and other manufactured "smart" items can be connected, they can identify each other, and they can exchange information using a decentralised ad hoc mesh-up topology. The exchange between the manufactured items is even possible during the production process. Thanks to early feedback, fewer dependencies, and more independent production units, it is possible to achieve early adaptation and just-in-time production. Consequently, production quality is significantly improved and costs are reduced.
 
-#### State in today's communication protocols
+## State in today's communication protocols
 
 Turning from industrial production to Internet communication protocols, the goals of improving quality and reducing costs translate to reducing latency and lowering energy consumption:
 
@@ -38,7 +38,7 @@ Turning from industrial production to Internet communication protocols, the goal
 
 Higher latency, reduced throughput, increased energy consumption, DoS attacks – what is the solution to prevent these design flaws in authentication, packet forwarding, and TCP? All examples have in common a non-optimal handling of state that is frequently consulted as part of mission-critical business processes.
 
-#### Remediation
+## Remediation
 
 A crucial insight for remediation is that state should be stored by the service *requester*, not by the service *provider*. Examples include waiting stamps at the post office counter: they are stored by the waiting customer, not by the post department. Except for a single global counter, the post department keeps no state for each customer waiting in line.
 

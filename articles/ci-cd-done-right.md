@@ -6,7 +6,7 @@ title: CI and CD done right
 ---
 # {{page.title}}
 
-## Short Introduction and History of CI
+## Short introduction and history of CI
 
 Continuous integration (CI) was adopted and driven by the extreme programming (XP) methodology in order to combat _integration hell_. XP first advocated writing unit tests which every developer can run locally before merging to the main line. In later iterations of XP, the concept of a build server was introduced and further improvements led to what we refer to as CI:
 * Fast automated builds
@@ -14,7 +14,7 @@ Continuous integration (CI) was adopted and driven by the extreme programming (X
 * Including tests
 * Run by some mechanism that can provide feedback to developers.
 
-## Short Introduction to CD
+## Short introduction to CD
 
 Continuous delivery (CD) builds upon CI with the aim that the mainline branch can be released and deployed to production at any time. Continuous delivery is quite similar to continuous deployment but continuous deployment will deploy any merges to mainline to production (if tests pass), whereas with continuous delivery, releases and deployments are triggered by a human. For an example see below:
 
@@ -22,7 +22,7 @@ Continuous delivery (CD) builds upon CI with the aim that the mainline branch ca
 The pipeline follows the *fail fast* approach, delivering quick feedback and ensuring target systems remain in an acceptable state if tests fail.
 
 
-## How to Do It Right
+## How to do it right
 
 There is no _one way_ to do CI/CD right. The same way you can't have a _right_ way to do Scrum or XP.
 
@@ -67,5 +67,6 @@ A lot of people are sceptical until they experience the benefits. The best way i
 A successful CI/CD pipeline will make you and your team more productive and will increase quality.
 
 *By {{page.authorName}}*
+
 
 {% include "./ci-cd-done-right.resources.md" %}

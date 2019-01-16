@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
-        
+        <meta name="author" content="Christian Abegg, Peter Gfader">
         
         
     
@@ -96,9 +96,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="../preface.md">
+        <li class="chapter " data-level="1.2" data-path="preface.html">
             
-                <span>
+                <a href="preface.html">
             
                     
                     Preface
@@ -440,7 +440,7 @@
                 <a href="time_to_say_goodby.html">
             
                     
-                    Time to say goodby (Sabrina Lange)
+                    Time to say goodbye
             
                 </a>
             
@@ -823,7 +823,7 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="ci-and-cd-done-right">CI and CD done right</h1>
-<h2 id="short-introduction-and-history-of-ci">Short Introduction and History of CI</h2>
+<h2 id="short-introduction-and-history-of-ci">Short introduction and history of CI</h2>
 <p>Continuous integration (CI) was adopted and driven by the extreme programming (XP) methodology in order to combat <em>integration hell</em>. XP first advocated writing unit tests which every developer can run locally before merging to the main line. In later iterations of XP, the concept of a build server was introduced and further improvements led to what we refer to as CI:</p>
 <ul>
 <li>Fast automated builds</li>
@@ -831,11 +831,11 @@
 <li>Including tests</li>
 <li>Run by some mechanism that can provide feedback to developers.</li>
 </ul>
-<h2 id="short-introduction-to-cd">Short Introduction to CD</h2>
+<h2 id="short-introduction-to-cd">Short introduction to CD</h2>
 <p>Continuous delivery (CD) builds upon CI with the aim that the mainline branch can be released and deployed to production at any time. Continuous delivery is quite similar to continuous deployment but continuous deployment will deploy any merges to mainline to production (if tests pass), whereas with continuous delivery, releases and deployments are triggered by a human. For an example see below:</p>
 <p><img src="ci-c-done-right/delivery-pipeline.png" alt="Example delivery pipeline">
 The pipeline follows the <em>fail fast</em> approach, delivering quick feedback and ensuring target systems remain in an acceptable state if tests fail.</p>
-<h2 id="how-to-do-it-right">How to Do It Right</h2>
+<h2 id="how-to-do-it-right">How to do it right</h2>
 <p>There is no <em>one way</em> to do CI/CD right. The same way you can&apos;t have a <em>right</em> way to do Scrum or XP.</p>
 <p>There are a number of obstacles to overcome on your road to CI and CD. Obstacles you must overcome can be categorised as:</p>
 <ol>
@@ -876,20 +876,16 @@ The pipeline follows the <em>fail fast</em> approach, delivering quick feedback 
 <p><strong>Solving obstacles around people is both the hardest and most important challenge you must overcome, while tooling is the easiest and least important.</strong>
 A successful CI/CD pipeline will make you and your team more productive and will increase quality.</p>
 <p><em>By Florian Besser</em></p>
-<h1 id="resources">Resources</h1>
-<h2 id="history-of-ci">History of CI</h2>
+<h2 id="resources">Resources</h2>
+<h3 id="history-of-ci">History of CI</h3>
 <ul>
 <li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.617.9195&amp;rep=rep1&amp;type=pdf" target="_blank">Embracing change with extreme programming</a>: The original idea by Kent Beck</li>
 <li>XP as a book: &quot;Extreme Programming: A Humanistic Discipline of Software Development&quot;. ISBN 9783540643036.</li>
 <li><a href="https://martinfowler.com/articles/continuousIntegration.html" target="_blank">Fowler on CI</a></li>
 </ul>
-<h2 id="introduction-to-cd">Introduction to CD</h2>
+<h3 id="introduction-to-cd">Introduction to CD</h3>
 <ul>
 <li><a href="https://martinfowler.com/bliki/ContinuousDelivery.html" target="_blank">Fowler on CD</a></li>
-</ul>
-<h2 id="other">Other</h2>
-<ul>
-<li><a href="https://github.com/Zuehlke/fifty-shades/" target="_blank">Fifty-Shades</a> repository contains our source code.</li>
 </ul>
 
                                 
@@ -918,7 +914,7 @@ A successful CI/CD pipeline will make you and your team more productive and will
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"authorName":"Florian Besser","authorGithubUsername":"florian-besser","issue":75,"title":"CI and CD done right","level":"4.4","depth":1,"next":{"title":"Clean code best practices","level":"4.5","depth":1,"path":"articles/clean-code-best-practices.md","ref":"articles/clean-code-best-practices.md","articles":[]},"previous":{"title":"Architectural programming in the development workflow","level":"4.3","depth":1,"path":"articles/aprg-workflow.md","ref":"articles/aprg-workflow.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-fontsettings","onlineresources@git+https://github.com/abeggchr/gitbook-plugin-onlineresources"],"ignores":["_example.resources","time-management.resources","tech-lead-needed.resources","dd-you-did-what.resources","build-rules.resources","ci-cd-done-right.resources","aprg.resources","discipline-flow.resources","rules-are-dangerous.resources","aprg-workflow.resources","coding-on-purpose.resources","preface"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/zuehlke/fifty-shades"},"onlineresources":{"url":"https://zuehlke.github.io/machines-code-people/"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"foreword.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Machines, code, people: 50 things Zühlke engineers are passionate about","sortedBy":"-","disableTitleFormatting":true,"variables":{},"title":"Machines, code, people","catalog":"articles","gitbook":"3.2.2","unchanged":[]},"file":{"path":"articles/ci-cd-done-right.md","mtime":"2018-12-18T10:37:49.709Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-12-18T10:47:23.001Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"authorName":"Florian Besser","authorGithubUsername":"florian-besser","issue":75,"title":"CI and CD done right","level":"4.4","depth":1,"next":{"title":"Clean code best practices","level":"4.5","depth":1,"path":"articles/clean-code-best-practices.md","ref":"articles/clean-code-best-practices.md","articles":[]},"previous":{"title":"Architectural programming in the development workflow","level":"4.3","depth":1,"path":"articles/aprg-workflow.md","ref":"articles/aprg-workflow.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-fontsettings","onlineresources@git+https://github.com/abeggchr/gitbook-plugin-onlineresources"],"ignores":["_example.resources","time-management.resources","tech-lead-needed.resources","dd-you-did-what.resources","build-rules.resources","ci-cd-done-right.resources","aprg.resources","discipline-flow.resources","rules-are-dangerous.resources","aprg-workflow.resources","coding-on-purpose.resources","preface"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/zuehlke/fifty-shades"},"onlineresources":{"url":"https://zuehlke.github.io/machines-code-people/","text":{"above":"Further reading and additional resources:","before":"","left":"","right":""},"qrCodeOptions":{"margin":0,"scale":3}},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Christian Abegg, Peter Gfader","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"foreword.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Machines, code, people: 50 things Zühlke engineers are passionate about","sortedBy":"-","disableTitleFormatting":true,"variables":{},"title":"Machines, code, people","catalog":"articles","gitbook":"3.2.2","unchanged":[],"description":"50 things Zühlke engineers are passionate about"},"file":{"path":"articles/ci-cd-done-right.md","mtime":"2019-01-16T14:40:13.434Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2019-01-16T14:47:41.826Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

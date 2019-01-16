@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
-        
+        <meta name="author" content="Christian Abegg, Peter Gfader">
         
         
     
@@ -96,9 +96,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="../preface.md">
+        <li class="chapter " data-level="1.2" data-path="preface.html">
             
-                <span>
+                <a href="preface.html">
             
                     
                     Preface
@@ -440,7 +440,7 @@
                 <a href="time_to_say_goodby.html">
             
                     
-                    Time to say goodby (Sabrina Lange)
+                    Time to say goodbye
             
                 </a>
             
@@ -825,9 +825,9 @@
                                 <h1 id="watch-your-state">Watch your state</h1>
 <p>In May 1960, the legendary Peugeot 404 was presented to the public. Its manufacturing process was controlled by manually curated lists in which each car in the production pipeline had its particular entry. Each car was assembled according to a fixed plan. Consequently, spontaneous adaptations or dynamic modifications of the production plan were impossible when components were suddenly missing, or when experts responsible for certain tasks got sick.</p>
 <p><img src="watch-your-state/photo-1488724034958-0faad88cf69f.jpg" alt="A classical Peugeot"></p>
-<h4 id="its-all-about-state">It&apos;s all about state</h4>
+<h2 id="its-all-about-state">It&apos;s all about state</h2>
 <p>The main factor enabling the transition from the <em>centralised</em> setup of the early 60s to today&apos;s <em>decentralised</em> Industry 4.0 is the way in which state is handled: today, each car body automatically knows its exact specification and configuration. Such local state provides a great deal of flexibility: the order in which cars are assembled can be adapted at any time. No central list or global database needs to be queried or updated. Fewer central points of failure and bottlenecks exist. Moreover, cars and other manufactured &quot;smart&quot; items can be connected, they can identify each other, and they can exchange information using a decentralised ad hoc mesh-up topology. The exchange between the manufactured items is even possible during the production process. Thanks to early feedback, fewer dependencies, and more independent production units, it is possible to achieve early adaptation and just-in-time production. Consequently, production quality is significantly improved and costs are reduced.</p>
-<h4 id="state-in-todays-communication-protocols">State in today&apos;s communication protocols</h4>
+<h2 id="state-in-todays-communication-protocols">State in today&apos;s communication protocols</h2>
 <p>Turning from industrial production to Internet communication protocols, the goals of improving quality and reducing costs translate to reducing latency and lowering energy consumption:</p>
 <ol>
 <li><p>When Internet user Alice connects to her online bank, she needs to authenticate herself before accessing her savings and transactions. To initiate such an authenticated session, she provides unique credentials (login and password, and hopefully a second authentication factor). If the login is successful, the bank grants Alice an access token valid for that very session. Alice can then seamlessly re-authenticate herself during the session using that token.</p>
@@ -845,7 +845,7 @@
 <li>Finally, TCP&apos;s vulnerability against denial-of-service attacks: in the initial step of the three-way handshake between client and server, the server needs to store information about the client in order to remember the client when it completes the handshake. The storage of even small amounts of <em>state</em> can lead to attacks, when huge numbers of clients pretend to connect to the server, but execute only the first step of the three-way handshake. The server cannot know upfront if a client is malicious and thus keeps waiting for each client to come back to complete the handshake. Soon, when many clients connect simultaneously, the server&apos;s resources are exhausted and new connections cannot be accepted. Users then perceive the server as unavailable, aka under a denial-of-service attack.</li>
 </ol>
 <p>Higher latency, reduced throughput, increased energy consumption, DoS attacks &#x2013; what is the solution to prevent these design flaws in authentication, packet forwarding, and TCP? All examples have in common a non-optimal handling of state that is frequently consulted as part of mission-critical business processes.</p>
-<h4 id="remediation">Remediation</h4>
+<h2 id="remediation">Remediation</h2>
 <p>A crucial insight for remediation is that state should be stored by the service <em>requester</em>, not by the service <em>provider</em>. Examples include waiting stamps at the post office counter: they are stored by the waiting customer, not by the post department. Except for a single global counter, the post department keeps no state for each customer waiting in line.</p>
 <p>A very similar solution works for web authentication: The server should not remember session state for each client, but send to the client a cryptographically signed token with information about the session state. The client presents such token whenever it connects to the server, who then verifies the token&apos;s validity. Instruction sets on modern CPUs verify authenticated AES messages within roughly 50 cycles (20ns at 2.5GHz). For comparison: a DRAM memory lookup takes up to 200 cycles, and a round trip in a data centre takes up to 500,000ns.</p>
 <p>Packet forwarding should ideally work similarly: each packet should contain cryptographically protected information about its path to the destination. Each router on the path checks such forwarding information by efficiently verifying an AES-MAC, instead of wasting energy and time on costly database lookups. The efficacy of this solution is demonstrated by the Internet architecture SCION.</p>
@@ -879,7 +879,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"authorName":"Raphael M. Reischuk","authorGithubUsername":"reischuk","issue":54,"title":"Watch your state","level":"4.16","depth":1,"next":{"title":"You always have time for a proper root cause analysis","level":"4.17","depth":1,"path":"articles/root-cause-analysis.md","ref":"articles/root-cause-analysis.md","articles":[]},"previous":{"title":"The best technology is not always the best choice","level":"4.15","depth":1,"path":"articles/technology-choice.md","ref":"articles/technology-choice.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-fontsettings","onlineresources@git+https://github.com/abeggchr/gitbook-plugin-onlineresources"],"ignores":["_example.resources","time-management.resources","tech-lead-needed.resources","dd-you-did-what.resources","build-rules.resources","ci-cd-done-right.resources","aprg.resources","discipline-flow.resources","rules-are-dangerous.resources","aprg-workflow.resources","coding-on-purpose.resources","preface"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/zuehlke/fifty-shades"},"onlineresources":{"url":"https://zuehlke.github.io/machines-code-people/"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"foreword.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Machines, code, people: 50 things Zühlke engineers are passionate about","sortedBy":"-","disableTitleFormatting":true,"variables":{},"title":"Machines, code, people","catalog":"articles","gitbook":"3.2.2","unchanged":[]},"file":{"path":"articles/watch-your-state.md","mtime":"2018-12-18T10:31:32.420Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-12-18T10:47:23.001Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"authorName":"Raphael M. Reischuk","authorGithubUsername":"reischuk","issue":54,"title":"Watch your state","level":"4.16","depth":1,"next":{"title":"You always have time for a proper root cause analysis","level":"4.17","depth":1,"path":"articles/root-cause-analysis.md","ref":"articles/root-cause-analysis.md","articles":[]},"previous":{"title":"The best technology is not always the best choice","level":"4.15","depth":1,"path":"articles/technology-choice.md","ref":"articles/technology-choice.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-fontsettings","onlineresources@git+https://github.com/abeggchr/gitbook-plugin-onlineresources"],"ignores":["_example.resources","time-management.resources","tech-lead-needed.resources","dd-you-did-what.resources","build-rules.resources","ci-cd-done-right.resources","aprg.resources","discipline-flow.resources","rules-are-dangerous.resources","aprg-workflow.resources","coding-on-purpose.resources","preface"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/zuehlke/fifty-shades"},"onlineresources":{"url":"https://zuehlke.github.io/machines-code-people/","text":{"above":"Further reading and additional resources:","before":"","left":"","right":""},"qrCodeOptions":{"margin":0,"scale":3}},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Christian Abegg, Peter Gfader","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"foreword.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bookname":"Machines, code, people: 50 things Zühlke engineers are passionate about","sortedBy":"-","disableTitleFormatting":true,"variables":{},"title":"Machines, code, people","catalog":"articles","gitbook":"3.2.2","unchanged":[],"description":"50 things Zühlke engineers are passionate about"},"file":{"path":"articles/watch-your-state.md","mtime":"2019-01-16T14:40:13.591Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2019-01-16T14:47:41.826Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

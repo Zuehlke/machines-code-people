@@ -11,7 +11,7 @@ Eric Fehse, Sven Bünte, Stefan Reichert
 Raphael M. Reischuk
 Wolfgang Giersche
 Daniel Mölle
-Milan Milanovic
+Milan Milanović
 Stefan Djelekar
 Moritz Gomm
 Erik Steiner
@@ -26,15 +26,15 @@ Florian Besser
 Franziska Meyer
 Stephan Janisch
 Stephan Janisch, Christian Eder, Alexander Derenbach
-Janko Sokolovic
+Janko Sokolović
 Bojan Jelaca
 Michael Richter
 Sven Bayer
 Ognjen Blagojević
 Ognjen Blagojević
-Marko Ivanovic
+Marko Ivanović
 Gabriel Duss
-Marko Simic
+Marko Simić
 Tijana Krstajic, Guido Angenendt
 Jonathan Rothwell
 Sabrina Lange
