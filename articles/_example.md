@@ -20,4 +20,5 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 
 *By {{page.authorName}}*
 
+
 {% include "./_example.resources.md" %}

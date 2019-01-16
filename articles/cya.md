@@ -1,7 +1,7 @@
 ---
 authorName: Romano Roth
 authorGithubUsername: romanoroth
-issue: 7
+issue: 72
 title: 'CYA: Cover your ass'
 ---
 # {{page.title}}

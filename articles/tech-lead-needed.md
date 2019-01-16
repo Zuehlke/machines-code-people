@@ -79,3 +79,5 @@ To be honest, I could go on endlessly, especially because we didn't even begin t
 Leadership is a very complex subject, and hence, it is a bold undertaking to try and describe how it works in a single article. Nonetheless, I hope that my perceptions contain something that you can put to use, and that I have managed to resolve the mystery of the tech lead question at least a tiny bit.
 
 *By {{page.authorName}}*
+
+{% include "./tech-lead-needed.md" %}

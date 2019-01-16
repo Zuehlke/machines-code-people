@@ -32,9 +32,9 @@ We could write tests based on these acceptance criteria to prove which ADRs are 
 The important thing is for the test system to be set up using architecture code. Only then is it possible to prove that the system still satisfies all requirements. Since the effort for testing must, as usual, be balanced against the actual value it creates, it is advisable to follow a risk-driven approach and create ADRs and tests only for the parts of the system where the potential risk indeed requires it [RISK]. 
 
 ## Conclusion and outlook
-The current state already provides a good basis for storing architecture as code with your source code. With ADRs, you can store the various versions of important decisions as well as the approaches regarding architecture as codes get increasingly mature. Implementing the architecture gives you the full spectrum of software engineering techniques for your architecture, starting with version control, CI & CD pipelines and testing against given acceptance criteria. Parts of this idea already exist, others must be developed and some still sound like fiction.
-
+The current state already provides a good basis for storing architecture as code with your source code. With ADRs you can already store the important decisions under version control. Additionally the approaches regarding architecture as code get increasingly mature. Implementing the architecture gives you the full spectrum of software engineering techniques for your architecture, starting with version control, CI & CD pipelines and testing against given acceptance criteria. Parts of this idea already exist, others must be developed and some still sound like fiction.
 
 *By {{page.authorName}}*
+
 
 {% include "./aprg-workflow.resources.md" %}

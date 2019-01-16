@@ -1,7 +1,7 @@
 ---
 authorName: Michael Richter 
 authorGithubUsername: abeggchr
-issue: 8
+issue: 83
 title: The house of the six wise men
 ---
 # {{page.title}}

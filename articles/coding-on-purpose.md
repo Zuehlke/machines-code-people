@@ -63,3 +63,6 @@ When leading a team, you should put a strong focus on communicating the *why* of
 If all of this was a bit much, here's one simple tip: no matter how minimalistic you want to keep your user stories, make sure they contain at least the desired impact.
 
 *By {{page.authorName}}*
+
+
+{% include "./coding-on-purpose.resources.md" %}

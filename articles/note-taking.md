@@ -21,7 +21,7 @@ For organising notes, I recommend using the outlining method. To me this has pro
 
 To get started in the project, you should identify individuals that can provide you access to the infrastructure, wiki, and task tracking board. For project related abbreviations, it might be a good idea to maintain a glossary. Once you get access to the project glossary, you can update your entries to it. By looking at the task tracking board or the wiki and by talking to stakeholders, you can gather valuable information about the Use Cases of the software your team works.
 
-# Take notes to advance
+## Take notes to advance
 
 Once you got started in the project, you can gather further information so you stand out in the project very quickly.
 
@@ -41,7 +41,7 @@ Once you got started in the project, you can gather further information so you s
 
 ## Conclusion
 
-When you join a new project, you have to deal with various types of information related to this specific project. You have to be able to extract the important bits and pieces by interacting with the team. Then you have to take notes of this information and store it, either handwritten or on your laptop. By doing this in an organised way with structured notes, you can quickly get to a point where you thrive and increase your performance. In not time, you will be valued as a fully featured team member and you can participate on important decisions.
+When you join a new project, you have to deal with various types of information related to this specific project. You have to be able to extract the important bits and pieces by interacting with the team. Then you have to take notes of this information and store it, either handwritten or on your laptop. By doing this in an organised way with structured notes, you can quickly get to a point where you thrive and increase your performance. In no time, you will be valued as a fully featured team member and you can participate on important decisions.
 
 ![conclusion](./note-taking/conclusion.jpg)
 

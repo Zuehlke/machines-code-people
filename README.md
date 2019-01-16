@@ -1,4 +1,4 @@
-# Machines, Code, People: 50 Things Zühlke Engineers Are Passionate About 
+# Machines, code, people: 50 things Zühlke engineers are passionate about 
 
 ## Vision
 
@@ -8,7 +8,7 @@ We write for all engineers at Zühlke and outside of Zühlke - from professional
 
 Through our articles, the Zühlke culture manifests itself: they contain practicaly proven concepts, best practices, cultural philosophies and great ideas, they are technically interesting, they motivate you to reflect about the work and they encourage you to share your knowlege and experiences.
 
-## How to Contribute
+## How to contribute
 
 1. Announce an article by opening an [issue in our backlog](https://github.com/Zuehlke/fifty-shades/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E)
 
