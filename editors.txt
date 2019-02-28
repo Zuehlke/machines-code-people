@@ -1,0 +1,6 @@
+Christian is a software architect and has been working at Zühlke since 2007. In his project work, his passion goes into continuously improving quality, providing a rock-solid architecture, writing the right tests and setting up reliable build pipelines.
+He never ceases to be amazed by what people can achieve together when they collaborate and work to each other's strengths.
+
+Peter hates bad products. So, he joined scrum.org and Zühlke, where he works with people, teams and organisations to try to improve the software engineering profession.
+The drive for improvement (and the smell of coffee) gets him out of bed in the morning.
+Peter is on a journey to make everyone happy. If he isn't riding a mountain bike or playing the trumpet, you might find him at a local user group, hanging out with other nerds!
