@@ -72,8 +72,6 @@ As the above rules and consequences are quite abstract, let me make things clear
 
 * Furthermore, a good tech lead will have a sixth sense for technical risks and unexpected effort. For example, the software upgrade mechanisms and the configuration management for distributed systems are usually underestimated, and a tech lead will keep that in mind when estimating a project's cost.
 
-To be honest, I could go on endlessly, especially because we didn't even begin to investigate interpersonal matters.
-
 ## Final remarks
 
 Leadership is a very complex subject, and hence, it is a bold undertaking to try and describe how it works in a single article. Nonetheless, I hope that my perceptions contain something that you can put to use, and that I have managed to resolve the mystery of the tech lead question at least a tiny bit.
