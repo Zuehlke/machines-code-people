@@ -1,4 +1,4 @@
-# Machines, code, people: 50 things Zühlke engineers are passionate about 
+# Machines - Code - People: 50 things Zühlke engineers are passionate about 
 
 ## Vision
 
