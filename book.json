@@ -4,9 +4,9 @@
     "-fontsettings",
     "onlineresources@git+https://github.com/abeggchr/gitbook-plugin-onlineresources"
   ],
-  "title": "Machines, code, people",
+  "title": "Machines - Code - People",
   "description": "50 things Zühlke engineers are passionate about",
-  "bookname": "Machines, code, people: 50 things Zühlke engineers are passionate about",
+  "bookname": "Machines - Code - People: 50 things Zühlke engineers are passionate about",
   "author": "Christian Abegg, Peter Gfader",
   "pluginsConfig": {
     "github": {
