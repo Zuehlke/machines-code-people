@@ -121,7 +121,7 @@ Things to be aware of:
 
 * Fine-tuning the product as a result of a story will also require changes being made to things that are already done and ready.
 
-* Let users use the system once a user story once has been implemented. Provide a test system so you can measure parameters and obtain feedback.
+* Let users use the system once a user story has been implemented. Provide a test system so you can measure parameters and obtain feedback.
 
 * Setup a simple usability lab if you need to optimise specific aspects. Users can work undisturbed here and video recordings allow you to analyse the details of the interaction.
 
