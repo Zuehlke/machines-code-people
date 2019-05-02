@@ -21,7 +21,7 @@ As soon as one test fails, insist on fixing it. Otherwise people might start ign
 
 ### Control as much as possible
 
-The more control you have over the system under test (SUT) and the test data, the higher your chances of getting the tests stable. There are many ways to increase control, here are some important ones:
+The more control you have over the system under test (SUT) and the test data, the higher your chances of getting the tests stable. There are many ways to increase control. Here are some important ones:
 
 * Preferably use system tests that cover only the system you are responsible for (at runtime) rather than system integration tests that also include the systems of other teams. This requires simulators to mock the other systems out.
 * Define the exact versions of the libraries you are using in the code, so that you don't get surprised by unintended updates that introduce issues.
