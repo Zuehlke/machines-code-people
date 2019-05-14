@@ -14,7 +14,10 @@ There are a lot of techniques available - I recommend having a look at the follo
 
 ## Getting things done
 
-Getting things done provides a comprehensive way of sorting all incoming stuff into various buckets like a waiting list, a calendar, an archive or even the waste bin. I never feel that I have huge amounts of stuff to organise so I have never applied this technique. Reading through the documentation gives you some good hints regarding how to handle incoming stuff though: \* Is the stuff actionable at all? If not, get rid of it. \* What is the concrete next action? \* Can it be done in two minutes? If yes, do it right away.
+Getting things done provides a comprehensive way of sorting all incoming stuff into various buckets like a waiting list, a calendar, an archive or even the waste bin. I never feel that I have huge amounts of stuff to organise so I have never applied this technique. Reading through the documentation gives you some good hints regarding how to handle incoming stuff though: 
+* Is the stuff actionable at all? If not, get rid of it. 
+* What is the concrete next action? 
+* Can it be done in two minutes? If yes, do it right away.
 
 ## Personal Kanban
 
