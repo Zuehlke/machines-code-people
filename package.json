@@ -6,7 +6,7 @@
     "summary": "book sm"
   },
   "devDependencies": {
-    "gitbook-cli": "2.3.2"
+    "gitbook-cli": "2.3.0"
   },
   "dependencies": {
     "gitbook-summary": "git://github.com/abeggchr/gitbook-summary.git"
