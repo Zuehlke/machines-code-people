@@ -43,6 +43,7 @@ Even if no employee exchange is planned, it is good practice to share knowledge 
 * Exchange sessions covering important topics in order to increase awareness within the team
 * A group chat tool with good search functionality to simplify informal exchange, especially within distributed teams
 * Methodologies with short feedback loops to foster exchange within the team
+
 The above measures will help to avoid knowledge silos and, at the same time, lessen the impact when a team member leaves.
 
 ## Check the success

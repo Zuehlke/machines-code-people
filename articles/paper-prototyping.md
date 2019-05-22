@@ -29,7 +29,7 @@ Here's the basic workflow:
 4.	The result is a stack of sketched or printed screens and a collection of snippets.
 
 ![A paper prototype created using Balsamiq](./paper-prototyping/prototype-example.png)
-![A hand-sketched paper prototype](./paper-prototyping/paper-prototype-sketched.png)
+![A hand-sketched paper prototype](./paper-prototyping/paper-prototype-sketched.jpg)
 
 ## Conducting the test
 

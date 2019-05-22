@@ -8,11 +8,11 @@ title: Frontend is not your enemy
 
 For many years now, we have been neglecting frontend web technologies.
 
-* _“It is too volatile!”, I've heard someone say at the back
+* _“It is too volatile!”_, I've heard someone say at the back
 
 * _“But I only learned Angular 1.0 yesterday, and today it's already v3.3.1”_, one Java developer yelled while hiding the tears...
 
-We have been witnessing an explosion in frontend for a decade or so, due to there being so many innovative requirements to create the most user-friendly web app.
+We have been witnessing an explosion in frontend for a decade or so, due to so many innovative requirements to create the most user-friendly web app.
 As you will see, many good things have come out of this pile...
 
 ## ECMAScript and OOP

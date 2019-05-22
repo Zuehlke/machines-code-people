@@ -31,7 +31,7 @@ Finally, if the number of queries is within expectations, and the execution of e
 3. The wrong file system and RAID configuration (RAID 10 or several RAID 1 groups perform the best; avoid journalling on log partition file system; avoid RAID 5 as it does not perform very well).
 4. Wrongly selected storage. For example: NAS and SAN, despite similar acronyms, are very different storage solutions with completely different performance.
 5. Not enough RAM. If the entire database (together with indices) exceeds the available memory, performance may be poor. In the case of large databases that cannot be completely stored in memory, it may be unavoidable, but in the case of smaller databases, the biggest performance jump is obtained if the whole database is in the memory.
-6. Bad hardware. Sometimes you just need to better hardware.
+6. Bad hardware. Sometimes you just need to get better hardware.
 
 Here, we have introduced some practical solutions for how to tackle database performance issues, and this can be used as a starting point for you personal optimisation quest.
 

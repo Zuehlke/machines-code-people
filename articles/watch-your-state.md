@@ -28,11 +28,9 @@ Turning from industrial production to Internet communication protocols, the goal
 
     Before discussing smarter ways of handling access tokens, we will look at two more examples.
 
-
 2. Packet forwarding in today's Internet: when Alice sends a data packet to Bob, she adds Bob's IP address to the packet header and hands the packet over to her Internet provider. From then on, every router on the path from Alice to Bob extracts Bob's address from the packet to do a database lookup to retrieve information about the next hop, that is, where to forward the packet to. Each router bases its forwarding decision on local *state* that was previously learned from neighbouring routers.
 
     This procedure is not only insecure (as the neighbours' information is not properly authenticated), but also very energy-consuming and inefficient (as millions of packets per second need to be looked up). Good news: a more secure and - at the same time - more efficient solution exists.
-
 
 3. Finally, TCP's vulnerability against denial-of-service attacks: in the initial step of the three-way handshake between client and server, the server needs to store information about the client in order to remember the client when it completes the handshake. The storage of even small amounts of *state* can lead to attacks, when huge numbers of clients pretend to connect to the server, but execute only the first step of the three-way handshake. The server cannot know upfront if a client is malicious and thus keeps waiting for each client to come back to complete the handshake. Soon, when many clients connect simultaneously, the server's resources are exhausted and new connections cannot be accepted. Users then perceive the server as unavailable, aka under a denial-of-service attack.
 

@@ -72,7 +72,7 @@ First: Don’t digitalize your business. Instead build a new digital business. S
 If you digitalize your business, you are a) cementing the status quo and b) most likely not making use of the full potential of working digital. Working digitally allows you to totally rethink your business, the products and services you offer, the way you win, interact with and keep customers and who you do business with. Here are some tips on what you need to increase your chances of success:
 * The deep-rooted conviction among top management that digitalization makes new paths possible and necessary – and the willingness to go down these paths with courage.
 * Interdisciplinary teams that are free to break new ground, with enough freedom and distance from day-to-day business, and to make mistakes in the process.
-* The motivation to identify customer problems before thinking in terms of solutions. Usually it isnot ideas that are lacking, but well-understood customer problems.
+* The motivation to identify customer problems before thinking in terms of solutions. Usually it is not ideas that are lacking, but well-understood customer problems.
 * The ability to learn openly and together with customers and partners what each party’s individual path to digitalization looks like for their own added value.
 * A positive error culture and the agility to quickly and iteratively move from the initial solution idea to a viable business model - before the project runs out of money.
 

@@ -6,13 +6,13 @@ This guide describes the process and the conventions for contributing an article
 
 1. **Check for Duplicates:** Is there already an article about your topic?
   
-   * Please check our [Backlog of Articles](https://github.com/Zuehlke/fifty-shades/issues?q=is%3Aissue+label%3Aarticle) whether there is already an article existing or planned for similar topic. You need a GitHub account for this.
+   * Please check our [Backlog of Articles](https://github.com/Zuehlke/machines-code-people/issues?q=is%3Aissue+label%3Aarticle) whether there is already an article existing or planned for similar topic. You need a GitHub account for this.
   
    * If there is already a similar article, you can contact the author and find a solution (leave the subject to the author, offer your help as reviewer or co-author, take the subject over, or write a second article in response or extension to the first article, ...). 
    
 2. **Announce an Article:**
   
-   * Open a [New Issue for your Article](https://github.com/Zuehlke/fifty-shades/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E)
+   * Open a [New Issue for your Article](https://github.com/Zuehlke/machines-code-people/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E)
   
    * Describe roughly the idea you have in mind, what the article should be about.
 
@@ -22,7 +22,7 @@ It proved to be useful to discuss about an articles content before writing the a
 
 To discuss about an articles content, you have various options:
 
-   * Use the [Issues on Github](https://github.com/Zuehlke/fifty-shades/issues): discuss directly in the issue you created - and don't miss to give feedback to other announced articles.
+   * Use the [Issues on Github](https://github.com/Zuehlke/machines-code-people/issues): discuss directly in the issue you created - and don't miss to give feedback to other announced articles.
 
    * Use Yammer, a coffee break, a team event or similar
 
@@ -56,7 +56,7 @@ To discuss about an articles content, you have various options:
 
 * Formatted using the [Markdown Syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-The [Example Article](https://raw.githubusercontent.com/Zuehlke/fifty-shades/develop/articles/_example.md) is a good starting point.
+The [Example Article](https://raw.githubusercontent.com/Zuehlke/machines-code-people/develop/articles/_example.md) is a good starting point.
 
 ## Peer Review
 

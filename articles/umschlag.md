@@ -1,4 +1,4 @@
-# Machines, code, people
+# Machines - Code - people
 ## 50 Things Zühlke engineers are passionate about
 
 Learn about best practices, cultural philosophies, great ideas and practically proven concepts – in 50 short articles Zühlke engineers share what they are passionate about.

@@ -22,7 +22,7 @@ Unfortunately, there are many areas that make no reference at all to the goal. S
 
 * **Code** (and most other models of software, like UML diagrams), which is mostly imperative in its nature, just declares *how* something is achieved but does not state *why*. Although the purpose was hopefully clear to the person writing the code, it is likely to be unknown to the poor coder maintaining the code years later.
 * I've seen too many **bad user stories** that either don't state a goal and benefit or if they do, it's just a wild guess by somebody who wanted to satisfy the template structure. And worse: higher level items like *epics* fail to mention the *purpose* even more often.
-* **BDD (Behaviour Driven Design)** typically uses the *Given, When, Then* pattern, which only describes what the software does, but not why.
+* **BDD (Behaviour Driven Design)** typically uses the *Given-When-Then* pattern, which only describes what the software does, but not why.
 * Many consulting companies **get told *what* to build** instead of *what problem to solve* or *what outcome to achieve*.
 * **Bad managers / leaders** might tell you *what* to build instead of *what outcome to strive for*.
 

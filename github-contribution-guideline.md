@@ -12,13 +12,13 @@ This guide describes the process and the conventions for contributing an article
 
 1. **Check for Duplicates:** Is there already an article about your topic?
   
-   * Please check our [Backlog of Articles](https://github.com/Zuehlke/fifty-shades/issues?q=is%3Aissue+label%3Aarticle) whether there is already an article existing or planned for similar topic. 
+   * Please check our [Backlog of Articles](https://github.com/Zuehlke/machines-code-people/issues?q=is%3Aissue+label%3Aarticle) whether there is already an article existing or planned for similar topic. 
   
    * If there is already a similar article, you can contact the author and find a solution (leave the subject to the author, offer your help as reviewer or co-author, take the subject over, or write a second article in response or extension to the first article, ...). 
    
 2. **Announce a Topic:**
   
-   * Open a [New Issue for your Article](https://github.com/Zuehlke/fifty-shades/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E)
+   * Open a [New Issue for your Article](https://github.com/Zuehlke/machines-code-people/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E)
   
    * Describe roughly the idea you have in mind, what the article should be about.
 
@@ -26,7 +26,7 @@ This guide describes the process and the conventions for contributing an article
 
 It proved to be useful to discuss about an articles content before writing the article. Ask your colleagues, maybe they have some valuable input! 
 
-   * Use the [Issues on Github](https://github.com/Zuehlke/fifty-shades/issues): discuss directly in the issue you created - and don't miss to give feedback to other announced articles.
+   * Use the [Issues on Github](https://github.com/Zuehlke/machines-code-people/issues): discuss directly in the issue you created - and don't miss to give feedback to other announced articles.
 
    * Use Yammer, a coffee break, a team event or similar
 
@@ -60,14 +60,14 @@ We are using this Git repository, so contributing an article is as easy as contr
 
 If this sounds complicated to you, just carefully follow these very easy steps to create a new article directly on the github web page:
 
-  1. Use this link to [fork the Zuehlke/fifty-shades repository](https://github.com/Zuehlke/fifty-shades/fork).
+  1. Use this link to [fork the Zuehlke/machines-code-people repository](https://github.com/Zuehlke/machines-code-people/fork).
 
   2. Navigate to the `articles` folder in your forked repository. The URL looks something like:
-  https://github.com/{username}/fifty-shades/tree/develop/articles
+  https://github.com/{username}/machines-code-people/tree/develop/articles
 
   3. Enter a unique name for your article file followed by the *.md file extension. Example: `my-funny-article.md` (can be changed later)
 
-  4. Copy the content of [Article Example as template to start with](https://raw.githubusercontent.com/Zuehlke/fifty-shades/develop/articles/_example.md) into the file
+  4. Copy the content of [Article Example as template to start with](https://raw.githubusercontent.com/Zuehlke/machines-code-people/develop/articles/_example.md) into the file
     
   5. Adjust `authorName` and `authorGithubUsername` at the top of the file
     
@@ -91,7 +91,7 @@ If you'd like to use the review features of Github you can open a pull request a
 
 1. Open a pull request with your article to get it reviewed. 
 
-   Look out for the "New Pull Request" button. The base fork is "Zuehlke/fifty-shades" and the head fork is "{you}/fifty-shades".
+   Look out for the "New Pull Request" button. The base fork is "Zuehlke/machines-code-people" and the head fork is "{you}/machines-code-people".
 
    Use the issue number of your article prefixed with `#`in the pull request title
 
@@ -108,7 +108,7 @@ When the article is ready to be published, ask a lead author for a review.
 
 1. If you do not already have a pull request, create a pull request with your article to get it reviewed 
 
-   Look out for the "New Pull Request" button. The base fork is "Zuehlke/fifty-shades" and the head fork is "{you}/fifty-shades".
+   Look out for the "New Pull Request" button. The base fork is "Zuehlke/machines-code-people" and the head fork is "{you}/machines-code-people".
 
    Use the issue number of your article prefixed with `#`in the pull request title
 

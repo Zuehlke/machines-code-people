@@ -83,7 +83,7 @@ From the perspective of the build system engineer, this approach is self-evident
 
 The above rules have widespread consequences in structuring the build and CI processes of a project.
 
-The first rule sets the frame within which the build system operates. To adhere to it we avoid using IDE integrations but also build management system integrations (Maven integration in Jenkins being one such example). Handling dependencies, configuring toolchains, and even things like naming conventions are left to the build system. The build server becomes just another user, performing exactly the same steps a human developer would use.
+The first rule sets the frame within which the build system operates. To adhere to it we avoid using IDE integrations but also build management system integrations (Maven integration in Jenkins being one such example). Handling dependencies, configuring toolchains, and even things like naming conventions are left to the build system. _The build server becomes just another user, performing exactly the same steps a human developer would use._
 
 The first rule combined with the third lead to the prioritisation of command line usage. This doesn't mean we do everything just from the command line but rather that CLI is the first priority when adding features to the tools comprising the development environment. CLI is the one interface that both humans and bots can operate with the same facility.
 
@@ -99,13 +99,11 @@ All of this segues nicely into the final rule:
 
 Rule #4 means you need tests and CI and a plan. You need to budget for CI, for creating a build system specific to your project, and for teaching people how to use it.
 
-To make matters worse, your users are some of the most obnoxious, impatient and downright pedantic users on the face of the planet. They want everything perfect, robust, simple and fast and they want it yesterday.
- You had better be dogfooding by this point...
+Your users are some of the most impatient and downright difficult clients on the face of the planet. They want everything perfect: robust, simple and fast _and_ they want it yesterday. You had better be dogfooding by this point.
+
 
 *By {{page.authorName}}*
 
 
-<sup>1</sup>The concept of CRISP builds was first introduced by Mike Clark in his book _Pragmatic Project Automation_
+<sup>1</sup>The concept of CRISP builds was first introduced by Mike Clark in his book [Pragmatic Project Automation](https://www.amazon.de/gp/product/0974514039/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0974514039&linkCode=as2&tag=ampelofilos05-21&linkId=0103a93a3eb10aaae253ddac6f0f5446)
 <sup>2</sup> We can debate on CMake and Maven
-
-{% include "./build-rules.resources.md" %}

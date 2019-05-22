@@ -1,5 +1,5 @@
 ---
-authorName: Rolf Maisch
+authorName: Rolf P. Maisch
 authorGithubUsername: abeggchr
 issue: 69
 title: Transitioning systems engineering into the lean-agile world
@@ -24,9 +24,9 @@ As the situation regarding customer insights suggests, few of the pilot projects
 
 Agile requirements engineering proved to be particularly challenging in the diverse environment at the customer. Generally, the products and systems there exhibit more and wider reaching interdependencies than many software applications. Each engineering discipline had different perceptions regarding how a set of requirements should look like, and which the engineers had to work on during a sprint. Concepts from the software engineering world like features, enabler and stories were not always easy to transfer into the worlds of mechanics and automation. The separation of functional and non-functional requirements provided little additional information or help in designing physical parts. We therefore ended up with two levels of requirements that every team could translate into its own world and work with for planning and realisation:
 
-1.	Product Backlog Item: Defines the characteristics of the product for customers, users, production, logistics and service; owned by the Product Owner and agreed with all relevant stakeholders before implementation; a complete set represents the specifications sheet (Lastenheft) of the product.
+1.	Product Backlog Item: Defines the characteristics of the product for customers, users, production, logistics and service; owned by the Product Owner and agreed with all relevant stakeholders before implementation; a complete set represents the requirements specification (Lastenheft) of the product.
 
-2.	Team/Sprint Backlog Item: Split and detailed requirements and specifications ready for implementation during a sprint; owned by the Subsystem Owner and agreed with all team members; basis for sprint planning and execution; a complete set represents the functional specifications (Pflichtenheft) of the subsystem.
+2.	Team/Sprint Backlog Item: Split and detailed requirements and specifications ready for implementation during a sprint; owned by the Subsystem Owner and agreed with all team members; basis for sprint planning and execution; a complete set represents the technical specification (Pflichtenheft) of the subsystem.
 
 That concept proved to be sufficiently agile to support the agile cadence and adaptable to the needs of e.g. plastics engineering, which necessitates a complete set of requirements before finalising the design and releasing the tool making.
 
