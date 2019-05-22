@@ -1,5 +1,5 @@
 {
-  "gitbook": "3.2.2",
+  "gitbook": "2.6.9",
   "plugins": [
     "-fontsettings",
     "onlineresources@git+https://github.com/abeggchr/gitbook-plugin-onlineresources"
