@@ -1,4 +1,6 @@
-# Machines - Code - People: 50 things Zühlke engineers are passionate about 
+# Machines, Code, People: 50 things Zühlke engineers are passionate about 
+
+This is the repository for the book *Machines, Code, People*. You can read the book at [https://zuehlke.github.io/machines-code-people/](https://zuehlke.github.io/machines-code-people/) or order a copy on [Amazon](https://www.amazon.de/Machines-Code-People-engineers-passionate/dp/3748141181). Enjoy!
 
 ## Vision
 
@@ -7,22 +9,6 @@ We create a **collection of articles** containing advices we'd like to share wit
 We write for all engineers at Zühlke and outside of Zühlke - from professional engineers to distinguished consultants - and from future engineers to alumnis.
 
 Through our articles, the Zühlke culture manifests itself: they contain practicaly proven concepts, best practices, cultural philosophies and great ideas, they are technically interesting, they motivate you to reflect about the work and they encourage you to share your knowlege and experiences.
-
-## How to contribute
-
-1. Announce an article by opening an [issue in our backlog](https://github.com/Zuehlke/machines-code-people/issues/new?labels=article&title=Article:%20%3Cput%20topic%20title%20here%3E)
-
-2. Write the article
-
-3. Get it reviewed and published
-
-Follow one of our two contribution guidelines to contribute your article:
-
-* The [GitHub Contribution Guidelines](./github-contribution-guideline.md) is the default choice. It ensures a seamless process using Git and GitHub tooling.
-
-* The [General Contribution Guideline](./general-contribution-guideline.md) is for those who are new to GitHub and prefer to work independently from GitHub as much as possible.
-
-For additional questions, we created a page about [advanced contribution topics](./advanced-contribution-topics.md).
 
 ## Licence
 
