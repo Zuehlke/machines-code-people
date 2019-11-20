@@ -6,4 +6,4 @@
 
 ### Links
 
-* [Fifty-Shades](https://github.com/Zuehlke/fifty-shades/) repository contains our source code.
+* [Machines, Code, People](https://github.com/Zuehlke/machines-code-people/) repository contains our source code.
