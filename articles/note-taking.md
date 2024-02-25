@@ -27,7 +27,7 @@ Once you got started in the project, you can gather further information so you s
 
 * Some tasks that you perform can occur more than once. If that is the case, your team might benefit from notes of the single steps. This also helps you to dive into the project faster and remove impediments in the project as an independent member.
 
-* Maintaining a stakeholder list and stakeholder matrixwill help you to prioritise their demands. If youcombine their intentions with the stakeholder matrix you will be able to steer the project better.
+* Maintaining a stakeholder list and stakeholder matrixwill help you to prioritise their demands. If you combine their intentions with the stakeholder matrix you will be able to steer the project better.
 
 ![interest versus influence](./note-taking/interest-influence.jpg)
 
